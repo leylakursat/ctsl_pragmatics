@@ -1,0 +1,16 @@
+Browser,OS,workerid,screenH,screenW
+Chrome,Windows,0,900,1600
+Chrome,Windows,1,1024,1280
+Chrome,Windows,2,768,1366
+Chrome,Windows,3,1440,2560
+Chrome,Windows,4,768,1366
+Chrome,Mac,5,768,1366
+Chrome,Windows,6,900,1600
+Firefox,Windows,7,768,1366
+Chrome,Windows,8,900,1440
+Firefox,Windows,9,768,1366
+Chrome,Windows,10,1050,1680
+Chrome,Windows,11,1080,1920
+Chrome,Windows,12,900,1600
+Chrome,Windows,13,800,1280
+Chrome,Windows,14,768,1366
