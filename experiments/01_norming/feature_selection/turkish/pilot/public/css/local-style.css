@@ -1,0 +1,126 @@
+.slider {
+  /* default is width 400 and margin 10 */
+	width: 400;
+	margin: 10px;
+}
+
+.slider_table {
+	margin: auto auto;
+}
+
+/* input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+} */
+
+.highlight_numbers {
+	font-size: 28;
+	font-weight: bold;
+}
+
+.highlight_numbers_other {
+	font-size: 20;
+	font-style: italic;
+}
+
+textarea  {  
+   font-family:"Times New Roman", Times, serif;  
+   font-size: 15px;   
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-gap: 0px;
+	/* background-color: #2196F3; */
+	padding: 0px;
+	align-items: center;
+	justify-items: center;
+}
+  
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+	text-align: center;
+	padding: 0px 0px;
+	font-size: 18px;
+}
+
+.loc1 {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-start: 1;
+}
+.loc2 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-start: 1;
+}
+.loc3 {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-start: 1;
+}
+.loc4 {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-start: 1;
+}
+.loc5 {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-start: 2;
+}
+.loc6 {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-start: 2;
+}
+.loc7 {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-start: 2;
+}
+.loc7 {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-start: 2;
+}
+
+
+/* <!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] {
+    width: 100%;
+    padding: 50px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<p>Padded text fields:</p>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+</form>
+
+</body>
+</html> */
+

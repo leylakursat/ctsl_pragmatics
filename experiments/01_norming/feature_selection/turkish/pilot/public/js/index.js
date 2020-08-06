@@ -1,0 +1,225 @@
+//https://www.ncbi.nlm.nih.gov/pmc/articles/doi/10.3389/fpsyg.2014.00399/full// Returns a random integer between min (included) and max (excluded)
+// Using Math.round() will give you a non-uniform distribution!
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function make_slides(f) {
+  var slides = {};
+
+  slides.bot = slide({
+    name : "bot",
+    start: function() {
+      $('.err1').hide();
+      $('.err2').hide();
+      $('.disq').hide();
+      exp.speaker = _.shuffle(["Ali", "Mehmet", "Onur", "Berke", "Efe", "Cem", "Can", "Burak", "Mustafa", "Mert"])[0];
+      exp.listener = _.shuffle(["Selin", "Zeynep", "Deniz", "Melis", "Yasemin", "Belgin", "Ceren"])[0];
+
+      
+      exp.lives = 0;
+
+      var story = exp.speaker + ' ' + exp.listener + "'e diyor ki" + ': "Bugün hava çok güzel, değil mi?"'
+      var question = exp.speaker + ' kiminle konuşuyor?';
+      document.getElementById("s").innerHTML = story;
+      document.getElementById("q").innerHTML = question;
+    },
+    button : function() {
+      exp.text_input = document.getElementById("text_box").value;
+      var lower = exp.listener.toLowerCase();
+      var upper = exp.listener.toUpperCase();
+
+      if ((exp.lives < 3) && ((exp.text_input == exp.listener)|(exp.text_input == lower) | (exp.text_input== upper))){
+        exp.data_trials.push({
+          "slide_number_in_experiment" : exp.phase,
+          "trial_type": "bot_check",
+          "label": "",
+          "object": exp.listener,
+          "rt" : 0,
+          "response" : exp.text_input
+        });
+        exp.go();
+      }
+      else {
+        exp.data_trials.push({
+          "slide_number_in_experiment" : exp.phase,
+          "trial_type": "bot_check",
+          "label": "",
+          "object": exp.listener,
+          "rt" : 0,
+          "response" : exp.text_input
+        });
+        if (exp.lives == 0){
+          $('.err1').show();
+        }if (exp.lives == 1){
+          $('.err1').hide();
+          $('.err2').show();
+        }if (exp.lives == 2){
+          $('.err2').hide();
+          $('.disq').show();
+          $('.button').hide();
+        }
+        exp.lives++;
+      } 
+    },
+  });
+
+  slides.i0 = slide({
+     name : "i0",
+     start: function() {
+      exp.startT = Date.now();
+     }
+  });
+
+  slides.instructions = slide({
+    name : "instructions",
+    button : function() {
+      exp.go(); 
+    }
+  });
+
+  slides.objecttrial = slide({
+    name : "objecttrial",
+    present : exp.stims,
+    start : function() {
+	   $(".err").hide();
+    },
+      present_handle : function(stim) {
+    	this.trial_start = Date.now();
+      $(".err").hide();
+      $(".err").hide();
+
+	    this.stim = stim;
+	    console.log(this.stim);
+      var contextsentence = "Bu obje nedir?";
+      $("#contextsentence").html(contextsentence);
+
+      $(".loc1").html('<img src="images/'+stim.img1+'.png" style="height:200px;">');
+      $(".loc2").html('<img src="images/'+stim.img2+'.png" style="height:200px;">');
+      $(".loc3").html('<img src="images/'+stim.img3+'.png" style="height:200px;">');
+      $(".loc4").html('<img src="images/'+stim.img4+'.png" style="height:200px;">');
+
+      var features_img1 = '<input type="checkbox" id="img1feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img1feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img1feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img1feature4"></input>' + stim.features[3];
+      var features_img2 = '<input type="checkbox" id="img2feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img2feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img2feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img2feature4"></input>' + stim.features[3];
+      var features_img3 = '<input type="checkbox" id="img3feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img3feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img3feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img3feature4"></input>' + stim.features[3];
+      var features_img4 = '<input type="checkbox" id="img4feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img4feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img4feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img4feature4"></input>' + stim.features[3];
+
+      $(".loc5").html(features_img1);
+      $(".loc6").html(features_img2);
+      $(".loc7").html(features_img3);
+      $(".loc8").html(features_img4);
+	},
+
+	button : function() {
+    this.log_responses();
+    _stream.apply(this);
+    //     _stream.apply(this);
+	  // if ($("#answer").val().length > 2) {
+    //     $(".err").hide();
+    //     this.log_responses();
+    //     _stream.apply(this); //use exp.go() if and only if there is no "present" data.
+    //   //}
+    //   } else {
+    //     $(".err").show();
+    //     document.getElementById('answer').value = '';
+    //   }
+    },
+
+    log_responses : function() {
+
+        var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked")]
+
+        //var img1_resp = [$('#img1feature1').val(),$('#img1feature2').val(),$('#img1feature3').val(),$('#img1feature4').val()]
+
+        exp.data_trials.push({
+          "slide_number_in_experiment" : exp.phase,
+          "trial_type": this.stim.trial_type,
+          "object": this.stim.object,
+          "img1" : this.stim.img1,
+          "img2" : this.stim.img2,
+          "img3" : this.stim.img3,
+          "img4" : this.stim.img4,
+          "features" : this.stim.features,
+          "rt" : Date.now() - _s.trial_start,
+          "response" : img1_resp
+        });
+    }
+  });
+
+  slides.subj_info =  slide({
+    name : "subj_info",
+    submit : function(e){
+      //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
+      exp.subj_data = {
+        language : $("#language").val(),
+        enjoyment : $("#enjoyment").val(),
+        asses : $('input[name="assess"]:checked').val(),
+        age : $("#age").val(),
+        gender : $("#gender").val(),
+        education : $("#education").val(),
+        comments : $("#comments").val(),
+        problems: $("#problems").val(),
+        fairprice: $("#fairprice").val()
+      };
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
+
+  slides.thanks = slide({
+    name : "thanks",
+    start : function() {
+      exp.data= {
+          "trials" : exp.data_trials,
+          "catch_trials" : exp.catch_trials,
+          "system" : exp.system,
+          "condition" : exp.condition,
+          "subject_information" : exp.subj_data,
+          "time_in_minutes" : (Date.now() - exp.startT)/60000
+      };
+      setTimeout(function() {turk.submit(exp.data);}, 1000);
+    }
+  });
+
+  return slides;
+}
+
+/// init ///
+function init() {
+  exp.stims = _.shuffle(exp.items);
+
+  exp.trials = [];
+  exp.catch_trials = [];
+  exp.condition = {}; //can randomize between subject conditions here
+  exp.system = {
+      Browser : BrowserDetect.browser,
+      OS : BrowserDetect.OS,
+      screenH: screen.height,
+      screenUH: exp.height,
+      screenW: screen.width,
+      screenUW: exp.width
+    };
+  //blocks of the experiment:
+  exp.structure=["bot","i0", "objecttrial", 'subj_info', 'thanks'];
+  
+  exp.data_trials = [];
+  //make corresponding slides:
+  exp.slides = make_slides(exp);
+
+  exp.nQs = utils.get_exp_length(); //this does not work if there are stacks of stims (but does work for an experiment with this structure)
+                    //relies on structure and slides being defined
+  $(".nQs").html(exp.nQs);
+
+  $('.slide').hide(); //hide everything
+
+  //make sure turkers have accepted HIT (or you're not in mturk)
+  $("#start_button").click(function() {
+    if (turk.previewMode) {
+      $("#mustaccept").show();
+    } else {
+      $("#start_button").click(function() {$("#mustaccept").show();});
+      exp.go();
+    }
+  });
+
+  exp.go(); //show first slide
+}
