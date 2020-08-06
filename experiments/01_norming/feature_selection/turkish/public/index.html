@@ -68,7 +68,7 @@
 
   <div class="slide" id="i0" >
     <img src="shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;">
-    <p id="instruct-text">Farklı objelerin resimlerini göreceksiniz. Göreviniz resimde ne gördüğünüzü resmin altındaki kutucuğa yazmak. Bu HIT yaklaşık 10 dakika sürecek. Lütfen sorulara dikkatle cevap verin.</p>
+    <p id="instruct-text">Farklı objelerin resimlerini göreceksiniz. Göreviniz resimlerdeki nesneleri betimleyen sıfatları işaretlemek. Bu HIT yaklaşık 10 dakika sürecek. Lütfen sorulara dikkatle cevap verin.</p>
     <button id="start_button" type="button">Deneyi başlat</button>
     <p id="instruct-text" align="left"><i><small><small><small><strong><br>LEGAL INFORMATION</strong>:<br>We invite you to participate in a research study on language production and comprehension.<br>Your experimenter will ask you to do a linguistic task such as reading sentences or words, naming pictures or describing scenes, making up sentences of your own, or participating in a simple language game.<br>You will be paid for your participation at the posted rate.<br>There are no risks or benefits of any kind involved in this study.<br>If you have read this form and have decided to participate in this experiment, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy will be maintained in all published and written data resulting from the study.<br>You may print this form for your records.<br>CONTACT INFORMATION:<br>If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director Meghan Sumner at <br>(650)-725-9336<br>If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650)-723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.<br>If you agree to participate, please proceed to the study tasks.<br><br></small></small></small></i></p>
   </div>
@@ -91,10 +91,10 @@
       <div class="loc3"></div>
       <div class="loc4"></div>
 
-      <div class="loc5"></div>
-      <div class="loc6"></div>
-      <div class="loc7"></div>
-      <div class="loc8"></div>  
+      <div class="loc5 options_holder"></div>
+      <div class="loc6 options_holder"></div>
+      <div class="loc7 options_holder"></div>
+      <div class="loc8 options_holder"></div>  
  
 		</div>
    
@@ -108,9 +108,9 @@
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Ekstra Bilgi</div>
-      <p class="info">Bu sorulara cevap vermek zorunda degilsiniz, ama verirseniz deneyde verdiğiniz cevaplari daha iyi anlayabiliriz.</p>
-      <p>Yonergeleri okudunuz ve soruları dogru bir şekilde cevapladınız mi?/p>
+      <div class="subj_info_title">Ek Bilgi</div>
+      <p class="info">Bu sorulara cevap vermek zorunda degilsiniz, ama verirseniz deneyde verdiğiniz cevapları daha iyi anlayabiliriz.</p>
+      <p>Talimatları okudunuz ve soruları doğru bir şekilde cevapladınız mi?</p>
       <label><input type="radio"  name="assess" value="No"/>Hayır</label>
       <label><input type="radio"  name="assess" value="Yes"/>Evet</label>
       <label><input type="radio"  name="assess" value="Confused"/>Kafam karıştı</label>
@@ -118,7 +118,7 @@
       <p>Deneyde bir sorun ya da teknik bir aksaklık oldu mu?</p>
       <textarea id="problems" rows="2" cols="50"></textarea>
 
-      <p>Sizce bu HIT için uygun ücret ne olmalıdır?</p>
+      <p>Sizce yaptığınız görev için uygun ücret ne olmalıdır?</p>
       <textarea id="fairprice" rows="1" cols="10"></textarea>
 
       <p>Cinsiyet:
@@ -135,18 +135,18 @@
       <p>Eğitim seviyesi:
         <select id="education">
           <label><option value="-1"/></label>
-          <label><option value="0"/>Lise terk</label>
+          <label><option value="0"/>Lise Terk</label>
           <label><option value="1"/>Lise Mezunu</label>
-          <label><option value="2"/>Üniversite terk</label>
-          <label><option value="3"/>Üniversite mezunu</label>
-          <label><option value="4"/>Yüksek ögretim mezunu</label>
+          <label><option value="2"/>Üniversite Terk</label>
+          <label><option value="3"/>Üniversite Mezunu</label>
+          <label><option value="4"/>Lisansüstü</label>
         </select>
       </p>
 
       <p>Anadil: <input type="text" id="language"/></p>
       <label>(çocukken evde konuşulan dil(ler))</label>
 
-      <p>Soruları yanıtlarken eğlendiniz mi?</p>
+      <p>Bu deneyi nasil buldunuz?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
         <label><option value="0">Ortalama bir HITten daha kötü</option></label>
@@ -172,6 +172,5 @@
       </div>
     </div>
   </div>
-
 </body>
 </html>

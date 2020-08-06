@@ -19,7 +19,7 @@ function make_slides(f) {
       
       exp.lives = 0;
 
-      var story = exp.speaker + ' ' + exp.listener + "'e diyor ki" + ': "Bugün hava çok güzel, değil mi?"'
+      var story = exp.speaker + ', ' + exp.listener + "'e " + '"Bugün hava çok güzel, değil mi?" diyor.'
       var question = exp.speaker + ' kiminle konuşuyor?';
       document.getElementById("s").innerHTML = story;
       document.getElementById("q").innerHTML = question;
@@ -91,7 +91,7 @@ function make_slides(f) {
 
 	    this.stim = stim;
 	    console.log(this.stim);
-      var contextsentence = "Bu obje nedir?";
+      var contextsentence = "Her resim icin onu tanimlayan sifatlari isaretleyiniz.";
       $("#contextsentence").html(contextsentence);
 
       $(".loc1").html('<img src="images/'+stim.img1+'.png" style="height:200px;">');
@@ -99,10 +99,36 @@ function make_slides(f) {
       $(".loc3").html('<img src="images/'+stim.img3+'.png" style="height:200px;">');
       $(".loc4").html('<img src="images/'+stim.img4+'.png" style="height:200px;">');
 
-      var features_img1 = '<input type="checkbox" id="img1feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img1feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img1feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img1feature4"></input>' + stim.features[3];
-      var features_img2 = '<input type="checkbox" id="img2feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img2feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img2feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img2feature4"></input>' + stim.features[3];
-      var features_img3 = '<input type="checkbox" id="img3feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img3feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img3feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img3feature4"></input>' + stim.features[3];
-      var features_img4 = '<input type="checkbox" id="img4feature1"></input>' + stim.features[0] + '\n <input type="checkbox" id="img4feature2"></input>' + stim.features[1] + '\n <input type="checkbox" id="img4feature3"></input>' + stim.features[2] +  '\n <input type="checkbox" id="img4feature4"></input>' + stim.features[3];
+      function showTextbox() {
+        if ($('#img1feature5').is(":checked")) {
+          console.log("clicked on other checkbox of img1")
+          $('#img1featuretext').style.display = "block";
+        }
+      }
+
+      function getOptions(id,value){
+        var result = ''
+        for(var i = 0;i<value.length;i++){
+          var inputID=`${id}${i+1}`
+          result +=`<div><input type="checkbox" id="${inputID}"></input><label for="${inputID}">${value[i]}</label></div>`
+        }
+          result += `<div><input type="checkbox" id="${id}5" onclick="showTextbox()"></input><label for="${id}5">other</label></div>`
+          result += `<div><input type="text" id="${id}text" style="display:none"></input><label for="${id}text"></label></div>`
+
+        return result
+      }
+
+      // $('#img1feature5').change(function() {
+      //   if (this.is(":checked")) {
+      //     console.log("clicked on other checkbox of img1")
+      //     $('#img1featuretext').style.display = "block";
+      //   }  
+      // });
+    
+      var features_img1 = getOptions('img1feature',stim.features)
+      var features_img2 = getOptions('img2feature',stim.features)
+      var features_img3 = getOptions('img3feature',stim.features)
+      var features_img4 = getOptions('img4feature',stim.features)
 
       $(".loc5").html(features_img1);
       $(".loc6").html(features_img2);
@@ -126,10 +152,10 @@ function make_slides(f) {
     },
 
     log_responses : function() {
-
-        var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked")]
-
-        //var img1_resp = [$('#img1feature1').val(),$('#img1feature2').val(),$('#img1feature3').val(),$('#img1feature4').val()]
+        var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked"),$('#img1feature5').is(":checked"),$('#img1featuretext').val()];
+        var img2_resp = [$('#img2feature1').is(":checked"),$('#img2feature2').is(":checked"),$('#img2feature3').is(":checked"),$('#img2feature4').is(":checked"),$('#img2feature5').is(":checked"),$('#img2featuretext').val()];
+        var img3_resp = [$('#img3feature1').is(":checked"),$('#img3feature2').is(":checked"),$('#img3feature3').is(":checked"),$('#img3feature4').is(":checked"),$('#img3feature5').is(":checked"),$('#img3featuretext').val()];
+        var img4_resp = [$('#img4feature1').is(":checked"),$('#img4feature2').is(":checked"),$('#img4feature3').is(":checked"),$('#img4feature4').is(":checked"),$('#img4feature5').is(":checked"),$('#img4featuretext').val()];
 
         exp.data_trials.push({
           "slide_number_in_experiment" : exp.phase,
@@ -141,7 +167,7 @@ function make_slides(f) {
           "img4" : this.stim.img4,
           "features" : this.stim.features,
           "rt" : Date.now() - _s.trial_start,
-          "response" : img1_resp
+          "response" : [img1_resp,img2_resp,img3_resp,img4_resp],
         });
     }
   });

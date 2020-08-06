@@ -96,6 +96,13 @@ textarea  {
 	grid-row-start: 2;
 	grid-row-start: 2;
 }
+.options_holder>div{
+	width: 100%;
+    display: flex;
+}
+.options_holder input, .options_holder label{
+	float: left
+}
 
 
 /* <!DOCTYPE html>
