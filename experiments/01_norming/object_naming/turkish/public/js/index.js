@@ -92,7 +92,7 @@ function make_slides(f) {
 
 	    this.stim = stim;
 	    //console.log(this.stim);
-	    var contextsentence = "Bu nesne nedir?";
+	    var contextsentence = "Bu nesne nedir?<br>s<small><b>(Lütfen Türkçe cevap verin)" ;
 	    var objimagehtml = '<img src="images/'+stim.label+'.png" style="height:230px;">';
 
 	    $("#contextsentence").html(contextsentence);
