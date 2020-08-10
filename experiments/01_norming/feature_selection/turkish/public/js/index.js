@@ -17,7 +17,6 @@ function make_slides(f) {
       //exp.listener = _.shuffle(["Selin", "Zeynep", "Deniz", "Melis", "Yasemin", "Belgin", "Ceren"])[0];
 
       exp.listener = "beyaz";
-      
       exp.lives = 0;
 
       //var story = exp.speaker + ', ' + exp.listener + "'e " + '"Bugün hava çok güzel, değil mi?" diyor.'
@@ -111,7 +110,7 @@ function make_slides(f) {
 
         return result
       }
-    
+  
       var features_img1 = getOptions('img1feature',stim.features)
       var features_img2 = getOptions('img2feature',stim.features)
       var features_img3 = getOptions('img3feature',stim.features)
@@ -134,26 +133,24 @@ function make_slides(f) {
 	},
 
 	button : function() {
-    this.log_responses();
-    _stream.apply(this);
-    //     _stream.apply(this);
-	  // if ($("#answer").val().length > 2) {
-    //     $(".err").hide();
-    //     this.log_responses();
-    //     _stream.apply(this); //use exp.go() if and only if there is no "present" data.
-    //   //}
-    //   } else {
-    //     $(".err").show();
-    //     document.getElementById('answer').value = '';
-    //   }
-    },
+    var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked"),$('#img1feature5').is(":checked"),$('#img1featuretext').val()];
+    var img2_resp = [$('#img2feature1').is(":checked"),$('#img2feature2').is(":checked"),$('#img2feature3').is(":checked"),$('#img2feature4').is(":checked"),$('#img2feature5').is(":checked"),$('#img2featuretext').val()];
+    var img3_resp = [$('#img3feature1').is(":checked"),$('#img3feature2').is(":checked"),$('#img3feature3').is(":checked"),$('#img3feature4').is(":checked"),$('#img3feature5').is(":checked"),$('#img3featuretext').val()];
+    var img4_resp = [$('#img4feature1').is(":checked"),$('#img4feature2').is(":checked"),$('#img4feature3').is(":checked"),$('#img4feature4').is(":checked"),$('#img4feature5').is(":checked"),$('#img4featuretext').val()];
+
+    const isAllAnswered = [img1_resp,img2_resp,img3_resp,img4_resp].every(responses=>responses.includes(true))
+    
+    if (isAllAnswered) {
+      $(".err").hide();
+      this.log_responses();
+      _stream.apply(this);
+    } else {
+      console.log("not all are answered")
+      $(".err").show();
+    }
+  },
 
     log_responses : function() {
-        var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked"),$('#img1feature5').is(":checked"),$('#img1featuretext').val()];
-        var img2_resp = [$('#img2feature1').is(":checked"),$('#img2feature2').is(":checked"),$('#img2feature3').is(":checked"),$('#img2feature4').is(":checked"),$('#img2feature5').is(":checked"),$('#img2featuretext').val()];
-        var img3_resp = [$('#img3feature1').is(":checked"),$('#img3feature2').is(":checked"),$('#img3feature3').is(":checked"),$('#img3feature4').is(":checked"),$('#img3feature5').is(":checked"),$('#img3featuretext').val()];
-        var img4_resp = [$('#img4feature1').is(":checked"),$('#img4feature2').is(":checked"),$('#img4feature3').is(":checked"),$('#img4feature4').is(":checked"),$('#img4feature5').is(":checked"),$('#img4featuretext').val()];
-
         exp.data_trials.push({
           "slide_number_in_experiment" : exp.phase,
           "trial_type": this.stim.trial_type,
