@@ -147,7 +147,7 @@ exp.items = _.shuffle([
         "img3": "woman_old_sad",
         "img4": "woman_young_sad",
         "features": ["old","sad","happy","young"],
-        "features_tr": ["yaşlı","mutsuz","mutlu","gençxs"],
+        "features_tr": ["yaşlı","mutsuz","mutlu","genç"],
     },
     {
         "trial_type": "adjective_ordering",

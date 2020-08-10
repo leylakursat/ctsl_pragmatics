@@ -111,10 +111,10 @@ function make_slides(f) {
         return result
       }
   
-      var features_img1 = getOptions('img1feature',stim.features)
-      var features_img2 = getOptions('img2feature',stim.features)
-      var features_img3 = getOptions('img3feature',stim.features)
-      var features_img4 = getOptions('img4feature',stim.features)
+      var features_img1 = getOptions('img1feature',stim.features_tr)
+      var features_img2 = getOptions('img2feature',stim.features_tr)
+      var features_img3 = getOptions('img3feature',stim.features_tr)
+      var features_img4 = getOptions('img4feature',stim.features_tr)
 
       $(".loc5").html(features_img1);
       $(".loc6").html(features_img2);
@@ -133,12 +133,12 @@ function make_slides(f) {
 	},
 
 	button : function() {
-    var img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked"),$('#img1feature5').is(":checked"),$('#img1featuretext').val()];
-    var img2_resp = [$('#img2feature1').is(":checked"),$('#img2feature2').is(":checked"),$('#img2feature3').is(":checked"),$('#img2feature4').is(":checked"),$('#img2feature5').is(":checked"),$('#img2featuretext').val()];
-    var img3_resp = [$('#img3feature1').is(":checked"),$('#img3feature2').is(":checked"),$('#img3feature3').is(":checked"),$('#img3feature4').is(":checked"),$('#img3feature5').is(":checked"),$('#img3featuretext').val()];
-    var img4_resp = [$('#img4feature1').is(":checked"),$('#img4feature2').is(":checked"),$('#img4feature3').is(":checked"),$('#img4feature4').is(":checked"),$('#img4feature5').is(":checked"),$('#img4featuretext').val()];
+    exp.img1_resp = [$('#img1feature1').is(":checked"),$('#img1feature2').is(":checked"),$('#img1feature3').is(":checked"),$('#img1feature4').is(":checked"),$('#img1feature5').is(":checked"),$('#img1featuretext').val()];
+    exp.img2_resp = [$('#img2feature1').is(":checked"),$('#img2feature2').is(":checked"),$('#img2feature3').is(":checked"),$('#img2feature4').is(":checked"),$('#img2feature5').is(":checked"),$('#img2featuretext').val()];
+    exp.img3_resp = [$('#img3feature1').is(":checked"),$('#img3feature2').is(":checked"),$('#img3feature3').is(":checked"),$('#img3feature4').is(":checked"),$('#img3feature5').is(":checked"),$('#img3featuretext').val()];
+    exp.img4_resp = [$('#img4feature1').is(":checked"),$('#img4feature2').is(":checked"),$('#img4feature3').is(":checked"),$('#img4feature4').is(":checked"),$('#img4feature5').is(":checked"),$('#img4featuretext').val()];
 
-    const isAllAnswered = [img1_resp,img2_resp,img3_resp,img4_resp].every(responses=>responses.includes(true))
+    const isAllAnswered = [exp.img1_resp,exp.img2_resp,exp.img3_resp,exp.img4_resp].every(responses=>responses.includes(true))
     
     if (isAllAnswered) {
       $(".err").hide();
@@ -161,7 +161,7 @@ function make_slides(f) {
           "img4" : this.stim.img4,
           "features" : this.stim.features,
           "rt" : Date.now() - _s.trial_start,
-          "response" : [img1_resp,img2_resp,img3_resp,img4_resp],
+          "response" : [exp.img1_resp,exp.img2_resp,exp.img3_resp,exp.img4_resp],
         });
     }
   });
