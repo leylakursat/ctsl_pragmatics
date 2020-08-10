@@ -13,15 +13,16 @@ function make_slides(f) {
       $('.err1').hide();
       $('.err2').hide();
       $('.disq').hide();
-      exp.speaker = _.shuffle(["Ali", "Mehmet", "Onur", "Berke", "Efe", "Cem", "Can", "Burak", "Mustafa", "Mert"])[0];
-      exp.listener = _.shuffle(["Selin", "Zeynep", "Deniz", "Melis", "Yasemin", "Belgin", "Ceren"])[0];
+      //exp.speaker = _.shuffle(["Ali", "Mehmet", "Onur", "Berke", "Efe", "Cem", "Can", "Burak", "Mustafa", "Mert"])[0];
+      //exp.listener = _.shuffle(["Selin", "Zeynep", "Deniz", "Melis", "Yasemin", "Belgin", "Ceren"])[0];
 
+      exp.listener = "beyaz";
       
       exp.lives = 0;
 
-      var story = exp.speaker + ', ' + exp.listener + "'e " + '"Bugün hava çok güzel, değil mi?" diyor.'
-      var question = exp.speaker + ' kiminle konuşuyor?';
-      document.getElementById("s").innerHTML = story;
+      //var story = exp.speaker + ', ' + exp.listener + "'e " + '"Bugün hava çok güzel, değil mi?" diyor.'
+      var question = "Ayran ne renktir?";
+      //document.getElementById("s").innerHTML = story;
       document.getElementById("q").innerHTML = question;
     },
     button : function() {
@@ -91,7 +92,7 @@ function make_slides(f) {
 
 	    this.stim = stim;
 	    console.log(this.stim);
-      var contextsentence = "Her resim icin onu tanimlayan sifatlari isaretleyiniz.";
+      var contextsentence = "Her resim için onu tanımlayan sıfatları isaretleyiniz.";
       $("#contextsentence").html(contextsentence);
 
       $(".loc1").html('<img src="images/'+stim.img1+'.png" style="height:200px;">');
@@ -99,31 +100,17 @@ function make_slides(f) {
       $(".loc3").html('<img src="images/'+stim.img3+'.png" style="height:200px;">');
       $(".loc4").html('<img src="images/'+stim.img4+'.png" style="height:200px;">');
 
-      function showTextbox() {
-        if ($('#img1feature5').is(":checked")) {
-          console.log("clicked on other checkbox of img1")
-          $('#img1featuretext').style.display = "block";
-        }
-      }
-
       function getOptions(id,value){
         var result = ''
         for(var i = 0;i<value.length;i++){
           var inputID=`${id}${i+1}`
           result +=`<div><input type="checkbox" id="${inputID}"></input><label for="${inputID}">${value[i]}</label></div>`
         }
-          result += `<div><input type="checkbox" id="${id}5" onclick="showTextbox()"></input><label for="${id}5">other</label></div>`
+          result += `<div><input type="checkbox" id="${id}5" class='otherInput' data-target="${id}text"></input><label for="${id}5">other</label></div>`
           result += `<div><input type="text" id="${id}text" style="display:none"></input><label for="${id}text"></label></div>`
 
         return result
       }
-
-      // $('#img1feature5').change(function() {
-      //   if (this.is(":checked")) {
-      //     console.log("clicked on other checkbox of img1")
-      //     $('#img1featuretext').style.display = "block";
-      //   }  
-      // });
     
       var features_img1 = getOptions('img1feature',stim.features)
       var features_img2 = getOptions('img2feature',stim.features)
@@ -134,6 +121,16 @@ function make_slides(f) {
       $(".loc6").html(features_img2);
       $(".loc7").html(features_img3);
       $(".loc8").html(features_img4);
+
+      $('.otherInput').on('click',function(e){
+        const targetInputareaID = $(this).data("target")
+        if ($(this).is(":checked")) {
+          $(`#${targetInputareaID}`).show();
+        } else {
+          $(`#${targetInputareaID}`).hide();
+          $(`#${targetInputareaID}`).val('');
+        }
+      })
 	},
 
 	button : function() {

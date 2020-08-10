@@ -1,0 +1,2383 @@
+trial_type,object,rt,Answer.time_in_minutes,workerid,label,slide_number_in_experiment,response
+bot_check,Zeynep,0,12.345833333333333,0,,1,Zenep
+bot_check,Zeynep,0,12.345833333333333,0,,1,Zeynep
+overinformativeness,book,71266,12.345833333333333,0,book_big_blue,3,kitap
+overinformativeness,cat,17490,12.345833333333333,0,cat_big_white,4,kedi
+overinformativeness,scissors,33295,12.345833333333333,0,scissors_big_blue,5,SISER
+overinformativeness,shoe,5210,12.345833333333333,0,shoe_big_yellow,6,shoe
+adjective_ordering,shorts,5954,12.345833333333333,0,shorts_dry_red,7,"
+tra k"
+overinformativeness,bag,2545,12.345833333333333,0,bag_big_blue,8,"
+ssss"
+adjective_ordering,spoon,8969,12.345833333333333,0,spoon_wooden_clean,9,"
+spoon"
+overinformativeness,cat,2334,12.345833333333333,0,cat_big_black,10,"
+sdd"
+adjective_ordering,pencil,3481,12.345833333333333,0,pencil_long_black,11,"
+ddd"
+adjective_ordering,bottle,1614,12.345833333333333,0,bottle_plastic_big,12,"
+dd"
+overinformativeness,lipstick,1403,12.345833333333333,0,lipstick_big_red,13,"
+ddd"
+adjective_ordering,picture,2024,12.345833333333333,0,picture_bw_rectangular,14,"
+sss"
+adjective_ordering,table,5456,12.345833333333333,0,table_metal_high,15,"dd
+"
+adjective_ordering,picture,2938,12.345833333333333,0,picture_colored_square,16,"
+sda"
+adjective_ordering,woman,2211,12.345833333333333,0,woman_young_sad,17,"
+sd"
+overinformativeness,key,1003,12.345833333333333,0,key_big_gold,18,"
+dddd"
+overinformativeness,clock,1235,12.345833333333333,0,clock_big_yellow,19,"
+ff"
+adjective_ordering,pencil,7549,12.345833333333333,0,pencil_short_blue,20,"
+ddd"
+overinformativeness,lighter,2224,12.345833333333333,0,lighter_big_white,21,"
+ffg"
+overinformativeness,knife,1969,12.345833333333333,0,knife_big_red,22,"
+fg"
+overinformativeness,chair,4240,12.345833333333333,0,chair_big_blue,23,"
+tab"
+overinformativeness,pepper,5952,12.345833333333333,0,pepper_big_green,24,"
+djjd"
+overinformativeness,pants,2764,12.345833333333333,0,pants_big_green,25,"
+jddj"
+overinformativeness,glove,1702,12.345833333333333,0,glove_big_orange,26,"
+djjjd"
+overinformativeness,rosary,3242,12.345833333333333,0,rosary_big_blue,27,"
+jjsj"
+overinformativeness,bag,7220,12.345833333333333,0,bag_big_red,28,"
+bag'"
+overinformativeness,ball,3775,12.345833333333333,0,ball_big_yellow,29,"
+ball'"
+adjective_ordering,earring,3919,12.345833333333333,0,earring_big_round,30,"
+ll"
+overinformativeness,balloon,5200,12.345833333333333,0,balloon_big_yellow,31,"
+lll"
+overinformativeness,rosary,3100,12.345833333333333,0,rosary_big_yellow,32,"
+sdd"
+adjective_ordering,hair,3323,12.345833333333333,0,hair_curly_brown,33,"
+ddfd"
+overinformativeness,glasses,2035,12.345833333333333,0,glasses_big_blue,34,"
+ds"
+overinformativeness,toothbrush,2185,12.345833333333333,0,toothbrush_big_purple,35,"
+kkd"
+overinformativeness,binoculars,2476,12.345833333333333,0,binoculars_big_blue,36,"
+dd"
+adjective_ordering,cup,3245,12.345833333333333,0,cup_empty_glass,37,"
+asd"
+overinformativeness,ball,1706,12.345833333333333,0,ball_big_purple,38,"
+sd"
+overinformativeness,balloon,1636,12.345833333333333,0,balloon_big_pink,39,"
+sd"
+overinformativeness,brush,2016,12.345833333333333,0,brush_big_red,40,"
+da"
+overinformativeness,glasses,7322,12.345833333333333,0,glasses_big_red,41,"
+eyeglass"
+overinformativeness,socks,2988,12.345833333333333,0,socks_big_green,42,"
+jjk"
+overinformativeness,glove,3072,12.345833333333333,0,glove_big_green,43,"
+kjk"
+overinformativeness,dress,3762,12.345833333333333,0,dress_big_blue,44,"
+kjkk"
+adjective_ordering,picture,5992,12.345833333333333,0,picture_bw_square,45,"
+lll"
+overinformativeness,lock,3243,12.345833333333333,0,lock_big_gold,46,"
+vv"
+overinformativeness,flower,2486,12.345833333333333,0,flower_big_pink,47,"
+llgl"
+overinformativeness,apple,1746,12.345833333333333,0,apple_big_green,48,"
+glgl"
+overinformativeness,book,2223,12.345833333333333,0,book_big_red,49,"
+tgl"
+adjective_ordering,woman,1731,12.345833333333333,0,woman_old_happy,50,"
+glf"
+adjective_ordering,earring,3950,12.345833333333333,0,earring_small_round,51,"
+ear"
+adjective_ordering,box,2639,12.345833333333333,0,box_closed_wood,52,"
+sdf"
+adjective_ordering,box,1582,12.345833333333333,0,box_open_cardboard,53,"
+sdfs"
+adjective_ordering,shorts,2455,12.345833333333333,0,shorts_wet_green,54,"
+ddd"
+overinformativeness,pepper,16443,12.345833333333333,0,pepper_big_red,55,"
+re"
+adjective_ordering,spoon,1949,12.345833333333333,0,spoon_metal_dirty,56,"
+ghjgh"
+overinformativeness,dress,2207,12.345833333333333,0,dress_big_green,57,"
+ghjg"
+overinformativeness,lighter,1960,12.345833333333333,0,lighter_big_black,58,"
+ghghjg"
+overinformativeness,tie,535,12.345833333333333,0,tie_big_blue,59,"
+gh"
+overinformativeness,tshirt,683,12.345833333333333,0,tshirt_big_yellow,60,"
+jghjgh"
+overinformativeness,mirror,1497,12.345833333333333,0,mirror_big_white,61,"
+ghghjg"
+overinformativeness,lock,1913,12.345833333333333,0,lock_big_silver,62,"
+ghjg"
+adjective_ordering,woman,1695,12.345833333333333,0,woman_old_sad,63,"
+ghjg"
+adjective_ordering,table,1791,12.345833333333333,0,table_wood_high,64,"
+swtr"
+adjective_ordering,pencil,1940,12.345833333333333,0,pencil_long_blue,65,"
+fhf"
+adjective_ordering,cup,2084,12.345833333333333,0,cup_empty_metal,66,"
+gfh"
+overinformativeness,skirt,1756,12.345833333333333,0,skirt_big_blue,67,"
+hgf"
+adjective_ordering,picture,2175,12.345833333333333,0,picture_colored_rectangular,68,"
+hhh"
+adjective_ordering,pencil,4026,12.345833333333333,0,pencil_short_black,69,"
+pencil"
+adjective_ordering,shorts,22202,12.345833333333333,0,shorts_wrinkled_red,70,"
+bvnhg"
+adjective_ordering,hair,1808,12.345833333333333,0,hair_straight_brown,71,"
+fghfg"
+overinformativeness,umbrella,1520,12.345833333333333,0,umbrella_big_green,72,"
+fgfg"
+adjective_ordering,table,5059,12.345833333333333,0,table_metal_low,73,"
+table"
+overinformativeness,shoe,4012,12.345833333333333,0,shoe_big_pink,74,"
+kfrt"
+adjective_ordering,man,3151,12.345833333333333,0,man_old_bald,75,"
+kedi'"
+adjective_ordering,spoon,2680,12.345833333333333,0,spoon_metal_clean,76,"
+juio"
+adjective_ordering,bottle,2926,12.345833333333333,0,bottle_plastic_small,77,"
+kli'"
+adjective_ordering,shorts,2189,12.345833333333333,0,shorts_wrinkled_green,78,"
+sdf"
+overinformativeness,knife,3370,12.345833333333333,0,knife_big_blue,79,"
+sju"
+adjective_ordering,man,2361,12.345833333333333,0,man_old_bearded,80,"
+jiouy"
+overinformativeness,pot,4495,12.345833333333333,0,pot_big_green,81,"
+cooker"
+overinformativeness,brush,4981,12.345833333333333,0,brush_big_blue,82,"
+bytr'd"
+adjective_ordering,cup,89656,12.345833333333333,0,cup_full_glass,83,"
+bhdy"
+adjective_ordering,man,21909,12.345833333333333,0,man_young_bald,84,"
+mnsj"
+overinformativeness,car,24721,12.345833333333333,0,car_big_blue,85,"
+\]]]]]]]]]]"
+adjective_ordering,shorts,5129,12.345833333333333,0,shorts_wet_red,86,"
+kjif"
+overinformativeness,mirror,6532,12.345833333333333,0,mirror_big_black,87,"
+kji'g"
+adjective_ordering,box,2224,12.345833333333333,0,box_closed_cardboard,88,"
+gllg"
+overinformativeness,tshirt,1345,12.345833333333333,0,tshirt_big_orange,89,"
+ghg"
+adjective_ordering,earring,960,12.345833333333333,0,earring_big_triangular,90,"
+hhghg"
+adjective_ordering,box,3927,12.345833333333333,0,box_open_wood,91,"
+lkio'k"
+overinformativeness,pants,5806,12.345833333333333,0,pants_big_pink,92,"
+pion'y"
+overinformativeness,socks,3361,12.345833333333333,0,socks_big_blue,93,"
+l;ko;"
+overinformativeness,key,4601,12.345833333333333,0,key_big_silver,94,"
+lkigf"
+overinformativeness,hat,3043,12.345833333333333,0,hat_big_pink,95,"
+kedi"
+overinformativeness,skirt,4414,12.345833333333333,0,skirt_big_green,96,"
+jedrtgy"
+adjective_ordering,shorts,3402,12.345833333333333,0,shorts_dry_green,97,"
+hhhh"
+overinformativeness,button,2168,12.345833333333333,0,button_big_green,98,"
+fghfg"
+overinformativeness,scissors,2846,12.345833333333333,0,scissors_big_green,99,"
+gbfg"
+adjective_ordering,earring,1945,12.345833333333333,0,earring_small_triangular,100,"
+fghfg"
+adjective_ordering,spoon,2088,12.345833333333333,0,spoon_wooden_dirty,101,"
+gfyt"
+overinformativeness,chair,2157,12.345833333333333,0,chair_big_yellow,102,"
+jtyf"
+adjective_ordering,table,1527,12.345833333333333,0,table_wood_low,103,"
+gfhg"
+adjective_ordering,hair,2344,12.345833333333333,0,hair_curly_blonde,104,"
+btf"
+overinformativeness,flower,2399,12.345833333333333,0,flower_big_yellow,105,"
+fgjt"
+adjective_ordering,bottle,8023,12.345833333333333,0,bottle_glass_big,106,"
+bolor'"
+adjective_ordering,cup,3679,12.345833333333333,0,cup_full_metal,107,"
+dfgdf"
+overinformativeness,umbrella,2376,12.345833333333333,0,umbrella_big_blue,108,"
+fd"
+overinformativeness,toothbrush,1606,12.345833333333333,0,toothbrush_big_green,109,"
+df"
+overinformativeness,hat,2812,12.345833333333333,0,hat_big_orange,110,"
+gr"
+overinformativeness,pot,1517,12.345833333333333,0,pot_big_blue,111,"
+gr"
+overinformativeness,button,1398,12.345833333333333,0,button_big_blue,112,"
+rg"
+overinformativeness,clock,1304,12.345833333333333,0,clock_big_purple,113,"
+gr"
+overinformativeness,apple,1240,12.345833333333333,0,apple_big_red,114,"
+rg"
+adjective_ordering,man,1702,12.345833333333333,0,man_young_bearded,115,"
+rgr"
+overinformativeness,binoculars,2022,12.345833333333333,0,binoculars_big_red,116,"
+drg"
+overinformativeness,car,1580,12.345833333333333,0,car_big_green,117,"
+rg"
+adjective_ordering,hair,1659,12.345833333333333,0,hair_straight_blond,118,"
+rj"
+adjective_ordering,bottle,1700,12.345833333333333,0,bottle_glass_small,119,"
+rg"
+adjective_ordering,woman,1771,12.345833333333333,0,woman_young_happy,120,"
+drg"
+overinformativeness,tie,4433,12.345833333333333,0,tie_big_red,121,"
+drgd"
+overinformativeness,lipstick,3176,12.345833333333333,0,lipstick_big_pink,122,"
+ddd"
+bot_check,Selin,0,14.483483333333334,1,,1,Selin
+overinformativeness,lighter,6722,14.483483333333334,1,lighter_big_white,3,Cigar Lighter
+overinformativeness,chair,17235,14.483483333333334,1,chair_big_blue,4,Plastic Chair
+overinformativeness,lipstick,5945,14.483483333333334,1,lipstick_big_red,5,Lipstick
+overinformativeness,book,5841,14.483483333333334,1,book_big_red,6,Book
+adjective_ordering,pencil,2938,14.483483333333334,1,pencil_long_blue,7,Pencil
+adjective_ordering,hair,39865,14.483483333333334,1,hair_curly_blonde,8,blonde Hair
+adjective_ordering,spoon,4122,14.483483333333334,1,spoon_wooden_clean,9,Spoon
+overinformativeness,cat,7787,14.483483333333334,1,cat_big_black,10,Black Cat
+adjective_ordering,picture,3931,14.483483333333334,1,picture_bw_square,11,Frame
+overinformativeness,car,5313,14.483483333333334,1,car_big_blue,12,Toy Car
+overinformativeness,glasses,10241,14.483483333333334,1,glasses_big_blue,13,Eye Glass
+adjective_ordering,pencil,4791,14.483483333333334,1,pencil_short_blue,14,Pencil
+adjective_ordering,shorts,7957,14.483483333333334,1,shorts_wet_red,15,Trouser
+overinformativeness,balloon,4473,14.483483333333334,1,balloon_big_yellow,16,Balloon
+adjective_ordering,bottle,6569,14.483483333333334,1,bottle_plastic_small,17,Water Bottle
+adjective_ordering,bottle,4409,14.483483333333334,1,bottle_glass_small,18,Bottle
+overinformativeness,tie,2365,14.483483333333334,1,tie_big_red,19,Tie
+overinformativeness,lock,2608,14.483483333333334,1,lock_big_gold,20,Lock
+adjective_ordering,woman,4738,14.483483333333334,1,woman_old_sad,21,Women
+overinformativeness,mirror,7948,14.483483333333334,1,mirror_big_white,22,Hand Mirror
+adjective_ordering,cup,5943,14.483483333333334,1,cup_empty_glass,23,Glass Tumbler
+adjective_ordering,box,6702,14.483483333333334,1,box_closed_cardboard,24,Cardboard Box
+adjective_ordering,table,3803,14.483483333333334,1,table_metal_high,25,Table
+adjective_ordering,box,4470,14.483483333333334,1,box_open_cardboard,26,Cardboard Box
+overinformativeness,lock,7599,14.483483333333334,1,lock_big_silver,27,Lock
+adjective_ordering,woman,10733,14.483483333333334,1,woman_old_happy,28,Woman
+overinformativeness,apple,4199,14.483483333333334,1,apple_big_green,29,Green Apple
+overinformativeness,bag,16561,14.483483333333334,1,bag_big_red,30,Back Bag
+overinformativeness,pot,11030,14.483483333333334,1,pot_big_green,31,Hot Pan
+adjective_ordering,shorts,5057,14.483483333333334,1,shorts_wet_green,32,Trouser
+overinformativeness,pants,4044,14.483483333333334,1,pants_big_green,33,Pant
+overinformativeness,key,2631,14.483483333333334,1,key_big_gold,34,Key
+overinformativeness,tie,2409,14.483483333333334,1,tie_big_blue,35,Tie
+overinformativeness,socks,3285,14.483483333333334,1,socks_big_green,36,Socks
+overinformativeness,mirror,6140,14.483483333333334,1,mirror_big_black,37,Hand Mirror
+adjective_ordering,picture,4669,14.483483333333334,1,picture_bw_rectangular,38,Frame
+overinformativeness,skirt,19405,14.483483333333334,1,skirt_big_blue,39,Frock
+overinformativeness,umbrella,5094,14.483483333333334,1,umbrella_big_blue,40,Umbrella
+adjective_ordering,man,3036,14.483483333333334,1,man_old_bald,41,Man
+overinformativeness,knife,2926,14.483483333333334,1,knife_big_blue,42,Knife
+overinformativeness,brush,4318,14.483483333333334,1,brush_big_red,43,Paint Brush
+overinformativeness,bag,8012,14.483483333333334,1,bag_big_blue,44,Back Bag
+adjective_ordering,spoon,2748,14.483483333333334,1,spoon_wooden_dirty,45,Spoon
+adjective_ordering,bottle,4294,14.483483333333334,1,bottle_plastic_big,46,Water Bottle
+overinformativeness,binoculars,11377,14.483483333333334,1,binoculars_big_blue,47,Binocular 
+overinformativeness,pepper,11693,14.483483333333334,1,pepper_big_green,48,Capsicum
+overinformativeness,lighter,6281,14.483483333333334,1,lighter_big_black,49,Lighter
+adjective_ordering,hair,6380,14.483483333333334,1,hair_curly_brown,50,Curly Hair
+overinformativeness,flower,6823,14.483483333333334,1,flower_big_yellow,51,Sunflower
+adjective_ordering,cup,4007,14.483483333333334,1,cup_empty_metal,52,Tumbler
+overinformativeness,toothbrush,8432,14.483483333333334,1,toothbrush_big_green,53,Tooth Brush
+adjective_ordering,hair,6971,14.483483333333334,1,hair_straight_brown,54,Long Hair
+overinformativeness,lipstick,3163,14.483483333333334,1,lipstick_big_pink,55,Lipstick
+overinformativeness,rosary,15359,14.483483333333334,1,rosary_big_blue,56,Necklace
+adjective_ordering,bottle,2990,14.483483333333334,1,bottle_glass_big,57,Bottle
+overinformativeness,rosary,3333,14.483483333333334,1,rosary_big_yellow,58,Necklace
+adjective_ordering,man,2972,14.483483333333334,1,man_young_bearded,59,Man
+adjective_ordering,cup,4768,14.483483333333334,1,cup_full_glass,60,Tea
+adjective_ordering,man,2558,14.483483333333334,1,man_young_bald,61,Man
+overinformativeness,cat,3721,14.483483333333334,1,cat_big_white,62,White Cat
+adjective_ordering,cup,4116,14.483483333333334,1,cup_full_metal,63,Juice
+overinformativeness,hat,9578,14.483483333333334,1,hat_big_pink,64,Cowboy Hat
+adjective_ordering,spoon,4120,14.483483333333334,1,spoon_metal_clean,65,Spoon
+adjective_ordering,hair,6167,14.483483333333334,1,hair_straight_blond,66,Long Hair
+adjective_ordering,picture,4296,14.483483333333334,1,picture_colored_rectangular,67,Photo Frame
+overinformativeness,chair,5763,14.483483333333334,1,chair_big_yellow,68,Plastic Chair
+overinformativeness,button,3064,14.483483333333334,1,button_big_green,69,Button
+adjective_ordering,earring,4899,14.483483333333334,1,earring_small_triangular,70,Earing
+adjective_ordering,pencil,2730,14.483483333333334,1,pencil_long_black,71,Pencil
+adjective_ordering,woman,4799,14.483483333333334,1,woman_young_happy,72,Woman
+adjective_ordering,shorts,4679,14.483483333333334,1,shorts_wrinkled_red,73,Trouser
+overinformativeness,book,2557,14.483483333333334,1,book_big_blue,74,Book
+overinformativeness,glove,6127,14.483483333333334,1,glove_big_orange,75,Gloves
+adjective_ordering,box,6108,14.483483333333334,1,box_closed_wood,76,Wooden Box
+overinformativeness,pot,4759,14.483483333333334,1,pot_big_blue,77,Hot Pan
+overinformativeness,scissors,3644,14.483483333333334,1,scissors_big_blue,78,Scissors
+adjective_ordering,woman,8905,14.483483333333334,1,woman_young_sad,79,Crying Woman
+overinformativeness,shoe,3841,14.483483333333334,1,shoe_big_yellow,80,Shoe
+overinformativeness,clock,13695,14.483483333333334,1,clock_big_yellow,81,Clock
+overinformativeness,umbrella,8254,14.483483333333334,1,umbrella_big_green,82,Umbrella
+overinformativeness,apple,2436,14.483483333333334,1,apple_big_red,83,Apple
+overinformativeness,balloon,3546,14.483483333333334,1,balloon_big_pink,84,Balloon
+adjective_ordering,table,3298,14.483483333333334,1,table_metal_low,85,Table
+overinformativeness,glasses,5806,14.483483333333334,1,glasses_big_red,86,Eye Glass
+overinformativeness,socks,2835,14.483483333333334,1,socks_big_blue,87,Scoks
+adjective_ordering,earring,3309,14.483483333333334,1,earring_big_round,88,Earing
+adjective_ordering,shorts,3237,14.483483333333334,1,shorts_dry_green,89,Trouser
+overinformativeness,brush,4219,14.483483333333334,1,brush_big_blue,90,Paint Brush
+overinformativeness,pepper,8501,14.483483333333334,1,pepper_big_red,91,Red Capsicum
+overinformativeness,shoe,2506,14.483483333333334,1,shoe_big_pink,92,Shoe
+adjective_ordering,table,6899,14.483483333333334,1,table_wood_low,93,Wooden Table
+overinformativeness,dress,12561,14.483483333333334,1,dress_big_blue,94,Women Outfit
+overinformativeness,binoculars,8747,14.483483333333334,1,binoculars_big_red,95,Binocular
+adjective_ordering,earring,3183,14.483483333333334,1,earring_big_triangular,96,Earing
+adjective_ordering,table,4528,14.483483333333334,1,table_wood_high,97,Wooden Table
+adjective_ordering,shorts,3109,14.483483333333334,1,shorts_dry_red,98,Trouser
+adjective_ordering,man,2182,14.483483333333334,1,man_old_bearded,99,Man
+overinformativeness,toothbrush,3729,14.483483333333334,1,toothbrush_big_purple,100,Toothbrush
+overinformativeness,scissors,3789,14.483483333333334,1,scissors_big_green,101,Scissor
+overinformativeness,glove,2945,14.483483333333334,1,glove_big_green,102,Gloves
+adjective_ordering,pencil,2426,14.483483333333334,1,pencil_short_black,103,Pencil
+adjective_ordering,picture,6404,14.483483333333334,1,picture_colored_square,104,Photo Frame
+overinformativeness,hat,5094,14.483483333333334,1,hat_big_orange,105,Cowboy Hat
+overinformativeness,tshirt,16247,14.483483333333334,1,tshirt_big_orange,106,T-Shirt
+adjective_ordering,box,8839,14.483483333333334,1,box_open_wood,107,Wooden Box
+overinformativeness,clock,2906,14.483483333333334,1,clock_big_purple,108,Clock
+overinformativeness,button,3434,14.483483333333334,1,button_big_blue,109,Button
+overinformativeness,key,2189,14.483483333333334,1,key_big_silver,110,key
+adjective_ordering,shorts,2744,14.483483333333334,1,shorts_wrinkled_green,111,Trouser
+overinformativeness,ball,4092,14.483483333333334,1,ball_big_purple,112,Ball
+overinformativeness,knife,3053,14.483483333333334,1,knife_big_red,113,Knife
+adjective_ordering,spoon,3028,14.483483333333334,1,spoon_metal_dirty,114,Spoon
+overinformativeness,dress,6265,14.483483333333334,1,dress_big_green,115,Woman outfit
+overinformativeness,ball,3174,14.483483333333334,1,ball_big_yellow,116,Ball
+overinformativeness,car,2962,14.483483333333334,1,car_big_green,117,Car
+overinformativeness,tshirt,5538,14.483483333333334,1,tshirt_big_yellow,118,T-Shirt
+overinformativeness,flower,5051,14.483483333333334,1,flower_big_pink,119,Flower
+overinformativeness,pants,2818,14.483483333333334,1,pants_big_pink,120,Pant
+adjective_ordering,earring,4875,14.483483333333334,1,earring_small_round,121,Earing
+overinformativeness,skirt,2863,14.483483333333334,1,skirt_big_green,122,Frock
+bot_check,Melis,0,34.442166666666665,2,,1,Melis
+overinformativeness,scissors,76652,34.442166666666665,2,scissors_big_green,3,"
+makas"
+overinformativeness,apple,29232,34.442166666666665,2,apple_big_red,4,elma
+overinformativeness,tie,16906,34.442166666666665,2,tie_big_blue,5,kravat
+adjective_ordering,bottle,33147,34.442166666666665,2,bottle_glass_big,6,şişe
+adjective_ordering,shorts,35208,34.442166666666665,2,shorts_wrinkled_green,7,pantolon
+overinformativeness,shoe,15628,34.442166666666665,2,shoe_big_yellow,8,"
+ayakkabı"
+overinformativeness,rosary,28917,34.442166666666665,2,rosary_big_yellow,9,"
+çelenk"
+overinformativeness,pants,21196,34.442166666666665,2,pants_big_green,10,pantolon
+overinformativeness,scissors,5248,34.442166666666665,2,scissors_big_blue,11,makas
+adjective_ordering,woman,32238,34.442166666666665,2,woman_old_happy,12,"
+yaşlı kadın"
+overinformativeness,glasses,13076,34.442166666666665,2,glasses_big_red,13,"
+gözlük"
+overinformativeness,mirror,41733,34.442166666666665,2,mirror_big_white,14,ayna
+overinformativeness,toothbrush,15255,34.442166666666665,2,toothbrush_big_green,15,diş fırçası
+overinformativeness,knife,16171,34.442166666666665,2,knife_big_blue,16,bıçak
+adjective_ordering,earring,14190,34.442166666666665,2,earring_small_triangular,17,küpe
+adjective_ordering,shorts,6932,34.442166666666665,2,shorts_dry_red,18,pantolon
+overinformativeness,lock,12793,34.442166666666665,2,lock_big_silver,19,kilit
+overinformativeness,pot,16427,34.442166666666665,2,pot_big_green,20,tava
+overinformativeness,lighter,22333,34.442166666666665,2,lighter_big_white,21,çakmak
+adjective_ordering,picture,14969,34.442166666666665,2,picture_colored_rectangular,22,fotoğraf çerçevesi
+overinformativeness,cat,14755,34.442166666666665,2,cat_big_black,23,kedi
+adjective_ordering,cup,19193,34.442166666666665,2,cup_full_metal,24,"
+Çay bardağı"
+overinformativeness,clock,17018,34.442166666666665,2,clock_big_yellow,25,saat
+adjective_ordering,table,17265,34.442166666666665,2,table_metal_high,26,"
+tablo"
+overinformativeness,umbrella,18017,34.442166666666665,2,umbrella_big_blue,27,şemsiye
+overinformativeness,button,19319,34.442166666666665,2,button_big_green,28,buton
+adjective_ordering,woman,24938,34.442166666666665,2,woman_young_sad,29,Hanim
+overinformativeness,dress,33154,34.442166666666665,2,dress_big_blue,30,üstleri
+overinformativeness,mirror,13389,34.442166666666665,2,mirror_big_black,31,ayna
+adjective_ordering,bottle,21294,34.442166666666665,2,bottle_plastic_big,32,"
+su şişesi"
+overinformativeness,lipstick,13885,34.442166666666665,2,lipstick_big_red,33,ruj
+overinformativeness,skirt,27013,34.442166666666665,2,skirt_big_green,34,etek
+adjective_ordering,earring,15374,34.442166666666665,2,earring_small_round,35,küpe
+overinformativeness,binoculars,15167,34.442166666666665,2,binoculars_big_blue,36,"
+iki gözlü"
+overinformativeness,binoculars,8429,34.442166666666665,2,binoculars_big_red,37,"
+iki gözlü"
+adjective_ordering,spoon,16024,34.442166666666665,2,spoon_wooden_dirty,38,kaşık
+overinformativeness,lighter,12572,34.442166666666665,2,lighter_big_black,39,çakmak
+overinformativeness,book,12356,34.442166666666665,2,book_big_red,40,kitap
+overinformativeness,clock,11131,34.442166666666665,2,clock_big_purple,41,saat
+adjective_ordering,table,10661,34.442166666666665,2,table_wood_high,42,tablo
+adjective_ordering,man,12300,34.442166666666665,2,man_young_bald,43,adam
+overinformativeness,brush,19367,34.442166666666665,2,brush_big_blue,44,ağrısız fırça
+adjective_ordering,hair,11651,34.442166666666665,2,hair_curly_blonde,45,saç
+overinformativeness,car,17601,34.442166666666665,2,car_big_green,46,oyuncak araba
+overinformativeness,skirt,16499,34.442166666666665,2,skirt_big_blue,47,etek
+adjective_ordering,spoon,14967,34.442166666666665,2,spoon_metal_dirty,48,kaşık
+overinformativeness,toothbrush,38630,34.442166666666665,2,toothbrush_big_purple,49,diş fırçası
+adjective_ordering,man,11366,34.442166666666665,2,man_young_bearded,50,adam
+adjective_ordering,cup,13734,34.442166666666665,2,cup_empty_metal,51,Fincan
+overinformativeness,chair,13906,34.442166666666665,2,chair_big_blue,52,sandalye
+adjective_ordering,box,17350,34.442166666666665,2,box_closed_cardboard,53,karton kutu
+adjective_ordering,man,16318,34.442166666666665,2,man_old_bearded,54,yaşlı adam
+overinformativeness,rosary,11802,34.442166666666665,2,rosary_big_blue,55,çelenk
+adjective_ordering,picture,17188,34.442166666666665,2,picture_bw_rectangular,56,fotoğraf çerçevesi
+adjective_ordering,table,10373,34.442166666666665,2,table_wood_low,57,tablo
+adjective_ordering,woman,14478,34.442166666666665,2,woman_old_sad,58,yaşlı kadın
+adjective_ordering,pencil,13007,34.442166666666665,2,pencil_short_black,59,kalem
+overinformativeness,ball,10106,34.442166666666665,2,ball_big_yellow,60,top
+adjective_ordering,earring,18202,34.442166666666665,2,earring_big_round,61,küpe
+overinformativeness,socks,21433,34.442166666666665,2,socks_big_blue,62,çorap
+adjective_ordering,woman,15082,34.442166666666665,2,woman_young_happy,63,"genç kadın
+"
+overinformativeness,brush,16632,34.442166666666665,2,brush_big_red,64,boya fırçası
+overinformativeness,book,13731,34.442166666666665,2,book_big_blue,65,kitap
+overinformativeness,apple,10589,34.442166666666665,2,apple_big_green,66,elma
+adjective_ordering,shorts,7109,34.442166666666665,2,shorts_dry_green,67,pantolon
+adjective_ordering,cup,14906,34.442166666666665,2,cup_empty_glass,68,bardak
+overinformativeness,lock,11025,34.442166666666665,2,lock_big_gold,69,kilit
+overinformativeness,knife,10549,34.442166666666665,2,knife_big_red,70,bıçak
+adjective_ordering,shorts,7924,34.442166666666665,2,shorts_wrinkled_red,71,pantolon
+adjective_ordering,shorts,10768,34.442166666666665,2,shorts_wet_red,72,pantolon
+overinformativeness,balloon,10832,34.442166666666665,2,balloon_big_pink,73,balon
+overinformativeness,tshirt,10836,34.442166666666665,2,tshirt_big_orange,74,tişört
+overinformativeness,car,13588,34.442166666666665,2,car_big_blue,75,oyuncak araba
+overinformativeness,pants,5785,34.442166666666665,2,pants_big_pink,76,pantolon
+overinformativeness,bag,12247,34.442166666666665,2,bag_big_red,77,sırt çantası
+overinformativeness,pepper,10637,34.442166666666665,2,pepper_big_red,78,kırmızıbiber
+adjective_ordering,picture,17651,34.442166666666665,2,picture_colored_square,79,fotoğraf çerçevesi
+adjective_ordering,cup,14236,34.442166666666665,2,cup_full_glass,80,çay bardağı
+overinformativeness,dress,11955,34.442166666666665,2,dress_big_green,81,üstleri
+overinformativeness,key,27101,34.442166666666665,2,key_big_gold,82,anahtar
+overinformativeness,button,5674,34.442166666666665,2,button_big_blue,83,buton
+adjective_ordering,table,8865,34.442166666666665,2,table_metal_low,84,tablo
+adjective_ordering,picture,14144,34.442166666666665,2,picture_bw_square,85,fotoğraf çerçevesi
+overinformativeness,ball,12327,34.442166666666665,2,ball_big_purple,86,top
+adjective_ordering,pencil,10054,34.442166666666665,2,pencil_long_blue,87,kalem
+adjective_ordering,shorts,7710,34.442166666666665,2,shorts_wet_green,88,pantolon
+overinformativeness,flower,12196,34.442166666666665,2,flower_big_pink,89,çiçek
+adjective_ordering,hair,11077,34.442166666666665,2,hair_straight_blond,90,saç
+overinformativeness,pot,8556,34.442166666666665,2,pot_big_blue,91,tava
+overinformativeness,key,10112,34.442166666666665,2,key_big_silver,92,anahtar
+overinformativeness,bag,13242,34.442166666666665,2,bag_big_blue,93,sırt çantası
+adjective_ordering,box,19712,34.442166666666665,2,box_open_cardboard,94,karton kutu
+overinformativeness,pepper,14077,34.442166666666665,2,pepper_big_green,95,kırmızıbiber
+adjective_ordering,spoon,15041,34.442166666666665,2,spoon_metal_clean,96,kaşık
+adjective_ordering,bottle,12675,34.442166666666665,2,bottle_plastic_small,97,"su şişesi
+"
+adjective_ordering,earring,12339,34.442166666666665,2,earring_big_triangular,98,küpe
+overinformativeness,socks,9761,34.442166666666665,2,socks_big_green,99,çorap
+overinformativeness,glove,13407,34.442166666666665,2,glove_big_orange,100,eldiven
+adjective_ordering,pencil,13796,34.442166666666665,2,pencil_long_black,101,kalem
+adjective_ordering,hair,12280,34.442166666666665,2,hair_straight_brown,102,saç
+overinformativeness,shoe,15260,34.442166666666665,2,shoe_big_pink,103,ayakkabı
+overinformativeness,glove,11702,34.442166666666665,2,glove_big_green,104,eldiven
+adjective_ordering,bottle,10988,34.442166666666665,2,bottle_glass_small,105,şişe
+overinformativeness,cat,9710,34.442166666666665,2,cat_big_white,106,kedi
+overinformativeness,chair,12186,34.442166666666665,2,chair_big_yellow,107,sandalye
+overinformativeness,hat,10464,34.442166666666665,2,hat_big_orange,108,şapka
+overinformativeness,tshirt,23364,34.442166666666665,2,tshirt_big_yellow,109,tişört
+adjective_ordering,man,14468,34.442166666666665,2,man_old_bald,110,yaşlı adam
+overinformativeness,balloon,9326,34.442166666666665,2,balloon_big_yellow,111,balon
+overinformativeness,hat,10169,34.442166666666665,2,hat_big_pink,112,şapka
+adjective_ordering,box,14886,34.442166666666665,2,box_closed_wood,113,tahta kutu
+overinformativeness,glasses,9405,34.442166666666665,2,glasses_big_blue,114,gözlük
+overinformativeness,umbrella,11676,34.442166666666665,2,umbrella_big_green,115,şemsiye
+adjective_ordering,box,18122,34.442166666666665,2,box_open_wood,116,ahşap kutu
+adjective_ordering,spoon,10475,34.442166666666665,2,spoon_wooden_clean,117,kaşık
+overinformativeness,flower,14638,34.442166666666665,2,flower_big_yellow,118,çiçek
+adjective_ordering,pencil,9649,34.442166666666665,2,pencil_short_blue,119,kalem
+overinformativeness,tie,8979,34.442166666666665,2,tie_big_red,120,kravat
+adjective_ordering,hair,8734,34.442166666666665,2,hair_curly_brown,121,saç
+overinformativeness,lipstick,9934,34.442166666666665,2,lipstick_big_pink,122,ruj
+bot_check,Zeynep,0,21.371383333333334,3,,1,Zeynep
+overinformativeness,lock,41605,21.371383333333334,3,lock_big_gold,3,looc
+overinformativeness,chair,11152,21.371383333333334,3,chair_big_blue,4,"
+chair"
+adjective_ordering,man,7367,21.371383333333334,3,man_old_bearded,5,oldman
+overinformativeness,balloon,12793,21.371383333333334,3,balloon_big_pink,6,baloon
+adjective_ordering,box,5760,21.371383333333334,3,box_open_cardboard,7,box
+adjective_ordering,box,19668,21.371383333333334,3,box_closed_wood,8,playwoodbox
+overinformativeness,toothbrush,25310,21.371383333333334,3,toothbrush_big_green,9,frees
+overinformativeness,knife,6897,21.371383333333334,3,knife_big_blue,10,naif
+overinformativeness,balloon,36889,21.371383333333334,3,balloon_big_yellow,11,baloon
+overinformativeness,glasses,18478,21.371383333333334,3,glasses_big_red,12,eyeclass
+overinformativeness,car,7165,21.371383333333334,3,car_big_blue,13,car
+overinformativeness,umbrella,25550,21.371383333333334,3,umbrella_big_green,14,umpeerla
+overinformativeness,dress,5200,21.371383333333334,3,dress_big_blue,15,dress
+overinformativeness,shoe,19451,21.371383333333334,3,shoe_big_yellow,16,shoze
+overinformativeness,skirt,5783,21.371383333333334,3,skirt_big_green,17,dress
+overinformativeness,mirror,11073,21.371383333333334,3,mirror_big_black,18,mirrer
+adjective_ordering,hair,5560,21.371383333333334,3,hair_straight_blond,19,hair
+adjective_ordering,pencil,8799,21.371383333333334,3,pencil_short_black,20,pencil
+overinformativeness,chair,5832,21.371383333333334,3,chair_big_yellow,21,chair
+overinformativeness,hat,6131,21.371383333333334,3,hat_big_pink,22,cap
+adjective_ordering,spoon,7723,21.371383333333334,3,spoon_wooden_dirty,23,spoon
+adjective_ordering,pencil,7143,21.371383333333334,3,pencil_long_black,24,pencil
+overinformativeness,book,5981,21.371383333333334,3,book_big_blue,25,book
+overinformativeness,pot,12085,21.371383333333334,3,pot_big_green,26,hot box
+overinformativeness,pants,10715,21.371383333333334,3,pants_big_pink,27,dress
+overinformativeness,flower,9806,21.371383333333334,3,flower_big_yellow,28,flower
+adjective_ordering,bottle,11401,21.371383333333334,3,bottle_glass_small,29,class
+adjective_ordering,table,6988,21.371383333333334,3,table_metal_high,30,table
+adjective_ordering,hair,5532,21.371383333333334,3,hair_curly_blonde,31,hair
+overinformativeness,dress,5619,21.371383333333334,3,dress_big_green,32,dress
+adjective_ordering,cup,7081,21.371383333333334,3,cup_full_metal,33,tea cup
+overinformativeness,car,3888,21.371383333333334,3,car_big_green,34,car
+overinformativeness,clock,21316,21.371383333333334,3,clock_big_yellow,35,clock
+adjective_ordering,spoon,7618,21.371383333333334,3,spoon_metal_clean,36,spoon
+overinformativeness,apple,5278,21.371383333333334,3,apple_big_green,37,apple
+overinformativeness,glasses,8073,21.371383333333334,3,glasses_big_blue,38,optical
+adjective_ordering,cup,6039,21.371383333333334,3,cup_empty_metal,39,cap
+overinformativeness,knife,5435,21.371383333333334,3,knife_big_red,40,naif
+overinformativeness,lipstick,11593,21.371383333333334,3,lipstick_big_red,41,liptik
+adjective_ordering,spoon,6279,21.371383333333334,3,spoon_metal_dirty,42,spoon
+adjective_ordering,table,6208,21.371383333333334,3,table_metal_low,43,table
+adjective_ordering,pencil,6675,21.371383333333334,3,pencil_long_blue,44,pencil
+overinformativeness,brush,16933,21.371383333333334,3,brush_big_red,45,fress
+adjective_ordering,shorts,6647,21.371383333333334,3,shorts_wet_green,46,dress
+adjective_ordering,shorts,5835,21.371383333333334,3,shorts_wrinkled_green,47,dress
+adjective_ordering,shorts,14454,21.371383333333334,3,shorts_wet_red,48,drees
+adjective_ordering,cup,6345,21.371383333333334,3,cup_empty_glass,49,calss
+overinformativeness,pot,9440,21.371383333333334,3,pot_big_blue,50,hot box
+overinformativeness,shoe,10359,21.371383333333334,3,shoe_big_pink,51,shoze
+overinformativeness,socks,16247,21.371383333333334,3,socks_big_green,52,dress
+overinformativeness,ball,11819,21.371383333333334,3,ball_big_yellow,53,ball
+overinformativeness,binoculars,16583,21.371383333333334,3,binoculars_big_red,54,mirocok
+adjective_ordering,table,14319,21.371383333333334,3,table_wood_low,55,palywood table
+adjective_ordering,bottle,7669,21.371383333333334,3,bottle_plastic_small,56,water batel
+overinformativeness,bag,6926,21.371383333333334,3,bag_big_blue,57,bag
+overinformativeness,cat,4650,21.371383333333334,3,cat_big_black,58,cat
+overinformativeness,socks,29070,21.371383333333334,3,socks_big_blue,59,shoze saks
+adjective_ordering,woman,8180,21.371383333333334,3,woman_old_happy,60,oldwomen
+overinformativeness,flower,7024,21.371383333333334,3,flower_big_pink,61,flower
+adjective_ordering,table,8389,21.371383333333334,3,table_wood_high,62,woodtable
+adjective_ordering,box,8562,21.371383333333334,3,box_open_wood,63,wood box
+adjective_ordering,man,14245,21.371383333333334,3,man_young_bald,64,youngman
+adjective_ordering,picture,6104,21.371383333333334,3,picture_colored_square,65,freme
+overinformativeness,glove,11578,21.371383333333334,3,glove_big_green,66,handgloss
+adjective_ordering,man,5852,21.371383333333334,3,man_old_bald,67,oldman
+overinformativeness,key,7544,21.371383333333334,3,key_big_silver,68,key
+overinformativeness,rosary,11102,21.371383333333334,3,rosary_big_yellow,69,chian
+adjective_ordering,woman,13981,21.371383333333334,3,woman_young_happy,70,yonggirl
+overinformativeness,clock,5312,21.371383333333334,3,clock_big_purple,71,clock
+overinformativeness,rosary,6333,21.371383333333334,3,rosary_big_blue,72,chain
+adjective_ordering,hair,5609,21.371383333333334,3,hair_curly_brown,73,hair
+overinformativeness,brush,4741,21.371383333333334,3,brush_big_blue,74,fress
+overinformativeness,lock,8115,21.371383333333334,3,lock_big_silver,75,look
+adjective_ordering,earring,29199,21.371383333333334,3,earring_small_triangular,76,ring
+adjective_ordering,earring,10914,21.371383333333334,3,earring_big_triangular,77,hearring
+overinformativeness,tshirt,7473,21.371383333333334,3,tshirt_big_orange,78,t shirt
+adjective_ordering,earring,9450,21.371383333333334,3,earring_big_round,79,round ring
+overinformativeness,scissors,13260,21.371383333333334,3,scissors_big_blue,80,scro
+overinformativeness,pepper,38250,21.371383333333334,3,pepper_big_green,81,chilli
+overinformativeness,hat,7377,21.371383333333334,3,hat_big_orange,82,cap
+overinformativeness,lipstick,8169,21.371383333333334,3,lipstick_big_pink,83,liptik
+overinformativeness,lighter,9786,21.371383333333334,3,lighter_big_black,84,lighetr
+overinformativeness,tshirt,6700,21.371383333333334,3,tshirt_big_yellow,85,t shirt
+adjective_ordering,pencil,7107,21.371383333333334,3,pencil_short_blue,86,pencil
+overinformativeness,key,7558,21.371383333333334,3,key_big_gold,87,key
+adjective_ordering,man,7974,21.371383333333334,3,man_young_bearded,88,youngman
+adjective_ordering,shorts,5378,21.371383333333334,3,shorts_wrinkled_red,89,dress
+overinformativeness,apple,5166,21.371383333333334,3,apple_big_red,90,apple
+adjective_ordering,bottle,5148,21.371383333333334,3,bottle_plastic_big,91,batle
+adjective_ordering,box,6974,21.371383333333334,3,box_closed_cardboard,92,box
+adjective_ordering,earring,8042,21.371383333333334,3,earring_small_round,93,hearring
+overinformativeness,tie,9496,21.371383333333334,3,tie_big_red,94,dai
+overinformativeness,scissors,58522,21.371383333333334,3,scissors_big_green,95,hear naif
+overinformativeness,pepper,12000,21.371383333333334,3,pepper_big_red,96,chilli
+overinformativeness,toothbrush,5250,21.371383333333334,3,toothbrush_big_purple,97,fress
+adjective_ordering,shorts,4801,21.371383333333334,3,shorts_dry_green,98,dress
+overinformativeness,button,7145,21.371383333333334,3,button_big_blue,99,botton
+overinformativeness,cat,4280,21.371383333333334,3,cat_big_white,100,cat
+adjective_ordering,hair,5348,21.371383333333334,3,hair_straight_brown,101,hair
+adjective_ordering,shorts,5565,21.371383333333334,3,shorts_dry_red,102,dress
+overinformativeness,lighter,7658,21.371383333333334,3,lighter_big_white,103,lighter
+adjective_ordering,cup,7547,21.371383333333334,3,cup_full_glass,104,teacup
+overinformativeness,button,7800,21.371383333333334,3,button_big_green,105,botton
+overinformativeness,tie,4016,21.371383333333334,3,tie_big_blue,106,dai
+overinformativeness,mirror,11201,21.371383333333334,3,mirror_big_white,107,face mirro
+adjective_ordering,bottle,10098,21.371383333333334,3,bottle_glass_big,108,class bastele
+adjective_ordering,spoon,5378,21.371383333333334,3,spoon_wooden_clean,109,spoon
+overinformativeness,ball,19321,21.371383333333334,3,ball_big_purple,110,ball
+adjective_ordering,picture,6000,21.371383333333334,3,picture_bw_square,111,freme
+overinformativeness,binoculars,15434,21.371383333333334,3,binoculars_big_blue,112,mirocoop
+adjective_ordering,woman,9030,21.371383333333334,3,woman_young_sad,113,lady
+overinformativeness,bag,6071,21.371383333333334,3,bag_big_red,114,bag
+overinformativeness,book,5602,21.371383333333334,3,book_big_red,115,book
+overinformativeness,skirt,6960,21.371383333333334,3,skirt_big_blue,116,dress
+overinformativeness,umbrella,7335,21.371383333333334,3,umbrella_big_blue,117,umpeerla
+overinformativeness,glove,7104,21.371383333333334,3,glove_big_orange,118,hand glose
+overinformativeness,pants,16563,21.371383333333334,3,pants_big_green,119,dress
+adjective_ordering,picture,5817,21.371383333333334,3,picture_bw_rectangular,120,freme
+adjective_ordering,woman,6419,21.371383333333334,3,woman_old_sad,121,oldman
+adjective_ordering,picture,6476,21.371383333333334,3,picture_colored_rectangular,122,freme
+bot_check,Melis,0,25.755266666666667,4,,1,Melis
+overinformativeness,pepper,15899,25.755266666666667,4,pepper_big_green,3,GREEN PEPPER
+adjective_ordering,pencil,2839,25.755266666666667,4,pencil_short_blue,4,"
+PENCIL"
+overinformativeness,chair,1896,25.755266666666667,4,chair_big_blue,5,"
+CHAIR"
+overinformativeness,glasses,12168,25.755266666666667,4,glasses_big_blue,6,"
+GLASS"
+overinformativeness,umbrella,3439,25.755266666666667,4,umbrella_big_blue,7,"
+UMPERLLA"
+overinformativeness,toothbrush,4920,25.755266666666667,4,toothbrush_big_green,8,"
+TOOTH BRUSH"
+overinformativeness,rosary,8298,25.755266666666667,4,rosary_big_yellow,9,"
+PAASI"
+overinformativeness,scissors,50534,25.755266666666667,4,scissors_big_green,10,"
+SCISSORS"
+overinformativeness,knife,3168,25.755266666666667,4,knife_big_red,11,"
+KNIFE"
+adjective_ordering,woman,3079,25.755266666666667,4,woman_old_sad,12,"
+WOMAN"
+overinformativeness,lipstick,6321,25.755266666666667,4,lipstick_big_pink,13,"
+LIPSTICK BRUSH"
+adjective_ordering,spoon,8775,25.755266666666667,4,spoon_metal_clean,14,"
+KITCHEN TOOLS"
+adjective_ordering,pencil,3384,25.755266666666667,4,pencil_short_black,15,"
+PENCIL"
+overinformativeness,tie,3528,25.755266666666667,4,tie_big_blue,16,"
+DY"
+overinformativeness,mirror,5560,25.755266666666667,4,mirror_big_black,17,"
+LENCE"
+adjective_ordering,hair,1847,25.755266666666667,4,hair_curly_brown,18,"
+HAIR"
+adjective_ordering,shorts,3111,25.755266666666667,4,shorts_wrinkled_red,19,"
+DROSSOR"
+adjective_ordering,cup,4881,25.755266666666667,4,cup_full_metal,20,"
+TUMBLER"
+adjective_ordering,man,4136,25.755266666666667,4,man_young_bearded,21,"
+BOYU"
+adjective_ordering,cup,5071,25.755266666666667,4,cup_empty_metal,22,"
+TUMBLER"
+overinformativeness,tie,2039,25.755266666666667,4,tie_big_red,23,"
+DY"
+overinformativeness,pepper,4262,25.755266666666667,4,pepper_big_red,24,"
+RED PEPPER"
+overinformativeness,glasses,2608,25.755266666666667,4,glasses_big_red,25,"
+GLASS"
+adjective_ordering,earring,2840,25.755266666666667,4,earring_big_triangular,26,"
+JEWEL"
+overinformativeness,key,5441,25.755266666666667,4,key_big_gold,27,"
+KEY"
+adjective_ordering,pencil,2240,25.755266666666667,4,pencil_long_black,28,"
+PENCIL"
+overinformativeness,key,3008,25.755266666666667,4,key_big_silver,29,"
+KEY"
+overinformativeness,car,53713,25.755266666666667,4,car_big_green,30,"
+CAR"
+overinformativeness,dress,3263,25.755266666666667,4,dress_big_blue,31,"
+CURTAZ"
+adjective_ordering,bottle,3864,25.755266666666667,4,bottle_glass_big,32,"
+WATER BOTTLE"
+overinformativeness,balloon,5748,25.755266666666667,4,balloon_big_yellow,33,"
+BALOON"
+adjective_ordering,earring,2396,25.755266666666667,4,earring_big_round,34,"
+JEWEL"
+overinformativeness,lighter,3216,25.755266666666667,4,lighter_big_white,35,"
+LIGHTER"
+adjective_ordering,table,2576,25.755266666666667,4,table_metal_high,36,"
+TABLE"
+overinformativeness,pants,3323,25.755266666666667,4,pants_big_green,37,"
+PANT"
+adjective_ordering,woman,2492,25.755266666666667,4,woman_young_sad,38,"
+WOMAN\"
+overinformativeness,lipstick,5480,25.755266666666667,4,lipstick_big_red,39,"
+LIPSTICK BRUSH"
+adjective_ordering,man,2880,25.755266666666667,4,man_young_bald,40,"
+MAN"
+adjective_ordering,bottle,3568,25.755266666666667,4,bottle_plastic_big,41,"
+WATER BOTTLE"
+overinformativeness,knife,3023,25.755266666666667,4,knife_big_blue,42,"
+KNIFE"
+overinformativeness,ball,3224,25.755266666666667,4,ball_big_purple,43,"
+BALL"
+overinformativeness,cat,2328,25.755266666666667,4,cat_big_black,44,"
+CAT"
+overinformativeness,button,4944,25.755266666666667,4,button_big_green,45,"
+PLASTIC"
+adjective_ordering,woman,3152,25.755266666666667,4,woman_young_happy,46,"
+WOMAN"
+adjective_ordering,table,1839,25.755266666666667,4,table_wood_high,47,"
+CHAIR"
+overinformativeness,flower,2456,25.755266666666667,4,flower_big_yellow,48,"
+FLOWER"
+adjective_ordering,box,3399,25.755266666666667,4,box_open_cardboard,49,"
+BOX"
+adjective_ordering,man,2062,25.755266666666667,4,man_old_bearded,50,"
+MAN"
+overinformativeness,glove,3153,25.755266666666667,4,glove_big_green,51,"
+GLOVES"
+adjective_ordering,picture,4008,25.755266666666667,4,picture_bw_square,52,"
+PHOTO"
+adjective_ordering,pencil,2248,25.755266666666667,4,pencil_long_blue,53,"
+PENCI'"
+overinformativeness,lock,5799,25.755266666666667,4,lock_big_silver,54,"
+LOCK"
+overinformativeness,glove,2945,25.755266666666667,4,glove_big_orange,55,"
+GLOVES"
+overinformativeness,apple,2774,25.755266666666667,4,apple_big_red,56,"
+APPL;E"
+overinformativeness,ball,1705,25.755266666666667,4,ball_big_yellow,57,"
+BALL"
+overinformativeness,book,2350,25.755266666666667,4,book_big_red,58,"
+BOOK"
+overinformativeness,dress,3024,25.755266666666667,4,dress_big_green,59,"
+CURTAZ"
+adjective_ordering,hair,4280,25.755266666666667,4,hair_straight_blond,60,"
+HAIR"
+overinformativeness,pot,6656,25.755266666666667,4,pot_big_green,61,"
+BAIN"
+adjective_ordering,spoon,6391,25.755266666666667,4,spoon_metal_dirty,62,"
+CHICKEN TOOLS"
+adjective_ordering,box,1617,25.755266666666667,4,box_closed_wood,63,"
+BOX"
+adjective_ordering,shorts,3792,25.755266666666667,4,shorts_wet_red,64,"
+DROSSOR"
+adjective_ordering,box,1536,25.755266666666667,4,box_open_wood,65,"
+BOX"
+adjective_ordering,bottle,2265,25.755266666666667,4,bottle_glass_small,66,"
+BOTTLE"
+adjective_ordering,hair,2344,25.755266666666667,4,hair_curly_blonde,67,"
+HAIOR"
+overinformativeness,tshirt,9392,25.755266666666667,4,tshirt_big_orange,68,"
+T SHIRT"
+adjective_ordering,earring,2767,25.755266666666667,4,earring_small_triangular,69,"
+JEWEL"
+overinformativeness,shoe,2881,25.755266666666667,4,shoe_big_yellow,70,"
+SHOES"
+overinformativeness,flower,3828,25.755266666666667,4,flower_big_pink,71,"
+FLOWER"
+adjective_ordering,picture,2131,25.755266666666667,4,picture_bw_rectangular,72,"
+PHOTO"
+overinformativeness,car,1593,25.755266666666667,4,car_big_blue,73,"
+CAR"
+overinformativeness,cat,1759,25.755266666666667,4,cat_big_white,74,"
+CAT"
+overinformativeness,hat,2096,25.755266666666667,4,hat_big_pink,75,"
+CAP"
+adjective_ordering,shorts,2376,25.755266666666667,4,shorts_wet_green,76,"
+DROSSOR"
+adjective_ordering,picture,2305,25.755266666666667,4,picture_colored_square,77,"
+PHOTO"
+overinformativeness,shoe,2071,25.755266666666667,4,shoe_big_pink,78,"
+SHOE"
+overinformativeness,rosary,12310,25.755266666666667,4,rosary_big_blue,79,PLASTIC CHAIN
+overinformativeness,bag,1457,25.755266666666667,4,bag_big_red,80,"
+BA"
+adjective_ordering,shorts,2576,25.755266666666667,4,shorts_dry_green,81,"
+DROSSOR"
+overinformativeness,button,2816,25.755266666666667,4,button_big_blue,82,"
+PLASTIC"
+adjective_ordering,shorts,2318,25.755266666666667,4,shorts_wrinkled_green,83,"
+DROSSOR"
+overinformativeness,apple,2033,25.755266666666667,4,apple_big_green,84,"
+APPLE"
+overinformativeness,pants,2172,25.755266666666667,4,pants_big_pink,85,"
+PANT"
+overinformativeness,lighter,2270,25.755266666666667,4,lighter_big_black,86,"
+LIGHTER"
+adjective_ordering,man,1768,25.755266666666667,4,man_old_bald,87,"
+MAN"
+overinformativeness,pot,5127,25.755266666666667,4,pot_big_blue,88,"
+BASIN"
+overinformativeness,brush,8839,25.755266666666667,4,brush_big_blue,89,PAINTING BRUSH
+adjective_ordering,hair,5776,25.755266666666667,4,hair_straight_brown,90,"
+HAIR"
+overinformativeness,book,2383,25.755266666666667,4,book_big_blue,91,"
+BOOK"
+overinformativeness,skirt,7024,25.755266666666667,4,skirt_big_green,92,"
+CURTHAZ"
+overinformativeness,balloon,4248,25.755266666666667,4,balloon_big_pink,93,"
+BALOON"
+adjective_ordering,cup,7312,25.755266666666667,4,cup_empty_glass,94,GLASS
+adjective_ordering,bottle,3711,25.755266666666667,4,bottle_plastic_small,95,"
+WATER BOTTLE"
+overinformativeness,lock,2363,25.755266666666667,4,lock_big_gold,96,"
+LOCK"
+adjective_ordering,shorts,2829,25.755266666666667,4,shorts_dry_red,97,"
+DROSSOR"
+overinformativeness,binoculars,4728,25.755266666666667,4,binoculars_big_blue,98,"
+TELESCOPE"
+adjective_ordering,woman,3401,25.755266666666667,4,woman_old_happy,99,"
+WOMAN"
+overinformativeness,scissors,2367,25.755266666666667,4,scissors_big_blue,100,"
+SCISSOR"
+adjective_ordering,earring,2296,25.755266666666667,4,earring_small_round,101,"
+JEWEL"
+adjective_ordering,table,1672,25.755266666666667,4,table_wood_low,102,"
+CHAIR"
+adjective_ordering,cup,4047,25.755266666666667,4,cup_full_glass,103,"
+GLASS"
+overinformativeness,umbrella,3448,25.755266666666667,4,umbrella_big_green,104,"
+UMPERLLA"
+overinformativeness,hat,1993,25.755266666666667,4,hat_big_orange,105,"
+CAP"
+overinformativeness,chair,1551,25.755266666666667,4,chair_big_yellow,106,"
+CHAIR"
+overinformativeness,tshirt,5359,25.755266666666667,4,tshirt_big_yellow,107,"
+T SHIRT"
+overinformativeness,skirt,8856,25.755266666666667,4,skirt_big_blue,108,"
+CHRTAZ"
+overinformativeness,toothbrush,5248,25.755266666666667,4,toothbrush_big_purple,109,"
+TOOTH BRUSH"
+overinformativeness,clock,2872,25.755266666666667,4,clock_big_yellow,110,"
+LOCK"
+overinformativeness,socks,3456,25.755266666666667,4,socks_big_blue,111,"
+SHOCKS"
+overinformativeness,clock,3000,25.755266666666667,4,clock_big_purple,112,"
+CLOCK"
+overinformativeness,socks,3480,25.755266666666667,4,socks_big_green,113,"
+SHOCK"
+adjective_ordering,table,2312,25.755266666666667,4,table_metal_low,114,"
+CHAIR"
+adjective_ordering,spoon,8257,25.755266666666667,4,spoon_wooden_dirty,115,"
+TEASPOON"
+overinformativeness,brush,4648,25.755266666666667,4,brush_big_red,116,"
+PAINTING BRUSH"
+overinformativeness,binoculars,4424,25.755266666666667,4,binoculars_big_red,117,"
+TELESCOPE"
+adjective_ordering,box,2943,25.755266666666667,4,box_closed_cardboard,118,"
+BOX"
+overinformativeness,bag,2426,25.755266666666667,4,bag_big_blue,119,"
+BAG"
+adjective_ordering,spoon,927992,25.755266666666667,4,spoon_wooden_clean,120,"
+TEASPOON"
+adjective_ordering,picture,3423,25.755266666666667,4,picture_colored_rectangular,121,"
+PHOTO"
+overinformativeness,mirror,9567,25.755266666666667,4,mirror_big_white,122,"
+LENCE"
+bot_check,Selin,0,38.4416,5,,1,seline
+bot_check,Selin,0,38.4416,5,,1,selin
+overinformativeness,dress,147319,38.4416,5,dress_big_green,3,Español
+adjective_ordering,bottle,47163,38.4416,5,bottle_plastic_small,4,şişe
+adjective_ordering,pencil,19273,38.4416,5,pencil_long_blue,5,"
+kalem"
+overinformativeness,scissors,27039,38.4416,5,scissors_big_green,6,makasla kesmek
+overinformativeness,lock,10359,38.4416,5,lock_big_gold,7,kilit
+overinformativeness,tie,16841,38.4416,5,tie_big_blue,8,kravat
+adjective_ordering,hair,9311,38.4416,5,hair_straight_brown,9,sac
+overinformativeness,lock,10656,38.4416,5,lock_big_silver,10,kilit
+overinformativeness,tshirt,11589,38.4416,5,tshirt_big_yellow,11,tisort
+overinformativeness,apple,13776,38.4416,5,apple_big_green,12,yesil elma
+overinformativeness,key,15563,38.4416,5,key_big_silver,13,anahtar
+overinformativeness,brush,24414,38.4416,5,brush_big_red,14,boya fircasi
+adjective_ordering,spoon,15520,38.4416,5,spoon_wooden_clean,15,kasik
+overinformativeness,rosary,20359,38.4416,5,rosary_big_blue,16,boncuk
+overinformativeness,glasses,32999,38.4416,5,glasses_big_blue,17,gozluk
+overinformativeness,shoe,15822,38.4416,5,shoe_big_yellow,18,ayakkabi 
+adjective_ordering,box,8698,38.4416,5,box_closed_cardboard,19,kutu
+overinformativeness,mirror,19919,38.4416,5,mirror_big_white,20,makyaj aynasi
+adjective_ordering,hair,8464,38.4416,5,hair_straight_blond,21,sac
+overinformativeness,glasses,16159,38.4416,5,glasses_big_red,22,gozluk
+adjective_ordering,man,16178,38.4416,5,man_young_bald,23,gulen yuz
+adjective_ordering,cup,10590,38.4416,5,cup_empty_glass,24,bardak
+adjective_ordering,pencil,10041,38.4416,5,pencil_short_black,25,kalem
+overinformativeness,toothbrush,18022,38.4416,5,toothbrush_big_green,26,dis fircasi
+overinformativeness,socks,9446,38.4416,5,socks_big_blue,27,sok
+adjective_ordering,box,9802,38.4416,5,box_open_cardboard,28,kutu
+overinformativeness,socks,5727,38.4416,5,socks_big_green,29,sok
+overinformativeness,glove,12401,38.4416,5,glove_big_orange,30,eldiven
+adjective_ordering,box,11927,38.4416,5,box_open_wood,31,kutu
+adjective_ordering,cup,30567,38.4416,5,cup_full_glass,32,tarik
+overinformativeness,rosary,19927,38.4416,5,rosary_big_yellow,33,boncuk
+adjective_ordering,table,9256,38.4416,5,table_wood_high,34,tablo
+adjective_ordering,bottle,7896,38.4416,5,bottle_plastic_big,35,sise
+overinformativeness,shoe,11903,38.4416,5,shoe_big_pink,36,ayakkabi
+overinformativeness,dress,34064,38.4416,5,dress_big_blue,37,gunluk elbise
+adjective_ordering,hair,10584,38.4416,5,hair_curly_blonde,38,sac
+overinformativeness,lighter,11430,38.4416,5,lighter_big_white,39,cakmak
+overinformativeness,toothbrush,13570,38.4416,5,toothbrush_big_purple,40,dis fircasi
+adjective_ordering,box,7880,38.4416,5,box_closed_wood,41,kutu
+adjective_ordering,shorts,30997,38.4416,5,shorts_wrinkled_red,42,pantalon
+overinformativeness,tie,26369,38.4416,5,tie_big_red,43,kravat
+overinformativeness,button,10399,38.4416,5,button_big_blue,44,buton
+adjective_ordering,picture,21751,38.4416,5,picture_colored_rectangular,45,Musée d'Orsay
+adjective_ordering,shorts,9294,38.4416,5,shorts_dry_red,46,pantolon
+adjective_ordering,picture,27314,38.4416,5,picture_colored_square,47,Musée d'Orsay
+adjective_ordering,table,8823,38.4416,5,table_wood_low,48,tablo
+overinformativeness,skirt,25439,38.4416,5,skirt_big_blue,49,bir cizgi
+adjective_ordering,earring,60856,38.4416,5,earring_small_triangular,50,"
+Boyun kütlesi"
+overinformativeness,bag,14958,38.4416,5,bag_big_red,51,sirt cantasi
+overinformativeness,scissors,16416,38.4416,5,scissors_big_blue,52,makasla kesmek
+adjective_ordering,shorts,9193,38.4416,5,shorts_dry_green,53,pantolon
+adjective_ordering,woman,23534,38.4416,5,woman_young_sad,54,aglayan yuz
+overinformativeness,pants,29264,38.4416,5,pants_big_pink,55,pijama
+overinformativeness,tshirt,9992,38.4416,5,tshirt_big_orange,56,tisort
+adjective_ordering,woman,18159,38.4416,5,woman_young_happy,57,gulen yuz
+overinformativeness,clock,17015,38.4416,5,clock_big_purple,58,alarm saati
+overinformativeness,flower,9815,38.4416,5,flower_big_yellow,59,cicek
+overinformativeness,binoculars,28450,38.4416,5,binoculars_big_red,60,iki gozlu
+overinformativeness,book,8182,38.4416,5,book_big_red,61,kitap
+overinformativeness,glove,72662,38.4416,5,glove_big_green,62,eldiven
+adjective_ordering,shorts,6528,38.4416,5,shorts_wet_red,63,pantolon
+adjective_ordering,spoon,7720,38.4416,5,spoon_metal_clean,64,kasik
+overinformativeness,car,22161,38.4416,5,car_big_green,65,ounucak araba
+overinformativeness,ball,8735,38.4416,5,ball_big_yellow,66,top
+overinformativeness,cat,7760,38.4416,5,cat_big_white,67,kedi
+adjective_ordering,table,19055,38.4416,5,table_metal_low,68,celik tezgeh
+overinformativeness,chair,13258,38.4416,5,chair_big_yellow,69,sandalye
+overinformativeness,pepper,30918,38.4416,5,pepper_big_red,70,kirmizi dolmalik biber
+overinformativeness,key,17278,38.4416,5,key_big_gold,71,anahtar
+overinformativeness,book,9546,38.4416,5,book_big_blue,72,kitap
+adjective_ordering,bottle,8319,38.4416,5,bottle_glass_small,73,sise
+adjective_ordering,hair,14128,38.4416,5,hair_curly_brown,74,sac
+adjective_ordering,man,31749,38.4416,5,man_old_bearded,75,yuz
+adjective_ordering,pencil,8234,38.4416,5,pencil_short_blue,76,kalem
+adjective_ordering,earring,49805,38.4416,5,earring_big_round,77,boyun kutlesi
+overinformativeness,lipstick,17520,38.4416,5,lipstick_big_pink,78,dudak cubugu
+overinformativeness,skirt,17888,38.4416,5,skirt_big_green,79,bir cizgi
+adjective_ordering,shorts,8423,38.4416,5,shorts_wrinkled_green,80,pantolon
+overinformativeness,cat,6034,38.4416,5,cat_big_black,81,kedi
+overinformativeness,lighter,10470,38.4416,5,lighter_big_black,82,cakmak
+overinformativeness,chair,10384,38.4416,5,chair_big_blue,83,sandalye
+adjective_ordering,bottle,8424,38.4416,5,bottle_glass_big,84,sise
+overinformativeness,button,8289,38.4416,5,button_big_green,85,buton
+adjective_ordering,pencil,6853,38.4416,5,pencil_long_black,86,kalem
+overinformativeness,mirror,10656,38.4416,5,mirror_big_black,87,yuz aynasi
+overinformativeness,lipstick,12200,38.4416,5,lipstick_big_red,88,dudak cubugu
+overinformativeness,balloon,8089,38.4416,5,balloon_big_yellow,89,balon
+adjective_ordering,shorts,6081,38.4416,5,shorts_wet_green,90,pantolon
+adjective_ordering,table,18645,38.4416,5,table_metal_high,91,celik tezgah
+overinformativeness,balloon,6023,38.4416,5,balloon_big_pink,92,balon
+overinformativeness,pepper,12280,38.4416,5,pepper_big_green,93,yesil biber
+adjective_ordering,picture,27408,38.4416,5,picture_bw_rectangular,94,resim
+overinformativeness,umbrella,15376,38.4416,5,umbrella_big_blue,95,semsiye
+overinformativeness,flower,11888,38.4416,5,flower_big_pink,96,cicek
+overinformativeness,apple,18743,38.4416,5,apple_big_red,97,elma
+overinformativeness,ball,7240,38.4416,5,ball_big_purple,98,top
+overinformativeness,hat,7560,38.4416,5,hat_big_orange,99,sapka
+adjective_ordering,spoon,7247,38.4416,5,spoon_wooden_dirty,100,kasik
+overinformativeness,bag,12249,38.4416,5,bag_big_blue,101,sirt cantasi
+overinformativeness,pot,19334,38.4416,5,pot_big_green,102,kapak
+overinformativeness,hat,9858,38.4416,5,hat_big_pink,103,sapka
+adjective_ordering,earring,21381,38.4416,5,earring_big_triangular,104,boyun kutlesi
+adjective_ordering,cup,21407,38.4416,5,cup_full_metal,105,fincan
+overinformativeness,knife,11241,38.4416,5,knife_big_blue,106,bicak
+overinformativeness,umbrella,10474,38.4416,5,umbrella_big_green,107,semsiye
+adjective_ordering,woman,14647,38.4416,5,woman_old_happy,108,gulen yuz
+adjective_ordering,woman,23342,38.4416,5,woman_old_sad,109,uzgan surut
+adjective_ordering,man,10934,38.4416,5,man_young_bearded,110,yuz
+overinformativeness,pants,32217,38.4416,5,pants_big_green,111,pijama
+overinformativeness,pot,8087,38.4416,5,pot_big_blue,112,kapak
+adjective_ordering,cup,8688,38.4416,5,cup_empty_metal,113,fincan
+overinformativeness,brush,13063,38.4416,5,brush_big_blue,114,boya fircasi
+overinformativeness,car,16329,38.4416,5,car_big_blue,115,oyuncak araba
+adjective_ordering,earring,15182,38.4416,5,earring_small_round,116,boyun kutlesi
+adjective_ordering,spoon,12454,38.4416,5,spoon_metal_dirty,117,kasik
+overinformativeness,clock,15423,38.4416,5,clock_big_yellow,118,alaram saati
+overinformativeness,binoculars,15337,38.4416,5,binoculars_big_blue,119,iki gozlu
+adjective_ordering,man,5808,38.4416,5,man_old_bald,120,yuz
+adjective_ordering,picture,15575,38.4416,5,picture_bw_square,121,cerceve
+overinformativeness,knife,7903,38.4416,5,knife_big_red,122,bicak
+bot_check,Zeynep,0,2.4536,6,,1,Zeynep
+overinformativeness,shoe,3872,2.4536,6,shoe_big_yellow,3,dddd
+adjective_ordering,spoon,1531,2.4536,6,spoon_wooden_clean,4,"
+sasds"
+overinformativeness,binoculars,805,2.4536,6,binoculars_big_red,5,"
+sas"
+adjective_ordering,bottle,2787,2.4536,6,bottle_glass_small,6,"
+sdsds"
+overinformativeness,lipstick,476,2.4536,6,lipstick_big_red,7,"
+ds"
+overinformativeness,key,1119,2.4536,6,key_big_gold,8,"
+asdefr"
+overinformativeness,brush,274,2.4536,6,brush_big_red,9,"
+fr"
+overinformativeness,toothbrush,1455,2.4536,6,toothbrush_big_purple,10,"
+rfrfrf"
+overinformativeness,lighter,1271,2.4536,6,lighter_big_white,11,"
+rfrfrf"
+adjective_ordering,table,405,2.4536,6,table_wood_low,12,"
+sdd"
+adjective_ordering,table,627,2.4536,6,table_wood_high,13,"
+sdf"
+overinformativeness,ball,1105,2.4536,6,ball_big_purple,14,"
+sdfdssdf"
+overinformativeness,tie,1037,2.4536,6,tie_big_blue,15,"
+dsdsdf"
+overinformativeness,skirt,1176,2.4536,6,skirt_big_blue,16,"
+sdfdsfsdf"
+overinformativeness,button,1083,2.4536,6,button_big_green,17,"
+sdfsdfsd"
+overinformativeness,glove,997,2.4536,6,glove_big_green,18,"
+fdddvf"
+overinformativeness,book,1346,2.4536,6,book_big_red,19,"
+vfrevfv"
+overinformativeness,pot,1420,2.4536,6,pot_big_blue,20,"
+fvdfdfvfs"
+overinformativeness,skirt,1357,2.4536,6,skirt_big_green,21,"
+dsfdsfsdvsd"
+adjective_ordering,earring,1206,2.4536,6,earring_big_triangular,22,"
+dfsdfsdfs"
+overinformativeness,apple,1213,2.4536,6,apple_big_green,23,"
+dsfdsfsds"
+adjective_ordering,man,1404,2.4536,6,man_old_bearded,24,"
+fewwewe"
+overinformativeness,lipstick,1119,2.4536,6,lipstick_big_pink,25,"
+sdfsdfsd"
+adjective_ordering,bottle,442,2.4536,6,bottle_glass_big,26,"
+sd"
+overinformativeness,pepper,719,2.4536,6,pepper_big_green,27,"
+fdsd"
+adjective_ordering,cup,424,2.4536,6,cup_empty_metal,28,"
+sd"
+overinformativeness,brush,812,2.4536,6,brush_big_blue,29,"
+sds"
+adjective_ordering,cup,771,2.4536,6,cup_full_glass,30,"
+dsddss"
+overinformativeness,rosary,196,2.4536,6,rosary_big_yellow,31,"
+dds"
+adjective_ordering,woman,1033,2.4536,6,woman_young_sad,32,"
+dds"
+overinformativeness,key,353,2.4536,6,key_big_silver,33,"
+ds"
+overinformativeness,apple,591,2.4536,6,apple_big_red,34,"
+ds"
+overinformativeness,knife,737,2.4536,6,knife_big_blue,35,"
+sd"
+overinformativeness,rosary,342,2.4536,6,rosary_big_blue,36,"
+sd"
+overinformativeness,pot,749,2.4536,6,pot_big_green,37,"
+sd"
+overinformativeness,flower,552,2.4536,6,flower_big_pink,38,"
+sd"
+adjective_ordering,picture,386,2.4536,6,picture_colored_square,39,"
+sd"
+overinformativeness,lock,401,2.4536,6,lock_big_gold,40,"
+ds"
+overinformativeness,dress,461,2.4536,6,dress_big_blue,41,"
+dfd"
+adjective_ordering,box,556,2.4536,6,box_open_cardboard,42,"
+dd"
+overinformativeness,mirror,532,2.4536,6,mirror_big_white,43,"
+df"
+overinformativeness,lighter,569,2.4536,6,lighter_big_black,44,"
+df"
+adjective_ordering,picture,583,2.4536,6,picture_bw_rectangular,45,"
+df"
+overinformativeness,scissors,732,2.4536,6,scissors_big_blue,46,"
+sdfs"
+adjective_ordering,spoon,401,2.4536,6,spoon_metal_clean,47,"
+sd"
+overinformativeness,chair,388,2.4536,6,chair_big_yellow,48,"
+sd"
+overinformativeness,umbrella,665,2.4536,6,umbrella_big_blue,49,"
+sd"
+adjective_ordering,woman,568,2.4536,6,woman_young_happy,50,"
+fsdfsd"
+overinformativeness,glove,376,2.4536,6,glove_big_orange,51,"
+sd"
+adjective_ordering,spoon,210,2.4536,6,spoon_wooden_dirty,52,"
+fsd"
+adjective_ordering,man,439,2.4536,6,man_young_bearded,53,"
+sd"
+adjective_ordering,bottle,255,2.4536,6,bottle_plastic_small,54,"
+fdsf"
+adjective_ordering,cup,310,2.4536,6,cup_empty_glass,55,"
+sdf"
+overinformativeness,socks,10591,2.4536,6,socks_big_green,56,"
+sddsdsd"
+adjective_ordering,shorts,934,2.4536,6,shorts_wrinkled_red,57,"
+fsdsdfd"
+overinformativeness,pants,646,2.4536,6,pants_big_green,58,"
+sd"
+adjective_ordering,shorts,243,2.4536,6,shorts_wet_red,59,"
+fs"
+overinformativeness,flower,355,2.4536,6,flower_big_yellow,60,"
+dsd"
+overinformativeness,socks,441,2.4536,6,socks_big_blue,61,"
+sd"
+overinformativeness,car,379,2.4536,6,car_big_blue,62,"
+sdfsd"
+adjective_ordering,man,642,2.4536,6,man_young_bald,63,"
+ds"
+overinformativeness,scissors,788,2.4536,6,scissors_big_green,64,"
+sdsd"
+adjective_ordering,table,574,2.4536,6,table_metal_high,65,"
+dd"
+overinformativeness,ball,1623,2.4536,6,ball_big_yellow,66,"
+sddsdsd"
+adjective_ordering,earring,208,2.4536,6,earring_small_triangular,67,"
+sd"
+adjective_ordering,box,1134,2.4536,6,box_closed_wood,68,"
+dddd"
+adjective_ordering,woman,420,2.4536,6,woman_old_happy,69,"
+fds"
+overinformativeness,glasses,649,2.4536,6,glasses_big_blue,70,"
+sd"
+overinformativeness,cat,1135,2.4536,6,cat_big_white,71,"
+sd"
+adjective_ordering,hair,208,2.4536,6,hair_straight_blond,72,"
+ds"
+overinformativeness,dress,192,2.4536,6,dress_big_green,73,"
+fds"
+overinformativeness,bag,441,2.4536,6,bag_big_red,74,"
+sd"
+adjective_ordering,earring,578,2.4536,6,earring_small_round,75,"
+fd"
+overinformativeness,balloon,390,2.4536,6,balloon_big_yellow,76,"
+ds"
+overinformativeness,toothbrush,209,2.4536,6,toothbrush_big_green,77,"
+ds"
+adjective_ordering,bottle,635,2.4536,6,bottle_plastic_big,78,"
+ds"
+overinformativeness,chair,420,2.4536,6,chair_big_blue,79,"
+ds"
+adjective_ordering,man,235,2.4536,6,man_old_bald,80,"
+sd"
+overinformativeness,car,423,2.4536,6,car_big_green,81,"
+dsf"
+overinformativeness,lock,204,2.4536,6,lock_big_silver,82,"
+sd"
+overinformativeness,pepper,389,2.4536,6,pepper_big_red,83,"
+fds"
+adjective_ordering,shorts,653,2.4536,6,shorts_wet_green,84,"
+fsd"
+overinformativeness,binoculars,387,2.4536,6,binoculars_big_blue,85,"
+sd"
+adjective_ordering,shorts,212,2.4536,6,shorts_wrinkled_green,86,"
+fds"
+overinformativeness,shoe,842,2.4536,6,shoe_big_pink,87,"
+dsd"
+overinformativeness,tshirt,489,2.4536,6,tshirt_big_orange,88,"
+fd"
+overinformativeness,umbrella,429,2.4536,6,umbrella_big_green,89,"
+fdsf"
+overinformativeness,bag,181,2.4536,6,bag_big_blue,90,"
+ds"
+adjective_ordering,pencil,234,2.4536,6,pencil_short_black,91,"
+fsd"
+adjective_ordering,shorts,2112,2.4536,6,shorts_dry_red,92,"
+dsfeedsd"
+adjective_ordering,pencil,1570,2.4536,6,pencil_long_black,93,"
+ds"
+overinformativeness,mirror,1567,2.4536,6,mirror_big_black,94,"
+fd"
+adjective_ordering,spoon,575,2.4536,6,spoon_metal_dirty,95,"
+fdfdf"
+overinformativeness,cat,2266,2.4536,6,cat_big_black,96,"
+ddfdfdfdfdfdf"
+overinformativeness,tie,1345,2.4536,6,tie_big_red,97,"
+dfd"
+adjective_ordering,hair,169,2.4536,6,hair_straight_brown,98,"
+fd"
+adjective_ordering,picture,1498,2.4536,6,picture_colored_rectangular,99,"
+dfdfdf"
+adjective_ordering,hair,1935,2.4536,6,hair_curly_brown,100,"
+fr"
+overinformativeness,clock,425,2.4536,6,clock_big_yellow,101,"
+rr"
+overinformativeness,book,881,2.4536,6,book_big_blue,102,"
+fr"
+adjective_ordering,box,422,2.4536,6,box_closed_cardboard,103,"
+frf"
+overinformativeness,glasses,411,2.4536,6,glasses_big_red,104,"
+rf"
+overinformativeness,tshirt,424,2.4536,6,tshirt_big_yellow,105,"
+fr"
+adjective_ordering,hair,461,2.4536,6,hair_curly_blonde,106,"
+fr"
+adjective_ordering,table,728,2.4536,6,table_metal_low,107,"
+frf"
+adjective_ordering,shorts,1518,2.4536,6,shorts_dry_green,108,"
+rrfrfrfr"
+adjective_ordering,picture,2104,2.4536,6,picture_bw_square,109,"
+fr"
+overinformativeness,clock,1294,2.4536,6,clock_big_purple,110,"
+rrfrf"
+overinformativeness,hat,1215,2.4536,6,hat_big_orange,111,"
+rfrfrf"
+adjective_ordering,pencil,1439,2.4536,6,pencil_long_blue,112,"
+vfv"
+adjective_ordering,woman,1844,2.4536,6,woman_old_sad,113,"
+fvvfdfvfd"
+adjective_ordering,cup,1778,2.4536,6,cup_full_metal,114,"
+fdsfsdd"
+adjective_ordering,box,1743,2.4536,6,box_open_wood,115,"
+dsfsdfsd"
+adjective_ordering,earring,1601,2.4536,6,earring_big_round,116,"
+dsdsdfs"
+overinformativeness,pants,1754,2.4536,6,pants_big_pink,117,"
+dssdfsd"
+adjective_ordering,pencil,1314,2.4536,6,pencil_short_blue,118,"
+sdfsd"
+overinformativeness,button,440,2.4536,6,button_big_blue,119,"
+sd"
+overinformativeness,balloon,832,2.4536,6,balloon_big_pink,120,"
+dsf"
+overinformativeness,knife,423,2.4536,6,knife_big_red,121,"
+sd"
+overinformativeness,hat,1480,2.4536,6,hat_big_pink,122,"
+fd"
+bot_check,Deniz,0,9.49825,7,,1,Deniz
+overinformativeness,mirror,32584,9.49825,7,mirror_big_white,3,face class
+overinformativeness,socks,5976,9.49825,7,socks_big_blue,4,shacks
+adjective_ordering,box,5848,9.49825,7,box_closed_cardboard,5,box
+adjective_ordering,bottle,8080,9.49825,7,bottle_plastic_big,6,water botel
+overinformativeness,flower,5216,9.49825,7,flower_big_yellow,7,flower
+overinformativeness,tie,6152,9.49825,7,tie_big_blue,8,tie
+adjective_ordering,pencil,7000,9.49825,7,pencil_short_black,9,pencel
+adjective_ordering,table,4287,9.49825,7,table_metal_high,10,tabel
+overinformativeness,glove,9399,9.49825,7,glove_big_green,11,hand clouse
+overinformativeness,pepper,17839,9.49825,7,pepper_big_red,12,gejeper
+overinformativeness,toothbrush,13672,9.49825,7,toothbrush_big_green,13,touth bresh
+overinformativeness,umbrella,7217,9.49825,7,umbrella_big_blue,14,umperla
+adjective_ordering,box,8791,9.49825,7,box_open_cardboard,15,open box
+overinformativeness,button,11416,9.49825,7,button_big_green,16,butten
+overinformativeness,lighter,5912,9.49825,7,lighter_big_white,17,liter
+overinformativeness,rosary,7648,9.49825,7,rosary_big_yellow,18,nothing
+overinformativeness,lock,3207,9.49825,7,lock_big_silver,19,look
+overinformativeness,bag,2769,9.49825,7,bag_big_blue,20,bag
+adjective_ordering,table,8712,9.49825,7,table_wood_low,21,wood in table
+adjective_ordering,table,10904,9.49825,7,table_wood_high,22,wood in tabel
+adjective_ordering,box,8688,9.49825,7,box_open_wood,23,wood box
+overinformativeness,car,4159,9.49825,7,car_big_green,24,toy
+adjective_ordering,woman,5279,9.49825,7,woman_young_happy,25,woman
+adjective_ordering,earring,5527,9.49825,7,earring_big_triangular,26,ear
+overinformativeness,balloon,3833,9.49825,7,balloon_big_pink,27,toy
+adjective_ordering,shorts,5839,9.49825,7,shorts_dry_red,28,nothinf
+overinformativeness,tie,3336,9.49825,7,tie_big_red,29,tie
+adjective_ordering,picture,3208,9.49825,7,picture_bw_rectangular,30,pic
+adjective_ordering,woman,3936,9.49825,7,woman_young_sad,31,woman
+overinformativeness,mirror,4712,9.49825,7,mirror_big_black,32,class
+overinformativeness,binoculars,11441,9.49825,7,binoculars_big_red,33,telascop
+adjective_ordering,cup,3687,9.49825,7,cup_empty_metal,34,cup
+overinformativeness,book,3080,9.49825,7,book_big_blue,35,book
+overinformativeness,lighter,4088,9.49825,7,lighter_big_black,36,litter
+overinformativeness,hat,2832,9.49825,7,hat_big_orange,37,cap
+adjective_ordering,earring,5480,9.49825,7,earring_small_round,38,eaer
+overinformativeness,cat,2992,9.49825,7,cat_big_white,39,cat
+overinformativeness,pants,3536,9.49825,7,pants_big_pink,40,pant
+overinformativeness,binoculars,8160,9.49825,7,binoculars_big_blue,41,telescop1
+overinformativeness,dress,4151,9.49825,7,dress_big_green,42,dress
+adjective_ordering,spoon,3567,9.49825,7,spoon_metal_clean,43,spen
+overinformativeness,glasses,16440,9.49825,7,glasses_big_blue,44,ice cleassa
+overinformativeness,ball,6680,9.49825,7,ball_big_yellow,45,ball
+overinformativeness,lipstick,6536,9.49825,7,lipstick_big_red,46,lipstick
+overinformativeness,socks,6856,9.49825,7,socks_big_green,47,shacks
+adjective_ordering,pencil,12143,9.49825,7,pencil_short_blue,48,coller pencil
+overinformativeness,scissors,3912,9.49825,7,scissors_big_green,49,siser
+overinformativeness,apple,4192,9.49825,7,apple_big_red,50,apple
+adjective_ordering,hair,3992,9.49825,7,hair_curly_brown,51,hear
+adjective_ordering,shorts,4104,9.49825,7,shorts_wrinkled_green,52,nothing
+adjective_ordering,shorts,4018,9.49825,7,shorts_wrinkled_red,53,nothing
+overinformativeness,knife,4702,9.49825,7,knife_big_blue,54,nife
+overinformativeness,shoe,4087,9.49825,7,shoe_big_pink,55,show
+adjective_ordering,spoon,7824,9.49825,7,spoon_wooden_clean,56,spone
+adjective_ordering,spoon,4352,9.49825,7,spoon_wooden_dirty,57,spone
+adjective_ordering,shorts,5400,9.49825,7,shorts_wet_red,58,nothing
+overinformativeness,brush,8248,9.49825,7,brush_big_red,59,peant bresh
+adjective_ordering,man,3136,9.49825,7,man_young_bearded,60,man
+overinformativeness,key,3240,9.49825,7,key_big_gold,61,key
+overinformativeness,cat,3056,9.49825,7,cat_big_black,62,vat
+adjective_ordering,man,3640,9.49825,7,man_old_bearded,63,man
+overinformativeness,chair,14789,9.49825,7,chair_big_blue,64,nothing
+overinformativeness,knife,9552,9.49825,7,knife_big_red,65,nothing
+adjective_ordering,bottle,1368,9.49825,7,bottle_glass_small,66,nothing
+adjective_ordering,cup,1984,9.49825,7,cup_empty_glass,67,nothing
+overinformativeness,balloon,3720,9.49825,7,balloon_big_yellow,68,nothing
+overinformativeness,apple,1704,9.49825,7,apple_big_green,69,nothing
+overinformativeness,skirt,1520,9.49825,7,skirt_big_green,70,nothing
+overinformativeness,brush,3144,9.49825,7,brush_big_blue,71,nothing
+overinformativeness,car,1672,9.49825,7,car_big_blue,72,nothing
+overinformativeness,hat,1344,9.49825,7,hat_big_pink,73,nothing
+adjective_ordering,table,1207,9.49825,7,table_metal_low,74,nothing
+overinformativeness,clock,2128,9.49825,7,clock_big_yellow,75,nothing
+adjective_ordering,man,1327,9.49825,7,man_old_bald,76,nothing
+adjective_ordering,pencil,1872,9.49825,7,pencil_long_blue,77,nothing
+adjective_ordering,picture,1417,9.49825,7,picture_bw_square,78,nothing
+overinformativeness,scissors,1535,9.49825,7,scissors_big_blue,79,nothing
+adjective_ordering,picture,1441,9.49825,7,picture_colored_square,80,nothing
+adjective_ordering,pencil,2520,9.49825,7,pencil_long_black,81,Vnothing
+adjective_ordering,hair,1656,9.49825,7,hair_straight_blond,82,nothing
+overinformativeness,glasses,1736,9.49825,7,glasses_big_red,83,nothing
+adjective_ordering,man,1351,9.49825,7,man_young_bald,84,nothing
+overinformativeness,chair,3280,9.49825,7,chair_big_yellow,85,nothing
+overinformativeness,clock,1312,9.49825,7,clock_big_purple,86,nothing
+overinformativeness,pepper,1168,9.49825,7,pepper_big_green,87,nothing
+overinformativeness,pants,1320,9.49825,7,pants_big_green,88,nothing
+overinformativeness,tshirt,1345,9.49825,7,tshirt_big_yellow,89,nothing
+overinformativeness,rosary,1302,9.49825,7,rosary_big_blue,90,nothing
+adjective_ordering,cup,1199,9.49825,7,cup_full_glass,91,nothing
+overinformativeness,pot,1201,9.49825,7,pot_big_blue,92,nothing
+overinformativeness,lock,1720,9.49825,7,lock_big_gold,93,nothing
+adjective_ordering,hair,1543,9.49825,7,hair_straight_brown,94,nothing
+overinformativeness,ball,1233,9.49825,7,ball_big_purple,95,nothing
+adjective_ordering,box,1376,9.49825,7,box_closed_wood,96,nothing
+adjective_ordering,woman,1520,9.49825,7,woman_old_happy,97,nothing
+overinformativeness,lipstick,1264,9.49825,7,lipstick_big_pink,98,nothing
+overinformativeness,glove,1192,9.49825,7,glove_big_orange,99,nothing
+adjective_ordering,woman,2072,9.49825,7,woman_old_sad,100,nothing
+overinformativeness,button,1216,9.49825,7,button_big_blue,101,nothing
+overinformativeness,shoe,1208,9.49825,7,shoe_big_yellow,102,nothing
+overinformativeness,dress,1056,9.49825,7,dress_big_blue,103,nothing
+adjective_ordering,bottle,1064,9.49825,7,bottle_glass_big,104,nothing
+adjective_ordering,bottle,1152,9.49825,7,bottle_plastic_small,105,nothing
+overinformativeness,tshirt,1112,9.49825,7,tshirt_big_orange,106,nothing
+overinformativeness,umbrella,1279,9.49825,7,umbrella_big_green,107,nothing
+overinformativeness,book,1081,9.49825,7,book_big_red,108,nothing
+overinformativeness,bag,1266,9.49825,7,bag_big_red,109,nothing
+adjective_ordering,shorts,1157,9.49825,7,shorts_wet_green,110,nothing
+adjective_ordering,spoon,1136,9.49825,7,spoon_metal_dirty,111,nothing
+overinformativeness,toothbrush,1160,9.49825,7,toothbrush_big_purple,112,nothing
+overinformativeness,key,1120,9.49825,7,key_big_silver,113,nothing
+adjective_ordering,earring,1078,9.49825,7,earring_big_round,114,nothing
+overinformativeness,flower,1104,9.49825,7,flower_big_pink,115,nothing
+adjective_ordering,cup,3599,9.49825,7,cup_full_metal,116,nothing
+adjective_ordering,picture,1143,9.49825,7,picture_colored_rectangular,117,nothing
+overinformativeness,skirt,1125,9.49825,7,skirt_big_blue,118,nothing
+adjective_ordering,shorts,1051,9.49825,7,shorts_dry_green,119,nothing
+adjective_ordering,earring,1080,9.49825,7,earring_small_triangular,120,nothing
+overinformativeness,pot,1040,9.49825,7,pot_big_green,121,nothing
+adjective_ordering,hair,1056,9.49825,7,hair_curly_blonde,122,nothing
+bot_check,Melis,0,19.05613333333333,8,,1,Melis
+adjective_ordering,woman,10389,19.05613333333333,8,woman_young_happy,3,WOMAN
+adjective_ordering,bottle,4984,19.05613333333333,8,bottle_glass_small,4,BOTTLE
+adjective_ordering,box,4487,19.05613333333333,8,box_open_cardboard,5,BOX
+overinformativeness,glove,8549,19.05613333333333,8,glove_big_orange,6,HAND GLOVES
+overinformativeness,binoculars,7639,19.05613333333333,8,binoculars_big_blue,7,TELESCOPE
+adjective_ordering,box,4072,19.05613333333333,8,box_closed_wood,8,BOX
+overinformativeness,pepper,12605,19.05613333333333,8,pepper_big_green,9,RED PEPPER
+overinformativeness,dress,6480,19.05613333333333,8,dress_big_blue,10,DRESS
+overinformativeness,toothbrush,7349,19.05613333333333,8,toothbrush_big_green,11,FRESH
+overinformativeness,glasses,7035,19.05613333333333,8,glasses_big_blue,12,CLASS
+adjective_ordering,hair,6207,19.05613333333333,8,hair_curly_brown,13,HAIR
+overinformativeness,flower,11636,19.05613333333333,8,flower_big_yellow,14,FLOWER
+overinformativeness,balloon,5216,19.05613333333333,8,balloon_big_pink,15,BALOON
+adjective_ordering,table,5790,19.05613333333333,8,table_wood_low,16,TABLE
+adjective_ordering,hair,5223,19.05613333333333,8,hair_straight_blond,17,HAIR
+overinformativeness,lighter,6334,19.05613333333333,8,lighter_big_white,18,LIGHTER
+adjective_ordering,man,4015,19.05613333333333,8,man_old_bearded,19,MAN
+adjective_ordering,picture,5502,19.05613333333333,8,picture_bw_square,20,PHOTO
+adjective_ordering,man,3039,19.05613333333333,8,man_young_bearded,21,MAN
+overinformativeness,book,3536,19.05613333333333,8,book_big_red,22,BOOK
+adjective_ordering,cup,12089,19.05613333333333,8,cup_empty_glass,23,GLASS
+adjective_ordering,table,2974,19.05613333333333,8,table_metal_low,24,CHAIR
+overinformativeness,lock,5438,19.05613333333333,8,lock_big_silver,25,LOCK
+overinformativeness,car,3391,19.05613333333333,8,car_big_blue,26,CAR
+overinformativeness,apple,3456,19.05613333333333,8,apple_big_red,27,APPLE
+adjective_ordering,hair,3654,19.05613333333333,8,hair_curly_blonde,28,HAIR
+adjective_ordering,earring,11334,19.05613333333333,8,earring_big_round,29,JEWEL
+overinformativeness,brush,5551,19.05613333333333,8,brush_big_red,30,BRUSH
+adjective_ordering,picture,8462,19.05613333333333,8,picture_colored_rectangular,31,PHOTO
+overinformativeness,pants,5128,19.05613333333333,8,pants_big_green,32,PANT
+overinformativeness,chair,3498,19.05613333333333,8,chair_big_yellow,33,CHAIR
+overinformativeness,cat,3558,19.05613333333333,8,cat_big_black,34,DOG
+adjective_ordering,spoon,23435,19.05613333333333,8,spoon_wooden_clean,35,GLASS
+adjective_ordering,shorts,4648,19.05613333333333,8,shorts_wrinkled_red,36,DROSSER
+overinformativeness,hat,4487,19.05613333333333,8,hat_big_orange,37,CUP
+overinformativeness,binoculars,6143,19.05613333333333,8,binoculars_big_red,38,TELESCOPE
+overinformativeness,glove,4830,19.05613333333333,8,glove_big_green,39,GLOVES
+overinformativeness,chair,3706,19.05613333333333,8,chair_big_blue,40,CHAIR
+adjective_ordering,table,7639,19.05613333333333,8,table_wood_high,41,CHAIR
+overinformativeness,shoe,6105,19.05613333333333,8,shoe_big_yellow,42,SHOES
+overinformativeness,skirt,12539,19.05613333333333,8,skirt_big_blue,43,PAAVADAI
+adjective_ordering,bottle,9679,19.05613333333333,8,bottle_plastic_big,44,WATER BOTTLE
+overinformativeness,lipstick,17343,19.05613333333333,8,lipstick_big_pink,45,LIPSTIC BRUSH
+adjective_ordering,shorts,6604,19.05613333333333,8,shorts_dry_green,46,DROSSERS
+overinformativeness,key,5330,19.05613333333333,8,key_big_gold,47,KEY
+overinformativeness,clock,4231,19.05613333333333,8,clock_big_yellow,48,CLOCK
+adjective_ordering,bottle,5271,19.05613333333333,8,bottle_glass_big,49,BOTTLE
+adjective_ordering,picture,7919,19.05613333333333,8,picture_colored_square,50,GALLERY
+adjective_ordering,pencil,4550,19.05613333333333,8,pencil_short_black,51,PENCIL
+overinformativeness,socks,5783,19.05613333333333,8,socks_big_blue,52,SHOCKS
+overinformativeness,glasses,8190,19.05613333333333,8,glasses_big_red,53,SUN GLASSES
+overinformativeness,toothbrush,7729,19.05613333333333,8,toothbrush_big_purple,54,TOOTHBRUSH
+adjective_ordering,shorts,349522,19.05613333333333,8,shorts_wrinkled_green,55,DROSSOR
+overinformativeness,ball,10237,19.05613333333333,8,ball_big_yellow,56,BALOON
+overinformativeness,brush,20692,19.05613333333333,8,brush_big_blue,57,PAINTING BRUSH
+overinformativeness,car,4292,19.05613333333333,8,car_big_green,58,"
+CAR"
+adjective_ordering,box,4734,19.05613333333333,8,box_closed_cardboard,59,BOX
+overinformativeness,socks,9867,19.05613333333333,8,socks_big_green,60,GLOVES
+adjective_ordering,shorts,7158,19.05613333333333,8,shorts_wet_green,61,DROSSOR
+adjective_ordering,picture,9407,19.05613333333333,8,picture_bw_rectangular,62,PHOTO GALARY
+adjective_ordering,cup,8617,19.05613333333333,8,cup_empty_metal,63,GLASS
+overinformativeness,scissors,7086,19.05613333333333,8,scissors_big_blue,64,SCISSORS
+adjective_ordering,woman,7422,19.05613333333333,8,woman_old_happy,65,WOMAN
+adjective_ordering,spoon,12189,19.05613333333333,8,spoon_metal_clean,66,KITCHEN TOOLS
+adjective_ordering,shorts,4295,19.05613333333333,8,shorts_dry_red,67,"
+DROSSOR"
+overinformativeness,pants,14544,19.05613333333333,8,pants_big_pink,68,"LADIES PANT
+LADIES"
+overinformativeness,tie,8687,19.05613333333333,8,tie_big_red,69,"
+DY"
+overinformativeness,skirt,9141,19.05613333333333,8,skirt_big_green,70,"
+CURTS"
+adjective_ordering,earring,4695,19.05613333333333,8,earring_big_triangular,71,"
+JEWEL"
+overinformativeness,hat,3272,19.05613333333333,8,hat_big_pink,72,"
+CAP"
+adjective_ordering,box,3214,19.05613333333333,8,box_open_wood,73,"
+BOX"
+overinformativeness,scissors,4143,19.05613333333333,8,scissors_big_green,74,"
+SCISSOR"
+overinformativeness,shoe,2304,19.05613333333333,8,shoe_big_pink,75,"
+SHOE"
+overinformativeness,knife,4438,19.05613333333333,8,knife_big_blue,76,"
+KNIFE"
+adjective_ordering,hair,2641,19.05613333333333,8,hair_straight_brown,77,"
+HAIR"
+overinformativeness,mirror,10872,19.05613333333333,8,mirror_big_white,78,"
+PLASTIC"
+overinformativeness,rosary,7391,19.05613333333333,8,rosary_big_blue,79,"
+PAASI"
+adjective_ordering,spoon,7061,19.05613333333333,8,spoon_wooden_dirty,80,"
+KITCHEN TOOLS"
+adjective_ordering,man,2208,19.05613333333333,8,man_young_bald,81,"
+MAN"
+overinformativeness,umbrella,3711,19.05613333333333,8,umbrella_big_blue,82,"
+UMPERLLA"
+adjective_ordering,man,3902,19.05613333333333,8,man_old_bald,83,"
+MAN"
+overinformativeness,knife,2680,19.05613333333333,8,knife_big_red,84,"
+KNIFE"
+adjective_ordering,woman,3535,19.05613333333333,8,woman_young_sad,85,"
+WOMAN"
+overinformativeness,balloon,3080,19.05613333333333,8,balloon_big_yellow,86,"
+BALOON"
+overinformativeness,button,3919,19.05613333333333,8,button_big_blue,87,"
+PLASTIC"
+adjective_ordering,cup,2976,19.05613333333333,8,cup_full_metal,88,"
+GLASS"
+overinformativeness,bag,2344,19.05613333333333,8,bag_big_blue,89,"
+BAG"
+adjective_ordering,cup,5550,19.05613333333333,8,cup_full_glass,90,"
+BOTTLE"
+overinformativeness,clock,5024,19.05613333333333,8,clock_big_purple,91,"
+CLOCK"
+overinformativeness,umbrella,7057,19.05613333333333,8,umbrella_big_green,92,"
+UMPERLLA"
+adjective_ordering,table,2239,19.05613333333333,8,table_metal_high,93,"
+CHAIR"
+overinformativeness,cat,3712,19.05613333333333,8,cat_big_white,94,"
+CAT"
+overinformativeness,lighter,3048,19.05613333333333,8,lighter_big_black,95,"
+LIGHTER"
+overinformativeness,tshirt,4622,19.05613333333333,8,tshirt_big_orange,96,"
+T SHIRT"
+adjective_ordering,earring,4096,19.05613333333333,8,earring_small_round,97,"
+JEWEL"
+overinformativeness,apple,6582,19.05613333333333,8,apple_big_green,98,"
+APPLE"
+overinformativeness,bag,2574,19.05613333333333,8,bag_big_red,99,"
+BAG"
+overinformativeness,key,4009,19.05613333333333,8,key_big_silver,100,"
+KEY"
+overinformativeness,tie,2974,19.05613333333333,8,tie_big_blue,101,"
+DY"
+overinformativeness,lipstick,5877,19.05613333333333,8,lipstick_big_red,102,"
+LIPSTICK"
+adjective_ordering,pencil,3350,19.05613333333333,8,pencil_short_blue,103,"
+PENCIL"
+adjective_ordering,shorts,4984,19.05613333333333,8,shorts_wet_red,104,"
+DROSSOR"
+overinformativeness,book,2392,19.05613333333333,8,book_big_blue,105,"
+BOOK"
+overinformativeness,mirror,5699,19.05613333333333,8,mirror_big_black,106,"
+PLASTIC"
+overinformativeness,ball,3460,19.05613333333333,8,ball_big_purple,107,"
+BALOON"
+overinformativeness,pot,7447,19.05613333333333,8,pot_big_green,108,"
+BASIN"
+overinformativeness,tshirt,4943,19.05613333333333,8,tshirt_big_yellow,109,"
+T SHIRT"
+adjective_ordering,bottle,4631,19.05613333333333,8,bottle_plastic_small,110,"
+WATER BOTTLE"
+overinformativeness,pepper,5406,19.05613333333333,8,pepper_big_red,111,"
+RED PEPPER"
+adjective_ordering,spoon,8529,19.05613333333333,8,spoon_metal_dirty,112,"
+KITCHEN TOOLS"
+overinformativeness,flower,2501,19.05613333333333,8,flower_big_pink,113,"
+FLOWER"
+adjective_ordering,earring,3367,19.05613333333333,8,earring_small_triangular,114,"
+JEWEL"
+adjective_ordering,pencil,2504,19.05613333333333,8,pencil_long_black,115,"
+PENCIL"
+overinformativeness,pot,5110,19.05613333333333,8,pot_big_blue,116,"
+HATBOX"
+overinformativeness,lock,2704,19.05613333333333,8,lock_big_gold,117,"
+LOCK"
+adjective_ordering,woman,3775,19.05613333333333,8,woman_old_sad,118,"
+WOMAN"
+overinformativeness,button,2879,19.05613333333333,8,button_big_green,119,"
+PLASTIC"
+overinformativeness,rosary,3306,19.05613333333333,8,rosary_big_yellow,120,"
+PAASI"
+overinformativeness,dress,8919,19.05613333333333,8,dress_big_green,121,"
+CHUDITHAR"
+adjective_ordering,pencil,2751,19.05613333333333,8,pencil_long_blue,122,"
+PENCIL"
+bot_check,Ceren,0,19.83375,9,,1,Ceren
+adjective_ordering,cup,24069,19.83375,9,cup_full_glass,3,tea glass
+adjective_ordering,pencil,8104,19.83375,9,pencil_long_black,4,pencil
+adjective_ordering,earring,13200,19.83375,9,earring_small_round,5,air ring
+adjective_ordering,picture,7272,19.83375,9,picture_colored_square,6,photo
+adjective_ordering,cup,9808,19.83375,9,cup_empty_metal,7,cupe
+overinformativeness,tshirt,6103,19.83375,9,tshirt_big_orange,8,drees
+overinformativeness,glove,6688,19.83375,9,glove_big_green,9,close
+adjective_ordering,shorts,5888,19.83375,9,shorts_wet_green,10,dress
+adjective_ordering,box,10528,19.83375,9,box_open_wood,11,wood boxe
+adjective_ordering,hair,6297,19.83375,9,hair_straight_blond,12,hair
+adjective_ordering,spoon,17927,19.83375,9,spoon_wooden_clean,13,soopen
+adjective_ordering,bottle,7456,19.83375,9,bottle_glass_big,14,battel
+overinformativeness,ball,6015,19.83375,9,ball_big_yellow,15,ball
+overinformativeness,lipstick,10232,19.83375,9,lipstick_big_red,16,lipstick
+overinformativeness,flower,7504,19.83375,9,flower_big_pink,17,flower
+overinformativeness,pants,6423,19.83375,9,pants_big_pink,18,dress
+overinformativeness,umbrella,15129,19.83375,9,umbrella_big_blue,19,umberila
+adjective_ordering,woman,12752,19.83375,9,woman_young_happy,20,women
+overinformativeness,umbrella,10744,19.83375,9,umbrella_big_green,21,umberila
+adjective_ordering,cup,6074,19.83375,9,cup_full_metal,22,cupe
+adjective_ordering,man,6854,19.83375,9,man_young_bearded,23,mane
+overinformativeness,book,9039,19.83375,9,book_big_blue,24,booke
+overinformativeness,flower,10169,19.83375,9,flower_big_yellow,25,flower
+overinformativeness,lighter,4879,19.83375,9,lighter_big_white,26,liter
+overinformativeness,lighter,7088,19.83375,9,lighter_big_black,27,liter
+overinformativeness,toothbrush,6135,19.83375,9,toothbrush_big_green,28,fress
+adjective_ordering,shorts,4224,19.83375,9,shorts_dry_green,29,dress
+overinformativeness,balloon,26480,19.83375,9,balloon_big_pink,30,Balloon
+overinformativeness,pants,6928,19.83375,9,pants_big_green,31,dresse
+adjective_ordering,picture,8304,19.83375,9,picture_colored_rectangular,32,photo
+overinformativeness,button,7039,19.83375,9,button_big_blue,33,pution
+overinformativeness,shoe,7959,19.83375,9,shoe_big_pink,34,shoes
+overinformativeness,scissors,7239,19.83375,9,scissors_big_blue,35,chiser
+overinformativeness,binoculars,14439,19.83375,9,binoculars_big_red,36,micro shopie
+overinformativeness,shoe,7040,19.83375,9,shoe_big_yellow,37,shoes
+overinformativeness,key,5393,19.83375,9,key_big_gold,38,key
+overinformativeness,bag,7136,19.83375,9,bag_big_red,39,bage
+adjective_ordering,hair,7760,19.83375,9,hair_curly_blonde,40,hair
+overinformativeness,tie,5113,19.83375,9,tie_big_red,41,tie
+adjective_ordering,box,12999,19.83375,9,box_closed_cardboard,42,boxe
+overinformativeness,apple,14440,19.83375,9,apple_big_green,43,green apple
+adjective_ordering,table,14592,19.83375,9,table_wood_high,44,wooden table
+adjective_ordering,table,12120,19.83375,9,table_metal_low,45,steel table
+overinformativeness,mirror,17039,19.83375,9,mirror_big_black,46,hand glass
+adjective_ordering,woman,11208,19.83375,9,woman_young_sad,47,women greing
+overinformativeness,car,7127,19.83375,9,car_big_blue,48,care
+adjective_ordering,bottle,6512,19.83375,9,bottle_glass_small,49,battel
+overinformativeness,glasses,8850,19.83375,9,glasses_big_blue,50,optikal
+overinformativeness,hat,6807,19.83375,9,hat_big_orange,51,cape
+adjective_ordering,man,12560,19.83375,9,man_old_bald,52,old mane
+overinformativeness,brush,12384,19.83375,9,brush_big_red,53,paint fress
+overinformativeness,lock,5736,19.83375,9,lock_big_silver,54,lock
+adjective_ordering,earring,10127,19.83375,9,earring_small_triangular,55,air ring
+overinformativeness,clock,10656,19.83375,9,clock_big_purple,56,clock
+adjective_ordering,spoon,7943,19.83375,9,spoon_metal_clean,57,soopen
+adjective_ordering,shorts,7847,19.83375,9,shorts_wrinkled_green,58,dress
+overinformativeness,ball,6888,19.83375,9,ball_big_purple,59,ball
+overinformativeness,pot,10808,19.83375,9,pot_big_green,60,hot boxe
+overinformativeness,pepper,11745,19.83375,9,pepper_big_red,61,chilli
+overinformativeness,apple,8087,19.83375,9,apple_big_red,62,apple
+overinformativeness,scissors,6673,19.83375,9,scissors_big_green,63,chiser
+adjective_ordering,pencil,9352,19.83375,9,pencil_short_black,64,pencil
+overinformativeness,knife,5255,19.83375,9,knife_big_blue,65,nif
+overinformativeness,glasses,8352,19.83375,9,glasses_big_red,66,optikal
+overinformativeness,lock,5712,19.83375,9,lock_big_gold,67,lock
+adjective_ordering,shorts,4344,19.83375,9,shorts_dry_red,68,dress
+overinformativeness,skirt,4040,19.83375,9,skirt_big_green,69,dress
+overinformativeness,tie,4960,19.83375,9,tie_big_blue,70,tie
+adjective_ordering,bottle,10944,19.83375,9,bottle_plastic_big,71,water battel
+adjective_ordering,pencil,12329,19.83375,9,pencil_short_blue,72,pencil
+overinformativeness,dress,4912,19.83375,9,dress_big_blue,73,dress
+adjective_ordering,man,7841,19.83375,9,man_young_bald,74,mane
+overinformativeness,pot,7871,19.83375,9,pot_big_blue,75,hot boxe
+overinformativeness,skirt,5560,19.83375,9,skirt_big_blue,76,dress
+overinformativeness,rosary,9776,19.83375,9,rosary_big_blue,77,chain
+adjective_ordering,woman,10904,19.83375,9,woman_old_happy,78,old women
+adjective_ordering,hair,6248,19.83375,9,hair_curly_brown,79,hair
+adjective_ordering,man,7904,19.83375,9,man_old_bearded,80, old mane
+overinformativeness,socks,12167,19.83375,9,socks_big_green,81,shokies
+overinformativeness,toothbrush,5871,19.83375,9,toothbrush_big_purple,82,fress
+overinformativeness,glove,8496,19.83375,9,glove_big_orange,83,close
+adjective_ordering,table,10824,19.83375,9,table_metal_high,84,steel table
+overinformativeness,balloon,8592,19.83375,9,balloon_big_yellow,85,balloon
+overinformativeness,chair,6809,19.83375,9,chair_big_yellow,86,chair
+overinformativeness,button,6784,19.83375,9,button_big_green,87,putione
+adjective_ordering,shorts,6840,19.83375,9,shorts_wet_red,88,dress
+adjective_ordering,hair,5720,19.83375,9,hair_straight_brown,89,hair
+adjective_ordering,bottle,8831,19.83375,9,bottle_plastic_small,90,battel
+overinformativeness,pepper,6328,19.83375,9,pepper_big_green,91,chilli
+overinformativeness,mirror,11248,19.83375,9,mirror_big_white,92,hand glass
+overinformativeness,cat,5264,19.83375,9,cat_big_white,93,cate
+overinformativeness,binoculars,11713,19.83375,9,binoculars_big_blue,94,micro shope
+adjective_ordering,shorts,5256,19.83375,9,shorts_wrinkled_red,95,dress
+overinformativeness,cat,5600,19.83375,9,cat_big_black,96,cate
+adjective_ordering,woman,15336,19.83375,9,woman_old_sad,97,old women cering
+overinformativeness,socks,13896,19.83375,9,socks_big_blue,98,shokes
+overinformativeness,knife,5543,19.83375,9,knife_big_red,99,nif
+overinformativeness,tshirt,4984,19.83375,9,tshirt_big_yellow,100,dress
+adjective_ordering,picture,7953,19.83375,9,picture_bw_rectangular,101,photo
+adjective_ordering,earring,8440,19.83375,9,earring_big_triangular,102,air ring
+adjective_ordering,picture,6080,19.83375,9,picture_bw_square,103,photo
+adjective_ordering,box,7376,19.83375,9,box_open_cardboard,104,boxe
+overinformativeness,book,13311,19.83375,9,book_big_red,105,Booke
+adjective_ordering,earring,9008,19.83375,9,earring_big_round,106,air ring
+adjective_ordering,table,19705,19.83375,9,table_wood_low,107,wooden boxe
+overinformativeness,car,7151,19.83375,9,car_big_green,108,car
+overinformativeness,hat,6087,19.83375,9,hat_big_pink,109,cape
+adjective_ordering,box,6359,19.83375,9,box_closed_wood,110,boxe
+adjective_ordering,spoon,8256,19.83375,9,spoon_wooden_dirty,111,soopen
+overinformativeness,lipstick,14328,19.83375,9,lipstick_big_pink,112,lipstick
+adjective_ordering,spoon,6753,19.83375,9,spoon_metal_dirty,113,soopen
+overinformativeness,key,5120,19.83375,9,key_big_silver,114,key
+overinformativeness,dress,5608,19.83375,9,dress_big_green,115,dress
+overinformativeness,rosary,6119,19.83375,9,rosary_big_yellow,116,chain
+adjective_ordering,pencil,10600,19.83375,9,pencil_long_blue,117,pencil
+overinformativeness,clock,6728,19.83375,9,clock_big_yellow,118,clock
+overinformativeness,brush,11096,19.83375,9,brush_big_blue,119,paint fress
+adjective_ordering,cup,15984,19.83375,9,cup_empty_glass,120,tea class
+overinformativeness,bag,13529,19.83375,9,bag_big_blue,121,bage
+overinformativeness,chair,6968,19.83375,9,chair_big_blue,122,chair
+bot_check,Melis,0,12.588433333333333,10,,1,Melis
+overinformativeness,socks,12260,12.588433333333333,10,socks_big_green,3,seche
+overinformativeness,mirror,16488,12.588433333333333,10,mirror_big_black,4,face class
+overinformativeness,rosary,8078,12.588433333333333,10,rosary_big_yellow,5,nothing
+adjective_ordering,picture,5129,12.588433333333333,10,picture_colored_square,6,pic
+adjective_ordering,box,4775,12.588433333333333,10,box_closed_cardboard,7,box
+adjective_ordering,table,5535,12.588433333333333,10,table_wood_low,8,table
+overinformativeness,glove,10672,12.588433333333333,10,glove_big_orange,9,hand clouse
+overinformativeness,glasses,10336,12.588433333333333,10,glasses_big_red,10,ice cless
+adjective_ordering,box,8855,12.588433333333333,10,box_open_cardboard,11,open box
+adjective_ordering,earring,8553,12.588433333333333,10,earring_big_round,12,ear
+overinformativeness,skirt,5559,12.588433333333333,10,skirt_big_green,13,dress
+overinformativeness,knife,5314,12.588433333333333,10,knife_big_blue,14,nife
+adjective_ordering,man,4096,12.588433333333333,10,man_young_bearded,15,man
+adjective_ordering,shorts,5167,12.588433333333333,10,shorts_wrinkled_red,16,nothing
+adjective_ordering,box,9935,12.588433333333333,10,box_closed_wood,17,wood in box
+adjective_ordering,woman,7216,12.588433333333333,10,woman_old_sad,18,woman
+overinformativeness,glasses,7304,12.588433333333333,10,glasses_big_blue,19,ice class
+overinformativeness,cat,4760,12.588433333333333,10,cat_big_black,20,cat
+overinformativeness,key,4247,12.588433333333333,10,key_big_silver,21,key
+overinformativeness,lipstick,8236,12.588433333333333,10,lipstick_big_pink,22,lipstck
+overinformativeness,balloon,5163,12.588433333333333,10,balloon_big_yellow,23,toy
+overinformativeness,book,3993,12.588433333333333,10,book_big_blue,24,book
+overinformativeness,tie,4472,12.588433333333333,10,tie_big_red,25,tie
+overinformativeness,socks,7032,12.588433333333333,10,socks_big_blue,26,shock
+adjective_ordering,cup,5569,12.588433333333333,10,cup_empty_glass,27,class
+overinformativeness,book,5527,12.588433333333333,10,book_big_red,28,book
+overinformativeness,dress,9775,12.588433333333333,10,dress_big_blue,29,dress
+adjective_ordering,spoon,5432,12.588433333333333,10,spoon_metal_clean,30,spoun
+adjective_ordering,pencil,11839,12.588433333333333,10,pencil_short_blue,31,coller pencel
+overinformativeness,chair,6983,12.588433333333333,10,chair_big_blue,32,nothing
+adjective_ordering,shorts,7953,12.588433333333333,10,shorts_wet_green,33,nothing
+overinformativeness,apple,5215,12.588433333333333,10,apple_big_red,34,apple
+overinformativeness,ball,5265,12.588433333333333,10,ball_big_purple,35,ball
+overinformativeness,hat,4895,12.588433333333333,10,hat_big_orange,36,cap
+adjective_ordering,picture,4992,12.588433333333333,10,picture_bw_rectangular,37,pic
+adjective_ordering,cup,5192,12.588433333333333,10,cup_empty_metal,38,cup
+overinformativeness,umbrella,7377,12.588433333333333,10,umbrella_big_blue,39,umperla
+adjective_ordering,man,8494,12.588433333333333,10,man_old_bearded,40,man
+overinformativeness,bag,4943,12.588433333333333,10,bag_big_red,41,bag
+overinformativeness,key,4720,12.588433333333333,10,key_big_gold,42,key
+overinformativeness,pepper,28864,12.588433333333333,10,pepper_big_red,43,chelli
+overinformativeness,tshirt,6152,12.588433333333333,10,tshirt_big_orange,44,t short
+adjective_ordering,picture,4600,12.588433333333333,10,picture_bw_square,45,pic
+overinformativeness,tshirt,7383,12.588433333333333,10,tshirt_big_yellow,46,dress
+adjective_ordering,spoon,12015,12.588433333333333,10,spoon_wooden_dirty,47,spone
+adjective_ordering,pencil,7106,12.588433333333333,10,pencil_long_blue,48,pencel
+overinformativeness,lock,4736,12.588433333333333,10,lock_big_silver,49,look
+overinformativeness,binoculars,10223,12.588433333333333,10,binoculars_big_blue,50,telscope
+overinformativeness,bag,12072,12.588433333333333,10,bag_big_blue,51,school bag
+adjective_ordering,hair,5968,12.588433333333333,10,hair_curly_blonde,52,hear
+overinformativeness,shoe,5680,12.588433333333333,10,shoe_big_yellow,53,show
+overinformativeness,binoculars,8599,12.588433333333333,10,binoculars_big_red,54,teles cope
+adjective_ordering,man,9656,12.588433333333333,10,man_old_bald,55,grenfother
+overinformativeness,flower,6041,12.588433333333333,10,flower_big_pink,56,flower
+overinformativeness,toothbrush,9840,12.588433333333333,10,toothbrush_big_green,57,touthbresh
+overinformativeness,tie,4832,12.588433333333333,10,tie_big_blue,58,tie
+adjective_ordering,pencil,10943,12.588433333333333,10,pencil_short_black,59,coller pencel
+adjective_ordering,woman,13528,12.588433333333333,10,woman_old_happy,60,grendmother
+overinformativeness,lighter,5016,12.588433333333333,10,lighter_big_black,61,litter
+overinformativeness,ball,5288,12.588433333333333,10,ball_big_yellow,62,boll
+overinformativeness,brush,11336,12.588433333333333,10,brush_big_blue,63,paint bresh
+overinformativeness,lipstick,8944,12.588433333333333,10,lipstick_big_red,64,lipsteck
+adjective_ordering,shorts,7048,12.588433333333333,10,shorts_wet_red,65,nothing
+overinformativeness,toothbrush,12815,12.588433333333333,10,toothbrush_big_purple,66,touthbresh
+overinformativeness,shoe,6768,12.588433333333333,10,shoe_big_pink,67,show
+overinformativeness,pot,6816,12.588433333333333,10,pot_big_blue,68,cooker
+overinformativeness,flower,6161,12.588433333333333,10,flower_big_yellow,69,flooer
+overinformativeness,button,6071,12.588433333333333,10,button_big_green,70,buten
+adjective_ordering,hair,6929,12.588433333333333,10,hair_straight_blond,71,hear
+adjective_ordering,hair,5160,12.588433333333333,10,hair_curly_brown,72,hear
+adjective_ordering,shorts,5711,12.588433333333333,10,shorts_dry_red,73,nothing
+adjective_ordering,shorts,8711,12.588433333333333,10,shorts_wrinkled_green,74,inerwaer
+adjective_ordering,spoon,7759,12.588433333333333,10,spoon_wooden_clean,75,spoun
+overinformativeness,scissors,6496,12.588433333333333,10,scissors_big_blue,76,siser
+adjective_ordering,hair,9567,12.588433333333333,10,hair_straight_brown,77,hear
+overinformativeness,rosary,7095,12.588433333333333,10,rosary_big_blue,78,nothing
+overinformativeness,mirror,16131,12.588433333333333,10,mirror_big_white,79,class
+adjective_ordering,table,6285,12.588433333333333,10,table_metal_low,80,table
+overinformativeness,glove,9143,12.588433333333333,10,glove_big_green,81,nothing
+overinformativeness,clock,1856,12.588433333333333,10,clock_big_yellow,82,nothing
+overinformativeness,pants,1336,12.588433333333333,10,pants_big_green,83,nothing
+overinformativeness,pepper,1176,12.588433333333333,10,pepper_big_green,84,nothing
+overinformativeness,brush,1520,12.588433333333333,10,brush_big_red,85,nothing
+adjective_ordering,cup,1256,12.588433333333333,10,cup_full_metal,86,nothing
+overinformativeness,knife,1968,12.588433333333333,10,knife_big_red,87,nothing
+overinformativeness,car,4320,12.588433333333333,10,car_big_green,88,nothing
+overinformativeness,clock,1944,12.588433333333333,10,clock_big_purple,89,nothing
+overinformativeness,cat,1352,12.588433333333333,10,cat_big_white,90,nothing
+adjective_ordering,earring,1416,12.588433333333333,10,earring_big_triangular,91,nothing
+adjective_ordering,bottle,1344,12.588433333333333,10,bottle_glass_small,92,nothing
+adjective_ordering,bottle,1272,12.588433333333333,10,bottle_glass_big,93,nothing
+adjective_ordering,woman,1248,12.588433333333333,10,woman_young_sad,94,nothing
+adjective_ordering,bottle,2999,12.588433333333333,10,bottle_plastic_small,95,nothing
+adjective_ordering,picture,2151,12.588433333333333,10,picture_colored_rectangular,96,nothing
+overinformativeness,dress,1591,12.588433333333333,10,dress_big_green,97,nothing
+adjective_ordering,box,2551,12.588433333333333,10,box_open_wood,98,nothing
+overinformativeness,car,1457,12.588433333333333,10,car_big_blue,99,nothing
+adjective_ordering,man,1464,12.588433333333333,10,man_young_bald,100,nothing
+overinformativeness,lock,1288,12.588433333333333,10,lock_big_gold,101,nothing
+overinformativeness,lighter,1400,12.588433333333333,10,lighter_big_white,102,nothing
+overinformativeness,umbrella,1608,12.588433333333333,10,umbrella_big_green,103,nothing
+overinformativeness,pants,1568,12.588433333333333,10,pants_big_pink,104,nothing
+adjective_ordering,spoon,1999,12.588433333333333,10,spoon_metal_dirty,105,nothing
+adjective_ordering,cup,1831,12.588433333333333,10,cup_full_glass,106,nothing
+adjective_ordering,woman,1823,12.588433333333333,10,woman_young_happy,107,nothing
+adjective_ordering,earring,1407,12.588433333333333,10,earring_small_round,108,nothing
+overinformativeness,skirt,1525,12.588433333333333,10,skirt_big_blue,109,nothing
+overinformativeness,balloon,1539,12.588433333333333,10,balloon_big_pink,110,nothing
+overinformativeness,button,2128,12.588433333333333,10,button_big_blue,111,nothing
+adjective_ordering,table,1656,12.588433333333333,10,table_metal_high,112,nothing
+adjective_ordering,pencil,3360,12.588433333333333,10,pencil_long_black,113,nothing
+adjective_ordering,earring,1656,12.588433333333333,10,earring_small_triangular,114,nothing
+overinformativeness,hat,1888,12.588433333333333,10,hat_big_pink,115,nothing
+overinformativeness,pot,1312,12.588433333333333,10,pot_big_green,116,nothing
+overinformativeness,scissors,3320,12.588433333333333,10,scissors_big_green,117,nothing
+adjective_ordering,table,1456,12.588433333333333,10,table_wood_high,118,nothing
+overinformativeness,chair,1264,12.588433333333333,10,chair_big_yellow,119,nothing
+overinformativeness,apple,1407,12.588433333333333,10,apple_big_green,120,nothing
+adjective_ordering,shorts,1335,12.588433333333333,10,shorts_dry_green,121,nothing
+adjective_ordering,bottle,1432,12.588433333333333,10,bottle_plastic_big,122,nothing
+bot_check,Yasemin,0,22.505083333333335,11,,1,Yasemin
+adjective_ordering,earring,25979,22.505083333333335,11,earring_small_round,3,voyun kutlesi
+overinformativeness,button,18342,22.505083333333335,11,button_big_blue,4,buton
+overinformativeness,brush,17368,22.505083333333335,11,brush_big_blue,5,"
+boya fircasi"
+overinformativeness,binoculars,15848,22.505083333333335,11,binoculars_big_red,6,"
+iki gozlu"
+adjective_ordering,bottle,7240,22.505083333333335,11,bottle_plastic_big,7,"
+sise"
+adjective_ordering,shorts,9561,22.505083333333335,11,shorts_wet_red,8,"
+pantolon"
+adjective_ordering,woman,9551,22.505083333333335,11,woman_young_happy,9,"
+yuz"
+adjective_ordering,cup,12049,22.505083333333335,11,cup_empty_metal,10,"
+fincan"
+adjective_ordering,picture,11488,22.505083333333335,11,picture_bw_square,11,"
+cerceve"
+adjective_ordering,pencil,9905,22.505083333333335,11,pencil_long_blue,12,"
+kalem"
+overinformativeness,hat,8135,22.505083333333335,11,hat_big_pink,13,"
+sabka"
+adjective_ordering,bottle,9016,22.505083333333335,11,bottle_plastic_small,14,"
+sise"
+overinformativeness,pants,16813,22.505083333333335,11,pants_big_green,15,"
+pijama"
+overinformativeness,bag,16812,22.505083333333335,11,bag_big_red,16,"
+sirt cantasi"
+overinformativeness,key,11058,22.505083333333335,11,key_big_gold,17,"
+anahtar"
+adjective_ordering,picture,10695,22.505083333333335,11,picture_bw_rectangular,18,"
+cerceve"
+overinformativeness,book,8663,22.505083333333335,11,book_big_red,19,"
+aitap"
+overinformativeness,rosary,10127,22.505083333333335,11,rosary_big_blue,20,"
+boncuk"
+overinformativeness,apple,15807,22.505083333333335,11,apple_big_green,21,"
+yesil elma"
+adjective_ordering,box,7699,22.505083333333335,11,box_closed_cardboard,22,"
+kutu"
+overinformativeness,chair,20551,22.505083333333335,11,chair_big_blue,23,"
+sandalye"
+overinformativeness,mirror,17192,22.505083333333335,11,mirror_big_white,24,"
+yuz aynisi"
+overinformativeness,lighter,15983,22.505083333333335,11,lighter_big_black,25,"
+cikmak"
+overinformativeness,car,19619,22.505083333333335,11,car_big_green,26,"
+oyuncak arava"
+adjective_ordering,woman,11471,22.505083333333335,11,woman_old_sad,27,"
+yuz"
+overinformativeness,cat,8513,22.505083333333335,11,cat_big_black,28,"
+kide"
+adjective_ordering,spoon,14456,22.505083333333335,11,spoon_metal_dirty,29,"
+kasik"
+adjective_ordering,pencil,9344,22.505083333333335,11,pencil_long_black,30,"
+kalem"
+overinformativeness,mirror,14376,22.505083333333335,11,mirror_big_black,31,"
+yuz aynasi"
+overinformativeness,balloon,7768,22.505083333333335,11,balloon_big_yellow,32,"
+balon"
+overinformativeness,pepper,31841,22.505083333333335,11,pepper_big_red,33,"
+kirmizi dolmalik biber"
+adjective_ordering,shorts,15089,22.505083333333335,11,shorts_wrinkled_green,34,pantonan
+overinformativeness,tie,11209,22.505083333333335,11,tie_big_red,35,"
+kravat"
+overinformativeness,pot,10327,22.505083333333335,11,pot_big_blue,36,"
+kabak"
+adjective_ordering,box,7639,22.505083333333335,11,box_open_cardboard,37,"
+kutu"
+adjective_ordering,hair,10432,22.505083333333335,11,hair_curly_brown,38,"
+sac"
+adjective_ordering,box,13091,22.505083333333335,11,box_closed_wood,39,"
+kutu"
+overinformativeness,clock,15270,22.505083333333335,11,clock_big_purple,40,"
+alaram saati"
+adjective_ordering,cup,11337,22.505083333333335,11,cup_full_metal,41,"
+fincan"
+adjective_ordering,box,5216,22.505083333333335,11,box_open_wood,42,"
+kutu"
+overinformativeness,skirt,15168,22.505083333333335,11,skirt_big_blue,43,"
+bir cazgi"
+overinformativeness,rosary,10858,22.505083333333335,11,rosary_big_yellow,44,"
+boncuk"
+adjective_ordering,spoon,9502,22.505083333333335,11,spoon_wooden_clean,45,"
+kasik"
+overinformativeness,tshirt,12443,22.505083333333335,11,tshirt_big_orange,46,"
+tisort"
+adjective_ordering,hair,9439,22.505083333333335,11,hair_curly_blonde,47,"
+sac"
+overinformativeness,clock,10382,22.505083333333335,11,clock_big_yellow,48,"
+alaram saati"
+overinformativeness,chair,12688,22.505083333333335,11,chair_big_yellow,49,"
+sandalye"
+overinformativeness,flower,11169,22.505083333333335,11,flower_big_pink,50,"
+sicek"
+adjective_ordering,picture,12457,22.505083333333335,11,picture_colored_square,51,"
+cerceve"
+adjective_ordering,shorts,9277,22.505083333333335,11,shorts_wrinkled_red,52,"
+pantolon"
+overinformativeness,glove,13259,22.505083333333335,11,glove_big_orange,53,"
+eldiven"
+overinformativeness,socks,13617,22.505083333333335,11,socks_big_blue,54,"
+soklari"
+overinformativeness,ball,6951,22.505083333333335,11,ball_big_yellow,55,"
+top"
+adjective_ordering,spoon,10225,22.505083333333335,11,spoon_wooden_dirty,56,"
+kasik"
+adjective_ordering,table,24719,22.505083333333335,11,table_metal_high,57,"
+celik tezkah"
+overinformativeness,hat,12055,22.505083333333335,11,hat_big_orange,58,"
+sapka"
+overinformativeness,bag,33777,22.505083333333335,11,bag_big_blue,59,"
+sirt cantasi"
+adjective_ordering,hair,7215,22.505083333333335,11,hair_straight_blond,60,"
+sac"
+overinformativeness,apple,8928,22.505083333333335,11,apple_big_red,61,"
+elma"
+adjective_ordering,man,14803,22.505083333333335,11,man_young_bald,62,"
+gulen yuz"
+overinformativeness,car,17694,22.505083333333335,11,car_big_blue,63,"
+oyuncak arava"
+overinformativeness,lock,11905,22.505083333333335,11,lock_big_gold,64,"
+aikilit"
+overinformativeness,glove,9890,22.505083333333335,11,glove_big_green,65,"
+vldiden"
+overinformativeness,button,6462,22.505083333333335,11,button_big_green,66,"
+buton"
+adjective_ordering,earring,24750,22.505083333333335,11,earring_big_triangular,67,"
+boyun kukllesi"
+overinformativeness,flower,11184,22.505083333333335,11,flower_big_yellow,68,"
+cicek"
+adjective_ordering,man,5881,22.505083333333335,11,man_old_bearded,69,"
+yuz"
+overinformativeness,shoe,12513,22.505083333333335,11,shoe_big_pink,70,"
+ayakkavi"
+overinformativeness,dress,53860,22.505083333333335,11,dress_big_green,71,"
+kokteyl elpisesi"
+overinformativeness,toothbrush,14271,22.505083333333335,11,toothbrush_big_purple,72,"
+vas fir casi"
+adjective_ordering,earring,21328,22.505083333333335,11,earring_big_round,73,"
+boyulkutlesi"
+overinformativeness,book,11593,22.505083333333335,11,book_big_blue,74,"
+kitap"
+overinformativeness,umbrella,11176,22.505083333333335,11,umbrella_big_blue,75,"
+semsiye"
+adjective_ordering,bottle,22074,22.505083333333335,11,bottle_glass_small,76,sise
+overinformativeness,glasses,11037,22.505083333333335,11,glasses_big_blue,77,"
+gozluk"
+adjective_ordering,bottle,8897,22.505083333333335,11,bottle_glass_big,78,"
+sise"
+adjective_ordering,pencil,9562,22.505083333333335,11,pencil_short_blue,79,kalem
+adjective_ordering,table,8798,22.505083333333335,11,table_metal_low,80,"
+tabloo"
+adjective_ordering,cup,15241,22.505083333333335,11,cup_full_glass,81,"
+fincan"
+overinformativeness,pot,12632,22.505083333333335,11,pot_big_green,82,"
+kapak"
+overinformativeness,binoculars,14680,22.505083333333335,11,binoculars_big_blue,83,"
+iki gozle"
+overinformativeness,pants,10910,22.505083333333335,11,pants_big_pink,84,"
+solumak"
+overinformativeness,scissors,14967,22.505083333333335,11,scissors_big_green,85,"
+makasalakesmek"
+overinformativeness,cat,8107,22.505083333333335,11,cat_big_white,86,"
+kedi"
+overinformativeness,balloon,9680,22.505083333333335,11,balloon_big_pink,87,"
+balon"
+overinformativeness,lighter,3920,22.505083333333335,11,lighter_big_white,88,"
+botoot"
+adjective_ordering,picture,2238,22.505083333333335,11,picture_colored_rectangular,89,"
+dshfsdfh"
+overinformativeness,socks,1888,22.505083333333335,11,socks_big_green,90,"
+ihs"
+adjective_ordering,woman,3288,22.505083333333335,11,woman_old_happy,91,"
+gfg"
+adjective_ordering,pencil,2040,22.505083333333335,11,pencil_short_black,92,"
+kkdf"
+overinformativeness,lipstick,1458,22.505083333333335,11,lipstick_big_red,93,"
+dsfsg"
+overinformativeness,pepper,1038,22.505083333333335,11,pepper_big_green,94,"
+fgdfg"
+overinformativeness,knife,904,22.505083333333335,11,knife_big_red,95,"
+fgg"
+adjective_ordering,shorts,511,22.505083333333335,11,shorts_dry_green,96,"
+fdg"
+overinformativeness,ball,1175,22.505083333333335,11,ball_big_purple,97,"
+fdg"
+overinformativeness,brush,2873,22.505083333333335,11,brush_big_red,98,"
+sgg"
+adjective_ordering,man,1079,22.505083333333335,11,man_young_bearded,99,"
+fgfdg"
+overinformativeness,lipstick,1072,22.505083333333335,11,lipstick_big_pink,100,"
+fdgdfgdf"
+overinformativeness,toothbrush,1352,22.505083333333335,11,toothbrush_big_green,101,"
+dfgdhgdh"
+adjective_ordering,man,1087,22.505083333333335,11,man_old_bald,102,"
+hfgju"
+overinformativeness,lock,6857,22.505083333333335,11,lock_big_silver,103,"
+fdsg"
+adjective_ordering,hair,761,22.505083333333335,11,hair_straight_brown,104,"
+ddfgdf"
+overinformativeness,tshirt,1022,22.505083333333335,11,tshirt_big_yellow,105,"
+gdfg"
+overinformativeness,tie,719,22.505083333333335,11,tie_big_blue,106,"
+fdg"
+adjective_ordering,shorts,929,22.505083333333335,11,shorts_wet_green,107,"
+fdggdh"
+adjective_ordering,spoon,646,22.505083333333335,11,spoon_metal_clean,108,"
+ghgfh"
+overinformativeness,knife,551,22.505083333333335,11,knife_big_blue,109,"
+jh"
+adjective_ordering,table,581,22.505083333333335,11,table_wood_high,110,"
+fgh"
+overinformativeness,scissors,1746,22.505083333333335,11,scissors_big_blue,111,"
+grtyrtumbvnjy"
+adjective_ordering,shorts,1537,22.505083333333335,11,shorts_dry_red,112,"
+gfh"
+adjective_ordering,woman,5189,22.505083333333335,11,woman_young_sad,113,"
+yuz"
+overinformativeness,key,3266,22.505083333333335,11,key_big_silver,114,"
+def"
+adjective_ordering,cup,790,22.505083333333335,11,cup_empty_glass,115,"
+gffdg"
+overinformativeness,glasses,1039,22.505083333333335,11,glasses_big_red,116,"
+fgd"
+adjective_ordering,earring,2032,22.505083333333335,11,earring_small_triangular,117,"
+gd"
+overinformativeness,shoe,2080,22.505083333333335,11,shoe_big_yellow,118,"
+df"
+overinformativeness,umbrella,2840,22.505083333333335,11,umbrella_big_green,119,"
+bg"
+overinformativeness,skirt,4087,22.505083333333335,11,skirt_big_green,120,hfd
+adjective_ordering,table,6225,22.505083333333335,11,table_wood_low,121,tablo
+overinformativeness,dress,8176,22.505083333333335,11,dress_big_blue,122,"
+fgdf"
+bot_check,Deniz,0,37.43226666666666,12,,1,Deniz
+overinformativeness,lighter,16764,37.43226666666666,12,lighter_big_black,3,"Çöp
+"
+overinformativeness,toothbrush,27663,37.43226666666666,12,toothbrush_big_green,4,"
+diş fırçası"
+overinformativeness,cat,23959,37.43226666666666,12,cat_big_white,5,"
+kedi"
+adjective_ordering,box,16310,37.43226666666666,12,box_closed_wood,6,"
+Kutu"
+overinformativeness,car,17429,37.43226666666666,12,car_big_blue,7,"
+araba"
+overinformativeness,mirror,51628,37.43226666666666,12,mirror_big_black,8,makyaj aynası
+adjective_ordering,hair,14310,37.43226666666666,12,hair_curly_brown,9,saç
+adjective_ordering,bottle,17070,37.43226666666666,12,bottle_plastic_small,10,"
+su şişesi"
+overinformativeness,binoculars,25518,37.43226666666666,12,binoculars_big_red,11,"
+binokular"
+adjective_ordering,shorts,15339,37.43226666666666,12,shorts_dry_green,12,"
+şort"
+overinformativeness,tie,13841,37.43226666666666,12,tie_big_blue,13,"tye
+"
+overinformativeness,key,20769,37.43226666666666,12,key_big_gold,14,"anahtar
+"
+overinformativeness,skirt,21488,37.43226666666666,12,skirt_big_blue,15,"üst
+"
+overinformativeness,lock,15020,37.43226666666666,12,lock_big_gold,16,"kilit
+"
+adjective_ordering,pencil,13480,37.43226666666666,12,pencil_long_blue,17,kalem
+adjective_ordering,earring,18695,37.43226666666666,12,earring_small_triangular,18,kulak
+adjective_ordering,picture,15314,37.43226666666666,12,picture_colored_rectangular,19,"fotoğraf çerçevesi
+"
+adjective_ordering,woman,15469,37.43226666666666,12,woman_old_happy,20,"daha yaşlı adam
+"
+overinformativeness,balloon,14919,37.43226666666666,12,balloon_big_yellow,21,"balon
+"
+adjective_ordering,hair,10930,37.43226666666666,12,hair_curly_blonde,22,saç
+adjective_ordering,table,12409,37.43226666666666,12,table_metal_high,23,tablo
+adjective_ordering,shorts,10799,37.43226666666666,12,shorts_dry_red,24,"şort
+"
+overinformativeness,knife,12040,37.43226666666666,12,knife_big_red,25,"bıçak
+"
+overinformativeness,bag,10030,37.43226666666666,12,bag_big_blue,26,"sırt çantası
+"
+overinformativeness,brush,13640,37.43226666666666,12,brush_big_blue,27,"boya fırçası
+"
+overinformativeness,button,14815,37.43226666666666,12,button_big_blue,28,"buton
+"
+overinformativeness,rosary,18982,37.43226666666666,12,rosary_big_yellow,29,"Zincir
+"
+overinformativeness,scissors,29471,37.43226666666666,12,scissors_big_green,30,"sicere
+"
+adjective_ordering,box,10221,37.43226666666666,12,box_closed_cardboard,31,"Kutu
+"
+overinformativeness,tshirt,13229,37.43226666666666,12,tshirt_big_orange,32,"T gömlek
+"
+adjective_ordering,picture,12618,37.43226666666666,12,picture_bw_rectangular,33,"fotoğraf çerçevesi
+"
+overinformativeness,scissors,19212,37.43226666666666,12,scissors_big_blue,34,sicere
+overinformativeness,lipstick,13318,37.43226666666666,12,lipstick_big_pink,35,"ruj
+"
+overinformativeness,glasses,25879,37.43226666666666,12,glasses_big_blue,36,"gözlük
+"
+adjective_ordering,bottle,14610,37.43226666666666,12,bottle_plastic_big,37,"su şişesi
+"
+overinformativeness,glove,26811,37.43226666666666,12,glove_big_orange,38,"parlamalar
+"
+adjective_ordering,spoon,10970,37.43226666666666,12,spoon_wooden_clean,39,"kaşık
+"
+adjective_ordering,cup,29148,37.43226666666666,12,cup_empty_glass,40,"cam bardak
+"
+adjective_ordering,pencil,11671,37.43226666666666,12,pencil_long_black,41,kalem
+overinformativeness,umbrella,18629,37.43226666666666,12,umbrella_big_blue,42,"şemsiye
+"
+overinformativeness,lighter,19720,37.43226666666666,12,lighter_big_white,43,çöp
+adjective_ordering,picture,13130,37.43226666666666,12,picture_colored_square,44,"fotoğraf çerçevesi
+"
+overinformativeness,mirror,18159,37.43226666666666,12,mirror_big_white,45,"yüz aynası
+"
+overinformativeness,dress,21789,37.43226666666666,12,dress_big_blue,46,"kız elbise
+"
+overinformativeness,chair,13909,37.43226666666666,12,chair_big_yellow,47,"masa tezgahı
+"
+adjective_ordering,spoon,9830,37.43226666666666,12,spoon_metal_dirty,48,"kaşık
+"
+overinformativeness,pants,14288,37.43226666666666,12,pants_big_pink,49,"kot pantolon
+"
+overinformativeness,pot,11871,37.43226666666666,12,pot_big_green,50,"sıcak kutu
+"
+overinformativeness,flower,15151,37.43226666666666,12,flower_big_yellow,51,"güneş çiçeği
+"
+overinformativeness,button,10561,37.43226666666666,12,button_big_green,52,"buton
+"
+adjective_ordering,earring,9460,37.43226666666666,12,earring_small_round,53,"kulak
+"
+overinformativeness,shoe,30650,37.43226666666666,12,shoe_big_pink,54,"ayakkabı
+"
+adjective_ordering,bottle,13229,37.43226666666666,12,bottle_glass_big,55,"su şişesi
+"
+adjective_ordering,pencil,11261,37.43226666666666,12,pencil_short_black,56,"kalem
+"
+overinformativeness,key,10500,37.43226666666666,12,key_big_silver,57,"anahtar
+"
+overinformativeness,clock,14589,37.43226666666666,12,clock_big_yellow,58,"saat
+"
+adjective_ordering,box,10551,37.43226666666666,12,box_open_wood,59,Kutu
+overinformativeness,lock,14029,37.43226666666666,12,lock_big_silver,60,"kilit
+"
+adjective_ordering,shorts,11648,37.43226666666666,12,shorts_wet_green,61,"kısa
+"
+adjective_ordering,table,13872,37.43226666666666,12,table_metal_low,62,tablo
+overinformativeness,ball,13950,37.43226666666666,12,ball_big_purple,63,yuvarlak
+overinformativeness,tie,10560,37.43226666666666,12,tie_big_red,64,tye
+overinformativeness,socks,32629,37.43226666666666,12,socks_big_green,65,shockes
+adjective_ordering,woman,14660,37.43226666666666,12,woman_young_happy,66,kız
+overinformativeness,ball,13240,37.43226666666666,12,ball_big_yellow,67,"sarı yuvarlak
+"
+overinformativeness,skirt,13750,37.43226666666666,12,skirt_big_green,68,"kız elbise
+"
+overinformativeness,dress,19870,37.43226666666666,12,dress_big_green,69,"kız elbise
+"
+overinformativeness,apple,15140,37.43226666666666,12,apple_big_green,70,"yeşil Elma
+"
+adjective_ordering,table,56426,37.43226666666666,12,table_wood_low,71,"tablo
+"
+overinformativeness,umbrella,16465,37.43226666666666,12,umbrella_big_green,72,"amberla
+"
+overinformativeness,book,10944,37.43226666666666,12,book_big_blue,73,kitap
+overinformativeness,pepper,42999,37.43226666666666,12,pepper_big_green,74,"yeşil biber
+"
+adjective_ordering,spoon,10710,37.43226666666666,12,spoon_wooden_dirty,75,"kaşık
+"
+adjective_ordering,shorts,11659,37.43226666666666,12,shorts_wrinkled_green,76,"şort
+"
+overinformativeness,lipstick,12231,37.43226666666666,12,lipstick_big_red,77,"liptics
+"
+overinformativeness,pepper,27780,37.43226666666666,12,pepper_big_red,78,"kırmızı soyma kağıt
+"
+overinformativeness,hat,13346,37.43226666666666,12,hat_big_orange,79,"kapak
+"
+overinformativeness,rosary,18966,37.43226666666666,12,rosary_big_blue,80,"zincirler
+"
+overinformativeness,pants,14678,37.43226666666666,12,pants_big_green,81,"kot pantolon
+"
+adjective_ordering,cup,14901,37.43226666666666,12,cup_full_glass,82,Çay
+overinformativeness,car,12270,37.43226666666666,12,car_big_green,83,"araba
+"
+adjective_ordering,shorts,11050,37.43226666666666,12,shorts_wet_red,84,"şort
+"
+adjective_ordering,bottle,12180,37.43226666666666,12,bottle_glass_small,85,"su şişesi
+"
+adjective_ordering,cup,13500,37.43226666666666,12,cup_empty_metal,86,"Çay bardağı
+"
+overinformativeness,chair,16375,37.43226666666666,12,chair_big_blue,87,Bank
+adjective_ordering,box,11985,37.43226666666666,12,box_open_cardboard,88,"Kutu
+"
+adjective_ordering,hair,10859,37.43226666666666,12,hair_straight_brown,89,"saç
+"
+overinformativeness,tshirt,20415,37.43226666666666,12,tshirt_big_yellow,90,tişört
+overinformativeness,cat,21316,37.43226666666666,12,cat_big_black,91,"Kara kedi
+"
+adjective_ordering,man,16957,37.43226666666666,12,man_old_bearded,92,"yaşlı adam
+"
+adjective_ordering,woman,14363,37.43226666666666,12,woman_young_sad,93,"üzgün kız
+"
+overinformativeness,socks,13715,37.43226666666666,12,socks_big_blue,94,"şort sho
+"
+adjective_ordering,man,25476,37.43226666666666,12,man_young_bald,95,"yaşlı erkek
+"
+overinformativeness,binoculars,12980,37.43226666666666,12,binoculars_big_blue,96,"pianocular
+"
+overinformativeness,bag,13259,37.43226666666666,12,bag_big_red,97,"sırt çantası
+"
+overinformativeness,apple,13641,37.43226666666666,12,apple_big_red,98,"elma
+"
+overinformativeness,clock,13752,37.43226666666666,12,clock_big_purple,99,"saat
+"
+overinformativeness,flower,14959,37.43226666666666,12,flower_big_pink,100,çiçek
+adjective_ordering,cup,12016,37.43226666666666,12,cup_full_metal,101,"Çay bardağı
+"
+overinformativeness,glasses,23864,37.43226666666666,12,glasses_big_red,102,spec
+overinformativeness,balloon,18455,37.43226666666666,12,balloon_big_pink,103,spec
+overinformativeness,pot,14449,37.43226666666666,12,pot_big_blue,104,"sıcak kutu
+"
+overinformativeness,book,12541,37.43226666666666,12,book_big_red,105,"kitap
+"
+overinformativeness,hat,10525,37.43226666666666,12,hat_big_pink,106,kapak
+adjective_ordering,picture,12429,37.43226666666666,12,picture_bw_square,107,"fotoğraf çerçevesi
+"
+overinformativeness,knife,11047,37.43226666666666,12,knife_big_blue,108,"bıçak
+"
+adjective_ordering,spoon,11776,37.43226666666666,12,spoon_metal_clean,109,"kaşık
+"
+adjective_ordering,earring,10594,37.43226666666666,12,earring_big_triangular,110,"kulak
+"
+overinformativeness,glove,20485,37.43226666666666,12,glove_big_green,111,"eldiven
+"
+adjective_ordering,woman,12720,37.43226666666666,12,woman_old_sad,112,"yaşlı adam
+"
+overinformativeness,brush,12152,37.43226666666666,12,brush_big_red,113,"boya fırçası
+"
+adjective_ordering,hair,11434,37.43226666666666,12,hair_straight_blond,114,"saç
+"
+overinformativeness,shoe,16201,37.43226666666666,12,shoe_big_yellow,115,ayakkabı
+adjective_ordering,man,10905,37.43226666666666,12,man_old_bald,116,"yaşlı adam
+"
+adjective_ordering,earring,10661,37.43226666666666,12,earring_big_round,117,"kulak
+"
+overinformativeness,toothbrush,14866,37.43226666666666,12,toothbrush_big_purple,118,"diş fırçası
+"
+adjective_ordering,man,16640,37.43226666666666,12,man_young_bearded,119,"genç adam
+"
+adjective_ordering,shorts,12415,37.43226666666666,12,shorts_wrinkled_red,120,kısa
+adjective_ordering,pencil,11861,37.43226666666666,12,pencil_short_blue,121,"kalem
+"
+adjective_ordering,table,11929,37.43226666666666,12,table_wood_high,122,"tablo
+"
+bot_check,Yasemin,0,21.53305,13,,1,Yasemin
+adjective_ordering,man,42949,21.53305,13,man_old_bald,3,Adam
+overinformativeness,button,8674,21.53305,13,button_big_blue,4,buton
+adjective_ordering,spoon,7816,21.53305,13,spoon_wooden_dirty,5,kaşık
+adjective_ordering,spoon,3141,21.53305,13,spoon_metal_clean,6,kaşık
+adjective_ordering,cup,10434,21.53305,13,cup_full_glass,7,"
+portakal suyu"
+adjective_ordering,pencil,7672,21.53305,13,pencil_long_blue,8,kalem
+adjective_ordering,bottle,7214,21.53305,13,bottle_plastic_small,9,"
+şişe"
+overinformativeness,brush,7130,21.53305,13,brush_big_blue,10,boya fırçası
+adjective_ordering,picture,6601,21.53305,13,picture_bw_rectangular,11,boyama
+overinformativeness,pepper,9636,21.53305,13,pepper_big_red,12,"
+kırmızı dolmalık biber"
+adjective_ordering,picture,7055,21.53305,13,picture_colored_square,13,boyama
+overinformativeness,skirt,9498,21.53305,13,skirt_big_green,14,elbise
+adjective_ordering,shorts,9616,21.53305,13,shorts_wet_red,15,şort
+overinformativeness,toothbrush,7136,21.53305,13,toothbrush_big_green,16,diş fırçası
+overinformativeness,scissors,6641,21.53305,13,scissors_big_blue,17,makas
+overinformativeness,book,6467,21.53305,13,book_big_red,18,kitap
+overinformativeness,clock,7403,21.53305,13,clock_big_purple,19,saat
+overinformativeness,pot,11877,21.53305,13,pot_big_blue,20,kap
+adjective_ordering,hair,10242,21.53305,13,hair_straight_brown,21,saclar
+adjective_ordering,man,7510,21.53305,13,man_young_bald,22,adam
+overinformativeness,balloon,8870,21.53305,13,balloon_big_pink,23,balon
+overinformativeness,skirt,20747,21.53305,13,skirt_big_blue,24,"
+etek"
+overinformativeness,tie,7860,21.53305,13,tie_big_red,25,kravat
+overinformativeness,glasses,7314,21.53305,13,glasses_big_red,26,Gözlük
+adjective_ordering,box,8397,21.53305,13,box_closed_cardboard,27,Kutu
+adjective_ordering,table,6498,21.53305,13,table_wood_low,28,tablo
+adjective_ordering,earring,23161,21.53305,13,earring_small_round,29,küpe
+adjective_ordering,cup,6543,21.53305,13,cup_empty_metal,30,fincan
+adjective_ordering,pencil,7281,21.53305,13,pencil_long_black,31,kalem
+overinformativeness,apple,7681,21.53305,13,apple_big_red,32,elma
+overinformativeness,toothbrush,7631,21.53305,13,toothbrush_big_purple,33,"
+diş fırçası"
+overinformativeness,key,5577,21.53305,13,key_big_silver,34,anahtar
+overinformativeness,lock,6512,21.53305,13,lock_big_gold,35,kilit
+overinformativeness,mirror,7122,21.53305,13,mirror_big_white,36,ayna
+adjective_ordering,bottle,6977,21.53305,13,bottle_glass_big,37,şişe
+adjective_ordering,pencil,7834,21.53305,13,pencil_short_blue,38,kalem
+overinformativeness,car,15752,21.53305,13,car_big_green,39,araba
+overinformativeness,chair,5921,21.53305,13,chair_big_yellow,40,"
+sandalye"
+overinformativeness,rosary,10737,21.53305,13,rosary_big_yellow,41,kolye
+overinformativeness,umbrella,8196,21.53305,13,umbrella_big_blue,42,şemsiye
+adjective_ordering,picture,7099,21.53305,13,picture_bw_square,43,"
+boyama"
+overinformativeness,dress,6045,21.53305,13,dress_big_blue,44,elbise
+adjective_ordering,picture,5758,21.53305,13,picture_colored_rectangular,45,boyama
+adjective_ordering,bottle,5889,21.53305,13,bottle_plastic_big,46,şişe
+overinformativeness,bag,27929,21.53305,13,bag_big_red,47,"
+sırt çantası"
+adjective_ordering,table,5749,21.53305,13,table_metal_low,48,tablo
+overinformativeness,hat,22532,21.53305,13,hat_big_pink,49,şapka
+overinformativeness,car,3373,21.53305,13,car_big_blue,50,araba
+overinformativeness,glove,247465,21.53305,13,glove_big_orange,51,eldiven
+overinformativeness,socks,8468,21.53305,13,socks_big_green,52,çorap
+adjective_ordering,cup,5905,21.53305,13,cup_empty_glass,53,bardak
+overinformativeness,book,5819,21.53305,13,book_big_blue,54,kitap
+overinformativeness,tie,6983,21.53305,13,tie_big_blue,55,"
+kravat"
+overinformativeness,lighter,6037,21.53305,13,lighter_big_white,56,çakmak
+overinformativeness,pepper,5906,21.53305,13,pepper_big_green,57,"
+biber"
+overinformativeness,ball,6897,21.53305,13,ball_big_purple,58,top
+adjective_ordering,man,5761,21.53305,13,man_old_bearded,59,adam
+overinformativeness,brush,6332,21.53305,13,brush_big_red,60,"
+boya fırçası"
+overinformativeness,tshirt,4964,21.53305,13,tshirt_big_yellow,61,"
+gömlek"
+overinformativeness,binoculars,10774,21.53305,13,binoculars_big_red,62,"
+dürbün"
+adjective_ordering,woman,8157,21.53305,13,woman_old_happy,63,"
+yaşlı kadın"
+overinformativeness,umbrella,5726,21.53305,13,umbrella_big_green,64,"
+şemsiye"
+overinformativeness,lighter,5569,21.53305,13,lighter_big_black,65,"
+çakmak"
+overinformativeness,hat,4967,21.53305,13,hat_big_orange,66,"
+şapka"
+overinformativeness,flower,6920,21.53305,13,flower_big_yellow,67,"
+ayçiçeği"
+adjective_ordering,table,3978,21.53305,13,table_metal_high,68,tablo
+overinformativeness,lipstick,6594,21.53305,13,lipstick_big_red,69,"
+ruj"
+adjective_ordering,box,6015,21.53305,13,box_open_wood,70,"
+Kutu"
+overinformativeness,lock,4786,21.53305,13,lock_big_silver,71,"
+kilit"
+adjective_ordering,earring,5567,21.53305,13,earring_big_triangular,72,"
+küpe"
+adjective_ordering,pencil,6897,21.53305,13,pencil_short_black,73,kalem
+adjective_ordering,shorts,5489,21.53305,13,shorts_dry_green,74,"
+şort"
+adjective_ordering,hair,6124,21.53305,13,hair_curly_blonde,75,saç
+overinformativeness,dress,4302,21.53305,13,dress_big_green,76,"
+elbise"
+overinformativeness,shoe,4810,21.53305,13,shoe_big_yellow,77,ayakkabı
+overinformativeness,ball,5002,21.53305,13,ball_big_yellow,78,"
+top"
+adjective_ordering,shorts,4434,21.53305,13,shorts_dry_red,79,"
+şort"
+adjective_ordering,man,5282,21.53305,13,man_young_bearded,80,adam
+adjective_ordering,woman,6598,21.53305,13,woman_old_sad,81,"
+yaşlı kadın"
+adjective_ordering,spoon,5118,21.53305,13,spoon_metal_dirty,82,"
+kaşık"
+overinformativeness,chair,4525,21.53305,13,chair_big_blue,83,"
+sandalye"
+overinformativeness,pants,4716,21.53305,13,pants_big_green,84,"
+pantolon"
+overinformativeness,socks,4785,21.53305,13,socks_big_blue,85,"
+çorap"
+overinformativeness,bag,4896,21.53305,13,bag_big_blue,86,"
+sırt çantası"
+adjective_ordering,shorts,12576,21.53305,13,shorts_wrinkled_green,87,şort
+adjective_ordering,hair,8016,21.53305,13,hair_straight_blond,88,saç
+adjective_ordering,woman,6160,21.53305,13,woman_young_happy,89,"
+Kadın"
+adjective_ordering,cup,6314,21.53305,13,cup_full_metal,90,"
+Fincan"
+overinformativeness,mirror,5106,21.53305,13,mirror_big_black,91,"
+ayna"
+overinformativeness,cat,4293,21.53305,13,cat_big_white,92,"
+kedi"
+overinformativeness,glove,4409,21.53305,13,glove_big_green,93,"
+eldiven"
+overinformativeness,lipstick,9480,21.53305,13,lipstick_big_pink,94,ruj
+overinformativeness,flower,5632,21.53305,13,flower_big_pink,95,"
+çiçek"
+overinformativeness,shoe,5746,21.53305,13,shoe_big_pink,96,"
+ayakkabı"
+adjective_ordering,earring,4951,21.53305,13,earring_big_round,97,"
+küpe"
+overinformativeness,knife,4706,21.53305,13,knife_big_blue,98,"
+nīf
+bıçak"
+adjective_ordering,earring,5918,21.53305,13,earring_small_triangular,99,"
+küpe"
+overinformativeness,pants,4375,21.53305,13,pants_big_pink,100,"
+pantolon"
+overinformativeness,clock,4564,21.53305,13,clock_big_yellow,101,"
+saat"
+adjective_ordering,woman,6506,21.53305,13,woman_young_sad,102,"
+ağlayan kadın"
+overinformativeness,scissors,8567,21.53305,13,scissors_big_green,103,"
+makas"
+adjective_ordering,bottle,5134,21.53305,13,bottle_glass_small,104,"
+şişe"
+adjective_ordering,table,3597,21.53305,13,table_wood_high,105,tablo
+overinformativeness,button,7375,21.53305,13,button_big_green,106,buton
+overinformativeness,binoculars,5923,21.53305,13,binoculars_big_blue,107,"
+dürbün"
+adjective_ordering,box,15724,21.53305,13,box_open_cardboard,108,kutu
+overinformativeness,glasses,8989,21.53305,13,glasses_big_blue,109,"
+gözlük"
+overinformativeness,apple,8199,21.53305,13,apple_big_green,110,yeşil Elma
+adjective_ordering,box,6405,21.53305,13,box_closed_wood,111,kutu
+overinformativeness,cat,7308,21.53305,13,cat_big_black,112,kedi
+adjective_ordering,shorts,5542,21.53305,13,shorts_wet_green,113,"
+şort"
+overinformativeness,pot,14257,21.53305,13,pot_big_green,114,çömlek
+adjective_ordering,spoon,6099,21.53305,13,spoon_wooden_clean,115,kaşık
+overinformativeness,balloon,7390,21.53305,13,balloon_big_yellow,116,balon
+overinformativeness,tshirt,5163,21.53305,13,tshirt_big_orange,117,"
+gömlek"
+overinformativeness,key,5210,21.53305,13,key_big_gold,118,anahtar
+overinformativeness,knife,5956,21.53305,13,knife_big_red,119,"
+bıçak"
+adjective_ordering,hair,4785,21.53305,13,hair_curly_brown,120,"
+saç"
+overinformativeness,rosary,5606,21.53305,13,rosary_big_blue,121,kolye
+adjective_ordering,shorts,5210,21.53305,13,shorts_wrinkled_red,122,"
+şort"

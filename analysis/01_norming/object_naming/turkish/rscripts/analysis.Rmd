@@ -1,0 +1,46 @@
+---
+title: "Pragmatics in CTSL - Norming for Object Namability"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+df = read.csv("../data/trials-merged.csv", header = TRUE)
+
+df$cresponse = str_to_lower(gsub(" ", "", df$response))
+df$cresponse = str_to_lower(gsub("\n", "", df$cresponse))
+```
+
+```{r responses, include=FALSE}
+responses = df %>%
+  filter(str_detect(trial_type,"bot_check", negate = TRUE)) %>%
+  group_by(object,cresponse,trial_type) %>%
+  summarize(count=n()) #%>%
+
+```
+
+```{r objects, echo=FALSE}
+ggplot(responses, aes(x=cresponse, y=count, fill=as.factor(trial_type))) +
+  geom_bar(stat="identity") +
+  facet_wrap(~object, scales="free") +
+  coord_flip() #+
+  #scale_x_discrete(guide = guide_axis(n.dodge=3)) +
+  theme(legend.position = "none")
+ggsave(file="../graphs/namability-merged.pdf",width=30,height=25)
+```
+
+
+
+
+
+
+
