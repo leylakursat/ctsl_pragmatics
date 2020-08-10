@@ -105,7 +105,7 @@ function make_slides(f) {
           var inputID=`${id}${i+1}`
           result +=`<div><input type="checkbox" id="${inputID}"></input><label for="${inputID}">${value[i]}</label></div>`
         }
-          result += `<div><input type="checkbox" id="${id}5" class='otherInput' data-target="${id}text"></input><label for="${id}5">other</label></div>`
+          result += `<div><input type="checkbox" id="${id}5" class='otherInput' data-target="${id}text"></input><label for="${id}5">diğer</label></div>`
           result += `<div><input type="text" id="${id}text" style="display:none"></input><label for="${id}text"></label></div>`
 
         return result
