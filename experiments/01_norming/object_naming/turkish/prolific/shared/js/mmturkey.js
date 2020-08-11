@@ -112,8 +112,7 @@ turk = turk || {};
       }
     }
 
-    // If there's no turk info
-    //if (!assignmentId || !turkSubmitTo) {
+    // Change to if (true) to get local view
     if (false) {
       // Emit the debug output and stop
       var div = document.createElement('div');
@@ -126,11 +125,12 @@ turk = turk || {};
       document.body.appendChild(div);
       return;
     } else {
-    // Otherwise, submit the form
-    form.action = turk.turkSubmitTo + "/mturk/externalSubmit";
-    form.method = "POST";
-    form.submit();
+      form.action = "collectdata.php"
+      form.method = "post";
+      form.submit();
     }
+
+   
   }
   
   // simulate $(document).ready() to show the preview warning
