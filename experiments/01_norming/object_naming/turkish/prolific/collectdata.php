@@ -32,3 +32,5 @@ echo("<b>Thanks for participating!</b> Your participation code is ".$participant
 
 // header( 'Location: http://stanford.edu/~bwaldon/cgi-bin/lingexp/partcode.php' );   
 ?>
+
+"<p>Please proceed to: </p> <a href='https://app.prolific.co/submissions/complete?cc=5D955DB8'>Prolific</a>"

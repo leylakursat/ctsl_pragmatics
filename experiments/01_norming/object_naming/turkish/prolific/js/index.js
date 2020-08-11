@@ -147,6 +147,7 @@ function make_slides(f) {
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
+        prolific_id : $("#prolific_id").val(),
         comments : $("#comments").val(),
         problems: $("#problems").val(),
         fairprice: $("#fairprice").val()
