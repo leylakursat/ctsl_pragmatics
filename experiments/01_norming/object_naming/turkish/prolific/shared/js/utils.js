@@ -51,29 +51,27 @@ var utils = {
 		});
 	},
 
-	make_slider: function(label, response_callback, orientation) {
-		var orientation = (orientation == null) ? "horizontal" : orientation;
+	make_slider: function(label, response_callback) {
 		$(label).empty();
 		$(label).slider({
 			range : "min",
 			min : 0,
 			max : 1,
 			step: 0.01,
-			value : -1,
+			value : 0.5,
 			slide : response_callback,
-			change : response_callback,
-			orientation : orientation
+						change : response_callback
 		});
 		$(label + ' .ui-slider-handle').hide();
-		$(label).mousedown(function(){
+				$(label).mousedown(function(){
 			$(label + ' .ui-slider-handle').show();
-			$(label).css({"background":"#99D6EB"});
-			$(label + ' .ui-slider-handle').css({
-				"background":"#667D94",
-				"border-color": "#001F29"
-			});
-		});
-		$(label).css({"background":"#eee"});
+				$(label).css({"background":"#99D6EB"});
+				$(label + ' .ui-slider-handle').css({
+					"background":"#667D94",
+					"border-color": "#001F29"
+				});
+				});
+				$(label).css({"background":"#eee"});
 	}
 }
 /*
