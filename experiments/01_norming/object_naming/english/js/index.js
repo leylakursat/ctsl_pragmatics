@@ -83,18 +83,22 @@ function make_slides(f) {
 	   $(".err").hide();
     },
       present_handle : function(stim) {
-    	this.trial_start = Date.now();
+      this.trial_start = Date.now();
+      $("#objectimage").hide();
       $(".err").hide();
       $("#answer").val("");
-      $(".err").hide();
 
 	    this.stim = stim;
 	    //console.log(this.stim);
 	    var contextsentence = "What is this object?" ;
-	    var objimagehtml = '<img src="images/'+stim.label+'.png" style="height:230px;">';
-
+      var objimagehtml = '<img src="images/'+stim.label+'.png" style="height:230px;">';
+    
 	    $("#contextsentence").html(contextsentence);
-	    $("#objectimage").html(objimagehtml);
+      $("#objectimage").html(objimagehtml);
+
+      $('img').on('load', function(event) {
+        $("#objectimage").show();
+      });
 
     document.onkeypress = checkKey;
     function checkKey(e) {
