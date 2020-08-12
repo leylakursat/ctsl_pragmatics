@@ -84,7 +84,6 @@ function make_slides(f) {
     },
       present_handle : function(stim) {
       this.trial_start = Date.now();
-      $("#objectimage").hide();
       $(".err").hide();
       $("#answer").val("");
 
@@ -95,10 +94,6 @@ function make_slides(f) {
     
 	    $("#contextsentence").html(contextsentence);
       $("#objectimage").html(objimagehtml);
-
-      $('img').on('load', function(event) {
-        $("#objectimage").show();
-      });
 
     document.onkeypress = checkKey;
     function checkKey(e) {

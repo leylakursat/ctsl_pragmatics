@@ -84,7 +84,7 @@ function make_slides(f) {
 
     },
     present_handle: function (stim) {
-      $("#image-holder").hide()
+      // $("#image-holder").hide()
       this.trial_start = Date.now();
       $(".err").hide();
 
@@ -98,19 +98,19 @@ function make_slides(f) {
       $(".loc3").html('<img src="images/' + stim.img3 + '.png" style="height:200px;">');
       $(".loc4").html('<img src="images/' + stim.img4 + '.png" style="height:200px;">');
 
-      var imagesLoaded = 0;
-      // Count the total number of images on the page when the page has loaded.
-      var totalImages = $('#image-holder img').length;
+      // var imagesLoaded = 0;
+      // // Count the total number of images on the page when the page has loaded.
+      // var totalImages = $('#image-holder img').length;
 
-      // After an image is loaded, add to the count, and if that count equals the
-      // total number of images, fire the allImagesLoaded() function.
-      $('img').on('load', function (event) {
-        imagesLoaded++;
-        if (imagesLoaded == totalImages) {
-          console.log("loaded all the images")
-          $("#image-holder").show()
-        }
-      });
+      // // After an image is loaded, add to the count, and if that count equals the
+      // // total number of images, fire the allImagesLoaded() function.
+      // $('img').on('load', function (event) {
+      //   imagesLoaded++;
+      //   if (imagesLoaded == totalImages) {
+      //     console.log("loaded all the images")
+      //     $("#image-holder").show()
+      //   }
+      // });
 
       function getOptions(id, value) {
         var result = ''
@@ -172,11 +172,7 @@ function make_slides(f) {
       exp.img3_resp = getResponseArray('img3feature', 5);
       exp.img4_resp = getResponseArray('img4feature', 5);
 
-
-
       const isAllAnswered = checkIsAllAnswered([exp.img1_resp, exp.img2_resp, exp.img3_resp, exp.img4_resp])
-
-
 
       if (isAllAnswered) {
         $(".err").hide();
@@ -244,6 +240,18 @@ function make_slides(f) {
 /// init ///
 function init() {
   exp.stims = _.shuffle(exp.items);
+
+  function preloadImages(){
+    for (pos in exp.stims){
+      (new Image()).src = "images/" + exp.stims[pos].img1 + ".png";
+      (new Image()).src = "images/" + exp.stims[pos].img2 + ".png";
+      (new Image()).src = "images/" + exp.stims[pos].img3 + ".png";
+      (new Image()).src = "images/" + exp.stims[pos].img4 + ".png";
+    };
+    console.log("loaded all the images")
+  };
+
+  preloadImages();
 
   exp.trials = [];
   exp.catch_trials = [];
