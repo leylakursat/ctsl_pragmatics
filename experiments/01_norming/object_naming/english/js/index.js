@@ -87,8 +87,14 @@ function make_slides(f) {
       $(".err").hide();
       $("#answer").val("");
 
-	    this.stim = stim;
-	    //console.log(this.stim);
+      this.stim = stim;
+      
+      if (stim.trial_type == "adjective_ordering") {
+        var list =  _.shuffle([1,2,3,4]);
+        x = list.pop(); // 1,2,3,4,
+        stim.label = stim[`img${x}`];
+      }
+	    console.log(this.stim);
 	    var contextsentence = "What is this object?" ;
       var objimagehtml = '<img src="images/'+stim.label+'.png" style="height:230px;">';
     
@@ -173,11 +179,17 @@ function init() {
 
   function preloadImages(){
     for (pos in exp.stims){
-      (new Image()).src = "images/" + exp.stims[pos].label + ".png";
+      if (exp.stims[pos].trial_type == "overinformativeness") {
+        (new Image()).src = "images/" + exp.stims[pos].label + ".png";
+      } else if (exp.stims[pos].trial_type == "adjective_ordering") {
+        (new Image()).src = "images/" + exp.stims[pos].img1 + ".png";
+        (new Image()).src = "images/" + exp.stims[pos].img2 + ".png";
+        (new Image()).src = "images/" + exp.stims[pos].img3 + ".png";
+        (new Image()).src = "images/" + exp.stims[pos].img4 + ".png";
+      }
+    console.log("loaded all the images");
     };
-    console.log("loaded all the images")
   };
-
   preloadImages();
 
   exp.trials = [];

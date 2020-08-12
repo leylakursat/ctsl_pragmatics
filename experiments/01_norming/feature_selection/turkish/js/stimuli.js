@@ -26,8 +26,8 @@ exp.items = _.shuffle([
         "img2": "cup_empty_plastic",
         "img3": "cup_empty_metal",
         "img4": "cup_full_metal",
-        "features": ["glass","metal","full","empty"],
-        "features_tr": ["cam","metal","dolu","boş"],
+        "features": ["plastic","metal","full","empty"],
+        "features_tr": ["plastik","metal","dolu","boş"],
     },
     {
         "trial_type": "adjective_ordering",
