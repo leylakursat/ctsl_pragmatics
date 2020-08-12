@@ -28,4 +28,4 @@ papers/cogsci2020/si_context_rt.pdf
 *.fls
 *.log
 *.synctex.gz
-*.txt
+#*.txt
