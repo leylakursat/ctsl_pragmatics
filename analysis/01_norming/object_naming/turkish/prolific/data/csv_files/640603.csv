@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+3,overinformativeness,knife_big_red,knife,7686,bicak,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+4,overinformativeness,toothbrush_big_green,toothbrush,10959,dis fircasi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+5,overinformativeness,socks_big_blue,socks,6089,corap,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+6,adjective_ordering,table_metal_low,table,4589,masa,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+7,adjective_ordering,pencil_long_black,pencil,7679,kursun kalem,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+8,overinformativeness,pot_big_blue,pot,7804,tencere,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+9,overinformativeness,glasses_big_blue,glasses,13109,gozluk ,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+10,adjective_ordering,spoon_wooden_dirty,spoon,11096,tahta kasik,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+11,overinformativeness,brush_big_blue,brush,6921,firca,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+12,overinformativeness,car_big_blue,car,7464,oyuncak araba,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+13,overinformativeness,tshirt_big_yellow,tshirt,13920,tisort,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+14,overinformativeness,bag_big_blue,bag,7964,okul cantasi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+15,adjective_ordering,man_old_bald,man,12707,yasli adam,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+16,adjective_ordering,hair_curly_blonde,hair,8060,kivircik sac,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+17,overinformativeness,chair_big_yellow,chair,5565,sandalye,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+18,adjective_ordering,bottle_plastic_big,bottle,6445,sise su,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+19,overinformativeness,apple_big_green,apple,6769,yesil elma,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+20,adjective_ordering,shorts_wet_red,shorts,10289,islak mayo,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+21,adjective_ordering,cup_full_plastic,cup,6455,plastik bardak,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+22,overinformativeness,clock_big_yellow,clock,9856,calar saat,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+23,adjective_ordering,woman_young_happy,woman,12106,genc kadin,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+24,overinformativeness,book_big_red,book,14136,kirmizi kitap,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+25,overinformativeness,umbrella_big_green,umbrella,7030,semsiye,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+26,overinformativeness,hat_big_orange,hat,4843,sapka,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+27,overinformativeness,scissors_big_blue,scissors,10776,makas,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+28,overinformativeness,tie_big_red,tie,4560,kravat,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+29,overinformativeness,shoe_big_yellow,shoe,6066,converse,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+30,overinformativeness,glove_big_orange,glove,8029,eldiven,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+31,overinformativeness,key_big_gold,key,4406,anahtar,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+32,overinformativeness,brush_big_red,brush,4758,firca,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+33,overinformativeness,umbrella_big_blue,umbrella,4387,semsiye,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+34,overinformativeness,glasses_big_red,glasses,4828,gozluk,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+35,overinformativeness,toothbrush_big_purple,toothbrush,5053,dis fircasi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+36,overinformativeness,pot_big_green,pot,5215,tencere,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+37,overinformativeness,pepper_big_red,pepper,10630,kirmizi dolmalik biber,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+38,overinformativeness,rosary_big_yellow,rosary,4758,tesbih,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+39,overinformativeness,scissors_big_green,scissors,3723,makas,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+40,overinformativeness,ball_big_purple,ball,7399,top,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+41,adjective_ordering,woman2_happy_skinny,woman2,11105,yasli kadin,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+42,overinformativeness,glove_big_green,glove,5193,eldiven,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+43,overinformativeness,pants_big_green,pants,4899,pantolon,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+44,overinformativeness,tshirt_big_orange,tshirt,4426,tisort,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+45,overinformativeness,binoculars_big_red,binoculars,5199,durbun,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+46,overinformativeness,skirt_big_blue,skirt,5725,etek,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+47,overinformativeness,flower_big_pink,flower,4791,cicek,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+48,overinformativeness,clock_big_purple,clock,8865,calar saat,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+49,overinformativeness,lipstick_big_red,lipstick,4221,ruj,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+50,overinformativeness,binoculars_big_blue,binoculars,6369,durbun,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+51,overinformativeness,cat_big_white,cat,3668,kedi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+52,overinformativeness,lipstick_big_pink,lipstick,6235,ruj,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+53,overinformativeness,chair_big_blue,chair,4006,sandalye,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+54,overinformativeness,apple_big_red,apple,5125,kirmizi elma,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+55,overinformativeness,car_big_green,car,6968,oyuncak araba,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+56,overinformativeness,button_big_blue,button,4529,dugme,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+57,overinformativeness,button_big_green,button,5185,dugme,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+58,overinformativeness,balloon_big_yellow,balloon,6624,balon,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+59,adjective_ordering,box_open_cardboard,box,5554,karton kutu,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+60,overinformativeness,bag_big_red,bag,6063,okul cantasi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+61,adjective_ordering,nails_black_matte,nail_polish,11036,oje,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+62,overinformativeness,lock_big_gold,lock,5983,kilit,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+63,overinformativeness,mirror_big_black,mirror,3893,ayna,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+64,overinformativeness,mirror_big_white,mirror,2815,ayna,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+65,overinformativeness,key_big_silver,key,7096,anahtar,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+66,overinformativeness,dress_big_green,dress,3973,elbise,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+67,adjective_ordering,picture_bw_rectangular,picture,7024,tablo,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+68,overinformativeness,pepper_big_green,pepper,7862,yesil dolmalik biber,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+69,adjective_ordering,frog_spotted_green,frog,5228,kurbaga,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+70,overinformativeness,ball_big_yellow,ball,4335,top,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+71,overinformativeness,flower_big_yellow,flower,3847,cicek,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+72,overinformativeness,lock_big_silver,lock,4560,kilit,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+73,overinformativeness,pants_big_pink,pants,4416,pantolon,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+74,overinformativeness,socks_big_green,socks,3777,corap,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+75,overinformativeness,tie_big_blue,tie,3754,kravat,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+76,overinformativeness,rosary_big_blue,rosary,4346,tesbih,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+77,overinformativeness,lighter_big_white,lighter,3243,cakmak,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+78,overinformativeness,skirt_big_green,skirt,3568,etek,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+79,overinformativeness,lighter_big_black,lighter,3431,cakmak,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+80,overinformativeness,dress_big_blue,dress,3601,elbise,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+81,adjective_ordering,man2_bearded_glassed,man2,35086,sakalli ve gozluklu genc adam,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+82,overinformativeness,knife_big_blue,knife,3901,bicak,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+83,overinformativeness,cat_big_black,cat,3089,kedi,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+84,overinformativeness,shoe_big_pink,shoe,4091,converse,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+85,adjective_ordering,earring_small_round,earring,5429,kupe,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+86,overinformativeness,hat_big_pink,hat,6135,sapka,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+87,overinformativeness,balloon_big_pink,balloon,4086,balon,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603
+88,overinformativeness,book_big_blue,book,6969,mavi kitap,Chrome,Linux,864,1536,Turkce,1,Yes,33,Female,3,,hayir,2$,640603

@@ -1,0 +1,89 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,Beyaz,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+1,bot_check,,beyaz,0,BEYAZ,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+3,overinformativeness,apple_big_green,apple,10111,Yeşil Elma,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+4,overinformativeness,pants_big_pink,pants,11176,Pembe Pantolon,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+5,overinformativeness,balloon_big_pink,balloon,5799,Balon,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+6,adjective_ordering,woman_young_happy,woman,6975,Kadın,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+7,adjective_ordering,nails_black_matte,nail_polish,15240,Ojeli tırnak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+8,overinformativeness,knife_big_blue,knife,4583,bıçak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+9,overinformativeness,skirt_big_green,skirt,4337,Etek,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+10,overinformativeness,brush_big_blue,brush,5616,fırça,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+11,overinformativeness,lipstick_big_pink,lipstick,4863,Ruj,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+12,overinformativeness,button_big_blue,button,3888,Düğme,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+13,adjective_ordering,hair_straight_brown,hair,6440,\nKadın saçı,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+14,overinformativeness,balloon_big_yellow,balloon,3183,\nbalon,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+15,overinformativeness,key_big_silver,key,2304,\nanahtar,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+16,adjective_ordering,earring_small_triangular,earring,4464,\nküpe,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+17,overinformativeness,mirror_big_black,mirror,3775,\nayna,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+18,overinformativeness,flower_big_pink,flower,5103,\nçiçek,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+19,overinformativeness,key_big_gold,key,3311,\nanahtar,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+20,overinformativeness,tie_big_blue,tie,4048,\nkravat,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+21,overinformativeness,pepper_big_green,pepper,5015,\ndolmalık biber,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+22,overinformativeness,pants_big_green,pants,6449,\npantolon,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+23,overinformativeness,ball_big_yellow,ball,6624,\ntop,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+24,adjective_ordering,frog_spotted_green,frog,5496,\nkamlumbağa,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+25,overinformativeness,mirror_big_white,mirror,3880,\nayna,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+26,overinformativeness,scissors_big_green,scissors,18024,\nmakas,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+27,overinformativeness,umbrella_big_blue,umbrella,3648,\nşemsiye,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+28,overinformativeness,glove_big_orange,glove,3696,\neldiven,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+29,overinformativeness,clock_big_purple,clock,3688,\nsaat,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+30,overinformativeness,pepper_big_red,pepper,6392,\ndolmalık biber,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+31,overinformativeness,knife_big_red,knife,3551,\nbıçak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+32,overinformativeness,apple_big_red,apple,2640,\nelma,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+33,adjective_ordering,box_open_wood,box,4848,ahşap kuru,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+34,overinformativeness,umbrella_big_green,umbrella,3208,\nşemsie,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+35,overinformativeness,lipstick_big_red,lipstick,3488,\nruj,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+36,overinformativeness,bag_big_blue,bag,9312,sırt çantası,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+37,adjective_ordering,picture_bw_square,picture,11456,Çerçeveli Tablo,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+38,adjective_ordering,table_metal_high,table,5296,\nMasa,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+39,overinformativeness,chair_big_blue,chair,9271,\nsandalya,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+40,overinformativeness,pot_big_blue,pot,5760,\ntencere,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+41,overinformativeness,book_big_red,book,4560,\nkitap,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+42,overinformativeness,dress_big_green,dress,3425,\nelbise,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+43,overinformativeness,bag_big_red,bag,5112,\nsırt çantası,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+44,overinformativeness,tshirt_big_orange,tshirt,4280,\ntişört,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+45,overinformativeness,button_big_green,button,5072,\ndüğme,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+46,overinformativeness,hat_big_orange,hat,4320,\nşapka,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+47,overinformativeness,scissors_big_blue,scissors,3680,\nmakas,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+48,overinformativeness,car_big_green,car,6288,oyuncak araba,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+49,overinformativeness,shoe_big_yellow,shoe,7224,\nkonvers,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+50,adjective_ordering,man2_bearded_glassed,man2,5216,\nsakallı adam,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+51,overinformativeness,socks_big_green,socks,3032,\nçorap,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+52,overinformativeness,glasses_big_blue,glasses,4112,\ngözlük,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+53,overinformativeness,shoe_big_pink,shoe,4128,\nkonvers,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+54,overinformativeness,lock_big_silver,lock,5224,\nasma kilit,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+55,overinformativeness,lock_big_gold,lock,4168,\nasma kilit,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+56,overinformativeness,lighter_big_black,lighter,3720,\nçakmak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+57,overinformativeness,cat_big_white,cat,2312,\nkedi,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+58,overinformativeness,tshirt_big_yellow,tshirt,5112,\ntişört,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+59,overinformativeness,toothbrush_big_purple,toothbrush,5464,\ndiş fırçası,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+60,overinformativeness,car_big_blue,car,3703,\naraba,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+61,overinformativeness,clock_big_yellow,clock,5737,\nçalar saat,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+62,overinformativeness,binoculars_big_blue,binoculars,4480,\ndürbün,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+63,overinformativeness,glove_big_green,glove,3760,\neldiven,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+64,overinformativeness,toothbrush_big_green,toothbrush,4512,\ndiş fırçası,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+65,overinformativeness,ball_big_purple,ball,2632,\ntop,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+66,overinformativeness,flower_big_yellow,flower,3088,\nçiçek,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+67,adjective_ordering,shorts_dry_red,shorts,6080,şort,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+68,adjective_ordering,man_young_bald,man,3880,\nkel adam,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+69,overinformativeness,cat_big_black,cat,3432,\nkedi,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+70,overinformativeness,tie_big_red,tie,4000,\nkravat,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+71,adjective_ordering,cup_full_metal,cup,8536,\niçi dolu bardak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+72,overinformativeness,glasses_big_red,glasses,4152,\ngözlük,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+73,overinformativeness,skirt_big_blue,skirt,3024,\netek,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+74,overinformativeness,lighter_big_white,lighter,3336,\nçakmak,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+75,overinformativeness,brush_big_red,brush,3456,\nfırça,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+76,overinformativeness,chair_big_yellow,chair,4200,\nsandaly,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+77,overinformativeness,pot_big_green,pot,4512,\ntencere,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+78,overinformativeness,hat_big_pink,hat,3584,\nşapka,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+79,overinformativeness,dress_big_blue,dress,10280,\nelbise,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+80,adjective_ordering,spoon_metal_dirty,spoon,6664,\nkirli kaşık,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+81,overinformativeness,binoculars_big_red,binoculars,4608,\ndürbün,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+82,overinformativeness,rosary_big_blue,rosary,20472,\ntesbih,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+83,overinformativeness,socks_big_blue,socks,2887,\nçorap,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+84,overinformativeness,book_big_blue,book,5528,\ndefter,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+85,adjective_ordering,pencil_short_blue,pencil,10839,\nkurşun kalem,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+86,overinformativeness,rosary_big_yellow,rosary,3624,\ntesbih,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+87,adjective_ordering,bottle_plastic_small,bottle,5024,\nşişe su,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398
+88,adjective_ordering,woman2_happy_fat,woman2,6192,\nkadın,Chrome,Windows,1080,1920,Türkçe,1,Yes,34,Male,4,,,,511398

@@ -1,0 +1,89 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,Beyaz,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+3,overinformativeness,mirror_big_black,mirror,7577,ayna,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+4,overinformativeness,knife_big_blue,knife,53257,bıçak,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+5,overinformativeness,lock_big_silver,lock,5604,kilit,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+6,overinformativeness,umbrella_big_green,umbrella,42487,\nŞemsiye,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+7,overinformativeness,dress_big_blue,dress,6330,elbise,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+8,overinformativeness,mirror_big_white,mirror,5328,ayna,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+9,overinformativeness,toothbrush_big_purple,toothbrush,38902,Diş Fırçası,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+10,overinformativeness,toothbrush_big_green,toothbrush,3574,Diş Fırçası,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+11,adjective_ordering,shorts_wet_red,shorts,19157,Şort,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+12,overinformativeness,chair_big_blue,chair,5418,sandalye,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+13,overinformativeness,hat_big_pink,hat,15047,Şapka ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+14,overinformativeness,tshirt_big_orange,tshirt,11129,t-shirt,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+15,adjective_ordering,man_old_bearded,man,7404,adam,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+16,overinformativeness,balloon_big_yellow,balloon,4004,balon,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+17,adjective_ordering,bottle_glass_small,bottle,15839,Şişe ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+18,adjective_ordering,table_wood_low,table,4145,masa,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+19,adjective_ordering,nails_red_matte,nail_polish,64519,Tırnak,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+20,overinformativeness,rosary_big_yellow,rosary,6524,tesbih,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+21,overinformativeness,socks_big_blue,socks,7352,çorap,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+22,overinformativeness,flower_big_yellow,flower,6040,çiçek,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+23,overinformativeness,lipstick_big_pink,lipstick,4610,ruj,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+24,overinformativeness,rosary_big_blue,rosary,5284,tesbih,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+25,adjective_ordering,picture_bw_square,picture,7378,çerçeve,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+26,overinformativeness,binoculars_big_red,binoculars,21821,Dürbün,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+27,overinformativeness,bag_big_red,bag,4489,çanta,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+28,overinformativeness,lock_big_gold,lock,3967,kilit,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+29,overinformativeness,glasses_big_blue,glasses,23640,Gözlük,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+30,overinformativeness,pepper_big_red,pepper,4906,biber,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+31,overinformativeness,umbrella_big_blue,umbrella,21608,Şemsiye,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+32,overinformativeness,cat_big_white,cat,3376,kedi,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+33,overinformativeness,car_big_green,car,3962,araba,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+34,overinformativeness,ball_big_yellow,ball,3032,top,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+35,overinformativeness,book_big_blue,book,7986,kitap,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+36,overinformativeness,tshirt_big_yellow,tshirt,8304,t-shirt,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+37,overinformativeness,hat_big_orange,hat,14864,Şapka,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+38,adjective_ordering,woman_young_happy,woman,29452,kadın,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+39,overinformativeness,book_big_red,book,4580,kitap,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+40,overinformativeness,key_big_gold,key,4026,anahtar,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+41,overinformativeness,lighter_big_white,lighter,4530,çakmak,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+42,overinformativeness,pot_big_blue,pot,5118,tencere,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+43,overinformativeness,glove_big_green,glove,4647,eldiven,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+44,overinformativeness,knife_big_red,knife,14685,Bıçak ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+45,overinformativeness,socks_big_green,socks,5358,çorap,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+46,overinformativeness,lipstick_big_red,lipstick,3269,ruj,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+47,overinformativeness,pepper_big_green,pepper,3559,biber,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+48,overinformativeness,flower_big_pink,flower,4268,çiçek,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+49,overinformativeness,tie_big_blue,tie,6248,kravat,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+50,overinformativeness,chair_big_yellow,chair,5442,sandalye,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+51,overinformativeness,button_big_blue,button,21963,Düğme ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+52,overinformativeness,apple_big_red,apple,3412,elma,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+53,overinformativeness,ball_big_purple,ball,2576,\ntop,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+54,overinformativeness,cat_big_black,cat,4088,kedi,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+55,overinformativeness,bag_big_blue,bag,4222,çanta,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+56,overinformativeness,dress_big_green,dress,3726,elbise,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+57,overinformativeness,brush_big_blue,brush,23193,Fırça ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+58,overinformativeness,glasses_big_red,glasses,17444,Gözlük,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+59,adjective_ordering,earring_big_round,earring,19446,Küpe ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+60,overinformativeness,key_big_silver,key,6127,anahtar,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+61,overinformativeness,scissors_big_green,scissors,6431,makas,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+62,overinformativeness,balloon_big_pink,balloon,4326,balon,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+63,adjective_ordering,frog_spotted_red,frog,20484,Kurbağa ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+64,adjective_ordering,pencil_short_blue,pencil,3768,kalem,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+65,overinformativeness,pants_big_green,pants,5642,pantalon,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+66,overinformativeness,lighter_big_black,lighter,4708,çakmak,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+67,overinformativeness,shoe_big_pink,shoe,23040,Ayakkabı,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+68,overinformativeness,apple_big_green,apple,3548,elma,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+69,overinformativeness,pot_big_green,pot,6310,tencere,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+70,adjective_ordering,man2_bearded_glassed,man2,30230,Çocuk,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+71,overinformativeness,clock_big_purple,clock,4411,saat,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+72,overinformativeness,brush_big_red,brush,15870,Fırça ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+73,adjective_ordering,woman2_sad_fat,woman2,27728,Kadın ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+74,overinformativeness,shoe_big_yellow,shoe,7569,ayakkabi,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+75,overinformativeness,car_big_blue,car,3865,araba,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+76,overinformativeness,skirt_big_green,skirt,3484,etek,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+77,overinformativeness,glove_big_orange,glove,4398,eldiven,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+78,overinformativeness,tie_big_red,tie,4411,kravat,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+79,adjective_ordering,hair_curly_blonde,hair,3916,saç,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+80,overinformativeness,clock_big_yellow,clock,2888,saat,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+81,adjective_ordering,box_open_wood,box,3201,kutu,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+82,adjective_ordering,spoon_metal_dirty,spoon,34191,Kaşık ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+83,overinformativeness,scissors_big_blue,scissors,4170,makas,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+84,overinformativeness,button_big_green,button,8476,Düğme ,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+85,overinformativeness,binoculars_big_blue,binoculars,16856,Dürbün,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+86,overinformativeness,skirt_big_blue,skirt,3572,etek,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+87,adjective_ordering,cup_full_metal,cup,8500,fincan,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061
+88,overinformativeness,pants_big_pink,pants,5002,pantalon,Chrome,Windows,1080,1920,Türkçe,1,Yes,38,Male,3,,Hayır,"1,5 euro",622061

@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+3,overinformativeness,toothbrush_big_purple,toothbrush,8130,diş fırçası,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+4,overinformativeness,key_big_silver,key,3273,\nanahtar,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+5,overinformativeness,chair_big_yellow,chair,4453,\nsandalye,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+6,overinformativeness,glove_big_green,glove,3611,\neldiven,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+7,overinformativeness,lighter_big_black,lighter,3305,\nçakmak,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+8,overinformativeness,pepper_big_green,pepper,11022,\nbiber,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+9,adjective_ordering,man_young_bearded,man,5891,\nsakal,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+10,adjective_ordering,picture_colored_rectangular,picture,5308,\nresim,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+11,adjective_ordering,frog_spotted_red,frog,13175,\nkurbağa,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+12,overinformativeness,skirt_big_green,skirt,2405,\netek,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+13,overinformativeness,apple_big_red,apple,2541,\nelma,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+14,overinformativeness,book_big_red,book,4462,\nkitap,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+15,overinformativeness,lock_big_gold,lock,3685,\nkilit,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+16,adjective_ordering,spoon_wooden_dirty,spoon,4314,\nkaşık,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+17,overinformativeness,tshirt_big_yellow,tshirt,9037,\ntshirt,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+18,overinformativeness,lipstick_big_red,lipstick,2324,\nruj,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+19,overinformativeness,brush_big_red,brush,7047,\nfırça,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+20,overinformativeness,lipstick_big_pink,lipstick,3454,\nruj,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+21,adjective_ordering,hair_straight_blond,hair,3439,\nsaç,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+22,adjective_ordering,woman_young_happy,woman,4969,\nkadın,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+23,overinformativeness,cat_big_black,cat,2191,\nkedi,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+24,overinformativeness,socks_big_green,socks,5595,\nçorap,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+25,overinformativeness,umbrella_big_green,umbrella,3903,\nşemsiye,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+26,overinformativeness,hat_big_pink,hat,3431,\nşapka,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+27,overinformativeness,dress_big_green,dress,2947,\nelbise,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+28,adjective_ordering,shorts_wet_red,shorts,8956,\nşort,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+29,overinformativeness,flower_big_pink,flower,3227,\nçiçek,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+30,overinformativeness,scissors_big_green,scissors,2245,\nmakas,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+31,adjective_ordering,pencil_short_blue,pencil,2085,\nkalem,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+32,overinformativeness,clock_big_purple,clock,6360,\nçalar saat,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+33,overinformativeness,rosary_big_yellow,rosary,2480,\ntesbih,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+34,overinformativeness,umbrella_big_blue,umbrella,6454,\nmavi şemsiye,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+35,overinformativeness,tie_big_red,tie,4293,\nkırmızı kravat,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+36,overinformativeness,binoculars_big_red,binoculars,4135,\nkırmızı dürbün,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+37,overinformativeness,scissors_big_blue,scissors,3299,\nmavi makas,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+38,overinformativeness,bag_big_red,bag,3964,\nkırmızı çanta,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+39,overinformativeness,chair_big_blue,chair,3813,\nmavi sandalye,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+40,overinformativeness,pot_big_blue,pot,3320,\nmavi tencere,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+41,overinformativeness,skirt_big_blue,skirt,2716,\nmavi etek,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+42,overinformativeness,tshirt_big_orange,tshirt,4697,\nturuncu tshirt,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+43,overinformativeness,ball_big_yellow,ball,2671,\nsarı top,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+44,overinformativeness,key_big_gold,key,3453,\nsarı anahtar,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+45,overinformativeness,book_big_blue,book,2613,\nmavi kitap,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+46,overinformativeness,apple_big_green,apple,7145,\nyeşil elma,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+47,overinformativeness,pot_big_green,pot,3813,\nyeşil tencere,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+48,overinformativeness,button_big_blue,button,3487,\nmavi düğme,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+49,overinformativeness,knife_big_red,knife,3352,\nkırmızı bıçak,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+50,overinformativeness,pants_big_pink,pants,4001,\nmor pantolon,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+51,overinformativeness,ball_big_purple,ball,2179,\nmor top,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+52,overinformativeness,bag_big_blue,bag,4344,\nmavi çanta,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+53,adjective_ordering,table_metal_low,table,6315,\ngri masa,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+54,overinformativeness,shoe_big_pink,shoe,9366,\npempe konverse,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+55,overinformativeness,glasses_big_red,glasses,5805,\nkırmızı gözlük,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+56,adjective_ordering,box_open_cardboard,box,2852,\nkutu,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+57,adjective_ordering,cup_empty_plastic,cup,5025,\nbira,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+58,overinformativeness,mirror_big_white,mirror,4422,\nayna,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+59,adjective_ordering,bottle_plastic_small,bottle,4782,\npet şişesi,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+60,overinformativeness,car_big_blue,car,5257,\nmavi oyuncak araa,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+61,overinformativeness,balloon_big_pink,balloon,3425,\npembe balon,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+62,overinformativeness,tie_big_blue,tie,3473,\nmavi kravat,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+63,overinformativeness,toothbrush_big_green,toothbrush,7904,\nyeşil diş fırçası,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+64,overinformativeness,binoculars_big_blue,binoculars,5343,\nmavi dürbün,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+65,overinformativeness,glasses_big_blue,glasses,3827,\nmavi gözlük,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+66,overinformativeness,clock_big_yellow,clock,4518,\nsarı çalar saat,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+67,overinformativeness,car_big_green,car,7024,\nyeşil oyuncak araba,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+68,overinformativeness,cat_big_white,cat,5160,beyaz kedi,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+69,overinformativeness,shoe_big_yellow,shoe,3731,\nsarı konvers,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+70,overinformativeness,lighter_big_white,lighter,6069,\nbeyaz çakma,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+71,overinformativeness,flower_big_yellow,flower,10828,\nsarı çiçek,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+72,overinformativeness,pepper_big_red,pepper,4217,\nkırmızı biber,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+73,overinformativeness,hat_big_orange,hat,5834,\nturuncu şapka,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+74,overinformativeness,lock_big_silver,lock,2452,\nkilit,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+75,overinformativeness,brush_big_blue,brush,4101,\nmavi fırça,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+76,overinformativeness,button_big_green,button,3494,\nyeşil düğme,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+77,adjective_ordering,earring_small_round,earring,17805,\nküpe,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+78,adjective_ordering,woman2_happy_skinny,woman2,4561,\nkadın,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+79,overinformativeness,balloon_big_yellow,balloon,3475,\nsarı balon,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+80,overinformativeness,socks_big_blue,socks,4233,\nmavi çorap,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+81,overinformativeness,pants_big_green,pants,8740,\nyeşil pantolon,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+82,overinformativeness,mirror_big_black,mirror,5054,\nsiyah ayna,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+83,adjective_ordering,nails_red_glossy,nail_polish,4286,\nkırmızı oje ,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+84,overinformativeness,rosary_big_blue,rosary,3241,\nmav itesbih,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+85,overinformativeness,dress_big_blue,dress,4594,\nmavi elbise,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+86,adjective_ordering,man2_bearded_glassed,man2,5231,\nsakal,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+87,overinformativeness,glove_big_orange,glove,4202,\nturuncu eldiven,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445
+88,overinformativeness,knife_big_blue,knife,3174,\nmavi bıçak,Chrome,Windows,768,1366,türkçe,0,Confused,24,Male,4,teşekkürler,,2 gbp,170445

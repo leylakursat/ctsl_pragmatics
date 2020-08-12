@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+3,adjective_ordering,table_metal_high,table,7097,masa,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+4,overinformativeness,glasses_big_red,glasses,12140,gözlük,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+5,overinformativeness,flower_big_yellow,flower,6410,çiçek,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+6,overinformativeness,scissors_big_blue,scissors,5165,makas,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+7,overinformativeness,lock_big_silver,lock,5434,kilit,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+8,overinformativeness,clock_big_purple,clock,9555,çalar saat,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+9,overinformativeness,button_big_blue,button,6883,düğme,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+10,overinformativeness,mirror_big_black,mirror,10307,el aynası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+11,overinformativeness,glove_big_green,glove,6584,eldiven,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+12,adjective_ordering,nails_black_matte,nail_polish,12236,battaniye,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+13,overinformativeness,binoculars_big_blue,binoculars,5650,dürbün,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+14,overinformativeness,lipstick_big_pink,lipstick,4831,ruj,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+15,adjective_ordering,shorts_dry_red,shorts,6771,şort,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+16,overinformativeness,knife_big_red,knife,6047,bıçak,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+17,overinformativeness,mirror_big_white,mirror,10599,el aynası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+18,overinformativeness,tie_big_red,tie,24805,kravat,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+19,adjective_ordering,woman2_happy_fat,woman2,7489,kadın,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+20,adjective_ordering,picture_colored_rectangular,picture,6762,tablo,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+21,adjective_ordering,woman_young_sad,woman,8523,\nüzgün kadın,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+22,overinformativeness,tie_big_blue,tie,9773,\nmavi kravat,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+23,overinformativeness,shoe_big_yellow,shoe,8418,\nsarı ayakkabı,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+24,overinformativeness,socks_big_blue,socks,7596,\nmavi çorap,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+25,overinformativeness,apple_big_green,apple,5834,\nyeşil elma,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+26,overinformativeness,toothbrush_big_purple,toothbrush,9358,\nmor diş fırçası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+27,overinformativeness,car_big_green,car,12092,yeşil oyuncak araba,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+28,overinformativeness,umbrella_big_green,umbrella,9487,yeşil şemsiye,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+29,overinformativeness,brush_big_red,brush,10564,\nboya fırçası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+30,overinformativeness,rosary_big_yellow,rosary,6884,\ntesbih,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+31,overinformativeness,glasses_big_blue,glasses,8705,\nmavi gözlük,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+32,overinformativeness,flower_big_pink,flower,7998,\npembe çiçek,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+33,overinformativeness,toothbrush_big_green,toothbrush,11112,\nyeşil diş fırçası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+34,overinformativeness,lipstick_big_red,lipstick,5244,\nkırmızı ruj,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+35,overinformativeness,knife_big_blue,knife,7444,\nmavi bıçak,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+36,overinformativeness,pot_big_green,pot,8386,\nyeşil tencere,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+37,overinformativeness,balloon_big_pink,balloon,5330,\npembe balon,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+38,overinformativeness,dress_big_blue,dress,7475,\nmavi elbise,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+39,overinformativeness,pants_big_green,pants,7073,\nyeşil pantalon,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+40,adjective_ordering,man2_bearded_glassed,man2,8613,\nsakallı adam,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+41,overinformativeness,skirt_big_blue,skirt,5634,\nmavi etek,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+42,overinformativeness,pot_big_blue,pot,10576,\nmavi tencere,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+43,overinformativeness,rosary_big_blue,rosary,6394,\nmavi tesbih,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+44,overinformativeness,pants_big_pink,pants,205635,\npembe pantalon,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+45,overinformativeness,skirt_big_green,skirt,7515,\nyeşil etek,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+46,adjective_ordering,pencil_long_black,pencil,748683,\nsiyah kalem,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+47,adjective_ordering,box_closed_wood,box,5791,\ntahta kutu,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+48,overinformativeness,hat_big_orange,hat,10171,\nşapka,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+49,overinformativeness,umbrella_big_blue,umbrella,7874,\nmavi şemsiye,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+50,adjective_ordering,spoon_wooden_dirty,spoon,4746,\nkaşık,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+51,overinformativeness,brush_big_blue,brush,6877,\nmavi boya fırçası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+52,adjective_ordering,frog_spotted_green,frog,5069,\nyeşil kurbağa,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+53,adjective_ordering,cup_empty_plastic,cup,9016,\nportakal suyu,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+54,adjective_ordering,earring_big_triangular,earring,3474,\nküpe,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+55,overinformativeness,tshirt_big_yellow,tshirt,8113,\nsarı tshirt,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+56,overinformativeness,chair_big_blue,chair,6176,\nmavi sandalye,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+57,overinformativeness,apple_big_red,apple,4004,\nkırmızı elma,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+58,overinformativeness,ball_big_yellow,ball,4804,\nsarı top,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+59,overinformativeness,shoe_big_pink,shoe,5707,\npembe ayakkabı,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+60,overinformativeness,lighter_big_black,lighter,4600,\nçakmak,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+61,overinformativeness,chair_big_yellow,chair,4914,\nsarı sandalye,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+62,overinformativeness,socks_big_green,socks,4509,\nyeşil çorap,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+63,overinformativeness,bag_big_red,bag,7137,\nkırmızı sırt çantası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+64,overinformativeness,ball_big_purple,ball,3285,\nmor top,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+65,overinformativeness,glove_big_orange,glove,6934,\nkırmızı eldiven,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+66,overinformativeness,lighter_big_white,lighter,3567,\nbeyaz çakmak,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+67,overinformativeness,tshirt_big_orange,tshirt,10186,\nturuncu tshirt,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+68,overinformativeness,cat_big_black,cat,4326,\nkara kedi,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+69,overinformativeness,key_big_gold,key,6728,\nanahtar,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+70,overinformativeness,hat_big_pink,hat,7982,\npembe şapka,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+71,overinformativeness,lock_big_gold,lock,6161,\nkilit,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+72,adjective_ordering,man_old_bearded,man,20206,\nbıyıklı sakallı adam,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+73,overinformativeness,pepper_big_green,pepper,10737,\nyeşil dolmalık biber,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+74,overinformativeness,book_big_red,book,5818,\nkırmızı kitap,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+75,overinformativeness,button_big_green,button,6978,\nyeşil düğme,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+76,overinformativeness,book_big_blue,book,5563,\nmavi kitap,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+77,overinformativeness,dress_big_green,dress,5406,\nyeşil elbise,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+78,overinformativeness,bag_big_blue,bag,5720,\nmavi sırt çantası,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+79,overinformativeness,key_big_silver,key,10191,gümüş anahtar,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+80,adjective_ordering,bottle_plastic_small,bottle,4055,\nsu,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+81,overinformativeness,balloon_big_yellow,balloon,4294,\nsarı balon,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+82,overinformativeness,car_big_blue,car,8226,\nmavi oyuncak araba,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+83,adjective_ordering,hair_curly_blonde,hair,10480,\nuzun kıvırcık saç,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+84,overinformativeness,scissors_big_green,scissors,4879,\nyeşil makas,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+85,overinformativeness,binoculars_big_red,binoculars,6281,\nkırmızı dürbün,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+86,overinformativeness,pepper_big_red,pepper,7466,\nkırmızı dolmalık biber,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+87,overinformativeness,cat_big_white,cat,6366,\nbeyaz kedi,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448
+88,overinformativeness,clock_big_yellow,clock,7453,\nsarı çalar saat,Chrome,Windows,720,1280,Türkçe,1,Yes,33,Female,4,HIT ne demek açıklanırsa daha iyi olurdu,Hayır,£8/h,192448

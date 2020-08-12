@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+3,overinformativeness,lipstick_big_pink,lipstick,50914,ruj,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+4,overinformativeness,apple_big_green,apple,9711,elma,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+5,overinformativeness,balloon_big_pink,balloon,35396,balon,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+6,overinformativeness,chair_big_yellow,chair,15130,sandalye,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+7,overinformativeness,toothbrush_big_purple,toothbrush,30356,diş fırçası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+8,overinformativeness,glove_big_green,glove,38230,eldiven,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+9,overinformativeness,umbrella_big_green,umbrella,20760,şemsiye ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+10,adjective_ordering,woman_old_sad,woman,60970,kadın ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+11,overinformativeness,lock_big_gold,lock,28468,asma kilit,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+12,overinformativeness,pants_big_pink,pants,38679,pantolon,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+13,overinformativeness,shoe_big_yellow,shoe,37555,ayakkabı,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+14,adjective_ordering,pencil_long_black,pencil,19021,kalem,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+15,overinformativeness,flower_big_pink,flower,21984,çiçek ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+16,overinformativeness,tshirt_big_orange,tshirt,29735,tişört,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+17,adjective_ordering,man2_mustached_hatted,man2,36329,şapka ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+18,overinformativeness,tshirt_big_yellow,tshirt,27082,tişört ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+19,overinformativeness,knife_big_red,knife,18525,bıçak ,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+20,overinformativeness,lock_big_silver,lock,28725,asma kilit,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+21,overinformativeness,toothbrush_big_green,toothbrush,37229,diş fırçası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+22,overinformativeness,scissors_big_blue,scissors,23047,makas,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+23,overinformativeness,pepper_big_green,pepper,19346,biber,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+24,adjective_ordering,woman2_happy_fat,woman2,79946,fotoğraf,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+25,adjective_ordering,bottle_glass_small,bottle,25565,şişe,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+26,overinformativeness,bag_big_blue,bag,19568,\nsırt çantası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+27,overinformativeness,hat_big_pink,hat,16081,şapka,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+28,overinformativeness,glasses_big_red,glasses,25485,gözlük,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+29,overinformativeness,skirt_big_blue,skirt,15361,etek,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+30,overinformativeness,scissors_big_green,scissors,5522,makas,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+31,overinformativeness,button_big_blue,button,20515,düğme,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+32,overinformativeness,glove_big_orange,glove,5188,eldiven,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+33,overinformativeness,car_big_blue,car,7620,araba,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+34,overinformativeness,key_big_silver,key,12293,anahtar,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+35,adjective_ordering,picture_bw_rectangular,picture,20448,resim,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+36,overinformativeness,knife_big_blue,knife,16634,bıçak,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+37,overinformativeness,lighter_big_white,lighter,25940,çakmak,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+38,adjective_ordering,shorts_dry_red,shorts,26120,yüzme şortu,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+39,overinformativeness,cat_big_white,cat,4307,kedi,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+40,adjective_ordering,frog_striped_green,frog,19401,kurbağa,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+41,overinformativeness,clock_big_purple,clock,22315,alarm saati,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+42,overinformativeness,binoculars_big_red,binoculars,16332,dürbün,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+43,overinformativeness,cat_big_black,cat,8819,kedi,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+44,overinformativeness,dress_big_green,dress,12668,elbise,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+45,overinformativeness,book_big_red,book,4905,kitap,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+46,overinformativeness,pants_big_green,pants,6539,pantolon,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+47,adjective_ordering,box_open_wood,box,22119,kutu,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+48,overinformativeness,tie_big_blue,tie,5894,kravat,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+49,overinformativeness,pot_big_green,pot,19242,tencere,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+50,overinformativeness,key_big_gold,key,5092,anahtar,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+51,overinformativeness,pepper_big_red,pepper,4384,biber,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+52,overinformativeness,balloon_big_yellow,balloon,5417,balon,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+53,overinformativeness,clock_big_yellow,clock,7505,alarm saati,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+54,adjective_ordering,cup_full_plastic,cup,8348,plastik bardak,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+55,overinformativeness,rosary_big_yellow,rosary,13278,tesbih,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+56,adjective_ordering,hair_curly_blonde,hair,27474,saçlar,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+57,overinformativeness,dress_big_blue,dress,4924,elbise,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+58,overinformativeness,lipstick_big_red,lipstick,7285,ruj,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+59,overinformativeness,flower_big_yellow,flower,20329,çiçek,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+60,overinformativeness,chair_big_blue,chair,7415,sandalye,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+61,adjective_ordering,nails_red_matte,nail_polish,27960,tırnaklar,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+62,overinformativeness,glasses_big_blue,glasses,30561,gözlük,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+63,adjective_ordering,earring_big_round,earring,16525,küpe,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+64,overinformativeness,brush_big_blue,brush,60738,boya fırçası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+65,overinformativeness,pot_big_blue,pot,7033,tencere,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+66,overinformativeness,hat_big_orange,hat,17391,şapka,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+67,adjective_ordering,spoon_metal_dirty,spoon,15931,kaşık,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+68,overinformativeness,lighter_big_black,lighter,25317,çakmak,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+69,overinformativeness,ball_big_purple,ball,10125,top,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+70,overinformativeness,car_big_green,car,5823,araba,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+71,overinformativeness,apple_big_red,apple,4172,elma,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+72,adjective_ordering,man_young_bearded,man,19351,sakal,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+73,overinformativeness,button_big_green,button,22596,düğme,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+74,overinformativeness,shoe_big_pink,shoe,13010,ayakkabı,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+75,overinformativeness,socks_big_blue,socks,18150,çorap,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+76,overinformativeness,socks_big_green,socks,7900,çorap,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+77,overinformativeness,umbrella_big_blue,umbrella,14624,şemsiye,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+78,overinformativeness,binoculars_big_blue,binoculars,19643,dürbün,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+79,overinformativeness,ball_big_yellow,ball,10063,top,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+80,overinformativeness,mirror_big_black,mirror,26858,el aynası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+81,overinformativeness,tie_big_red,tie,8021,kravat,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+82,overinformativeness,brush_big_red,brush,72865,el  fırçası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+83,overinformativeness,skirt_big_green,skirt,4934,etek,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+84,overinformativeness,rosary_big_blue,rosary,5415,tesbih,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+85,overinformativeness,mirror_big_white,mirror,26095,el aynası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+86,overinformativeness,book_big_blue,book,4359,kitap,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+87,overinformativeness,bag_big_red,bag,18548,sırt çantası,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567
+88,adjective_ordering,table_metal_low,table,4822,masa,Chrome,Windows,720,1280,"Ingilizce, türkçe ve kürtçe.",1,Yes,33,Male,3,Bu deneyin hedefi neydi?,Hayır,£1,361567

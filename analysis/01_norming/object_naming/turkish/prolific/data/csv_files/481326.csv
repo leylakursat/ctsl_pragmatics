@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+3,overinformativeness,tshirt_big_yellow,tshirt,7559,t-shirt,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+4,overinformativeness,scissors_big_green,scissors,4276,makas,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+5,overinformativeness,glove_big_orange,glove,3424,eldiven,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+6,overinformativeness,toothbrush_big_purple,toothbrush,5184,dis fircasi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+7,overinformativeness,pepper_big_green,pepper,4022,biber,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+8,overinformativeness,book_big_blue,book,5255,kitap,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+9,overinformativeness,book_big_red,book,3495,defter,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+10,adjective_ordering,box_closed_wood,box,4379,kutu,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+11,overinformativeness,apple_big_green,apple,3869,elma,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+12,overinformativeness,knife_big_red,knife,2998,bicak,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+13,overinformativeness,toothbrush_big_green,toothbrush,3878,dis fircasi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+14,overinformativeness,cat_big_black,cat,2657,kedi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+15,overinformativeness,tshirt_big_orange,tshirt,3506,t-shirt,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+16,overinformativeness,pot_big_blue,pot,3156,tencere,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+17,overinformativeness,pants_big_pink,pants,3648,pantalon,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+18,overinformativeness,hat_big_pink,hat,2705,sapka,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+19,overinformativeness,bag_big_blue,bag,2879,canta,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+20,adjective_ordering,bottle_glass_big,bottle,2790,sise,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+21,overinformativeness,bag_big_red,bag,5800,sirt cantasi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+22,overinformativeness,mirror_big_white,mirror,10735,spatula?,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+23,adjective_ordering,man2_bearded_glassed,man2,11763,sacli sakalli bir insan yuzu,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+24,overinformativeness,cat_big_white,cat,3142,kedi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+25,overinformativeness,shoe_big_yellow,shoe,5103,ayakkabi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+26,overinformativeness,dress_big_blue,dress,5493,elbise,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+27,overinformativeness,chair_big_yellow,chair,4065,sandalye,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+28,overinformativeness,button_big_green,button,6410,suzgec?,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+29,overinformativeness,apple_big_red,apple,2941,elma,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+30,adjective_ordering,table_wood_low,table,2993,masa,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+31,overinformativeness,flower_big_yellow,flower,3664,cicek,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+32,overinformativeness,lipstick_big_pink,lipstick,2683,ruj,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+33,overinformativeness,shoe_big_pink,shoe,3765,ayakkabi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+34,overinformativeness,flower_big_pink,flower,3112,cicek,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+35,overinformativeness,rosary_big_yellow,rosary,3000,tespih,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+36,overinformativeness,socks_big_blue,socks,3510,corap,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+37,adjective_ordering,woman_young_sad,woman,7664,aglayan bir insan,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+38,overinformativeness,brush_big_red,brush,10398,boya fircasi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+39,overinformativeness,binoculars_big_red,binoculars,4138,durbun,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+40,adjective_ordering,nails_red_glossy,nail_polish,8909,ojeli bir el ,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+41,overinformativeness,dress_big_green,dress,3186,elbise,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+42,adjective_ordering,pencil_short_black,pencil,3789,kalem,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+43,overinformativeness,glove_big_green,glove,4745,eldiven,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+44,overinformativeness,button_big_blue,button,3397,suzgec?,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+45,overinformativeness,clock_big_purple,clock,3022,saat,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+46,adjective_ordering,hair_curly_blonde,hair,3364,sac,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+47,overinformativeness,car_big_green,car,4450,oyuncak araba,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+48,overinformativeness,mirror_big_black,mirror,5382,spatula?,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+49,adjective_ordering,woman2_sad_skinny,woman2,10835,sasirmis ve korkmus bir insan,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+50,overinformativeness,skirt_big_green,skirt,3254,etek,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+51,overinformativeness,scissors_big_blue,scissors,3279,makas,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+52,overinformativeness,pot_big_green,pot,4255,tencere,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+53,overinformativeness,lock_big_gold,lock,5158,anahtar,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+54,overinformativeness,glasses_big_red,glasses,3537,gozluk,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+55,overinformativeness,car_big_blue,car,4366,oyuncak araba,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+56,overinformativeness,hat_big_orange,hat,3086,sapka,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+57,overinformativeness,brush_big_blue,brush,4576,boya fircasi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+58,overinformativeness,ball_big_purple,ball,2871,top,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+59,overinformativeness,lipstick_big_red,lipstick,2581,ruj,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+60,overinformativeness,lighter_big_white,lighter,3163,cakmak,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+61,overinformativeness,glasses_big_blue,glasses,5654,gozluk,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+62,adjective_ordering,spoon_metal_dirty,spoon,3768,kasik,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+63,overinformativeness,pepper_big_red,pepper,4156,biber,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+64,overinformativeness,rosary_big_blue,rosary,2875,tespih,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+65,adjective_ordering,cup_full_metal,cup,11448,sivi dolu bir olcu bardagi,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+66,overinformativeness,tie_big_red,tie,5382,kravat,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+67,overinformativeness,knife_big_blue,knife,4892,bicak,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+68,adjective_ordering,picture_colored_square,picture,7033,cerceve,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+69,overinformativeness,key_big_gold,key,3288,anahtar,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+70,overinformativeness,balloon_big_yellow,balloon,3238,balon,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+71,adjective_ordering,earring_big_triangular,earring,3569,kupe,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+72,overinformativeness,ball_big_yellow,ball,2598,top,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+73,overinformativeness,pants_big_green,pants,5525,pantalon,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+74,overinformativeness,lock_big_silver,lock,3329,kilit,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+75,adjective_ordering,frog_spotted_green,frog,4025,kurbaga,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+76,overinformativeness,skirt_big_blue,skirt,2513,etek,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+77,overinformativeness,balloon_big_pink,balloon,3202,balon,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+78,adjective_ordering,shorts_dry_red,shorts,3367,sort,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+79,overinformativeness,binoculars_big_blue,binoculars,3074,durbun,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+80,overinformativeness,key_big_silver,key,3452,anahtar,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+81,overinformativeness,socks_big_green,socks,3452,corap,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+82,overinformativeness,umbrella_big_green,umbrella,3387,semsiye,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+83,overinformativeness,chair_big_blue,chair,3915,sandalye,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+84,adjective_ordering,man_old_bearded,man,4896,sakalli bir insan yuzu,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+85,overinformativeness,lighter_big_black,lighter,3419,cakmak,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+86,overinformativeness,clock_big_yellow,clock,2558,saat,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+87,overinformativeness,umbrella_big_blue,umbrella,2847,semsiye,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326
+88,overinformativeness,tie_big_blue,tie,2984,kravat,Chrome,Windows,720,1280,Turkcce,-1,Yes,27,Female,-1,,-,,481326

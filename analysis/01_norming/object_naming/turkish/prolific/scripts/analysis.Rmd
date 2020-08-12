@@ -1,0 +1,58 @@
+---
+title: "Pragmatics in CTSL - Norming for Object Namability"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+dir <- "../data/csv_files"
+participant_files <- list.files(path = dir, full.names = TRUE)
+df <- plyr::ldply(participant_files, function(x) {
+  read_csv(x)
+})
+#df <- df %>% mutate_if(is.character, factor)
+
+df$cresponse = tolower(gsub"[^\\\\n]", "", df$response))
+
+
+
+df$cresponse = str_remove(df$response,"\n")
+
+#df$cresponse = str_to_lower(gsub(" ", "", df$response))
+```
+
+```{r responses, include=FALSE}
+responses = df %>%
+  filter(str_detect(trial_type,"bot_check", negate = TRUE)) %>%
+  group_by(object,cresponse,trial_type,label) %>%
+  summarize(count=n()) 
+
+overinformativeness = responses %>% filter(trial_type=="overinformativeness")
+adjordering = responses %>% filter(trial_type=="adjective_ordering")
+```
+
+```{r objects, echo=FALSE}
+ggplot(responses, aes(x=cresponse, y=count, fill=as.factor(trial_type))) +
+  geom_bar(stat="identity") +
+  facet_wrap(~object, scales="free") +
+  coord_flip() #+
+  #scale_x_discrete(guide = guide_axis(n.dodge=3)) +
+  theme(legend.position = "none")
+ggsave(file="../graphs/namability-merged.pdf",width=30,height=25)
+```
+
+
+
+
+
+
+

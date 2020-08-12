@@ -1,0 +1,90 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+1,bot_check,,beyaz,0,Beyaz,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+3,adjective_ordering,shorts_dry_red,shorts,6709,şort,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+4,overinformativeness,binoculars_big_blue,binoculars,6172,dürbün,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+5,adjective_ordering,woman_young_sad,woman,9446,insan,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+6,adjective_ordering,box_closed_wood,box,11535,kutu,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+7,adjective_ordering,frog_spotted_red,frog,6517,kurbağa,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+8,overinformativeness,key_big_silver,key,5117,anahtar,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+9,overinformativeness,tie_big_red,tie,4444,kıravat,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+10,overinformativeness,glasses_big_red,glasses,4155,gözlük,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+11,overinformativeness,toothbrush_big_purple,toothbrush,5624,diş fırçası,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+12,overinformativeness,balloon_big_pink,balloon,4146,balon,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+13,overinformativeness,pot_big_blue,pot,4445,tencere,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+14,adjective_ordering,hair_curly_blonde,hair,4582,saç,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+15,overinformativeness,lock_big_gold,lock,3967,kilit,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+16,overinformativeness,clock_big_purple,clock,6039,\nçalar saat,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+17,adjective_ordering,nails_black_matte,nail_polish,5386,\ntırnak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+18,overinformativeness,balloon_big_yellow,balloon,2536,\nbalon,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+19,overinformativeness,tshirt_big_orange,tshirt,3445,\ntişört,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+20,adjective_ordering,man_old_bearded,man,4387,\nsakal,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+21,overinformativeness,apple_big_red,apple,2057,\nelma,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+22,overinformativeness,pants_big_green,pants,3489,\npantolon,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+23,overinformativeness,apple_big_green,apple,1687,\nelma,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+24,overinformativeness,car_big_blue,car,5289,\noyuncak araba,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+25,overinformativeness,mirror_big_white,mirror,5339,\nayna,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+26,overinformativeness,pants_big_pink,pants,3628,\npantolon,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+27,overinformativeness,knife_big_blue,knife,3068,\nbıçak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+28,adjective_ordering,picture_bw_square,picture,5115,\nçerçeve,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+29,overinformativeness,skirt_big_green,skirt,2617,\netek,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+30,overinformativeness,car_big_green,car,4771,\noyuncak araba,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+31,overinformativeness,binoculars_big_red,binoculars,2945,\ndürbün,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+32,adjective_ordering,woman2_happy_fat,woman2,2897,\ninsan,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+33,overinformativeness,socks_big_blue,socks,2577,\nçorap,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+34,overinformativeness,hat_big_orange,hat,2480,\nşapka,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+35,overinformativeness,tshirt_big_yellow,tshirt,4046,\ntişört,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+36,overinformativeness,rosary_big_yellow,rosary,4003,\ntesbih,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+37,overinformativeness,lipstick_big_red,lipstick,2547,\nruj,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+38,overinformativeness,scissors_big_blue,scissors,1977,\nmakas,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+39,overinformativeness,brush_big_red,brush,2795,\nfırça,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+40,overinformativeness,ball_big_yellow,ball,2619,\ntop,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+41,overinformativeness,cat_big_black,cat,1878,\nkedi,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+42,adjective_ordering,cup_empty_plastic,cup,9058,\nmeyve suyu,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+43,overinformativeness,brush_big_blue,brush,2779,\nfırça,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+44,overinformativeness,lighter_big_black,lighter,3640,\nçakmak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+45,adjective_ordering,earring_small_round,earring,2673,\nküpe,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+46,overinformativeness,dress_big_blue,dress,2658,\nelbise,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+47,overinformativeness,pot_big_green,pot,3741,\ntencere,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+48,overinformativeness,socks_big_green,socks,2857,\nçorap,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+49,overinformativeness,button_big_green,button,3872,\ndüğme,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+50,overinformativeness,rosary_big_blue,rosary,3045,\ntesbih,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+51,overinformativeness,bag_big_blue,bag,5561,\nçanta,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+52,overinformativeness,knife_big_red,knife,4304,\nbıçak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+53,overinformativeness,lighter_big_white,lighter,2318,\nçakmak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+54,adjective_ordering,table_wood_low,table,1830,\nmasa,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+55,overinformativeness,mirror_big_black,mirror,2525,\nayna,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+56,overinformativeness,shoe_big_pink,shoe,5272,\nayakkabı,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+57,overinformativeness,umbrella_big_blue,umbrella,3369,\nşemsiye,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+58,overinformativeness,hat_big_pink,hat,3010,\nşapka,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+59,overinformativeness,lock_big_silver,lock,3142,\nkilit,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+60,overinformativeness,glove_big_green,glove,3014,\neldiven,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+61,overinformativeness,tie_big_blue,tie,2980,\nkıravat,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+62,overinformativeness,chair_big_blue,chair,4201,\nsandalye,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+63,adjective_ordering,man2_bearded_glassed,man2,2383,\nsakal,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+64,overinformativeness,flower_big_yellow,flower,3618,\nçiçekl,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+65,overinformativeness,toothbrush_big_green,toothbrush,6235,diş fırçası,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+66,adjective_ordering,bottle_glass_big,bottle,3353,\nşişe,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+67,overinformativeness,chair_big_yellow,chair,3794,\nsandalye,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+68,adjective_ordering,pencil_long_black,pencil,2009,\nkalem,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+69,adjective_ordering,spoon_metal_dirty,spoon,3329,\nkaşık,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+70,overinformativeness,bag_big_red,bag,2711,\nçanta,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+71,overinformativeness,pepper_big_green,pepper,5167,\nkabak,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+72,overinformativeness,cat_big_white,cat,2400,\nkedi,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+73,overinformativeness,skirt_big_blue,skirt,2825,\nelbise,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+74,overinformativeness,dress_big_green,dress,2537,\nelbise,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+75,overinformativeness,umbrella_big_green,umbrella,4475,\nşemsiye,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+76,overinformativeness,book_big_red,book,2595,\nkitap,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+77,overinformativeness,ball_big_purple,ball,2077,\ntop,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+78,overinformativeness,scissors_big_green,scissors,1905,\nmakas,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+79,overinformativeness,pepper_big_red,pepper,4618,\nbiber,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+80,overinformativeness,lipstick_big_pink,lipstick,2624,\nruj,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+81,overinformativeness,glasses_big_blue,glasses,2267,\ngözlük,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+82,overinformativeness,flower_big_pink,flower,2714,\nçiçek,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+83,overinformativeness,glove_big_orange,glove,4510,\neldiven,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+84,overinformativeness,button_big_blue,button,2514,\ndüğme,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+85,overinformativeness,key_big_gold,key,2691,\nanahtar,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+86,overinformativeness,clock_big_yellow,clock,3163,\nçalar saat,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+87,overinformativeness,book_big_blue,book,2278,\nkitap,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202
+88,overinformativeness,shoe_big_yellow,shoe,5163,\nayakkabı,Chrome,Windows,800,1280,Türkçe,1,Yes,27,Male,3,,Hayır,1 Dolar,568202

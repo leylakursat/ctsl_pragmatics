@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+3,overinformativeness,umbrella_big_blue,umbrella,8686,semsiye,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+4,overinformativeness,car_big_green,car,6584,araba,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+5,overinformativeness,key_big_gold,key,5330,anahtar,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+6,adjective_ordering,man2_mustached_glassed,man2,13598,gözlüklü adam,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+7,overinformativeness,binoculars_big_blue,binoculars,5864,dürbün,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+8,overinformativeness,glove_big_orange,glove,4279,eldiven,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+9,adjective_ordering,nails_black_matte,nail_polish,8944,oje,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+10,overinformativeness,key_big_silver,key,8327,gümüs anahtar,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+11,overinformativeness,bag_big_blue,bag,2536,canta,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+12,overinformativeness,tie_big_blue,tie,5040,kravat,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+13,overinformativeness,scissors_big_blue,scissors,3016,makas,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+14,overinformativeness,button_big_green,button,4052,dügme,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+15,overinformativeness,lipstick_big_pink,lipstick,4211,dudak boyasi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+16,adjective_ordering,frog_striped_green,frog,21585,kurbaga,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+17,overinformativeness,glasses_big_blue,glasses,5575,gözlük,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+18,adjective_ordering,pencil_long_black,pencil,4952,kalem,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+19,overinformativeness,rosary_big_blue,rosary,3575,tespih,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+20,adjective_ordering,box_closed_wood,box,2863,kutu,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+21,overinformativeness,brush_big_blue,brush,15472,firca,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+22,overinformativeness,skirt_big_blue,skirt,2624,etek,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+23,adjective_ordering,earring_big_triangular,earring,5057,kulak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+24,adjective_ordering,cup_full_metal,cup,3607,bardak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+25,overinformativeness,umbrella_big_green,umbrella,6040,yesil semsiye,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+26,overinformativeness,chair_big_blue,chair,11016,mavi sandaliye,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+27,overinformativeness,brush_big_red,brush,5809,\nkirmizi firca,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+28,overinformativeness,hat_big_orange,hat,5096,sapka,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+29,overinformativeness,clock_big_yellow,clock,3464,sari saat,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+30,overinformativeness,lighter_big_white,lighter,3583,beyaz cakmak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+31,overinformativeness,rosary_big_yellow,rosary,6480,sari tespih,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+32,overinformativeness,tie_big_red,tie,8200,kirmizi kravat,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+33,overinformativeness,pants_big_green,pants,4056,\nyesil pantolon,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+34,overinformativeness,button_big_blue,button,3648,mavi dügme,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+35,overinformativeness,book_big_red,book,4672,kirmizi kitap,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+36,adjective_ordering,spoon_metal_dirty,spoon,6320,kasik,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+37,adjective_ordering,picture_colored_rectangular,picture,3497,resim,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+38,overinformativeness,pepper_big_green,pepper,4079,dolma,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+39,overinformativeness,dress_big_blue,dress,3104,mavi elbise,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+40,adjective_ordering,bottle_plastic_small,bottle,2576,sise,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+41,overinformativeness,socks_big_green,socks,4320,yesil corap,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+42,overinformativeness,balloon_big_pink,balloon,5984,pembe balon,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+43,overinformativeness,pepper_big_red,pepper,5304,\nkirmizi dolma,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+44,overinformativeness,toothbrush_big_purple,toothbrush,9104,dis fircasi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+45,adjective_ordering,shorts_wet_red,shorts,11440,kirmizi mayo,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+46,overinformativeness,car_big_blue,car,5744,mavi araba,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+47,adjective_ordering,hair_curly_brown,hair,4072,\nsac,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+48,overinformativeness,book_big_blue,book,2880,mavi kitap,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+49,overinformativeness,bag_big_red,bag,3968,kirmizi canta,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+50,overinformativeness,hat_big_pink,hat,6183,pembe sapka,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+51,overinformativeness,knife_big_blue,knife,6328,mavi bicak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+52,overinformativeness,lock_big_gold,lock,4616,kilit,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+53,overinformativeness,lighter_big_black,lighter,5144,siyah cakmak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+54,overinformativeness,lock_big_silver,lock,5576,gümüs kilit,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+55,overinformativeness,cat_big_black,cat,4657,siyah kedi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+56,overinformativeness,pants_big_pink,pants,4143,pembe pantolon,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+57,overinformativeness,shoe_big_yellow,shoe,4368,sari ayakkabi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+58,overinformativeness,mirror_big_white,mirror,20384,bu nedir bilmem,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+59,overinformativeness,scissors_big_green,scissors,7463,yesil makas,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+60,overinformativeness,binoculars_big_red,binoculars,4776,\nkirmizi dürbün,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+61,adjective_ordering,woman_old_happy,woman,5233,yasli kadin,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+62,overinformativeness,chair_big_yellow,chair,8631,sari sandaliye,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+63,overinformativeness,toothbrush_big_green,toothbrush,6288,yesil dis fircasi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+64,overinformativeness,cat_big_white,cat,3312,beyaz kedi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+65,overinformativeness,shoe_big_pink,shoe,4680,pembe ayakkabi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+66,overinformativeness,tshirt_big_yellow,tshirt,5232,sari tisört,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+67,overinformativeness,mirror_big_black,mirror,5608,bu nedir bilmem,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+68,overinformativeness,ball_big_yellow,ball,5872,sari top,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+69,overinformativeness,socks_big_blue,socks,5736,mavi corap,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+70,overinformativeness,knife_big_red,knife,4384,kirmizi bicak,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+71,overinformativeness,balloon_big_yellow,balloon,4624,sari balon,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+72,overinformativeness,glasses_big_red,glasses,7944,kirmizi gözlük,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+73,adjective_ordering,woman2_sad_fat,woman2,7504,\nkadin,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+74,overinformativeness,lipstick_big_red,lipstick,6192,dudak boyasi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+75,overinformativeness,pot_big_blue,pot,4584,mavi tencere,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+76,overinformativeness,dress_big_green,dress,11448,yesil elbise,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+77,adjective_ordering,man_young_bearded,man,4208,sakal,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+78,overinformativeness,ball_big_purple,ball,14391,mor top,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+79,overinformativeness,flower_big_yellow,flower,7560,ay cicegi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+80,overinformativeness,tshirt_big_orange,tshirt,7840,turuncu tisört,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+81,overinformativeness,pot_big_green,pot,3944,yesil tencere,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+82,overinformativeness,glove_big_green,glove,3744,yesil eldiven,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+83,overinformativeness,clock_big_purple,clock,3928,mor saat,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+84,overinformativeness,flower_big_pink,flower,5872,\npembe ay cicegi,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+85,adjective_ordering,table_metal_high,table,3616,masa,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+86,overinformativeness,apple_big_red,apple,3280,kirmizi elma,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+87,overinformativeness,skirt_big_green,skirt,3584,yesil etek,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843
+88,overinformativeness,apple_big_green,apple,3008,yesil elma,Firefox,Windows,1080,1920,Türkce,1,25,Male,1,,,2€,167843

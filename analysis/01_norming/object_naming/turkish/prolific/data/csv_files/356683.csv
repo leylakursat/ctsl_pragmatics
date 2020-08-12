@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,beyaz,0,beyaz,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+3,adjective_ordering,nails_black_glossy,nail_polish,15575,parmak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+4,overinformativeness,toothbrush_big_purple,toothbrush,14879,diş fırçası,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+5,adjective_ordering,woman2_sad_fat,woman2,10208,kadın yüzü,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+6,overinformativeness,binoculars_big_blue,binoculars,8576,dürbün,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+7,overinformativeness,pepper_big_green,pepper,4672,biber,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+8,overinformativeness,lipstick_big_red,lipstick,5944,ruj,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+9,overinformativeness,cat_big_black,cat,3976,kedi,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+10,overinformativeness,pepper_big_red,pepper,6672,kırmızı biber,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+11,overinformativeness,socks_big_green,socks,7239,yeşil çorap,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+12,overinformativeness,skirt_big_green,skirt,6064,yeşil elbise,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+13,overinformativeness,knife_big_blue,knife,4712,bıçak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+14,overinformativeness,scissors_big_green,scissors,3592,makas,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+15,overinformativeness,lock_big_gold,lock,3496,kilit,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+16,overinformativeness,glasses_big_red,glasses,4464,gözlük,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+17,overinformativeness,balloon_big_yellow,balloon,3872,balon,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+18,overinformativeness,scissors_big_blue,scissors,4568,makas,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+19,overinformativeness,mirror_big_black,mirror,28791,ayna,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+20,overinformativeness,tshirt_big_orange,tshirt,6192,t shirt,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+21,adjective_ordering,shorts_wet_red,shorts,4416,şort,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+22,overinformativeness,glasses_big_blue,glasses,3864,gözlük,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+23,overinformativeness,balloon_big_pink,balloon,6392,pembe balon,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+24,overinformativeness,brush_big_blue,brush,4384,fırça,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+25,overinformativeness,pot_big_green,pot,5080,yeşil tencere,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+26,adjective_ordering,picture_bw_rectangular,picture,9840,çerçeve ve resim,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+27,overinformativeness,ball_big_purple,ball,4288,mor top,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+28,overinformativeness,glove_big_orange,glove,4240,eldiven,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+29,overinformativeness,socks_big_blue,socks,7904,mavi çorap,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+30,overinformativeness,glove_big_green,glove,5070,yeşil eldiven,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+31,overinformativeness,button_big_blue,button,3560,düğme,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+32,overinformativeness,book_big_red,book,5096,kırmızı kitap,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+33,adjective_ordering,woman_old_happy,woman,7360,yaşlı kadın yüzü,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+34,overinformativeness,hat_big_orange,hat,3991,şapka,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+35,overinformativeness,apple_big_red,apple,4664,kırmızı elma,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+36,overinformativeness,key_big_silver,key,3624,anahtar,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+37,overinformativeness,book_big_blue,book,7640,mavi kitap,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+38,adjective_ordering,man2_bearded_glassed,man2,8416,sakallı genç yüzü,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+39,overinformativeness,tshirt_big_yellow,tshirt,20445,sarı tshirt,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+40,overinformativeness,pants_big_pink,pants,5104,\npembe pantolon,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+41,overinformativeness,button_big_green,button,5304,\nyeşil düğme,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+42,overinformativeness,shoe_big_pink,shoe,10360,\npembe ayakkabı,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+43,overinformativeness,car_big_blue,car,6312,\nmavi oyuncak araba,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+44,overinformativeness,knife_big_red,knife,3448,\nbıçak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+45,overinformativeness,car_big_green,car,5400,\nyeşil oyuncak araba,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+46,overinformativeness,tie_big_blue,tie,5576,\nkıravat,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+47,overinformativeness,dress_big_blue,dress,4688,\nmavi elbise,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+48,overinformativeness,hat_big_pink,hat,3936,\npembe şapka,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+49,overinformativeness,mirror_big_white,mirror,5206,\nbeyaz yana,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+50,adjective_ordering,bottle_glass_big,bottle,3232,\nşişe,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+51,adjective_ordering,table_metal_high,table,2040,\nmasa,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+52,overinformativeness,clock_big_purple,clock,3664,\nmor saat,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+53,overinformativeness,chair_big_blue,chair,2848,\nmavi sandalye,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+54,overinformativeness,bag_big_blue,bag,3320,\nmavi çanta,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+55,overinformativeness,dress_big_green,dress,4672,\nyeşil elbise,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+56,overinformativeness,flower_big_pink,flower,68397,\npembe çiçek,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+57,overinformativeness,flower_big_yellow,flower,4352,\nsarı çiçek,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+58,adjective_ordering,box_closed_cardboard,box,2344,\nkutu,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+59,overinformativeness,skirt_big_blue,skirt,2784,\nmavi etek,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+60,overinformativeness,apple_big_green,apple,3672,\nyeşil elma,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+61,overinformativeness,lipstick_big_pink,lipstick,4264,\npembe ruj,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+62,overinformativeness,rosary_big_blue,rosary,3664,\nmavi tesbih,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+63,adjective_ordering,earring_big_round,earring,2680,\nküpe,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+64,overinformativeness,lighter_big_white,lighter,2944,\nçakmak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+65,adjective_ordering,frog_striped_green,frog,5717,\nkurbağa,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+66,adjective_ordering,spoon_wooden_clean,spoon,4584,\nkaşık,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+67,overinformativeness,bag_big_red,bag,3016,\nçanta,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+68,overinformativeness,umbrella_big_green,umbrella,3832,\nşemsiye,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+69,adjective_ordering,hair_straight_blond,hair,4040,\nsarı saç,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+70,overinformativeness,pot_big_blue,pot,4168,\nmavi tencere,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+71,overinformativeness,umbrella_big_blue,umbrella,4696,\nmavi şemsiye,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+72,overinformativeness,cat_big_white,cat,3448,\nbeyaz kedi,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+73,overinformativeness,lighter_big_black,lighter,2464,\nçakmak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+74,overinformativeness,chair_big_yellow,chair,3456,\nsarı sandalye,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+75,overinformativeness,ball_big_yellow,ball,3800,\nsarı top,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+76,adjective_ordering,cup_full_metal,cup,6616,\nbardak,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+77,adjective_ordering,man_young_bald,man,3960,\nkel adam,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+78,overinformativeness,rosary_big_yellow,rosary,3632,\ntesbih,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+79,adjective_ordering,pencil_short_black,pencil,2560,\nkalem,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+80,overinformativeness,brush_big_red,brush,2744,\nfırça,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+81,overinformativeness,lock_big_silver,lock,2158,\nkilit,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+82,overinformativeness,tie_big_red,tie,2392,\nkıravat,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+83,overinformativeness,pants_big_green,pants,4064,\nyeşil pantolon,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+84,overinformativeness,binoculars_big_red,binoculars,2960,\ndürbün,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+85,overinformativeness,toothbrush_big_green,toothbrush,3144,\nfırça,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+86,overinformativeness,shoe_big_yellow,shoe,5128,\nsarı ayakkabı,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+87,overinformativeness,clock_big_yellow,clock,3112,\nsaat,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
+88,overinformativeness,key_big_gold,key,2656,\nanahtar,Chrome,Windows,1440,2560,türkçe,1,Yes,38,Male,4,başarılı bir deney,hayır,2 pound,356683
