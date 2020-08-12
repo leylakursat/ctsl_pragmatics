@@ -176,6 +176,15 @@ function init() {
 
   console.log("length: "+ exp.stims.length);
 
+  function preloadImages(){
+    for (pos in exp.stims){
+      (new Image()).src = "images/" + exp.stims[pos].label + ".png";
+    };
+    console.log("loaded all the images")
+  };
+
+  preloadImages();
+
   exp.trials = [];
   exp.catch_trials = [];
   exp.condition = {}; //can randomize between subject conditions here
