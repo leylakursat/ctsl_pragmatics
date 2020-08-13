@@ -13,7 +13,7 @@ import json
 def main():
     # set the directory to wherever you have the raw data files stored
     #directory = r'/Users/elizabethswanson/Desktop/img_norm_results/raw_txt_files'
-    directory = r'/Users/leylakursat/Desktop/repos/ctsl_pragmatics/analysis/01_norming/feature_selection/english/data/raw_data'
+    directory = r'/Users/leylakursat/Desktop/repos/ctsl_pragmatics/analysis/01_norming/feature_selection/turkish/data/raw_data'
 
     for entry in os.scandir(directory):
         filename = os.path.basename(entry)
