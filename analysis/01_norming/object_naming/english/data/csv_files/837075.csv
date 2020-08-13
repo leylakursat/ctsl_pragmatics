@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Mary,0,Mary,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+3,overinformativeness,binoculars_big_red,binoculars,9695,binoculars,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+4,overinformativeness,mirror_big_white,mirror,6711,hand mirror,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+5,overinformativeness,socks_big_blue,socks,7672,blue socks,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+6,overinformativeness,hat_big_orange,hat,16648,hat,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+7,overinformativeness,cat_big_black,cat,7384,black cat,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+8,overinformativeness,chair_big_blue,chair,7568,blue chair,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+9,overinformativeness,rosary_big_blue,rosary,15759,rosary,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+10,overinformativeness,pot_big_blue,pot,12208,blue pot,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+11,overinformativeness,tshirt_big_orange,tshirt,9007,orange shirt,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+12,overinformativeness,key_big_silver,key,10944,key,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+13,overinformativeness,mirror_big_black,mirror,7237,hand mirror,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+14,overinformativeness,button_big_blue,button,5288,\nblue button,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+15,overinformativeness,glove_big_orange,glove,13915,\norange rubber glove,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+16,overinformativeness,button_big_green,button,7496,green button,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+17,overinformativeness,knife_big_blue,knife,12991,blue paring knife,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+18,overinformativeness,scissors_big_green,scissors,13664,green childrens scissors,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+19,overinformativeness,brush_big_blue,brush,13952,blue paintbrush,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+20,overinformativeness,toothbrush_big_purple,toothbrush,18112,purple plastic toothbrush,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+21,adjective_ordering,man2_mustached_glassed,man2,14744,caucasian man with glasses,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+22,overinformativeness,apple_big_red,apple,7552,red apple,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+23,overinformativeness,pants_big_pink,pants,8271,pink pants,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+24,adjective_ordering,earring_small_triangular,earring,20488,triangle dangle ear ring,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+25,overinformativeness,apple_big_green,apple,9528,green apple,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+26,overinformativeness,clock_big_yellow,clock,16192,yellow alarm clock,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+27,adjective_ordering,box_closed_wood,box,9144,wood crate,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+28,overinformativeness,hat_big_pink,hat,7600,pink hat,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+29,overinformativeness,dress_big_green,dress,8552,green dress,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+30,overinformativeness,skirt_big_blue,skirt,16735,blue pleated skirt,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+31,overinformativeness,glasses_big_red,glasses,7129,red glasses,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+32,overinformativeness,lighter_big_black,lighter,10200,black bic lighter,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+33,overinformativeness,shoe_big_pink,shoe,22383,pink converse high top shoes,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+34,overinformativeness,umbrella_big_green,umbrella,8815,green umbrella,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+35,overinformativeness,socks_big_green,socks,7448,green socks,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+36,overinformativeness,glasses_big_blue,glasses,7952,blue glasses,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+37,overinformativeness,balloon_big_pink,balloon,10264,pink balloon,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+38,overinformativeness,balloon_big_yellow,balloon,8696,yellow balloon,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+39,overinformativeness,tshirt_big_yellow,tshirt,8960,yellow tshirt,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+40,overinformativeness,clock_big_purple,clock,10584,purple alarm clock,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+41,overinformativeness,skirt_big_green,skirt,9640,green pleated skirt,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+42,overinformativeness,lipstick_big_pink,lipstick,12495,pink lipstick,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+43,adjective_ordering,cup_empty_metal,cup,8352,tin cup,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+44,adjective_ordering,hair_curly_blonde,hair,9808,curly blonde hair,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+45,overinformativeness,flower_big_yellow,flower,8520,yellow flower,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+46,adjective_ordering,spoon_metal_clean,spoon,9528,teaspoon,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+47,overinformativeness,ball_big_yellow,ball,8120,yellow ball,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+48,adjective_ordering,table_wood_high,table,9144,wooden table,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+49,overinformativeness,flower_big_pink,flower,7584,pink flower,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+50,overinformativeness,binoculars_big_blue,binoculars,8688,blue binoculars,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+51,overinformativeness,lipstick_big_red,lipstick,7431,red lipstick,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+52,overinformativeness,cat_big_white,cat,7201,white cat,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+53,adjective_ordering,pencil_short_blue,pencil,10231,blue pencil crayon,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+54,overinformativeness,toothbrush_big_green,toothbrush,10488,green plastic toothbrush,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+55,overinformativeness,bag_big_blue,bag,8336,blue backpack,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+56,overinformativeness,pepper_big_red,pepper,7632,red bell pepper,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+57,adjective_ordering,man_old_bearded,man,12456,bearded man,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+58,adjective_ordering,woman2_happy_fat,woman2,14888,smiling woman,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+59,overinformativeness,pepper_big_green,pepper,10911,green sweet pepper,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+60,overinformativeness,ball_big_purple,ball,7889,purple ball,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+61,overinformativeness,pants_big_green,pants,7823,green pants,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+62,adjective_ordering,shorts_dry_green,shorts,9544,green shorts,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+63,overinformativeness,dress_big_blue,dress,8399,blue dress,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+64,overinformativeness,brush_big_red,brush,8807,red paintbrush,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+65,overinformativeness,umbrella_big_blue,umbrella,7112,blue umbrella,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+66,overinformativeness,shoe_big_yellow,shoe,11112,yellow converse high tops,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+67,overinformativeness,book_big_blue,book,10832,blue book,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+68,adjective_ordering,woman_young_happy,woman,10632,smiling woman,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+69,overinformativeness,key_big_gold,key,8119,gold key,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+70,overinformativeness,scissors_big_blue,scissors,10224,blue scissors,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+71,overinformativeness,knife_big_red,knife,8088,red paring knife,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+72,adjective_ordering,bottle_plastic_big,bottle,9007,water bottle,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+73,overinformativeness,tie_big_red,tie,63167,red neck tie,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+74,overinformativeness,car_big_blue,car,15808,blue coupe car,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+75,overinformativeness,bag_big_red,bag,8576,red backpack,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+76,overinformativeness,book_big_red,book,7191,red book,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+77,overinformativeness,lock_big_silver,lock,10576,silver lock,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+78,adjective_ordering,picture_bw_square,picture,20832,framed landscape picture,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+79,overinformativeness,glove_big_green,glove,9247,green gloves,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+80,overinformativeness,tie_big_blue,tie,10799,blue neck tie,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+81,adjective_ordering,nails_red_matte,nail_polish,16321,red finger nails,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+82,overinformativeness,lighter_big_white,lighter,8528,white bic lighter,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+83,overinformativeness,lock_big_gold,lock,7423,gold lock,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+84,overinformativeness,pot_big_green,pot,8864,green pot,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+85,adjective_ordering,frog_spotted_green,frog,10584,polka dot frog,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+86,overinformativeness,rosary_big_yellow,rosary,13431,wooden rosary,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+87,overinformativeness,car_big_green,car,11831,green coupe car,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075
+88,overinformativeness,chair_big_yellow,chair,13392,wooden chair,Chrome,Windows,1080,1920,,-1,,,-1,,,,837075

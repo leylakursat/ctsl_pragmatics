@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Susan,0,Susan,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+3,overinformativeness,cat_big_white,cat,3137,Cat,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+4,adjective_ordering,box_closed_cardboard,box,2892,box,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+5,overinformativeness,key_big_silver,key,2336,key,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+6,adjective_ordering,cup_full_plastic,cup,3286,cup,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+7,overinformativeness,pot_big_blue,pot,3692,saucepan,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+8,overinformativeness,tshirt_big_orange,tshirt,2765,t shirt,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+9,overinformativeness,brush_big_red,brush,4172,paint brush,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+10,overinformativeness,pepper_big_red,pepper,3271,pepper,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+11,adjective_ordering,shorts_wet_red,shorts,3035,shorts,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+12,overinformativeness,umbrella_big_blue,umbrella,2670,umbrella,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+13,overinformativeness,hat_big_pink,hat,2179,hat,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+14,overinformativeness,umbrella_big_green,umbrella,2447,umbrella,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+15,overinformativeness,car_big_blue,car,2877,car,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+16,overinformativeness,glove_big_green,glove,3873,glove,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+17,overinformativeness,balloon_big_yellow,balloon,3803,balloon,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+18,overinformativeness,ball_big_purple,ball,3972,ball,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+19,overinformativeness,lock_big_gold,lock,2407,lock,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+20,adjective_ordering,man_young_bearded,man,6219,man with a beard,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+21,overinformativeness,book_big_blue,book,2289,book,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+22,overinformativeness,button_big_green,button,2789,button,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+23,overinformativeness,lock_big_silver,lock,1964,lock,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+24,overinformativeness,socks_big_blue,socks,1954,socks,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+25,overinformativeness,tie_big_red,tie,2245,tie,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+26,overinformativeness,tshirt_big_yellow,tshirt,162815,t shirt,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+27,adjective_ordering,table_metal_low,table,2026,table,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+28,overinformativeness,bag_big_red,bag,5934,rucksack,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+29,overinformativeness,lighter_big_white,lighter,2987,lighter,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+30,overinformativeness,rosary_big_blue,rosary,2946,necklace,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+31,adjective_ordering,spoon_metal_dirty,spoon,2218,spoon,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+32,overinformativeness,scissors_big_green,scissors,2273,scissors,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+33,overinformativeness,flower_big_pink,flower,7121,flower,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+34,overinformativeness,dress_big_blue,dress,2805,dress,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+35,overinformativeness,flower_big_yellow,flower,2742,flower,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+36,adjective_ordering,pencil_long_blue,pencil,2550,pencil,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+37,overinformativeness,knife_big_blue,knife,2954,knife,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+38,overinformativeness,skirt_big_blue,skirt,1886,skirt,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+39,overinformativeness,car_big_green,car,2559,car,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+40,overinformativeness,mirror_big_black,mirror,2218,mirror,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+41,overinformativeness,cat_big_black,cat,2044,cat,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+42,overinformativeness,shoe_big_yellow,shoe,2203,shoe,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+43,overinformativeness,ball_big_yellow,ball,3011,ball,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+44,overinformativeness,glasses_big_red,glasses,2805,glasses,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+45,adjective_ordering,woman_young_sad,woman,118044,woman crying,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+46,overinformativeness,toothbrush_big_purple,toothbrush,5311,toothbrush,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+47,overinformativeness,rosary_big_yellow,rosary,3922,necklace,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+48,adjective_ordering,bottle_glass_big,bottle,2296,bottle,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+49,overinformativeness,hat_big_orange,hat,2640,hat,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+50,overinformativeness,chair_big_blue,chair,4585,chair,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+51,overinformativeness,pants_big_pink,pants,4007,trousers,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+52,overinformativeness,pants_big_green,pants,2218,trousers,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+53,overinformativeness,shoe_big_pink,shoe,2099,shoes,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+54,adjective_ordering,picture_bw_rectangular,picture,2797,painting,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+55,adjective_ordering,nails_red_matte,nail_polish,2416,hand,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+56,overinformativeness,knife_big_red,knife,2654,knife,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+57,adjective_ordering,woman2_happy_skinny,woman2,3436,woman laughing,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+58,overinformativeness,skirt_big_green,skirt,2510,skirt,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+59,adjective_ordering,man2_bearded_glassed,man2,3760,man with a beard,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+60,overinformativeness,bag_big_blue,bag,2805,rucksack,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+61,overinformativeness,socks_big_green,socks,2329,socks,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+62,overinformativeness,lighter_big_black,lighter,2084,lighter,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+63,adjective_ordering,frog_spotted_green,frog,3010,frog,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+64,overinformativeness,button_big_blue,button,2194,button,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+65,overinformativeness,lipstick_big_pink,lipstick,2900,lipstick,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+66,overinformativeness,apple_big_red,apple,2693,apple,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+67,overinformativeness,binoculars_big_red,binoculars,4034,binoculars,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+68,overinformativeness,chair_big_yellow,chair,1925,chair,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+69,overinformativeness,key_big_gold,key,1774,key,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+70,overinformativeness,binoculars_big_blue,binoculars,3542,binoculars,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+71,overinformativeness,clock_big_yellow,clock,4768,alarm clock,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+72,adjective_ordering,earring_big_round,earring,2353,earring,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+73,overinformativeness,mirror_big_white,mirror,2234,mirror,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+74,overinformativeness,clock_big_purple,clock,2954,alarm clock,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+75,overinformativeness,pepper_big_green,pepper,1831,pepper,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+76,overinformativeness,brush_big_blue,brush,4705,paintbrush,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+77,overinformativeness,dress_big_green,dress,153133,dress,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+78,overinformativeness,balloon_big_pink,balloon,2947,balloon,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+79,overinformativeness,pot_big_green,pot,2329,saucepan,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+80,overinformativeness,book_big_red,book,1940,book,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+81,overinformativeness,apple_big_green,apple,1743,apple,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+82,overinformativeness,tie_big_blue,tie,1656,tie,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+83,overinformativeness,lipstick_big_red,lipstick,6521,lipsrtick,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+84,overinformativeness,toothbrush_big_green,toothbrush,2930,toothbrush,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+85,overinformativeness,scissors_big_blue,scissors,2233,scissors,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+86,overinformativeness,glove_big_orange,glove,4609,glove,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+87,overinformativeness,glasses_big_blue,glasses,2669,glasses,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575
+88,adjective_ordering,hair_curly_brown,hair,2043,hair,Firefox,Mac,900,1440,english,1,Yes,30,Female,4,good luck with your research!,no,1.30,786575

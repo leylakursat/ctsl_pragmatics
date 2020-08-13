@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Patricia,0,Patricia,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+3,adjective_ordering,woman_young_sad,woman,3776,Sad,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+4,overinformativeness,hat_big_orange,hat,2884,Hat,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+5,overinformativeness,cat_big_black,cat,2532,Cat,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+6,overinformativeness,bag_big_red,bag,5566,Backpack,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+7,overinformativeness,brush_big_red,brush,4917,Paint brush,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+8,overinformativeness,ball_big_yellow,ball,3927,Ball,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+9,overinformativeness,pants_big_pink,pants,3821,Trousers,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+10,adjective_ordering,pencil_short_blue,pencil,3984,Pencil,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+11,overinformativeness,socks_big_blue,socks,3241,Socks,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+12,overinformativeness,glove_big_orange,glove,6285,Rubber glove,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+13,overinformativeness,pot_big_green,pot,2799,Pan,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+14,overinformativeness,key_big_silver,key,2314,Key,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+15,adjective_ordering,woman2_happy_skinny,woman2,2849,Happy,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+16,overinformativeness,tie_big_red,tie,2826,Tie,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+17,overinformativeness,car_big_blue,car,2183,Car,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+18,overinformativeness,flower_big_pink,flower,2897,Flower,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+19,overinformativeness,chair_big_blue,chair,2715,Chair,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+20,adjective_ordering,earring_big_round,earring,3968,Earring ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+21,overinformativeness,ball_big_purple,ball,3192,Ball,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+22,overinformativeness,lock_big_gold,lock,4219,Padlock ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+23,overinformativeness,glove_big_green,glove,4111,Rubber glove,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+24,overinformativeness,cat_big_white,cat,2864,Cat,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+25,overinformativeness,skirt_big_blue,skirt,2446,Skirt,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+26,overinformativeness,lighter_big_white,lighter,3049,Lighter,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+27,overinformativeness,lipstick_big_pink,lipstick,3470,Lipstick,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+28,adjective_ordering,picture_colored_square,picture,3271,Picture,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+29,overinformativeness,lighter_big_black,lighter,2686,Lighter,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+30,overinformativeness,chair_big_yellow,chair,2413,Chair,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+31,overinformativeness,bag_big_blue,bag,3536,Backpack,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+32,overinformativeness,shoe_big_yellow,shoe,3900,Trainer,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+33,overinformativeness,glasses_big_blue,glasses,3091,Glasses,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+34,overinformativeness,pants_big_green,pants,3767,Trousers,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+35,overinformativeness,skirt_big_green,skirt,3199,Skirt,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+36,overinformativeness,binoculars_big_red,binoculars,4809,Binoculars ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+37,overinformativeness,shoe_big_pink,shoe,3681,Trainer,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+38,overinformativeness,flower_big_yellow,flower,4018,Flower,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+39,overinformativeness,umbrella_big_blue,umbrella,3050,Umbrella ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+40,overinformativeness,clock_big_purple,clock,4629,Clock ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+41,overinformativeness,apple_big_red,apple,2663,Apple,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+42,overinformativeness,pot_big_blue,pot,2535,Pan,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+43,overinformativeness,apple_big_green,apple,2959,Apple,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+44,overinformativeness,toothbrush_big_green,toothbrush,3963,Toothbrush ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+45,overinformativeness,rosary_big_blue,rosary,4096,Necklace ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+46,overinformativeness,knife_big_red,knife,2620,Knife,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+47,adjective_ordering,hair_straight_blond,hair,2877,Hair,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+48,adjective_ordering,spoon_metal_dirty,spoon,3209,Spoon,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+49,overinformativeness,binoculars_big_blue,binoculars,4467,Binoculars ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+50,overinformativeness,tie_big_blue,tie,2380,Tie,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+51,overinformativeness,pepper_big_red,pepper,4203,Pepper,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+52,overinformativeness,knife_big_blue,knife,2867,Knife,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+53,overinformativeness,lipstick_big_red,lipstick,4087,Lipstick,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+54,overinformativeness,dress_big_green,dress,3212,Dress,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+55,adjective_ordering,cup_empty_plastic,cup,4118,Cup,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+56,overinformativeness,balloon_big_pink,balloon,3472,Ballon,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+57,overinformativeness,scissors_big_green,scissors,3955,Scissors,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+58,overinformativeness,tshirt_big_orange,tshirt,5742,T shirt,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+59,adjective_ordering,shorts_dry_green,shorts,3590,Shorts,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+60,adjective_ordering,man2_mustached_glassed,man2,3790,Glasses,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+61,adjective_ordering,bottle_plastic_small,bottle,2723,Water,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+62,adjective_ordering,box_open_wood,box,3809,Planter,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+63,overinformativeness,scissors_big_blue,scissors,4695,Scissors,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+64,overinformativeness,mirror_big_black,mirror,3370,Mirror,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+65,overinformativeness,dress_big_blue,dress,2274,Dress,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+66,overinformativeness,book_big_red,book,2656,Book,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+67,overinformativeness,car_big_green,car,2076,Car,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+68,overinformativeness,pepper_big_green,pepper,3379,Pepper,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+69,overinformativeness,balloon_big_yellow,balloon,3253,Balloon,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+70,overinformativeness,toothbrush_big_purple,toothbrush,4808,Toothbrush ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+71,overinformativeness,tshirt_big_yellow,tshirt,3283,Tshirt,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+72,overinformativeness,button_big_green,button,2942,Button,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+73,adjective_ordering,frog_striped_red,frog,13903,Frog,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+74,overinformativeness,rosary_big_yellow,rosary,4919,Necklace,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+75,overinformativeness,clock_big_yellow,clock,3805,Clock,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+76,overinformativeness,lock_big_silver,lock,4295,Padlock,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+77,overinformativeness,book_big_blue,book,4461,Book,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+78,overinformativeness,socks_big_green,socks,3259,Socks,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+79,overinformativeness,button_big_blue,button,2903,Button,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+80,adjective_ordering,nails_red_matte,nail_polish,3122,Nails,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+81,adjective_ordering,table_wood_low,table,2853,Table,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+82,overinformativeness,brush_big_blue,brush,3136,Scissors ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+83,overinformativeness,glasses_big_red,glasses,4913,Glasses,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+84,overinformativeness,hat_big_pink,hat,2352,Hat,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+85,overinformativeness,key_big_gold,key,3263,Key,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+86,adjective_ordering,man_old_bald,man,2684,Face,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+87,overinformativeness,mirror_big_white,mirror,3285,Mirror,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352
+88,overinformativeness,umbrella_big_green,umbrella,3100,Umbrella ,Safari,Mac,1112,834,English ,1,Yes,30,Female,3,,,,846352

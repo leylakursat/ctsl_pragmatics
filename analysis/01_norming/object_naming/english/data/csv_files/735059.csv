@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Jennifer,0,Jennifer,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+3,overinformativeness,book_big_red,book,5389,book,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+4,overinformativeness,hat_big_pink,hat,3519,hat,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+5,overinformativeness,umbrella_big_blue,umbrella,5932,umberella,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+6,overinformativeness,lock_big_gold,lock,9932,padlock,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+7,overinformativeness,brush_big_blue,brush,5843,paint,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+8,overinformativeness,key_big_gold,key,3469,key,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+9,adjective_ordering,table_metal_low,table,4773,table,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+10,overinformativeness,dress_big_blue,dress,4488,dress,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+11,adjective_ordering,pencil_short_black,pencil,4307,pencil,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+12,overinformativeness,car_big_green,car,6409,car,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+13,overinformativeness,lock_big_silver,lock,6462,padlock,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+14,overinformativeness,shoe_big_pink,shoe,7005,shoe,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+15,adjective_ordering,earring_small_round,earring,7157,earring and ear,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+16,overinformativeness,dress_big_green,dress,4125,dress,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+17,overinformativeness,ball_big_yellow,ball,6543,Ball,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+18,overinformativeness,glove_big_orange,glove,5484,glove,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+19,overinformativeness,bag_big_blue,bag,4023,bag,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+20,overinformativeness,skirt_big_blue,skirt,3453,skirt,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+21,overinformativeness,glasses_big_blue,glasses,5350,glasses,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+22,overinformativeness,clock_big_yellow,clock,3961,clock,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+23,overinformativeness,glasses_big_red,glasses,5692,Glasses,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+24,overinformativeness,chair_big_yellow,chair,5521,Chair,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+25,overinformativeness,umbrella_big_green,umbrella,6492,unberella,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+26,overinformativeness,balloon_big_yellow,balloon,5161,balloon,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+27,adjective_ordering,hair_curly_blonde,hair,5884,curly hair,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+28,overinformativeness,ball_big_purple,ball,3720,ball,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+29,overinformativeness,binoculars_big_blue,binoculars,6069,binoculars,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+30,overinformativeness,cat_big_white,cat,4053,cat,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+31,overinformativeness,apple_big_green,apple,4104,apple,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+32,overinformativeness,rosary_big_blue,rosary,7204,necklace,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+33,overinformativeness,pot_big_green,pot,4105,pot,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+34,overinformativeness,balloon_big_pink,balloon,4330,balloon,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+35,overinformativeness,knife_big_blue,knife,4308,knife,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+36,overinformativeness,shoe_big_yellow,shoe,3899,shoe,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+37,overinformativeness,pants_big_green,pants,5271,trousers,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+38,overinformativeness,glove_big_green,glove,4587,glove,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+39,overinformativeness,pepper_big_red,pepper,9344,Bell pepper,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+40,overinformativeness,cat_big_black,cat,8353,cat,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+41,overinformativeness,lipstick_big_pink,lipstick,5892,lipstick,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+42,adjective_ordering,woman_old_happy,woman,21041,old granny woman,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+43,overinformativeness,mirror_big_black,mirror,5090,mirror,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+44,adjective_ordering,nails_black_matte,nail_polish,19707,hand grabbing blanket with nail polish,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+45,overinformativeness,key_big_silver,key,3585,key,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+46,overinformativeness,chair_big_blue,chair,3125,chair,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+47,overinformativeness,bag_big_red,bag,2710,bag,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+48,adjective_ordering,picture_colored_square,picture,12009,picture in frame,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+49,adjective_ordering,shorts_wet_green,shorts,4405,shorts,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+50,overinformativeness,lipstick_big_red,lipstick,4809,lipstick,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+51,adjective_ordering,box_closed_cardboard,box,3716,box,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+52,overinformativeness,book_big_blue,book,3630,book,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+53,overinformativeness,mirror_big_white,mirror,4079,mirror,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+54,adjective_ordering,spoon_metal_clean,spoon,4859,Spoon,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+55,adjective_ordering,man_old_bearded,man,20646,man with beard and mustache and bald head,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+56,overinformativeness,flower_big_yellow,flower,5243,flower,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+57,overinformativeness,brush_big_red,brush,7028,Brush,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+58,overinformativeness,car_big_blue,car,6084,car,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+59,overinformativeness,button_big_blue,button,5141,button,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+60,overinformativeness,socks_big_blue,socks,7926,sock,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+61,overinformativeness,scissors_big_blue,scissors,6536,scissors,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+62,overinformativeness,clock_big_purple,clock,3952,clock,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+63,overinformativeness,lighter_big_white,lighter,6935,lighter,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+64,overinformativeness,rosary_big_yellow,rosary,4421,necklace,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+65,overinformativeness,pants_big_pink,pants,4470,trousers,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+66,overinformativeness,tie_big_red,tie,3041,tie,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+67,adjective_ordering,cup_full_metal,cup,8288,cup of tea,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+68,overinformativeness,socks_big_green,socks,4627,socks,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+69,overinformativeness,lighter_big_black,lighter,3755,lighter,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+70,overinformativeness,button_big_green,button,3960,button,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+71,overinformativeness,tie_big_blue,tie,3081,tie,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+72,overinformativeness,skirt_big_green,skirt,4699,skirt,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+73,overinformativeness,pot_big_blue,pot,5436,pot,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+74,overinformativeness,apple_big_red,apple,4839,apple,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+75,overinformativeness,pepper_big_green,pepper,5917,bell pepper,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+76,overinformativeness,flower_big_pink,flower,6211,Flower,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+77,overinformativeness,tshirt_big_yellow,tshirt,9174,shirt,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+78,overinformativeness,hat_big_orange,hat,2836,hat,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+79,overinformativeness,knife_big_red,knife,4566,knife,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+80,adjective_ordering,frog_spotted_red,frog,4853,toad,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+81,overinformativeness,binoculars_big_red,binoculars,6329,binoculars,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+82,overinformativeness,tshirt_big_orange,tshirt,5122,shirt ,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+83,adjective_ordering,man2_mustached_hatted,man2,3442,man,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+84,adjective_ordering,woman2_happy_fat,woman2,8044,woman with double chin,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+85,overinformativeness,toothbrush_big_green,toothbrush,6435,toothbrush,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+86,overinformativeness,toothbrush_big_purple,toothbrush,9035,toothbrush,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+87,overinformativeness,scissors_big_green,scissors,4851,scissors,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059
+88,adjective_ordering,bottle_glass_big,bottle,5682,bottle,Chrome,Linux,915,412,English,2,Yes,19,Female,2,,,0.91,735059

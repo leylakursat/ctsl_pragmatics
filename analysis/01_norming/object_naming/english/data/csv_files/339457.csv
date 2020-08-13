@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Susan,0,Susan,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+3,overinformativeness,apple_big_green,apple,3049,apple,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+4,overinformativeness,hat_big_orange,hat,3560,\nhat,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+5,adjective_ordering,shorts_dry_red,shorts,2794,\nshorts,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+6,overinformativeness,tshirt_big_yellow,tshirt,3742,\nt shirt,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+7,adjective_ordering,earring_big_round,earring,4171,\nearring,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+8,overinformativeness,ball_big_yellow,ball,3229,\nball,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+9,adjective_ordering,man_young_bald,man,4048,\nhead,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+10,overinformativeness,dress_big_green,dress,2406,\ndress,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+11,overinformativeness,button_big_blue,button,2248,\nbutton,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+12,adjective_ordering,cup_full_plastic,cup,4560,\nplazstic cup,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+13,overinformativeness,glasses_big_blue,glasses,4271,\nglasses,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+14,overinformativeness,scissors_big_green,scissors,2987,\nscissors,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+15,overinformativeness,bag_big_blue,bag,3303,\nbackpack,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+16,overinformativeness,car_big_green,car,4796,\ntoy car,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+17,overinformativeness,lipstick_big_pink,lipstick,3262,\nlipstick,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+18,overinformativeness,tie_big_blue,tie,2321,\ntie,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+19,overinformativeness,tshirt_big_orange,tshirt,4522,\nt shirt,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+20,overinformativeness,socks_big_green,socks,2639,\nsocks,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+21,overinformativeness,toothbrush_big_purple,toothbrush,4230,\ntoothbrush,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+22,adjective_ordering,frog_spotted_green,frog,2971,\nfrog,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+23,overinformativeness,lighter_big_black,lighter,2633,\nlighter,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+24,adjective_ordering,woman_old_sad,woman,10320,\nolder woman,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+25,overinformativeness,brush_big_blue,brush,5142,\npaint brush,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+26,overinformativeness,pot_big_blue,pot,2655,\npot,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+27,overinformativeness,shoe_big_pink,shoe,1978,\nshoe,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+28,adjective_ordering,woman2_sad_skinny,woman2,4607,\nwoman,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+29,adjective_ordering,nails_black_matte,nail_polish,8247,\nfinger nails,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+30,overinformativeness,mirror_big_white,mirror,2533,\nmirror,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+31,overinformativeness,scissors_big_blue,scissors,4044,\nscissors,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+32,overinformativeness,balloon_big_yellow,balloon,4881,\nballoon,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+33,overinformativeness,pepper_big_green,pepper,3047,\npepper,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+34,overinformativeness,mirror_big_black,mirror,2364,\nmirror,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+35,adjective_ordering,table_wood_high,table,3283,\ntable,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+36,overinformativeness,binoculars_big_blue,binoculars,5066,\nbinoculars,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+37,overinformativeness,bag_big_red,bag,4407,\nbackpack,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+38,overinformativeness,clock_big_purple,clock,2308,\nclock,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+39,overinformativeness,chair_big_blue,chair,2267,\nchair,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+40,overinformativeness,hat_big_pink,hat,2002,\nhat,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+41,adjective_ordering,hair_curly_blonde,hair,2935,\nhair,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+42,overinformativeness,knife_big_red,knife,2596,\nknifer,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+43,overinformativeness,book_big_red,book,2557,\nbook,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+44,overinformativeness,dress_big_blue,dress,2440,\ndress,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+45,overinformativeness,apple_big_red,apple,2108,\napple,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+46,overinformativeness,cat_big_white,cat,1916,\ncat,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+47,overinformativeness,car_big_blue,car,3342,\ncar,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+48,overinformativeness,lock_big_gold,lock,2066,\nlock,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+49,overinformativeness,clock_big_yellow,clock,2105,\nclock,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+50,overinformativeness,chair_big_yellow,chair,1895,\nchair,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+51,overinformativeness,rosary_big_blue,rosary,3793,\nnecklace,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+52,overinformativeness,pot_big_green,pot,1762,\npot,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+53,overinformativeness,book_big_blue,book,2092,\nbook,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+54,overinformativeness,lighter_big_white,lighter,2948,\nlighter,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+55,overinformativeness,glove_big_orange,glove,5818,\nglove,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+56,overinformativeness,glove_big_green,glove,2598,\nglove,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+57,adjective_ordering,spoon_metal_clean,spoon,3858,\nspoon,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+58,overinformativeness,binoculars_big_red,binoculars,4564,\nbinoculars,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+59,overinformativeness,brush_big_red,brush,3826,\npaint brush,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+60,overinformativeness,button_big_green,button,2293,\nbutton,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+61,overinformativeness,key_big_gold,key,2143,\nkey,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+62,overinformativeness,balloon_big_pink,balloon,3410,\nballoon,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+63,adjective_ordering,man2_mustached_hatted,man2,17110,\nman,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+64,overinformativeness,pants_big_green,pants,2760,\npants,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+65,overinformativeness,pepper_big_red,pepper,2215,\npepper,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+66,adjective_ordering,box_closed_wood,box,4218,\ncrate,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+67,overinformativeness,rosary_big_yellow,rosary,4601,\nnecklace,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+68,overinformativeness,key_big_silver,key,2168,\nkey,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+69,overinformativeness,pants_big_pink,pants,3746,\npants,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+70,overinformativeness,shoe_big_yellow,shoe,2483,\nshoe,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+71,overinformativeness,umbrella_big_green,umbrella,3049,\numbrella,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+72,overinformativeness,tie_big_red,tie,1943,\ntie,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+73,overinformativeness,skirt_big_blue,skirt,2284,\nskirt,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+74,overinformativeness,skirt_big_green,skirt,2012,\nskirt,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+75,adjective_ordering,bottle_plastic_big,bottle,5141,\nwater bottle,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+76,adjective_ordering,picture_bw_square,picture,4302,\npainting,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+77,overinformativeness,umbrella_big_blue,umbrella,2767,\n\\umbrella,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+78,adjective_ordering,pencil_short_black,pencil,2461,\npencil,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+79,overinformativeness,lipstick_big_red,lipstick,3049,\nlipstick,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+80,overinformativeness,flower_big_yellow,flower,2408,\nflower,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+81,overinformativeness,flower_big_pink,flower,2449,\nflower,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+82,overinformativeness,socks_big_blue,socks,1981,\nsocks,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+83,overinformativeness,cat_big_black,cat,2234,\ncat,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+84,overinformativeness,ball_big_purple,ball,2168,\nball,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+85,overinformativeness,toothbrush_big_green,toothbrush,3105,\ntoothbrush,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+86,overinformativeness,lock_big_silver,lock,1781,\nlock,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+87,overinformativeness,knife_big_blue,knife,2351,\nknife,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457
+88,overinformativeness,glasses_big_red,glasses,2954,\nglasses,Chrome,Mac,1050,1680,English,1,Yes,37,Male,4,,,0.90,339457

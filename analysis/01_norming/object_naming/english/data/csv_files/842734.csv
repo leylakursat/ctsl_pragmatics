@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Linda,0,Linda,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+3,overinformativeness,knife_big_red,knife,2860,knife,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+4,overinformativeness,car_big_blue,car,1219,car,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+5,overinformativeness,knife_big_blue,knife,2083,knife,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+6,overinformativeness,clock_big_yellow,clock,1490,clock,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+7,adjective_ordering,man_young_bearded,man,3627,\nman,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+8,overinformativeness,socks_big_green,socks,1854,\nsocks,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+9,overinformativeness,button_big_blue,button,1645,\nbutton,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+10,overinformativeness,binoculars_big_red,binoculars,9063,\nbinocular,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+11,overinformativeness,toothbrush_big_purple,toothbrush,3636,\ntoothbrush,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+12,overinformativeness,lighter_big_white,lighter,1871,\nlighter,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+13,overinformativeness,glasses_big_red,glasses,1680,\nglasses,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+14,overinformativeness,pants_big_green,pants,11284,\npants,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+15,adjective_ordering,cup_full_metal,cup,5702,tea,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+16,overinformativeness,pot_big_green,pot,17556,\nslow cooker,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+17,overinformativeness,apple_big_green,apple,1110,\napple,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+18,overinformativeness,scissors_big_blue,scissors,2127,\nscissors,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+19,adjective_ordering,picture_colored_square,picture,7668,\npainting,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+20,overinformativeness,hat_big_pink,hat,4175,\nhat,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+21,adjective_ordering,spoon_metal_clean,spoon,2245,\nspoon,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+22,overinformativeness,balloon_big_yellow,balloon,2675,\nballoon,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+23,overinformativeness,bag_big_red,bag,1057,\nbag,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+24,overinformativeness,socks_big_blue,socks,934,\nsocks,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+25,overinformativeness,brush_big_blue,brush,2202,\npaintbrush,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+26,adjective_ordering,woman_young_sad,woman,4574,\ncrying woman,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+27,overinformativeness,apple_big_red,apple,1233,\napple,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+28,overinformativeness,cat_big_white,cat,912,\ncat,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+29,overinformativeness,pepper_big_green,pepper,3073,bellpepper,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+30,overinformativeness,balloon_big_pink,balloon,1598,\nballoon,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+31,overinformativeness,toothbrush_big_green,toothbrush,15117,\ntoothbrush,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+32,overinformativeness,shoe_big_pink,shoe,6117,\nconverse,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+33,adjective_ordering,bottle_glass_small,bottle,6569,\nglass bottle,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+34,overinformativeness,dress_big_blue,dress,2053,\nblue dress,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+35,overinformativeness,skirt_big_green,skirt,2390,\ngreen dress,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+36,adjective_ordering,man2_bearded_glassed,man2,19535,\nbearded man,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+37,overinformativeness,glove_big_orange,glove,1859,\ngloves,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+38,adjective_ordering,hair_curly_blonde,hair,2294,\nhair,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+39,overinformativeness,pot_big_blue,pot,2927,\nslow cooker,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+40,overinformativeness,cat_big_black,cat,1000,\ncat,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+41,adjective_ordering,woman2_happy_fat,woman2,2182,\nwoman,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+42,overinformativeness,lighter_big_black,lighter,1774,\nlighter,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+43,overinformativeness,tshirt_big_yellow,tshirt,2099,\ntshirt,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+44,overinformativeness,chair_big_yellow,chair,1232,\nchair,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+45,overinformativeness,book_big_red,book,1155,\nbook,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+46,overinformativeness,button_big_green,button,1879,\nbutton,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+47,adjective_ordering,nails_black_matte,nail_polish,5178,\nblanket,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+48,overinformativeness,lock_big_silver,lock,1689,\npadlock,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+49,adjective_ordering,table_wood_low,table,1355,\ntable,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+50,adjective_ordering,frog_striped_red,frog,1477,\nfrog,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+51,overinformativeness,glasses_big_blue,glasses,1860,\nglasses,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+52,overinformativeness,book_big_blue,book,1208,\nbook,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+53,overinformativeness,mirror_big_white,mirror,2388,\nmirror,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+54,overinformativeness,key_big_gold,key,1214,\nkey,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+55,overinformativeness,pepper_big_red,pepper,1915,\nbellpepper,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+56,overinformativeness,scissors_big_green,scissors,1488,\nscissors,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+57,overinformativeness,car_big_green,car,1332,\ncar,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+58,overinformativeness,key_big_silver,key,1159,\nkey,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+59,overinformativeness,ball_big_purple,ball,1569,\nball,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+60,overinformativeness,tie_big_red,tie,1217,\ntie,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+61,overinformativeness,tie_big_blue,tie,810,\ntie,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+62,overinformativeness,pants_big_pink,pants,1286,\npants,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+63,overinformativeness,mirror_big_black,mirror,1677,\nmirror,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+64,overinformativeness,lipstick_big_pink,lipstick,1842,\nlipstick,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+65,adjective_ordering,pencil_short_blue,pencil,2585,\npencil,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+66,overinformativeness,brush_big_red,brush,2766,\npaintbrush,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+67,overinformativeness,flower_big_pink,flower,2227,\nflower,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+68,overinformativeness,flower_big_yellow,flower,1231,\nflwoer,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+69,overinformativeness,binoculars_big_blue,binoculars,4872,binoculars,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+70,adjective_ordering,earring_small_round,earring,6258,\nearrings,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+71,overinformativeness,lock_big_gold,lock,1436,\npadlock,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+72,overinformativeness,rosary_big_blue,rosary,3392,\nnecklace,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+73,overinformativeness,dress_big_green,dress,2831,\ndress,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+74,adjective_ordering,box_closed_wood,box,1918,\nbox,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+75,overinformativeness,rosary_big_yellow,rosary,3722,\nnecklace,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+76,overinformativeness,lipstick_big_red,lipstick,1538,\nlipstick,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+77,overinformativeness,skirt_big_blue,skirt,2218,dress,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+78,overinformativeness,shoe_big_yellow,shoe,1715,\nshoes,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+79,overinformativeness,tshirt_big_orange,tshirt,1730,\ntshrit,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+80,overinformativeness,hat_big_orange,hat,3444,\nhat,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+81,overinformativeness,chair_big_blue,chair,1611,\nchair,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+82,overinformativeness,umbrella_big_blue,umbrella,2115,\numbrella,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+83,overinformativeness,umbrella_big_green,umbrella,1975,\numbrella,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+84,overinformativeness,glove_big_green,glove,1688,\ngloves,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+85,overinformativeness,bag_big_blue,bag,1311,\nbag,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+86,overinformativeness,ball_big_yellow,ball,1557,\nball,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+87,overinformativeness,clock_big_purple,clock,2059,\nclock,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734
+88,adjective_ordering,shorts_wet_green,shorts,5608,\nshorts,Chrome,Windows,1080,1920,English,2,Yes,21,Male,2,"The pictures were too small, it would be preferred if it was bigger.",,1,842734

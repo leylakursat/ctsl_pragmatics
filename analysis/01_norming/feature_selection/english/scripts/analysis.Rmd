@@ -1,0 +1,113 @@
+---
+title: "Pragmatics in CTSL - Norming for Feature Selection (ENGLISH)"
+#output: rmarkdown::github_document
+output:
+  #html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+dir <- "../data/csv_files"
+participant_files <- list.files(path = dir, full.names = TRUE)
+df <- plyr::ldply(participant_files, function(x) {
+  read_csv(x)
+})
+
+```
+
+```{r formatting, include=FALSE}
+df$response = gsub(" ","", df$response)
+df$features = gsub(" ","", df$features)
+
+d = df %>% 
+  separate(response, c("img1resp", "img2resp","img3resp", "img4resp"), sep = "\\]")
+  
+d$img1resp = gsub("\\[\\[","",d$img1resp)
+d$img2resp = gsub(",\\[","",d$img2resp)
+d$img3resp = gsub(",\\[","",d$img3resp)
+d$img4resp = gsub(",\\[","",d$img4resp)
+            
+d$features = gsub("\\[","",d$features)
+d$features = gsub("\\]","",d$features)
+d$features = gsub("\\'","",d$features)
+```
+
+```{r function, include=FALSE}
+object_name = "man2"
+plot_object = function(object_name){
+  obj = d %>%
+    filter(object==object_name) %>%
+    select(participant_id,object,img1,img2,img3,img4,features,img1resp,img2resp,img3resp,img4resp) %>%
+    gather(img_no,img_name,img1:img4) %>%
+    mutate(responses = ifelse(img_no=="img1",img1resp,ifelse(img_no=="img2",img2resp,ifelse(img_no=="img3",img3resp,ifelse(img_no=="img4",img4resp,NA))))) %>%
+    select(participant_id,object,features,img_no,img_name,responses) %>%
+    separate(features, c("feature1", "feature2","feature3", "feature4"), sep=",") %>%
+    separate(responses, c("feature1_resp","feature2_resp","feature3_resp","feature4_resp","other_resp","other_text"), sep=",")
+  
+  # change boolean to numeric
+  obj$feature1_resp <- as.numeric(as.logical(obj$feature1_resp))
+  obj$feature2_resp <- as.numeric(as.logical(obj$feature2_resp))
+  obj$feature3_resp <- as.numeric(as.logical(obj$feature3_resp))
+  obj$feature4_resp <- as.numeric(as.logical(obj$feature4_resp))
+  obj$other_resp <- as.numeric(as.logical(obj$other_resp))
+  
+  # rename columns wth feature names
+  names = head(obj,1)
+  f1 = names$feature1
+  f2 = names$feature2
+  f3 = names$feature3
+  f4 = names$feature4
+  
+  obj = obj %>%
+    gather(feature_no,value,feature1_resp:other_resp) %>%
+    mutate(feature=ifelse(feature_no=="feature1_resp",f1,ifelse(feature_no=="feature2_resp",f2,ifelse(feature_no=="feature3_resp",f3,ifelse(feature_no=="feature4_resp",f4, ifelse(feature_no=="other_resp","zother",NA)))))) %>%
+    select(participant_id,object,img_name,feature,value,other_text) 
+
+  toplot = obj %>%
+    group_by(img_name,feature) %>%
+    summarise(Proportion=mean(value))
+  
+  ggplot(toplot, aes(x=img_name, y=Proportion, fill=feature))+
+    geom_bar(stat="identity", position=position_dodge(0.7), width = 0.7) +
+    ggtitle(object_name) +
+    theme(axis.title.x=element_blank(), 
+          axis.title.y=element_text(size=15), 
+          plot.title = element_text(face="bold",hjust=0.5,size=1),
+          axis.text.x=element_text(size=9),
+          axis.text.y=element_text(size=12))
+}
+
+```
+
+```{r function_call, echo=FALSE}
+plot_object("spoon")
+plot_object("man2")
+plot_object("frog")
+plot_object("cup")
+plot_object("woman")
+plot_object("man")
+plot_object("earring")
+plot_object("box")
+plot_object("pencil")
+plot_object("woman2")
+plot_object("shorts")
+plot_object("table")
+plot_object("picture")
+plot_object("bottle")
+plot_object("nail_polish")
+plot_object("hair")
+```
+
+
+
+
+
+
+

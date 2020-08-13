@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Sarah,0,Sarah,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+3,adjective_ordering,earring_small_triangular,earring,16652,Earring ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+4,overinformativeness,pepper_big_red,pepper,8615,Pepper,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+5,overinformativeness,shoe_big_yellow,shoe,8565,Shoe,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+6,overinformativeness,tie_big_blue,tie,5785,Tie,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+7,overinformativeness,car_big_green,car,5948,Car,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+8,overinformativeness,key_big_gold,key,10652,Key,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+9,overinformativeness,socks_big_blue,socks,7502,Socks,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+10,overinformativeness,brush_big_blue,brush,15350,Paint brush,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+11,overinformativeness,skirt_big_green,skirt,14368,Skirt,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+12,overinformativeness,glove_big_green,glove,6279,Glove,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+13,overinformativeness,binoculars_big_red,binoculars,55487,Binoculars ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+14,adjective_ordering,hair_curly_brown,hair,10064,Hair,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+15,overinformativeness,lighter_big_black,lighter,8318,Lighter,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+16,adjective_ordering,bottle_glass_small,bottle,12493,Bottle ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+17,overinformativeness,hat_big_pink,hat,5304,Hat,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+18,adjective_ordering,box_open_cardboard,box,5789,Box,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+19,overinformativeness,ball_big_yellow,ball,7106,Ball,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+20,overinformativeness,bag_big_red,bag,11330,Rucksack ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+21,adjective_ordering,man2_mustached_glassed,man2,11022,Glasses,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+22,overinformativeness,bag_big_blue,bag,8863,School bag,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+23,overinformativeness,dress_big_green,dress,5027,Dress,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+24,overinformativeness,umbrella_big_blue,umbrella,18805,Umbrella ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+25,adjective_ordering,shorts_dry_green,shorts,8167,Shorts,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+26,overinformativeness,scissors_big_blue,scissors,15004,Scissors ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+27,overinformativeness,button_big_green,button,7545,Button,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+28,overinformativeness,chair_big_blue,chair,6116,Chair,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+29,overinformativeness,pants_big_pink,pants,11138,Trousers ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+30,overinformativeness,glasses_big_blue,glasses,18851,Glasses ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+31,overinformativeness,toothbrush_big_purple,toothbrush,9647,Toothbrush ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+32,overinformativeness,book_big_red,book,13236,Book,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+33,overinformativeness,cat_big_black,cat,22083,Cat,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+34,overinformativeness,umbrella_big_green,umbrella,8849,Umbrella ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+35,overinformativeness,tshirt_big_yellow,tshirt,7668,Tshirt ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+36,adjective_ordering,cup_full_metal,cup,6549,Mug,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+37,adjective_ordering,table_wood_high,table,19499,Table,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+38,adjective_ordering,frog_spotted_red,frog,57801,Frog,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+39,overinformativeness,book_big_blue,book,5357,Book,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+40,overinformativeness,tie_big_red,tie,5310,Tie,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+41,overinformativeness,lipstick_big_pink,lipstick,5999,Lipstick ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+42,overinformativeness,apple_big_red,apple,5737,Apple,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+43,overinformativeness,rosary_big_yellow,rosary,13583,Necklace ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+44,overinformativeness,pot_big_green,pot,11614,Saucepan ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+45,overinformativeness,balloon_big_pink,balloon,11422,Balloon ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+46,adjective_ordering,man_old_bald,man,9413,Man,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+47,overinformativeness,toothbrush_big_green,toothbrush,10420,Toothbrush ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+48,overinformativeness,lipstick_big_red,lipstick,5548,Lipstick ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+49,overinformativeness,mirror_big_white,mirror,6543,Mirror ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+50,overinformativeness,glove_big_orange,glove,5541,Glove,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+51,overinformativeness,clock_big_yellow,clock,7380,Clock ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+52,overinformativeness,tshirt_big_orange,tshirt,6995,Tshirt ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+53,overinformativeness,knife_big_blue,knife,9560,Knife,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+54,overinformativeness,button_big_blue,button,7546,Button ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+55,overinformativeness,mirror_big_black,mirror,6348,Mirror ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+56,overinformativeness,flower_big_yellow,flower,7500,Flower ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+57,overinformativeness,socks_big_green,socks,11385,Socks,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+58,overinformativeness,flower_big_pink,flower,11331,Flower ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+59,overinformativeness,key_big_silver,key,10986,Key,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+60,overinformativeness,shoe_big_pink,shoe,5332,Shoe,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+61,adjective_ordering,spoon_metal_dirty,spoon,5247,Spoon,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+62,overinformativeness,ball_big_purple,ball,5774,Ball,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+63,overinformativeness,binoculars_big_blue,binoculars,8344,Binoculars ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+64,overinformativeness,pepper_big_green,pepper,5776,Pepper,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+65,overinformativeness,glasses_big_red,glasses,5607,Glasses ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+66,overinformativeness,balloon_big_yellow,balloon,6503,Balloon,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+67,overinformativeness,pot_big_blue,pot,10480,Saucepan ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+68,overinformativeness,lighter_big_white,lighter,6851,Lighter,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+69,adjective_ordering,woman2_sad_fat,woman2,9569,Woman ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+70,overinformativeness,chair_big_yellow,chair,5977,Chair,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+71,overinformativeness,apple_big_green,apple,29686,Apple ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+72,overinformativeness,rosary_big_blue,rosary,8404,Beads,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+73,overinformativeness,dress_big_blue,dress,4595,Dress,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+74,overinformativeness,clock_big_purple,clock,7416,Alarm clock ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+75,adjective_ordering,pencil_short_black,pencil,7103,Pencil ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+76,overinformativeness,hat_big_orange,hat,8512,Hat,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+77,adjective_ordering,woman_old_sad,woman,11820,Woman,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+78,adjective_ordering,nails_red_matte,nail_polish,8334,Nails,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+79,overinformativeness,skirt_big_blue,skirt,5832,Skirt,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+80,overinformativeness,lock_big_gold,lock,7501,Padlock ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+81,overinformativeness,brush_big_red,brush,11745,Paintbrush ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+82,overinformativeness,car_big_blue,car,6371,Car,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+83,overinformativeness,lock_big_silver,lock,8933,Padlock,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+84,overinformativeness,knife_big_red,knife,8430,Knife,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+85,overinformativeness,pants_big_green,pants,35188,Trousers ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+86,overinformativeness,scissors_big_green,scissors,57606,Scissors ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+87,overinformativeness,cat_big_white,cat,11230,Cat,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926
+88,adjective_ordering,picture_bw_square,picture,30600,Photo frame ,Safari,iPhone/iPod,667,375,English ,1,Yes,28,Female,3,,,Yes,500926

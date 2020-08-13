@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Sarah,0,Sarah,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+3,adjective_ordering,bottle_plastic_small,bottle,6266,water bottle,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+4,overinformativeness,chair_big_blue,chair,4286,chair,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+5,overinformativeness,lock_big_gold,lock,2361,\nlock,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+6,overinformativeness,button_big_green,button,2316,\nbutton,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+7,overinformativeness,umbrella_big_green,umbrella,2291,\numbrella,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+8,overinformativeness,dress_big_blue,dress,2433,\ndress,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+9,overinformativeness,rosary_big_yellow,rosary,22216,\nnecklace,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+10,overinformativeness,apple_big_green,apple,1709,\napple,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+11,overinformativeness,pot_big_blue,pot,2270,\npot,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+12,overinformativeness,cat_big_white,cat,1591,\ncat,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+13,overinformativeness,dress_big_green,dress,4281,\ngreen dress,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+14,overinformativeness,ball_big_yellow,ball,2930,\nball,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+15,overinformativeness,socks_big_green,socks,3045,\nsocks,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+16,overinformativeness,skirt_big_green,skirt,2583,\nskirt,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+17,overinformativeness,tshirt_big_yellow,tshirt,3105,\nyellow shirt,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+18,adjective_ordering,picture_colored_square,picture,2282,\npicture,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+19,overinformativeness,scissors_big_green,scissors,2710,\nscissors,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+20,overinformativeness,knife_big_blue,knife,1874,\nknife,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+21,adjective_ordering,hair_curly_brown,hair,2695,\nhair,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+22,overinformativeness,brush_big_blue,brush,4156,\npaintbrush,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+23,overinformativeness,pants_big_pink,pants,1976,\npants,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+24,overinformativeness,button_big_blue,button,2062,\nbutton,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+25,overinformativeness,binoculars_big_blue,binoculars,6509,\nbinoculars,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+26,overinformativeness,lock_big_silver,lock,1509,\nlock,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+27,overinformativeness,bag_big_red,bag,3043,\nbag,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+28,adjective_ordering,woman2_happy_fat,woman2,3455,\nwoman,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+29,adjective_ordering,man2_mustached_hatted,man2,1764,\nman,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+30,overinformativeness,balloon_big_pink,balloon,2132,\nballoon,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+31,overinformativeness,book_big_red,book,1839,\nbook,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+32,adjective_ordering,frog_striped_green,frog,2679,\nfrog,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+33,overinformativeness,pants_big_green,pants,1871,\npants,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+34,overinformativeness,umbrella_big_blue,umbrella,2499,\numbrella,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+35,overinformativeness,toothbrush_big_green,toothbrush,3217,\ntoothbrush,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+36,overinformativeness,skirt_big_blue,skirt,2721,\nskirt,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+37,overinformativeness,toothbrush_big_purple,toothbrush,3675,\ntoothbrush,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+38,overinformativeness,lipstick_big_red,lipstick,2325,\nlipstick,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+39,overinformativeness,pepper_big_green,pepper,2086,\npepper,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+40,overinformativeness,clock_big_purple,clock,2044,\nclock,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+41,overinformativeness,tie_big_blue,tie,1331,\ntie,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+42,overinformativeness,hat_big_pink,hat,1577,\nhat,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+43,overinformativeness,book_big_blue,book,1716,\nbook,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+44,overinformativeness,shoe_big_pink,shoe,1961,\nshoe,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+45,overinformativeness,glove_big_orange,glove,1832,\nglove,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+46,overinformativeness,brush_big_red,brush,5507,\npaintbrush,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+47,overinformativeness,mirror_big_white,mirror,1873,\nmirror,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+48,overinformativeness,glove_big_green,glove,1801,\nglove,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+49,overinformativeness,key_big_silver,key,1770,\nkey,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+50,overinformativeness,car_big_blue,car,3800,\ntoy car,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+51,overinformativeness,mirror_big_black,mirror,2197,\nmirror,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+52,adjective_ordering,shorts_wet_red,shorts,1976,\nshorts,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+53,overinformativeness,socks_big_blue,socks,2187,\nsocks,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+54,adjective_ordering,woman_young_sad,woman,6014,\nsad woman,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+55,overinformativeness,binoculars_big_red,binoculars,3319,\nbinoculars,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+56,overinformativeness,pot_big_green,pot,3207,\ngreen pot,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+57,overinformativeness,rosary_big_blue,rosary,5015,\nblue necklace,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+58,adjective_ordering,earring_small_triangular,earring,2641,\nearring,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+59,overinformativeness,glasses_big_blue,glasses,4458,\nblue glasses,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+60,overinformativeness,lighter_big_white,lighter,2559,\nlighter,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+61,overinformativeness,flower_big_yellow,flower,2021,\nflower,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+62,overinformativeness,key_big_gold,key,1687,\nkey,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+63,overinformativeness,flower_big_pink,flower,2389,\nflower,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+64,overinformativeness,balloon_big_yellow,balloon,4275,\nballoon,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+65,adjective_ordering,nails_red_glossy,nail_polish,1835,\nnails,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+66,overinformativeness,lighter_big_black,lighter,2154,\nlighter,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+67,adjective_ordering,cup_empty_plastic,cup,2771,\ndrink,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+68,overinformativeness,cat_big_black,cat,1601,\ncat,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+69,adjective_ordering,man_young_bald,man,2816,\nbald man,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+70,overinformativeness,chair_big_yellow,chair,1516,\nchair,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+71,overinformativeness,hat_big_orange,hat,1339,\nhat,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+72,overinformativeness,glasses_big_red,glasses,2458,\nglasses,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+73,overinformativeness,pepper_big_red,pepper,2175,\npepper,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+74,overinformativeness,bag_big_blue,bag,1570,\nbag,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+75,overinformativeness,clock_big_yellow,clock,1904,\nclock,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+76,overinformativeness,knife_big_red,knife,1714,\nknife,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+77,overinformativeness,ball_big_purple,ball,1697,\nball,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+78,overinformativeness,car_big_green,car,1784,\ncar,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+79,adjective_ordering,table_wood_low,table,2778,\ntable,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+80,adjective_ordering,spoon_metal_clean,spoon,2929,\nspoon,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+81,adjective_ordering,pencil_long_blue,pencil,2885,\npencil,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+82,overinformativeness,tshirt_big_orange,tshirt,1358,\nshirt,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+83,overinformativeness,apple_big_red,apple,1682,\nappple,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+84,overinformativeness,lipstick_big_pink,lipstick,2575,\nlipstick,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+85,overinformativeness,tie_big_red,tie,1297,\ntie,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+86,overinformativeness,shoe_big_yellow,shoe,2225,\nshow,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+87,overinformativeness,scissors_big_blue,scissors,4566,\nscissors,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267
+88,adjective_ordering,box_open_wood,box,2379,\nbox,Chrome,Windows,768,1366,english,1,Yes,33,Female,3,,No,1.00,644267

@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Sarah,0,Sarah,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+3,overinformativeness,cat_big_white,cat,7355,Cat,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+4,overinformativeness,key_big_gold,key,7416,Key,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+5,overinformativeness,pants_big_pink,pants,6477,Pants,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+6,overinformativeness,brush_big_red,brush,7772,Paint Brush,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+7,adjective_ordering,woman_old_happy,woman,10984,Lady,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+8,overinformativeness,lock_big_gold,lock,8975,Lock,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+9,overinformativeness,ball_big_purple,ball,7127,Ball,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+10,overinformativeness,rosary_big_blue,rosary,15983,Necklace,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+11,adjective_ordering,earring_small_round,earring,5905,Earring,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+12,overinformativeness,lighter_big_white,lighter,5531,Lighter,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+13,overinformativeness,scissors_big_green,scissors,8265,Scissors,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+14,adjective_ordering,shorts_dry_red,shorts,6376,Shorts,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+15,overinformativeness,umbrella_big_blue,umbrella,5927,Umbrella,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+16,overinformativeness,umbrella_big_green,umbrella,17930,Green Umbrella,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+17,overinformativeness,chair_big_blue,chair,12290,Blue Chair,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+18,overinformativeness,socks_big_green,socks,9452,Green socks,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+19,overinformativeness,hat_big_orange,hat,6713,Hat,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+20,overinformativeness,toothbrush_big_green,toothbrush,8045,Toothbrush,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+21,overinformativeness,key_big_silver,key,8516,Silver Key,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+22,overinformativeness,hat_big_pink,hat,7014,Pink Hat,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+23,overinformativeness,book_big_red,book,6094,Red Book,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+24,overinformativeness,binoculars_big_red,binoculars,36194,Orange binoculars,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+25,overinformativeness,shoe_big_pink,shoe,6492,Pink Runner,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+26,overinformativeness,dress_big_blue,dress,6899,Blue dress,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+27,overinformativeness,bag_big_red,bag,9905,Red Knapsack,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+28,overinformativeness,skirt_big_blue,skirt,6109,Blue Skirt,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+29,overinformativeness,lipstick_big_red,lipstick,7376,Red lipstick,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+30,overinformativeness,dress_big_green,dress,9194,Green dress,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+31,overinformativeness,book_big_blue,book,6258,Blue book,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+32,adjective_ordering,spoon_wooden_dirty,spoon,16210,Chocolate spoon,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+33,overinformativeness,glasses_big_blue,glasses,8250,Blue glasses,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+34,overinformativeness,tshirt_big_yellow,tshirt,10752,Yellow shirt,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+35,overinformativeness,pepper_big_red,pepper,6256,Red pepper,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+36,overinformativeness,flower_big_pink,flower,19300,Gerber daisy,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+37,overinformativeness,tie_big_red,tie,8218,Neck tie,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+38,overinformativeness,clock_big_yellow,clock,17740,Yellow alarm clock,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+39,adjective_ordering,bottle_glass_small,bottle,17717,Bottle,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+40,overinformativeness,brush_big_blue,brush,16116,Blue Paint brush,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+41,overinformativeness,toothbrush_big_purple,toothbrush,16410,Purple toothbrush,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+42,adjective_ordering,man2_mustached_glassed,man2,18465,black glasses,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+43,overinformativeness,knife_big_red,knife,17476,red handle knife,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+44,overinformativeness,cat_big_black,cat,9118,black cat,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+45,overinformativeness,knife_big_blue,knife,8930,blue handle knife,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+46,overinformativeness,clock_big_purple,clock,13452,Purple alarm clock,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+47,overinformativeness,tie_big_blue,tie,8056,blue neck tie,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+48,adjective_ordering,cup_empty_plastic,cup,24512,glass of juice,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+49,overinformativeness,socks_big_blue,socks,6696,blue socks,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+50,overinformativeness,pot_big_blue,pot,8545,Blue pot,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+51,adjective_ordering,man_young_bearded,man,12820,fake beard,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+52,overinformativeness,car_big_green,car,14656,green toy car,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+53,overinformativeness,balloon_big_pink,balloon,7329,pink balloon,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+54,overinformativeness,shoe_big_yellow,shoe,7376,Yellow runner,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+55,overinformativeness,balloon_big_yellow,balloon,9811,yellow balloon,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+56,adjective_ordering,box_open_wood,box,12132,Wooden box,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+57,overinformativeness,lipstick_big_pink,lipstick,6555,pink lipstick,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+58,adjective_ordering,pencil_short_blue,pencil,13271,blue pencil crayon,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+59,overinformativeness,skirt_big_green,skirt,6766,green skirt,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+60,overinformativeness,apple_big_green,apple,6726,green apple,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+61,adjective_ordering,nails_black_matte,nail_polish,43488,black fingernails/ grey fabric,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+62,overinformativeness,pants_big_green,pants,6193,green pants,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+63,overinformativeness,binoculars_big_blue,binoculars,8594,blue binoculars,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+64,adjective_ordering,frog_striped_green,frog,15795,green striped frog,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+65,overinformativeness,car_big_blue,car,6929,blue toy car,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+66,overinformativeness,bag_big_blue,bag,6913,blue knapsack,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+67,overinformativeness,lighter_big_black,lighter,6117,black lighter,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+68,overinformativeness,button_big_blue,button,7906,blue button,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+69,overinformativeness,flower_big_yellow,flower,11055,yellow gerber daisy,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+70,overinformativeness,glasses_big_red,glasses,7171,red glasses,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+71,overinformativeness,pepper_big_green,pepper,5976,green pepper,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+72,overinformativeness,lock_big_silver,lock,6694,silver lock,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+73,overinformativeness,scissors_big_blue,scissors,20502,purple handle scissors,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+74,overinformativeness,tshirt_big_orange,tshirt,10592,Orange shirt,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+75,adjective_ordering,woman2_sad_fat,woman2,26257,distressed lady,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+76,adjective_ordering,hair_straight_brown,hair,15128,long brown hair,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+77,overinformativeness,rosary_big_yellow,rosary,20734,yellow beaded necklace,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+78,overinformativeness,ball_big_yellow,ball,5867,yellow ball,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+79,adjective_ordering,picture_bw_square,picture,18506,Picture in gold frame,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+80,overinformativeness,chair_big_yellow,chair,6794,yellow chair,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+81,overinformativeness,glove_big_orange,glove,10228,orange rubber glove,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+82,overinformativeness,glove_big_green,glove,14905,green rubber glove,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+83,overinformativeness,mirror_big_white,mirror,9749,White mirror,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+84,overinformativeness,button_big_green,button,6360,Green button,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+85,overinformativeness,pot_big_green,pot,6328,Green pot,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+86,overinformativeness,mirror_big_black,mirror,7647,Black mirror,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+87,overinformativeness,apple_big_red,apple,7033,Red apple,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490
+88,adjective_ordering,table_metal_high,table,15264,Folding table,Firefox,Windows,1050,1680,English,2,Yes,59,Female,1,,No,as advertised,190490

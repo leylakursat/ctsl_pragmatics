@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Sarah,0,Sarah,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+3,adjective_ordering,man2_bearded_glassed,man2,24199,"A man with a bread, glasses and a smirk on his face.",Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+4,adjective_ordering,woman_young_happy,woman,22776,A smiling lady wit black hair and a gray shirt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+5,overinformativeness,pants_big_green,pants,9108,A green pair of trousers.,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+6,overinformativeness,chair_big_blue,chair,4610,A blue chair,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+7,overinformativeness,button_big_blue,button,4788,A blue button,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+8,overinformativeness,ball_big_yellow,ball,5155,A yellow sphere,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+9,overinformativeness,cat_big_black,cat,9332,A black catt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+10,overinformativeness,bag_big_blue,bag,5697,A blue bag,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+11,overinformativeness,bag_big_red,bag,2494,\nA red bag,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+12,overinformativeness,lock_big_silver,lock,3930,\nA liver padlock,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+13,overinformativeness,pot_big_blue,pot,5731,\nA blue pot,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+14,overinformativeness,toothbrush_big_purple,toothbrush,5773,\nA purple toothbrush,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+15,overinformativeness,glove_big_orange,glove,9242,A green dishwashing glove\n,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+16,adjective_ordering,frog_striped_red,frog,21184,A red frog with white stripes running from head to toe,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+17,overinformativeness,mirror_big_black,mirror,6005,\nA handheld mirror,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+18,overinformativeness,balloon_big_yellow,balloon,4410,\nA yellow balloon,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+19,overinformativeness,binoculars_big_blue,binoculars,8875,\nA blue pair of binoculars,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+20,adjective_ordering,cup_empty_plastic,cup,11481,\nA plastic cup of juice,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+21,overinformativeness,tshirt_big_yellow,tshirt,7844,\nA yellow t-shirt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+22,overinformativeness,clock_big_purple,clock,6017,\nA yellow analog alarm clock,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+23,adjective_ordering,shorts_wet_green,shorts,5070,\nA green pair of shorts,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+24,overinformativeness,pants_big_pink,pants,5727,\nA purple pair of trousers,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+25,overinformativeness,brush_big_blue,brush,16853,\nA paint brush with a blue handle and black bristles,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+26,overinformativeness,tie_big_blue,tie,15607,\nA blue tie with white diagonal stripes,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+27,overinformativeness,car_big_green,car,6215,\na green toy car,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+28,overinformativeness,balloon_big_pink,balloon,4000,\na pink ballon,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+29,overinformativeness,toothbrush_big_green,toothbrush,3916,\na green toothbrush,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+30,overinformativeness,lighter_big_black,lighter,4135,\na black lighter,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+31,overinformativeness,pot_big_green,pot,4844,\na green pot,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+32,adjective_ordering,man_young_bearded,man,10623,\nA man with a bald head and a beard,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+33,overinformativeness,shoe_big_pink,shoe,6663,pink converse shoe,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+34,adjective_ordering,pencil_long_blue,pencil,2750,\na blue pencil,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+35,overinformativeness,brush_big_red,brush,13229,\na paintbrush with a red handle and black bristles,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+36,overinformativeness,knife_big_blue,knife,13718,\na knife with a blue handle,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+37,overinformativeness,pepper_big_green,pepper,3786,\na green bell pepper,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+38,overinformativeness,lock_big_gold,lock,5036,\na gold padlock,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+39,adjective_ordering,picture_bw_square,picture,13198,\na picutre of a mountain and some tress with a gold frame,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+40,overinformativeness,apple_big_red,apple,2509,\na red apple,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+41,overinformativeness,apple_big_green,apple,2778,\na green apple,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+42,overinformativeness,cat_big_white,cat,2161,\na white cat,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+43,adjective_ordering,earring_small_round,earring,11131,\na girls ear with and gold earing,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+44,overinformativeness,scissors_big_green,scissors,11317,\na pair of scissors with a green handle,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+45,overinformativeness,flower_big_pink,flower,3784,\na pink flower,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+46,overinformativeness,hat_big_pink,hat,2156,\na pink hat,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+47,adjective_ordering,bottle_plastic_small,bottle,7537,\na bottle of water or some clear liquid,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+48,overinformativeness,lighter_big_white,lighter,3969,\na white light,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+49,overinformativeness,rosary_big_yellow,rosary,13129,\na yellow beaded necklace,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+50,overinformativeness,glove_big_green,glove,4158,\na green dishwashing glove,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+51,overinformativeness,dress_big_green,dress,2902,\na green dress,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+52,overinformativeness,tshirt_big_orange,tshirt,5041,\nan orange t-shirt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+53,overinformativeness,umbrella_big_blue,umbrella,3824,\na blue umnbrella,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+54,overinformativeness,chair_big_yellow,chair,3257,\na yellow chair,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+55,adjective_ordering,hair_curly_blonde,hair,5078,\nblond curly hair,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+56,overinformativeness,rosary_big_blue,rosary,3963,\na blue beaded necklace,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+57,overinformativeness,knife_big_red,knife,4971,\na knife with a red handle,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+58,overinformativeness,clock_big_yellow,clock,5788,\na yellow analog alarm clock,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+59,overinformativeness,glasses_big_blue,glasses,6750,\na pair of blue framed glasses,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+60,overinformativeness,key_big_gold,key,2639,\na gold key,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+61,overinformativeness,skirt_big_blue,skirt,2310,\na blue skirt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+62,adjective_ordering,box_closed_cardboard,box,5279,\na cardboard box,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+63,adjective_ordering,nails_red_glossy,nail_polish,25663,a hand gripping a gray blanket,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+64,overinformativeness,binoculars_big_red,binoculars,5369,\na pair of red binoculars,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+65,overinformativeness,key_big_silver,key,2788,\na silver key,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+66,overinformativeness,skirt_big_green,skirt,2588,\na green skirt,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+67,overinformativeness,book_big_blue,book,5465,\na blue covered book,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+68,overinformativeness,ball_big_purple,ball,3499,\na purple sphere,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+69,overinformativeness,scissors_big_blue,scissors,7886,\na paor of scissors with a blue handle,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+70,overinformativeness,book_big_red,book,4521,\na red covered book,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+71,overinformativeness,button_big_green,button,2868,\na green button,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+72,overinformativeness,tie_big_red,tie,6712,\na red tie with white diagonal stripes,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+73,overinformativeness,flower_big_yellow,flower,2789,\na yellow flower,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+74,overinformativeness,umbrella_big_green,umbrella,3433,\na green umbrella,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+75,adjective_ordering,table_wood_high,table,3982,\na wooden tabel,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+76,overinformativeness,glasses_big_red,glasses,5257,\na pair of red framed glasses,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+77,overinformativeness,shoe_big_yellow,shoe,6336,\na yellow converse shoe,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+78,adjective_ordering,spoon_wooden_clean,spoon,3518,\na wooden spoon,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+79,overinformativeness,hat_big_orange,hat,3270,\nan orange hat,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+80,adjective_ordering,woman2_happy_fat,woman2,12218,\na smiling lady with a big double chin,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+81,overinformativeness,dress_big_blue,dress,3027,\na blue dress,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+82,overinformativeness,socks_big_blue,socks,4015,\n a pair of blue socks,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+83,overinformativeness,mirror_big_white,mirror,7475,\na white handheld mirror,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+84,overinformativeness,socks_big_green,socks,3337,\na pair of green socks,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+85,overinformativeness,lipstick_big_red,lipstick,5136,\nsome red lipstick,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+86,overinformativeness,pepper_big_red,pepper,3120,\na red bell pepper,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+87,overinformativeness,lipstick_big_pink,lipstick,4555,\nsome pink ipstick,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005
+88,overinformativeness,car_big_blue,car,3390,\na blue toy car,Firefox,Windows,1920,1080,English,1,Yes,23,Male,2,,,Yes,629005

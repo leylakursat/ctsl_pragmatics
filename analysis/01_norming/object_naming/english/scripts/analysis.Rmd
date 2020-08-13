@@ -61,7 +61,7 @@ ggplot(adjordering, aes(x=cresponse, y=count,fill=object)) +
   #scale_x_discrete(guide = guide_axis(n.dodge=3)) +
   theme(legend.position = "none")
   
-ggsave(file="../graphs/namability-adjordering.pdf",width=30,height=25)
+ggsave(file="../graphs/namability-adjordering.pdf",width=35,height=20)
 ```
 
 

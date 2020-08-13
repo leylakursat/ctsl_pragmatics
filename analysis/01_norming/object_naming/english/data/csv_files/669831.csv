@@ -1,0 +1,88 @@
+slide_number_in_experiment,trial_type,label,object,rt,response,Browser,OS,screenH,screenW,language,enjoyment,asses,age,gender,education,comments,problems,fairprice,participant_id
+1,bot_check,,Jennifer,0,Jennifer,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+3,overinformativeness,shoe_big_pink,shoe,14428,Trainer,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+4,overinformativeness,bag_big_red,bag,8809,Rucksack,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+5,overinformativeness,apple_big_green,apple,4374,Apple,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+6,overinformativeness,glasses_big_red,glasses,24688,Spectacles ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+7,overinformativeness,glove_big_green,glove,5211,Glove,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+8,adjective_ordering,woman2_sad_fat,woman2,13136,Someone's face,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+9,overinformativeness,knife_big_red,knife,4444,Knife,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+10,overinformativeness,key_big_silver,key,4080,Key,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+11,adjective_ordering,shorts_wet_red,shorts,21988,Shorys/swimming trunks,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+12,adjective_ordering,frog_striped_red,frog,16275,Pretty colourful frog,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+13,overinformativeness,hat_big_pink,hat,7680,Hat,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+14,overinformativeness,tie_big_blue,tie,4407,Tie,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+15,overinformativeness,lock_big_silver,lock,5506,Padlock,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+16,adjective_ordering,pencil_long_black,pencil,16443,Black crayon/pencil,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+17,overinformativeness,scissors_big_green,scissors,5288,Scissors ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+18,overinformativeness,brush_big_red,brush,11706,Paint brush ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+19,adjective_ordering,earring_small_round,earring,39776,Earing,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+20,overinformativeness,binoculars_big_red,binoculars,6070,Binoculars ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+21,overinformativeness,pepper_big_red,pepper,13594,Red pepper ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+22,overinformativeness,glove_big_orange,glove,11530,Orange glove,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+23,overinformativeness,key_big_gold,key,7759,Yellow key,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+24,adjective_ordering,man_old_bearded,man,16010,Beard/face,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+25,overinformativeness,chair_big_blue,chair,7121,Blue chair,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+26,overinformativeness,socks_big_green,socks,8214,Green socks,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+27,overinformativeness,rosary_big_yellow,rosary,12128,Bead necklace ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+28,overinformativeness,toothbrush_big_green,toothbrush,7317,Toothbrush ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+29,adjective_ordering,box_open_wood,box,12346,Box/crate ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+30,overinformativeness,shoe_big_yellow,shoe,11137,Yellow trainers,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+31,overinformativeness,lighter_big_white,lighter,7036,Lighter,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+32,overinformativeness,clock_big_yellow,clock,4409,Clock,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+33,overinformativeness,clock_big_purple,clock,9161,Purple clock,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+34,overinformativeness,toothbrush_big_purple,toothbrush,8609,Purple toothbrush ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+35,adjective_ordering,man2_mustached_glassed,man2,52111,Man's face with spectacles and moustache/beard,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+36,overinformativeness,lipstick_big_pink,lipstick,15935,Pink Lipstick ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+37,overinformativeness,ball_big_yellow,ball,8073,Yellow ball,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+38,overinformativeness,tie_big_red,tie,16837,Red striped tie,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+39,overinformativeness,scissors_big_blue,scissors,11892,Blue handle scissors ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+40,overinformativeness,chair_big_yellow,chair,9771,Yellow chair,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+41,overinformativeness,book_big_red,book,6294,Red book,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+42,overinformativeness,pepper_big_green,pepper,11790,Green pepper ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+43,overinformativeness,brush_big_blue,brush,14715,Blue handled paint brush ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+44,overinformativeness,mirror_big_white,mirror,9429,Mirror?,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+45,adjective_ordering,spoon_wooden_clean,spoon,11054,Spoon,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+46,adjective_ordering,hair_straight_brown,hair,20372,Long Brunette hair,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+47,overinformativeness,book_big_blue,book,5920,Blue book,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+48,adjective_ordering,woman_old_sad,woman,12804,Someone's face,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+49,overinformativeness,binoculars_big_blue,binoculars,7210,Blue binoculars ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+50,overinformativeness,skirt_big_blue,skirt,13223,Blue skirt,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+51,overinformativeness,skirt_big_green,skirt,10292,Green skirt ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+52,overinformativeness,socks_big_blue,socks,7555,Blue socks,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+53,overinformativeness,lock_big_gold,lock,8835,Yellow padlock,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+54,overinformativeness,ball_big_purple,ball,6492,Purple ball,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+55,overinformativeness,hat_big_orange,hat,8395,Peach hat,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+56,overinformativeness,dress_big_blue,dress,5951,Blue dress,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+57,overinformativeness,flower_big_pink,flower,8307,Pink flower,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+58,overinformativeness,pot_big_green,pot,10209,Green pan,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+59,adjective_ordering,table_wood_low,table,9338,Wooden table,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+60,overinformativeness,tshirt_big_orange,tshirt,6522,Orange shirt,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+61,overinformativeness,pants_big_green,pants,7909,Green trousers ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+62,overinformativeness,apple_big_red,apple,7827,Red apple,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+63,adjective_ordering,cup_full_metal,cup,17459,Soup? In a mug,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+64,overinformativeness,cat_big_black,cat,5365,Black cat,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+65,adjective_ordering,nails_red_glossy,nail_polish,9142,Red nails,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+66,adjective_ordering,picture_bw_square,picture,12369,Mountain picture ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+67,overinformativeness,pot_big_blue,pot,5363,Blue pan,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+68,overinformativeness,car_big_green,car,5559,Green car,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+69,overinformativeness,balloon_big_pink,balloon,6572,Pink balloon ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+70,overinformativeness,button_big_blue,button,7425,Blue button ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+71,overinformativeness,mirror_big_black,mirror,6836,Black mirror ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+72,overinformativeness,rosary_big_blue,rosary,9673,Light blue beads,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+73,overinformativeness,pants_big_pink,pants,5612,Pink trousers ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+74,overinformativeness,cat_big_white,cat,7855,White cat,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+75,overinformativeness,balloon_big_yellow,balloon,7990,Yellow balloon,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+76,overinformativeness,umbrella_big_green,umbrella,6578,Green umbrella ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+77,overinformativeness,lighter_big_black,lighter,7646,Black lighter,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+78,overinformativeness,car_big_blue,car,5443,Blue car,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+79,overinformativeness,bag_big_blue,bag,7269,Blue rucksack ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+80,adjective_ordering,bottle_plastic_big,bottle,13192,Bottle,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+81,overinformativeness,lipstick_big_red,lipstick,6021,Red lipstick ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+82,overinformativeness,flower_big_yellow,flower,8597,Yellow flower ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+83,overinformativeness,tshirt_big_yellow,tshirt,6338,Yellow shirt,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+84,overinformativeness,umbrella_big_blue,umbrella,6240,Blue umbrella ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+85,overinformativeness,knife_big_blue,knife,9946,Blue handle knife,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+86,overinformativeness,button_big_green,button,7351,Green button ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+87,overinformativeness,dress_big_green,dress,5438,Green dress,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
+88,overinformativeness,glasses_big_blue,glasses,8428,Blue spectacles ,Chrome,Linux,740,360,English ,2,Yes,43,Male,4,,No,Yes,669831
