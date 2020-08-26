@@ -36,6 +36,7 @@ try {
   var server      = app.listen(gameport),
       io          = require('socket.io')(server);
 }
+console.log(process.argv)
 
 if (process.argv[2]) {
   var exp = process.argv[2];
