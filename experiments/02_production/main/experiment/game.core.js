@@ -181,13 +181,13 @@ game_core.prototype.makeTrialList = function () {
   // FOR NOW: 5 adjective ordering, 5 overinformativeness, 6 fillers (3 practice 3 mixed)
 
   var practiceList = fillerTrialList.slice(0,3);
-  console.log('practiceList', practiceList)
+  // console.log('practiceList', practiceList)
   var fillerRest = fillerTrialList.slice(3,6)
-  console.log('fillerRest', fillerRest)
+  // console.log('fillerRest', fillerRest)
   var notPractice = _.shuffle(trialList.concat(fillerRest));
-  console.log('notPractice', notPractice)
+  // console.log('notPractice', notPractice)
   var allTrials = practiceList.concat(notPractice);
-  console.log('allTrials', allTrials)
+  // console.log('allTrials', allTrials)
 
 
   console.log("trialList Length ", trialList.length);
@@ -295,6 +295,7 @@ var adjOrdDistractors = function (data, targetIndex) {
       var distractorImage = data.images[i]
       distractorItem.targetStatus = 'distractor'
       distractorItem.trial_type = data.trial_type
+      distractorItem.condition = data.condition
       distractorItem.label = distractorImage['label']
       distractorItem.adj1 = distractorImage['adj1']
       distractorItem.adj2 = distractorImage['adj2']

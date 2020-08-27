@@ -51,7 +51,12 @@
       <div class="well" style="width: 500px; margin: 0 auto"> 
 
       <p align="left" id="instruct-text">In this HIT, you will play a fun communication game with another turker. Before starting the game, you will be given further instructions and must pass a short quiz testing your understanding of the instructions. It should take approximately 15 minutes, including the time it takes to read instructions and wait for another turker. Please pay attention and think carefully before responding! Thank you!</p>
+      <p>Speaker name: </p>
 
+      <textarea id="speakerName" rows="1" cols="30"></textarea>
+      <p>Listener name: </p>
+      <textarea id="listenerName" rows="1" cols="30"></textarea>
+  
       </div>
 
       <p>
@@ -107,9 +112,21 @@
         var assignmentId = urlParams.assignmentId;
         var hitId = urlParams.hitId;
         var turkSubmitTo = urlParams.turkSubmitTo;
-        location.replace("./instructions.html?workerId=" + workerId
-                         + "&assignmentId=" + assignmentId
-                         + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
+        location.replace("../index.html")
+        
+        var speakerName = $("#speakerName").val();
+        var listenerName = $("#listenerName").val();
+
+        console.log(speakerName);
+        console.log(listenerName);
+        if (typeof(Storage) !== "undefined")
+          localStorage.setItem("speakerName", speakerName);
+          localStorage.setItem("listenerName", listenerName);
+
+        // TODO: Revert for Mturk
+        // location.replace("./instructions.html?workerId=" + workerId
+        //                  + "&assignmentId=" + assignmentId
+        //                  + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
       };
       //your code here
       });

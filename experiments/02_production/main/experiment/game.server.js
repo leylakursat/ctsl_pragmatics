@@ -20,7 +20,7 @@
 var onMessage = function(client,message) {
   //Cut the message up into sub components
   var message_parts = message.split('.');
-  //console.log("message_parts: ", message_parts);
+  //console.log("message parts: ", message_parts)
 
   //The first is always the type of message
   var message_type = message_parts[0];
@@ -76,37 +76,46 @@ var writeData = function(client, type, message_parts) {
   var id = gc.id.slice(0,6);
   switch(type) {
   case "clickedObj" :
+      //console.log("message parts: ", message_parts)
       var trialType = message_parts[0];         // clickedObj
 
       var clickedObjName = message_parts[1];
-      var clickedObjCondition = message_parts[2]; // high_difficulty/low_difficulty/filler_x
-      var clickedObjTargetStatus = message_parts[3]; // target/competitor/distractor
-      var clickedObjSpeakerLocs = message_parts[4];
-      var clickedObjListenerLocs = message_parts[5];
+      var clickedObjTrialType = message_parts[2]
+      var clickedObjCondition = message_parts[3]; // high_difficulty/low_difficulty/filler_x
+      var clickedObjTargetStatus = message_parts[4]; // target/competitor/distractor
+      var clickedObjSpeakerLocs = message_parts[5];
+      var clickedObjListenerLocs = message_parts[6];
 
-      var alternat1Name = message_parts[6];
-      var alternat1Condition = message_parts[7];
-      var alternat1TargetStatus = message_parts[8];
-      var alternat1SpeakerLocs = message_parts[9];
-      var alternat1ListenerLocs = message_parts[10];
+      var alternat1Name = message_parts[7];
+      var alternat1TrialType = message_parts[8]
+      var alternat1Condition = message_parts[9];
+      var alternat1TargetStatus = message_parts[10];
+      var alternat1SpeakerLocs = message_parts[11];
+      var alternat1ListenerLocs = message_parts[12];
 
-      var alternat2Name = message_parts[11]; 
-      var alternat2Condition = message_parts[12];
-      var alternat2TargetStatus = message_parts[13];
-      var alternat2SpeakerLocs = message_parts[14];
-      var alternat2ListenerLocs = message_parts[15];
+      var alternat2Name = message_parts[13]; 
+      var alternat2TrialType = message_parts[14]
+      var alternat2Condition = message_parts[15];
+      var alternat2TargetStatus = message_parts[16];
+      var alternat2SpeakerLocs = message_parts[17];
+      var alternat2ListenerLocs = message_parts[18];
       
-      var alternat3Name = message_parts[16]; 
-      var alternat3Condition = message_parts[17];
-      var alternat3TargetStatus = message_parts[18];
-      var alternat3SpeakerLocs = message_parts[19];
-      var alternat3ListenerLocs = message_parts[20];
+      var alternat3Name = message_parts[19]; 
+      var alternat3TrialType = message_parts[20];
+      var alternat3Condition = message_parts[21];
+      var alternat3TargetStatus = message_parts[22];
+      var alternat3SpeakerLocs = message_parts[23];
+      var alternat3ListenerLocs = message_parts[24];
+
+      var speakerName = message_parts[25];
+      var listenerName = message_parts[26];
 
       var line = (id + ',' + Date.now() + ',' + roundNum + ',' + trialType + ','
-        + "," + clickedObjName + "," + clickedObjCondition + ',' + clickedObjTargetStatus + "," + clickedObjSpeakerLocs + "," + clickedObjListenerLocs 
-        + "," + alternat1Name + "," + alternat1Condition + "," + alternat1TargetStatus + "," + alternat1SpeakerLocs + "," + alternat1ListenerLocs 
-        + "," + alternat2Name + "," + alternat2Condition + "," + alternat2TargetStatus + "," + alternat2SpeakerLocs + "," + alternat2ListenerLocs 
-        + "," + alternat3Name + "," + alternat3Condition + "," + alternat3TargetStatus + "," + alternat3SpeakerLocs + "," + alternat3ListenerLocs + '\n');
+        + "," + clickedObjName + "," + clickedObjTrialType + "," + clickedObjCondition + ',' + clickedObjTargetStatus + "," + clickedObjSpeakerLocs + "," + clickedObjListenerLocs 
+        + "," + alternat1Name + "," + alternat1TrialType + "," + alternat1Condition + "," + alternat1TargetStatus + "," + alternat1SpeakerLocs + "," + alternat1ListenerLocs 
+        + "," + alternat2Name + "," + alternat2TrialType + "," + alternat2Condition + "," + alternat2TargetStatus + "," + alternat2SpeakerLocs + "," + alternat2ListenerLocs 
+        + "," + alternat3Name + "," + alternat3TrialType + "," + alternat3Condition + "," + alternat3TargetStatus + "," + alternat3SpeakerLocs + "," + alternat3ListenerLocs
+        + "," + speakerName + "," + listenerName + '\n');
       console.log("clicked obj line: " , line);
     break;
 
@@ -131,7 +140,7 @@ var startGame = function(game, player) {
       "gameid,time,roundNum,sender,contents\n");
       
   utils.establishStream(game, "clickedObj", dataFileName,
-			"gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs\n");    
+			"gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjTrialType ,clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1TrialType, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2TrialType, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3TrialType, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs, speakerName, listenerName\n");    
 
   // utils.establishStream(game, "clickedObj", dataFileName,
 	// 		"gameid, time, roundNum, trialType, context," +

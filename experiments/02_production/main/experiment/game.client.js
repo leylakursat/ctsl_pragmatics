@@ -225,7 +225,7 @@ var client_addnewround = function(game) {
   $('#roundnumber').append(game.roundNum);
 };
 
-var called = false; // global variable called checks whether a chatmessage was sent. initially set to false
+var called = true; // global variable called checks whether a chatmessage was sent. initially set to false
 
 // Associates callback functions corresponding to different socket messages
 var client_connect_to_server = function(game) {
@@ -337,7 +337,7 @@ var client_onjoingame = function(num_players, role) {
 
   if(num_players == 1) {
     game.get_player(my_id).message = ('Waiting for another player to connect... '
-				      + 'Please do not refresh the page!'); 
+              + 'Please do not refresh the page!'); 
   }
 
   // set mouse-tracking event handler
@@ -361,15 +361,20 @@ function mouseClickListener(evt) {
       var obj = game.objects[i];
       //var condition = game.trialList[0];
       if (hitTest(obj, mouseX, mouseY)) {
-	      called = false;
+	      called = true;
         var alternative1 = _.sample(_.without(game.objects, obj));
         var alternative2 = _.sample(_.without(game.objects, obj, alternative1));
         var alternative3 = _.sample(_.without(game.objects, obj, alternative1, alternative2));
-        game.socket.send("clickedObj." +  obj.label +  "." + obj.condition + "." + obj.targetStatus 
+        if (typeof(Storage) !== "undefined") {
+          var speakerName = localStorage.getItem("speakerName");
+          var listenerName = localStorage.getItem("listenerName");
+        }
+        game.socket.send("clickedObj." +  obj.label +  "." + obj.trial_type + "." + obj.condition + "." + obj.targetStatus 
           + "." + obj.speakerCoords.gridX + "." + obj.listenerCoords.gridX
-          + "." + alternative1.label + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX  
-          + "." + alternative2.label + "." + alternative2.condition + "." + alternative2.targetStatus + "." + alternative2.speakerCoords.gridX + "." + alternative2.listenerCoords.gridX
-          + "." + alternative3.label + "." + alternative3.condition + "." + alternative3.targetStatus + "." + alternative3.speakerCoords.gridX + "." + alternative3.listenerCoords.gridX);
+          + "." + alternative1.label + "." + alternative1.trial_type + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX  
+          + "." + alternative2.label + "." + alternative2.trial_type + "." + alternative2.condition + "." + alternative2.targetStatus + "." + alternative2.speakerCoords.gridX + "." + alternative2.listenerCoords.gridX
+          + "." + alternative3.label + "." + alternative3.trial_type + "." + alternative3.condition + "." + alternative3.targetStatus + "." + alternative3.speakerCoords.gridX + "." + alternative3.listenerCoords.gridX
+          + "." + speakerName + "." + listenerName);
 
         // game.socket.send(`clickedObj.${obj.item}.${obj.color}.${obj.material}.${obj.label}.${obj.targetStatus}.${obj.speakerCoords.gridX}.${obj.listenerCoords.gridX}.${alternative1.label}.${alternative1.targetStatus}.${alternative1.speakerCoords.gridX}.${alternative1.listenerCoords.gridX}.${alternative2.label}.${alternative2.targetStatus}.${alternative2.speakerCoords.gridX}.${alternative2.listenerCoords.gridX}`);
          
