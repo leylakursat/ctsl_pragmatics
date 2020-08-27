@@ -1,0 +1,9 @@
+gameid,time,roundNum,sender,contents
+0438-6,1598476852714,1,speaker,"target is metal cup (speaker:2, listener:1)"
+0438-6,1598476868834,1,listener,"will click on metal table (speaker: 4, listener:3)"
+0438-6,1598476878872,2,listener,"kot ceket"
+0438-6,1598476884569,3,listener,"ayakkabi"
+0438-6,1598476890240,4,listener,"tabak"
+0438-6,1598476928383,5,listener,"first adj ordering trial, target is green and spotted frog (speaker: 3, listener: 4)"
+0438-6,1598476949127,5,speaker,"will click on red striped (speaker: 2 listener:1)"
+0438-6,1598476968653,6,speaker,"will click on target (small red apple) speaker: 2, listener: 3"
