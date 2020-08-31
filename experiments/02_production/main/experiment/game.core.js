@@ -154,7 +154,11 @@ game_core.prototype.makeTrialList = function () {
 
   for (var i = 0; i < objectList.length; i++) { // for each object in objectSet
     const data = objectList[i];
-    addCondition(data);
+
+    addCondition(data,numOverinformative);
+    //console.log(numOverinformative);
+    if (data.trial_type == "overinformativeness") 
+      numOverinformative++;
     var objList = sampleObjects(data); // should return 4 objects (critical trials)
     var locs = sampleStimulusLocs(objList);
     trialList.push(_.map(_.zip(objList, locs.speaker, locs.listener), function (tuple) {
@@ -188,7 +192,6 @@ game_core.prototype.makeTrialList = function () {
   // console.log('notPractice', notPractice)
   var allTrials = practiceList.concat(notPractice);
   // console.log('allTrials', allTrials)
-
 
   console.log("trialList Length ", trialList.length);
   return (allTrials);
@@ -228,18 +231,18 @@ game_core.prototype.server_send_update = function () {
   });
 };
 
-var addCondition = function (data) {
+var addCondition = function (data,numOverinformative) {
   if (data.trial_type == "adjective_ordering") {
     data.condition = 'none'
   }
   else if (data.trial_type == "overinformativeness") {
-    if (numOverinformative < 2) {
+    console.log("numOverinformative: ",numOverinformative);
+    if (numOverinformative < 10) {
       data.condition = 'size_sufficient'
     }
     else {
       data.condition = 'color_sufficient'
     }
-    numOverinformative++;
   }
   else if (data.trial_type == "filler") {
     data.condition = 'none'
