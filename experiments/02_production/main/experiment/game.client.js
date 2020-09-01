@@ -2,10 +2,10 @@
 
 //   Copyright (c) 2012 Sven "FuzzYspo0N" Bergström, 
 //                   2013 Robert XD Hawkins
-    
+
 //     written by : http://underscorediscovery.com
 //     written for : http://buildnewgames.com/real-time-multiplayer/
-    
+
 //     modified for collective behavior experiments on Amazon Mechanical Turk
 
 //     MIT Licensed.
@@ -31,14 +31,14 @@ var submitted = false;
 // we don't need the dragging.
 var selecting;
 
-client_ondisconnect = function(data) {
+client_ondisconnect = function (data) {
   submitInfoAndClose()
 };
 
-var submitInfoAndClose = function() {
+var submitInfoAndClose = function () {
   // Redirect to exit survey
-  console.log("server booted")      
-  game.viewport.style.display="none";
+  console.log("server booted")
+  game.viewport.style.display = "none";
   $('#message_panel').hide();
   $('#submitbutton').hide();
   $('#roleLabel').hide();
@@ -60,50 +60,50 @@ var submitInfoAndClose = function() {
  the server regularly sends news about its variables to the clients so
  that they can update their variables to reflect changes.
  */
-var client_onserverupdate_received = function(data){  
-  
+var client_onserverupdate_received = function (data) {
+
   // Update client versions of variables with data received from
   // server_send_update function in game.core.js
   //data refers to server information
-  if(data.players) {
-    _.map(_.zip(data.players, game.players),function(z){
-      z[1].id = z[0].id;  
+  if (data.players) {
+    _.map(_.zip(data.players, game.players), function (z) {
+      z[1].id = z[0].id;
     });
   }
-  
+
   //get names of objects sent from server and current objects 
-  var dataNames = _.map(data.objects, function(e)
-			{ return e.name;});
-  var localNames = _.map(game.objects,function(e)
-			 {return e.name;});
-  
+  var dataNames = _.map(data.objects, function (e) { return e.name; });
+  var localNames = _.map(game.objects, function (e) { return e.name; });
+
   // If your objects are out-of-date (i.e. if there's a new round), set up
   // machinery to draw them
   if (game.roundNum != data.roundNum) {
-    game.objects = _.map(data.objects, function(obj) {
+    game.objects = _.map(data.objects, function (obj) {
       // Extract the coordinates matching your role
       var customCoords = my_role == "speaker" ? obj.speakerCoords : obj.listenerCoords;
       // remove the speakerCoords and listenerCoords properties
       var customObj = _.chain(obj)
-	    .omit('speakerCoords', 'listenerCoords')
-	    .extend(obj, {trueX : customCoords.trueX, trueY : customCoords.trueY,
-			  gridX : customCoords.gridX, gridY : customCoords.gridY,
-			  box : customCoords.box})
-	    .value();
+        .omit('speakerCoords', 'listenerCoords')
+        .extend(obj, {
+          trueX: customCoords.trueX, trueY: customCoords.trueY,
+          gridX: customCoords.gridX, gridY: customCoords.gridY,
+          box: customCoords.box
+        })
+        .value();
       var imgObj = new Image(); //initialize object as an image (from HTML5)
       imgObj.src = customObj.url; // tell client where to find it
-      imgObj.onload = function(){ // Draw image as soon as it loads (this is a callback)
+      imgObj.onload = function () { // Draw image as soon as it loads (this is a callback)
         game.ctx.drawImage(imgObj, parseInt(customObj.trueX), parseInt(customObj.trueY),
-			   customObj.width, customObj.height);
-	
+          customObj.width, customObj.height);
+
       };
-      return _.extend(customObj, {img: imgObj});
+      return _.extend(customObj, { img: imgObj });
     });
   };
-  
-  
+
+
   // Get rid of "waiting" screen if there are multiple players
-  if(data.players.length > 1) {
+  if (data.players.length > 1) {
     game.get_player(my_id).message = "";
   }
   game.game_started = data.gs;
@@ -111,10 +111,11 @@ var client_onserverupdate_received = function(data){
   game.player_count = data.pc;
   game.roundNum = data.roundNum;
   game.data = data.dataObj;
-  
+
+
   // Draw all this new stuff
   drawScreen(game, game.get_player(my_id));
-}; 
+};
 
 // This is where clients parse socket.io messages from the server. If
 // you want to add another event (labeled 'x', say), just add another
@@ -124,7 +125,7 @@ var client_onserverupdate_received = function(data){
 
 // The corresponding function where the server parses messages from
 // clients, look for "server_onMessage" in game.server.js.
-var client_onMessage = function(data) {
+var client_onMessage = function (data) {
   console.log("game.client data: ", data); // s.feedback.cup_metal_blue
 
   var commands = data.split('.');
@@ -132,78 +133,80 @@ var client_onMessage = function(data) {
   var subcommand = commands[1] || null; // feedback
   var commanddata = commands[2] || null; // cup_metal_blue
 
-  switch(command) {
-  case 's': //server message
-    switch(subcommand) {    
-    case 'end' :
-      // Redirect to exit survey
-      submitInfoAndClose();
-      console.log("received end message...")
-      break;
+  switch (command) {
+    case 's': //server message
+      switch (subcommand) {
+        case 'end':
+          // Redirect to exit survey
+          submitInfoAndClose();
+          console.log("received end message...")
+          break;
 
-    case 'feedback' :
-      var objToHighlight;
-      var upperLeftX;
-      var upperLeftY;
-      var strokeColor;
-      if (my_role === game.playerRoleNames.role1) {
-  var clickObjName = commanddata;
-  
-	objToHighlight = _.filter(game.objects, function(x){
-    return x.label == clickObjName;
-  })[0];
+        case 'feedback':
+          var objToHighlight;
+          var upperLeftX;
+          var upperLeftY;
+          var strokeColor;
+          if (my_role === game.playerRoleNames.role1) {
+            var clickObjName = commanddata;
 
-	upperLeftX = objToHighlight.speakerCoords.gridPixelX;
-	upperLeftY = objToHighlight.speakerCoords.gridPixelY;
-	strokeColor = "blue";      
-      } else {
-	objToHighlight = _.filter(game.objects, function(x){
-	  return x.targetStatus == "target";
-	})[0];
-	upperLeftX = objToHighlight.listenerCoords.gridPixelX;
-	upperLeftY = objToHighlight.listenerCoords.gridPixelY;
-	strokeColor = "green";	
+            objToHighlight = _.filter(game.objects, function (x) {
+              return x.label == clickObjName;
+            })[0];
+
+            upperLeftX = objToHighlight.speakerCoords.gridPixelX;
+            upperLeftY = objToHighlight.speakerCoords.gridPixelY;
+            strokeColor = "blue";
+          } else {
+            objToHighlight = _.filter(game.objects, function (x) {
+              return x.targetStatus == "target";
+            })[0];
+            upperLeftX = objToHighlight.listenerCoords.gridPixelX;
+            upperLeftY = objToHighlight.listenerCoords.gridPixelY;
+            strokeColor = "green";
+          }
+          if (upperLeftX != null && upperLeftY != null) {
+            game.ctx.beginPath();
+            game.ctx.lineWidth = "10";
+            game.ctx.strokeStyle = strokeColor;
+            game.ctx.rect(upperLeftX + 5, upperLeftY + 5, 290, 290);
+            game.ctx.stroke();
+          }
+          break;
+
+        case 'alert': // Not in database, so you can't play...
+          alert('You did not enter an ID');
+          window.location.replace('http://nodejs.org'); break;
+
+        case 'join': //join a game requested
+          var num_players = commanddata;
+          client_onjoingame(num_players, commands[3]); break;
+
+        case 'add_player': // New player joined... Need to add them to our list.
+          console.log("adding player" + commanddata);
+          if (hidden === 'hidden') {
+            flashTitle("GO!");
+          }
+          game.players.push({ id: commanddata, player: new game_player(game) }); break;
+
+        case 'begin_game':
+          client_newgame(); break;
+
       }
-      if (upperLeftX != null && upperLeftY != null) {
-        game.ctx.beginPath();
-        game.ctx.lineWidth="10";
-        game.ctx.strokeStyle=strokeColor;
-        game.ctx.rect(upperLeftX+5, upperLeftY+5,290,290); 
-        game.ctx.stroke();
-      }
-      break;
-
-    case 'alert' : // Not in database, so you can't play...
-      alert('You did not enter an ID'); 
-      window.location.replace('http://nodejs.org'); break;
-
-    case 'join' : //join a game requested
-      var num_players = commanddata;
-      client_onjoingame(num_players, commands[3]); break;
-
-    case 'add_player' : // New player joined... Need to add them to our list.
-      console.log("adding player" + commanddata);
-      if(hidden === 'hidden') {
-        flashTitle("GO!");
-      }
-      game.players.push({id: commanddata, player: new game_player(game)}); break;
-
-    case 'begin_game' :
-      client_newgame(); break;
-
-    }
-  } 
-}; 
+  }
+};
 
 // When loading the page, we store references to our
 // drawing canvases, and initiate a game instance.
-window.onload = function(){
+window.onload = function () {
   //Create our game client instance.
+
   game = new game_core({});
-  
+
+
   //Connect to the socket.io server!
   client_connect_to_server(game);
-  
+
   //Fetch the viewport
   game.viewport = document.getElementById('viewport');
 
@@ -221,43 +224,43 @@ window.onload = function(){
 
 };
 
-var client_addnewround = function(game) {
+var client_addnewround = function (game) {
   $('#roundnumber').append(game.roundNum);
 };
 
 var called = true; // global variable called checks whether a chatmessage was sent. initially set to false
 
 // Associates callback functions corresponding to different socket messages
-var client_connect_to_server = function(game) {
+var client_connect_to_server = function (game) {
   //Store a local reference to our connection to the server
   game.socket = io.connect();
 
   // Tell other player if someone is typing...
-  $('#chatbox').change(function() {
+  $('#chatbox').change(function () {
     var sentTyping = false;
-    if($('#chatbox').val() != "" && !sentTyping) {
+    if ($('#chatbox').val() != "" && !sentTyping) {
       game.socket.send('playerTyping.true');
       sentTyping = true;
-    } else if($("#chatbox").val() == "") {
+    } else if ($("#chatbox").val() == "") {
       game.socket.send('playerTyping.false');
       sentTyping = false;
     }
   });
-  
+
   // Tell server when client types something in the chatbox
-  $('form').submit(function(){
+  $('form').submit(function () {
     var origMsg = $('#chatbox').val()
     // console.log("submitting message to server");
     var msg = 'chatMessage.' + origMsg.replace(/\./g, '~~~');
-    if($('#chatbox').val() != '') {
+    if ($('#chatbox').val() != '') {
       game.socket.send(msg);
       $('#chatbox').val('');
     }
-    return false;   
+    return false;
   });
 
-  game.socket.on('playerTyping', function(data){
-    if(data.typing == "true") {
+  game.socket.on('playerTyping', function (data) {
+    if (data.typing == "true") {
       $('#messages').append('<span class="typing-msg">Other player is typing...</span>');
     } else {
       $('.typing-msg').remove();
@@ -265,26 +268,26 @@ var client_connect_to_server = function(game) {
   });
 
   // Update messages log when other players send chat
-  game.socket.on('chatMessage', function(data){
+  game.socket.on('chatMessage', function (data) {
     called = true; // A message was sent! thus, set called to true
     var otherRole = (my_role === game.playerRoleNames.role1 ?
-		     game.playerRoleNames.role2 :
-		     game.playerRoleNames.role1);
+      game.playerRoleNames.role2 :
+      game.playerRoleNames.role1);
     var source = data.user === my_id ? "You" : otherRole;
     var col = source === "You" ? "#363636" : "#707070";
     $('.typing-msg').remove();
     $('#messages').append($('<li style="padding: 5px 10px; background: ' + col + '">')
-			  .text(source + ": " + data.msg));
+      .text(source + ": " + data.msg));
     $('#messages').stop().animate({
       scrollTop: $("#messages")[0].scrollHeight
     }, 800);
   });
-    
+
   // Set up new round on client's browsers after submit round button is pressed. 
   // This means clear the chatboxes, update round number, and update score on screen
-  game.socket.on('newRoundUpdate', function(data){
+  game.socket.on('newRoundUpdate', function (data) {
     $('#messages').empty();
-    if(game.roundNum+2 > game.numRounds) {
+    if (game.roundNum + 2 > game.numRounds) {
       $('#roundnumber').empty();
       $('#instructs').empty().append("Round\n" + (game.roundNum + 1) + "/" + game.numRounds);
     } else {
@@ -294,10 +297,10 @@ var client_connect_to_server = function(game) {
 
   //so that we can measure the duration of the game
   game.startTime = Date.now();
-  
+
   //When we connect, we are not 'connected' until we have an id
   //and are placed in a game by the server. The server sends us a message for that.
-  game.socket.on('connect', function(){}.bind(game));
+  game.socket.on('connect', function () { }.bind(game));
   //Sent when we are disconnected (network, server down, etc)
   game.socket.on('disconnect', client_ondisconnect.bind(game));
   //Sent each tick of the server simulation. This is our authoritive update
@@ -306,46 +309,46 @@ var client_connect_to_server = function(game) {
   game.socket.on('onconnected', client_onconnected.bind(game));
   //On message from the server, we parse the commands and send it to the handlers
   game.socket.on('message', client_onMessage.bind(game));
-}; 
+};
 
-var client_onconnected = function(data) {
+var client_onconnected = function (data) {
   //The server responded that we are now in a game. Remember who we are
   my_id = data.id;
   game.players[0].id = my_id;
-    drawScreen(game, game.get_player(my_id));
+  drawScreen(game, game.get_player(my_id));
 };
 
-var client_onjoingame = function(num_players, role) {
+var client_onjoingame = function (num_players, role) {
   // set role locally
   my_role = role;
   game.get_player(my_id).role = my_role;
 
-  _.map(_.range(num_players - 1), function(i){
-    game.players.unshift({id: null, player: new game_player(game)});
+  _.map(_.range(num_players - 1), function (i) {
+    game.players.unshift({ id: null, player: new game_player(game) });
   });
-  
+
   // Update w/ role (can only move stuff if agent)
   $('#roleLabel').append(role + '.');
-  if(role === game.playerRoleNames.role1) {
+  if (role === game.playerRoleNames.role1) {
     console.log("first statistifed");
-    $('#instructs').append("Send messages to tell the listener which object " + 
-			   "is the target.");
-  } else if(role === game.playerRoleNames.role2) {
+    $('#instructs').append("Send messages to tell the listener which object " +
+      "is the target.");
+  } else if (role === game.playerRoleNames.role2) {
     $('#instructs').append("Click on the target object which the speaker " +
-			   "is telling you about.");
+      "is telling you about.");
   }
 
-  if(num_players == 1) {
+  if (num_players == 1) {
     game.get_player(my_id).message = ('Waiting for another player to connect... '
-              + 'Please do not refresh the page!'); 
+      + 'Please do not refresh the page!');
   }
 
   // set mouse-tracking event handler
-  if(role === game.playerRoleNames.role2) {
+  if (role === game.playerRoleNames.role2) {
     console.log("setting listener");
     game.viewport.addEventListener("click", mouseClickListener, false);
   }
-};    
+};
 
 /*
  MOUSE EVENT LISTENERS
@@ -353,40 +356,44 @@ var client_onjoingame = function(num_players, role) {
 
 function mouseClickListener(evt) {
   var bRect = game.viewport.getBoundingClientRect();
-  var mouseX = (evt.clientX - bRect.left)*(game.viewport.width/bRect.width);
-  var mouseY = (evt.clientY - bRect.top)*(game.viewport.height/bRect.height);
+  var mouseX = (evt.clientX - bRect.left) * (game.viewport.width / bRect.width);
+  var mouseY = (evt.clientY - bRect.top) * (game.viewport.height / bRect.height);
   //alert('called: ' + called);
-  if (called){ // if message was not sent, don't do anything
-    for (var i=0; i < game.objects.length; i++) {
+  if (called) { // if message was not sent, don't do anything
+    for (var i = 0; i < game.objects.length; i++) {
       var obj = game.objects[i];
       //var condition = game.trialList[0];
       if (hitTest(obj, mouseX, mouseY)) {
-	      called = true;
+        called = true;
         var alternative1 = _.sample(_.without(game.objects, obj));
         var alternative2 = _.sample(_.without(game.objects, obj, alternative1));
         var alternative3 = _.sample(_.without(game.objects, obj, alternative1, alternative2));
-        if (typeof(Storage) !== "undefined") {
+        if (typeof (Storage) !== "undefined") {
           var speakerName = localStorage.getItem("speakerName");
           var listenerName = localStorage.getItem("listenerName");
+          var order_name = localStorage.getItem("order");
+          // console.log("ORDER:", order_name)
+          // console.log("speaker name: ", speakerName);
+          // console.log("listener name: ", listenerName);
         }
-        game.socket.send("clickedObj." +  obj.label +  "." + obj.trial_type + "." + obj.condition + "." + obj.targetStatus 
+        game.socket.send("clickedObj." + obj.label + "." + obj.trial_type + "." + obj.condition + "." + obj.targetStatus
           + "." + obj.speakerCoords.gridX + "." + obj.listenerCoords.gridX
-          + "." + alternative1.label + "." + alternative1.trial_type + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX  
+          + "." + alternative1.label + "." + alternative1.trial_type + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX
           + "." + alternative2.label + "." + alternative2.trial_type + "." + alternative2.condition + "." + alternative2.targetStatus + "." + alternative2.speakerCoords.gridX + "." + alternative2.listenerCoords.gridX
           + "." + alternative3.label + "." + alternative3.trial_type + "." + alternative3.condition + "." + alternative3.targetStatus + "." + alternative3.speakerCoords.gridX + "." + alternative3.listenerCoords.gridX
           + "." + speakerName + "." + listenerName);
 
         // game.socket.send(`clickedObj.${obj.item}.${obj.color}.${obj.material}.${obj.label}.${obj.targetStatus}.${obj.speakerCoords.gridX}.${obj.listenerCoords.gridX}.${alternative1.label}.${alternative1.targetStatus}.${alternative1.speakerCoords.gridX}.${alternative1.listenerCoords.gridX}.${alternative2.label}.${alternative2.targetStatus}.${alternative2.speakerCoords.gridX}.${alternative2.listenerCoords.gridX}`);
-         
+
 
         //highlight the object that was clicked:
         var upperLeftXListener = obj.listenerCoords.gridPixelX;
         var upperLeftYListener = obj.listenerCoords.gridPixelY;
         if (upperLeftXListener != null && upperLeftYListener != null) {
           game.ctx.beginPath();
-          game.ctx.lineWidth="10";
-          game.ctx.strokeStyle="red";
-          game.ctx.rect(upperLeftXListener+5, upperLeftYListener+5,290,290); 
+          game.ctx.lineWidth = "10";
+          game.ctx.strokeStyle = "red";
+          game.ctx.rect(upperLeftXListener + 5, upperLeftYListener + 5, 290, 290);
           game.ctx.stroke();
         }
       }
@@ -394,71 +401,73 @@ function mouseClickListener(evt) {
   }
 };
 
-function hitTest(shape,mx,my) {
-    var dx = mx - shape.trueX;
-    var dy = my - shape.trueY;
-    return (0 < dx) && (dx < shape.width) && (0 < dy) && (dy < shape.height)
+function hitTest(shape, mx, my) {
+  var dx = mx - shape.trueX;
+  var dy = my - shape.trueY;
+  return (0 < dx) && (dx < shape.width) && (0 < dy) && (dy < shape.height)
 }
 
 // This gets called when someone selects something in the menu during the exit survey...
 // collects data from drop-down menus and submits using mmturkey
-function dropdownTip(data){
+function dropdownTip(data) {
   var commands = data.split('::');
-  switch(commands[0]) {
-  case 'human' :
-    $('#humanResult').show();
-    game.data.subject_information = _.extend(game.data.subject_information, 
-					     {'thinksHuman' : commands[1]}); break;
-  case 'language' :
-    game.data.subject_information = _.extend(game.data.subject_information, 
-					     {'nativeEnglish' : commands[1]}); break;
-  case 'partner' :
-    game.data.subject_information = _.extend(game.data.subject_information,
-                {'ratePartner' : commands[1]}); break;
-  case 'submit' :
-    game.data.trials = [{"foo": "bar"}]
-    game.data.subject_information = _.extend(game.data.subject_information, 
-				   {'comments' : $('#comments').val(), 
-				    'role' : my_role,
-				    'totalLength' : Date.now() - game.startTime});
-    submitted = true;
-    var urlParams;
-    var match,
-	pl     = /\+/g,  // Regex for replacing addition symbol with a space
-	search = /([^&=]+)=?([^&]*)/g,
-	decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
-	query  = location.search.substring(1);
+  switch (commands[0]) {
+    case 'human':
+      $('#humanResult').show();
+      game.data.subject_information = _.extend(game.data.subject_information,
+        { 'thinksHuman': commands[1] }); break;
+    case 'language':
+      game.data.subject_information = _.extend(game.data.subject_information,
+        { 'nativeEnglish': commands[1] }); break;
+    case 'partner':
+      game.data.subject_information = _.extend(game.data.subject_information,
+        { 'ratePartner': commands[1] }); break;
+    case 'submit':
+      game.data.trials = [{ "foo": "bar" }]
+      game.data.subject_information = _.extend(game.data.subject_information,
+        {
+          'comments': $('#comments').val(),
+          'role': my_role,
+          'totalLength': Date.now() - game.startTime
+        });
+      submitted = true;
+      var urlParams;
+      var match,
+        pl = /\+/g,  // Regex for replacing addition symbol with a space
+        search = /([^&=]+)=?([^&]*)/g,
+        decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+        query = location.search.substring(1);
 
-    urlParams = {};
-    while ((match = search.exec(query)))
-      urlParams[decode(match[1])] = decode(match[2]);
-    
-    if(_.size(urlParams) == 4) {
-      window.opener.turk.submit(game.data, true);
-      window.close(); 
-    } else {
-      console.log(game.data);
-      // var URL = 'http://web.stanford.edu/~rxdh/psych254/replication_project/forms/end.html?id=' + my_id;
-      // window.location.replace(URL);
-    }
-    break;
+      urlParams = {};
+      while ((match = search.exec(query)))
+        urlParams[decode(match[1])] = decode(match[2]);
+
+      if (_.size(urlParams) == 4) {
+        window.opener.turk.submit(game.data, true);
+        window.close();
+      } else {
+        console.log(game.data);
+        // var URL = 'http://web.stanford.edu/~rxdh/psych254/replication_project/forms/end.html?id=' + my_id;
+        // window.location.replace(URL);
+      }
+      break;
   }
 }
 
-window.onbeforeunload = function(e) {
+window.onbeforeunload = function (e) {
   e = e || window.event;
   var msg = ("If you leave before completing the task, "
-             + "you will not be able to submit the HIT.");
+    + "you will not be able to submit the HIT.");
   if (!submitted) {
-    if(e) {
+    if (e) {
       e.returnValue = msg;
-     }
+    }
     return msg;
   }
 };
 
 // // Automatically registers whether user has switched tabs...
-(function() {
+(function () {
   document.hidden = hidden = "hidden";
 
   // Standards:
@@ -475,15 +484,15 @@ window.onbeforeunload = function(e) {
     document.onfocusin = document.onfocusout = onchange;
   // All others:
   else
-    window.onpageshow = window.onpagehide = window.onfocus 
-    = window.onblur = onchange;
+    window.onpageshow = window.onpagehide = window.onfocus
+      = window.onblur = onchange;
 })();
 
-function onchange (evt) {
+function onchange(evt) {
   var v = 'visible', h = 'hidden',
-      evtMap = { 
-        focus:v, focusin:v, pageshow:v, blur:h, focusout:h, pagehide:h 
-      };
+    evtMap = {
+      focus: v, focusin: v, pageshow: v, blur: h, focusout: h, pagehide: h
+    };
   evt = evt || window.event;
   if (evt.type in evtMap) {
     document.body.className = evtMap[evt.type];

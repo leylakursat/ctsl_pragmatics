@@ -25,6 +25,8 @@ if (typeof _ === 'undefined') {
 }
 
 var game_core = function (options) {
+  //console.log('OPTIONS game_core', options)
+
   // Store a flag if we are the server instance
   this.server = options.server;
 
@@ -51,7 +53,7 @@ var game_core = function (options) {
   this.roundNum = -1;
 
   // How many rounds do we want people to complete?
-  this.numRounds = 50;
+  this.numRounds = 60; // 5 practice + 30 overinformativeness + 15 adj ordering + 10 filler
 
   // How many mistakes have the pair made on the current trial?
   this.attemptNum = 0;
@@ -65,8 +67,17 @@ var game_core = function (options) {
     this.id = options.id;
     this.expName = options.expName;
     this.player_count = options.player_count;
-    this.trialList = this.makeTrialList();
+    this.order_type = options.order_type
+    this.last_round = options.last_round
 
+    console.log('Order_type =>>>> ',this.order_type)
+    if(this.order_type == 'random_order')
+      this.trialList = this.makeTrialList(); // to create a new trial order
+    else if (this.order_type == 'last_order') {
+      this.trialList = this.restoreTrialList(); // if we want to restore the same order as last time
+      this.roundNum = (this.last_round)-1;
+      console.log("CHANGED ROUND NUM: ", this.roundNum)
+    }
     this.data = {
       id: this.id.slice(0, 6),
       trials: [],
@@ -102,7 +113,7 @@ var game_player = function (game_instance, player_instance) {
 // server side we set some classes to global types, so that
 // we can use them in other files (specifically, game.server.js)
 if ('undefined' != typeof global) {
-  var objectList = _.map(require('./stimuli/itemSet', _.clone)); 
+  var objectList = _.map(require('./stimuli/itemSet', _.clone));
   var fillerList = _.map(require('./stimuli/fillerSet', _.clone));
   module.exports = global.game_core = game_core;
   module.exports = global.game_player = game_player;
@@ -154,10 +165,8 @@ game_core.prototype.makeTrialList = function () {
 
   for (var i = 0; i < objectList.length; i++) { // for each object in objectSet
     const data = objectList[i];
-
-    addCondition(data,numOverinformative);
-    //console.log(numOverinformative);
-    if (data.trial_type == "overinformativeness") 
+    addCondition(data, numOverinformative);
+    if (data.trial_type == "overinformativeness")
       numOverinformative++;
     var objList = sampleObjects(data); // should return 4 objects (critical trials)
     var locs = sampleStimulusLocs(objList);
@@ -181,20 +190,42 @@ game_core.prototype.makeTrialList = function () {
   };
 
   trialList = _.shuffle(trialList);
-
-  // FOR NOW: 5 adjective ordering, 5 overinformativeness, 6 fillers (3 practice 3 mixed)
-
-  var practiceList = fillerTrialList.slice(0,3);
-  // console.log('practiceList', practiceList)
-  var fillerRest = fillerTrialList.slice(3,6)
-  // console.log('fillerRest', fillerRest)
+  var practiceList = fillerTrialList.slice(0, 5);
+  console.log("practice list: ", practiceList.length)
+  var fillerRest = fillerTrialList.slice(5, 15)
+  console.log("rest of fillers: ", fillerRest.length)
   var notPractice = _.shuffle(trialList.concat(fillerRest));
-  // console.log('notPractice', notPractice)
+  console.log("non-practice: ", notPractice.length)
   var allTrials = practiceList.concat(notPractice);
-  // console.log('allTrials', allTrials)
 
-  console.log("trialList Length ", trialList.length);
+  console.log("alltrialList Length ", allTrials.length);
+
+  // save trial order as json object
+  const fs = require('fs');
+  // stringify JSON Object
+  var jsonContent = JSON.stringify(allTrials);
+
+  fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
+    if (err) {
+      console.log("An error occured while writing JSON Object to File.");
+      return console.log(err);
+    }
+    console.log("JSON file has been saved.");
+  });
+
   return (allTrials);
+};
+
+
+game_core.prototype.restoreTrialList = function () {
+  const fs = require('fs');
+
+  let rawdata = fs.readFileSync('output.json');
+  let allTrials = JSON.parse(rawdata);
+
+  console.log('JSON is parsed, last order is restored');
+  return (allTrials);
+
 };
 
 game_core.prototype.server_send_update = function () {
@@ -231,13 +262,13 @@ game_core.prototype.server_send_update = function () {
   });
 };
 
-var addCondition = function (data,numOverinformative) {
+var addCondition = function (data, numOverinformative) {
   if (data.trial_type == "adjective_ordering") {
     data.condition = 'none'
   }
   else if (data.trial_type == "overinformativeness") {
-    console.log("numOverinformative: ",numOverinformative);
-    if (numOverinformative < 10) {
+    //console.log("numOverinformative: ",numOverinformative);
+    if (numOverinformative < 16) {
       data.condition = 'size_sufficient'
     }
     else {
@@ -246,7 +277,7 @@ var addCondition = function (data,numOverinformative) {
   }
   else if (data.trial_type == "filler") {
     data.condition = 'none'
-  }  
+  }
 };
 
 // gets called as many times as object number and returns object quadruplets to be displayed
@@ -261,7 +292,12 @@ var sampleObjects = function (data) {
   };
 
   var numArray = _.shuffle([0, 1, 2, 3]);
-  var targetIndex = numArray.pop();
+  if (data.trial_type == "filler") { // in filler displays, target is always the first image
+    var targetIndex = 0;
+  } else {
+    var targetIndex = numArray.pop();
+
+  }
   var targetImage = data.images[targetIndex]
 
   target.label = targetImage['label']
@@ -271,12 +307,12 @@ var sampleObjects = function (data) {
 
 
   if (target.trial_type == "adjective_ordering") {
-    distractors = adjOrdDistractors(data, targetIndex); 
+    distractors = adjOrdDistractors(data, targetIndex);
   }
   else if (target.trial_type == "overinformativeness") {
     distractors = chooseOverinformativeDistractors(target, data);
   } else if (target.trial_type == "filler") {
-    distractors = adjOrdDistractors(data, targetIndex); 
+    distractors = adjOrdDistractors(data, targetIndex);
   }
 
   // console.log("TARGET: ", target)
@@ -323,29 +359,29 @@ var chooseOverinformativeDistractors = function (target, data) {
 var getOverinformativeDistractors = function (target, data, sufficientAdj, nonSufficientAdj) {
   var distractors = []
   // sufficient adj should be different than target sufficient adj value
-  const diffSufficientAdjDistractor = data.images.filter(function (image) { 
+  const diffSufficientAdjDistractor = data.images.filter(function (image) {
     if (image[sufficientAdj] !== target[sufficientAdj]) {
       return true;
     }
   })
   distractors = distractors.concat(diffSufficientAdjDistractor)
   // from the list diffSufficientAdjDistractor, pick the distiractor with the same non sufficient adj
-  const sameNonSufficientAdjDistractor = diffSufficientAdjDistractor.filter(function (image) { 
+  const sameNonSufficientAdjDistractor = diffSufficientAdjDistractor.filter(function (image) {
     if (image[nonSufficientAdj] === target[nonSufficientAdj]) {
       return true;
     }
   });
 
-  for (i = 0; i < distractors.length; i++){
+  for (i = 0; i < distractors.length; i++) {
     distractors[i].targetStatus = 'distractor'
     distractors[i].trial_type = target.trial_type
     distractors[i].condition = target.condition
     distractors[i].width = 250,
-    distractors[i].height = 250,
-    // distractors[i].label = distractorImage['label']
-    // distractors[i].adj1 = distractorImage['adj1']
-    // distractors[i].adj2 = distractorImage['adj2']
-    distractors[i].url = 'stimuli/' + distractors[i].label + '.png'
+      distractors[i].height = 250,
+      // distractors[i].label = distractorImage['label']
+      // distractors[i].adj1 = distractorImage['adj1']
+      // distractors[i].adj2 = distractorImage['adj2']
+      distractors[i].url = 'stimuli/' + distractors[i].label + '.png'
   }
   return distractors.concat(sameNonSufficientAdjDistractor)
 }

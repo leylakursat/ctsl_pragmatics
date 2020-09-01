@@ -56,7 +56,14 @@
       <textarea id="speakerName" rows="1" cols="30"></textarea>
       <p>Listener name: </p>
       <textarea id="listenerName" rows="1" cols="30"></textarea>
-  
+      <br>
+      <p>Order: </p>
+      <label><input type="radio" name="order" value="random_order"> Random order</label>
+      <label><input type="radio"  name="order" value="last_order"> Last order</label>
+
+      <p>If you selected 'Last order' please write the last played round number: </p>
+      <textarea id="lastRound" rows="1" cols="10"></textarea>
+
       </div>
 
       <p>
@@ -112,16 +119,27 @@
         var assignmentId = urlParams.assignmentId;
         var hitId = urlParams.hitId;
         var turkSubmitTo = urlParams.turkSubmitTo;
-        location.replace("../index.html")
         
         var speakerName = $("#speakerName").val();
         var listenerName = $("#listenerName").val();
+        var order = $('input[name="order"]:checked').val();
+        var lastRound = $("#lastRound").val();
 
         console.log(speakerName);
         console.log(listenerName);
-        if (typeof(Storage) !== "undefined")
+        console.log(order);
+
+        if (typeof(Storage) !== "undefined") {
           localStorage.setItem("speakerName", speakerName);
           localStorage.setItem("listenerName", listenerName);
+          localStorage.setItem("order", order);
+          // localStorage.setItem("lastRound", lastRound);
+        }
+
+        // Add the querystring to define the order type, it can be either 'random_order' or 'last_order'
+
+        if ((speakerName.length > 2) && (listenerName.length > 2) && (order != undefined))
+          location.replace(`../index.html?order_type=${order}&last_round=${lastRound}`);
 
         // TODO: Revert for Mturk
         // location.replace("./instructions.html?workerId=" + workerId
