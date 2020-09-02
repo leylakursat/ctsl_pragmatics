@@ -30,7 +30,8 @@ module.exports = function (expName) {
         joined_a_game = true;
 
         // Add player to game
-        game.order_type = query.type || 'random';
+        //game.order_type = query.type || 'random';
+      
         game.player_count++;
         game.players.push({
           id: player.userid,
@@ -69,7 +70,7 @@ module.exports = function (expName) {
       player_instances: [{ id: player.userid, player: player }],
       player_count: 1,
       order_type: query.order_type || 'random',
-      last_round: query.last_round,
+      last_round: query.last_round || 0, // TODO!
     };
 
     var game = new game_core(options);

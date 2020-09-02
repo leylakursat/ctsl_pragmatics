@@ -75,7 +75,7 @@ var game_core = function (options) {
       this.trialList = this.makeTrialList(); // to create a new trial order
     else if (this.order_type == 'last_order') {
       this.trialList = this.restoreTrialList(); // if we want to restore the same order as last time
-      this.roundNum = (this.last_round)-1;
+      this.roundNum = (this.last_round)-3;
       console.log("CHANGED ROUND NUM: ", this.roundNum)
     }
     this.data = {

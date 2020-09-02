@@ -19,16 +19,16 @@ var items = [
             { label: 'box_open_wood', adj1: 'open', adj2: 'wood' },
         ]
     },
-    {
-        object: 'cup',
-        trial_type: 'adjective_ordering',
-        images: [
-            { label: 'cup_empty_metal', adj1: 'empty', adj2: 'metal' },
-            { label: 'cup_empty_plastic', adj1: 'empty', adj2: 'plastic' },
-            { label: 'cup_full_metal', adj1: 'full', adj2: 'metal' },
-            { label: 'cup_full_plastic', adj1: 'full', adj2: 'plastic' },
-        ]
-    },
+    // {
+    //     object: 'cup',
+    //     trial_type: 'adjective_ordering',
+    //     images: [
+    //         { label: 'cup_empty_metal', adj1: 'empty', adj2: 'metal' },
+    //         { label: 'cup_empty_plastic', adj1: 'empty', adj2: 'plastic' },
+    //         { label: 'cup_full_metal', adj1: 'full', adj2: 'metal' },
+    //         { label: 'cup_full_plastic', adj1: 'full', adj2: 'plastic' },
+    //     ]
+    // },
     {
         object: 'earring',
         trial_type: 'adjective_ordering',
@@ -199,26 +199,26 @@ var items = [
             { label: 'baloon_small_yellow', adj1: 'small', adj2: 'yellow' },
         ]
     },
-    {
-        object: 'binoculars',
-        trial_type: 'overinformativeness',
-        images: [
-            { label: 'binoculars_big_blue', adj1: 'big', adj2: 'blue' },
-            { label: 'binoculars_big_red', adj1: 'big', adj2: 'red' },
-            { label: 'binoculars_small_blue', adj1: 'small', adj2: 'blue' },
-            { label: 'binoculars_small_red', adj1: 'small', adj2: 'red' },
-        ]
-    },
-    {
-        object: 'book',
-        trial_type: 'overinformativeness',
-        images: [
-            { label: 'book_big_blue', adj1: 'big', adj2: 'blue' },
-            { label: 'book_big_red', adj1: 'big', adj2: 'red' },
-            { label: 'book_small_blue', adj1: 'small', adj2: 'blue' },
-            { label: 'book_small_red', adj1: 'small', adj2: 'red' },
-        ]
-    },
+    // {
+    //     object: 'binoculars',
+    //     trial_type: 'overinformativeness',
+    //     images: [
+    //         { label: 'binoculars_big_blue', adj1: 'big', adj2: 'blue' },
+    //         { label: 'binoculars_big_red', adj1: 'big', adj2: 'red' },
+    //         { label: 'binoculars_small_blue', adj1: 'small', adj2: 'blue' },
+    //         { label: 'binoculars_small_red', adj1: 'small', adj2: 'red' },
+    //     ]
+    // },
+    // {
+    //     object: 'book',
+    //     trial_type: 'overinformativeness',
+    //     images: [
+    //         { label: 'book_big_blue', adj1: 'big', adj2: 'blue' },
+    //         { label: 'book_big_red', adj1: 'big', adj2: 'red' },
+    //         { label: 'book_small_blue', adj1: 'small', adj2: 'blue' },
+    //         { label: 'book_small_red', adj1: 'small', adj2: 'red' },
+    //     ]
+    // },
     {
         object: 'brush',
         trial_type: 'overinformativeness',
@@ -319,16 +319,16 @@ var items = [
             { label: 'glove_small_orange', adj1: 'small', adj2: 'orange' },
         ]
     },
-    {
-        object: 'hat',
-        trial_type: 'overinformativeness',
-        images: [
-            { label: 'hat_big_orange', adj1: 'big', adj2: 'orange' },
-            { label: 'hat_big_pink', adj1: 'big', adj2: 'pink' },
-            { label: 'hat_orange_small', adj1: 'orange', adj2: 'small' },
-            { label: 'hat_small_pink', adj1: 'small', adj2: 'pink' },
-        ]
-    },
+    // {
+    //     object: 'hat',
+    //     trial_type: 'overinformativeness',
+    //     images: [
+    //         { label: 'hat_big_orange', adj1: 'big', adj2: 'orange' },
+    //         { label: 'hat_big_pink', adj1: 'big', adj2: 'pink' },
+    //         { label: 'hat_orange_small', adj1: 'orange', adj2: 'small' },
+    //         { label: 'hat_small_pink', adj1: 'small', adj2: 'pink' },
+    //     ]
+    // },
     {
         object: 'key',
         trial_type: 'overinformativeness',
@@ -379,16 +379,16 @@ var items = [
             { label: 'lock_small_silver', adj1: 'small', adj2: 'silver' },
         ]
     },
-    {
-        object: 'mirror',
-        trial_type: 'overinformativeness',
-        images: [
-            { label: 'mirror_big_black', adj1: 'big', adj2: 'black' },
-            { label: 'mirror_big_white', adj1: 'big', adj2: 'white' },
-            { label: 'mirror_small_black', adj1: 'small', adj2: 'black' },
-            { label: 'mirror_small_white', adj1: 'small', adj2: 'white' },
-        ]
-    },
+    // {
+    //     object: 'mirror',
+    //     trial_type: 'overinformativeness',
+    //     images: [
+    //         { label: 'mirror_big_black', adj1: 'big', adj2: 'black' },
+    //         { label: 'mirror_big_white', adj1: 'big', adj2: 'white' },
+    //         { label: 'mirror_small_black', adj1: 'small', adj2: 'black' },
+    //         { label: 'mirror_small_white', adj1: 'small', adj2: 'white' },
+    //     ]
+    // },
     {
         object: 'pants',
         trial_type: 'overinformativeness',
@@ -419,16 +419,16 @@ var items = [
             { label: 'pot_small_green', adj1: 'small', adj2: 'green' },
         ]
     },
-    {
-        object: 'rosary',
-        trial_type: 'overinformativeness',
-        images: [
-            { label: 'rosary_big_blue', adj1: 'big', adj2: 'blue' },
-            { label: 'rosary_big_yellow', adj1: 'big', adj2: 'yellow' },
-            { label: 'rosary_small_blue', adj1: 'small', adj2: 'blue' },
-            { label: 'rosary_small_yellow', adj1: 'small', adj2: 'yellow' },
-        ]
-    },
+    // {
+    //     object: 'rosary',
+    //     trial_type: 'overinformativeness',
+    //     images: [
+    //         { label: 'rosary_big_blue', adj1: 'big', adj2: 'blue' },
+    //         { label: 'rosary_big_yellow', adj1: 'big', adj2: 'yellow' },
+    //         { label: 'rosary_small_blue', adj1: 'small', adj2: 'blue' },
+    //         { label: 'rosary_small_yellow', adj1: 'small', adj2: 'yellow' },
+    //     ]
+    // },
     {
         object: 'scissors',
         trial_type: 'overinformativeness',

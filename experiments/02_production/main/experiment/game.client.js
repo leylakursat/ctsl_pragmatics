@@ -203,7 +203,8 @@ window.onload = function () {
 
   game = new game_core({});
 
-
+  game.pathName = window.location.search
+  
   //Connect to the socket.io server!
   client_connect_to_server(game);
 
@@ -229,6 +230,7 @@ var client_addnewround = function (game) {
 };
 
 var called = true; // global variable called checks whether a chatmessage was sent. initially set to false
+// LEYLA: change this for written version
 
 // Associates callback functions corresponding to different socket messages
 var client_connect_to_server = function (game) {
@@ -371,17 +373,22 @@ function mouseClickListener(evt) {
         if (typeof (Storage) !== "undefined") {
           var speakerName = localStorage.getItem("speakerName");
           var listenerName = localStorage.getItem("listenerName");
-          var order_name = localStorage.getItem("order");
-          // console.log("ORDER:", order_name)
-          // console.log("speaker name: ", speakerName);
-          // console.log("listener name: ", listenerName);
+          
         }
+
+        console.log("Path: ", game.pathName)
+        //console.log("NEW GAME ORDER: ", game.order_type);
+        //console.log("NEW ROUND ORDER: ", game.lastRound);
+
+        //var trialOrder = game.order_type;
+        //var lastRound = game.lastRound;
+
         game.socket.send("clickedObj." + obj.label + "." + obj.trial_type + "." + obj.condition + "." + obj.targetStatus
           + "." + obj.speakerCoords.gridX + "." + obj.listenerCoords.gridX
           + "." + alternative1.label + "." + alternative1.trial_type + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX
           + "." + alternative2.label + "." + alternative2.trial_type + "." + alternative2.condition + "." + alternative2.targetStatus + "." + alternative2.speakerCoords.gridX + "." + alternative2.listenerCoords.gridX
           + "." + alternative3.label + "." + alternative3.trial_type + "." + alternative3.condition + "." + alternative3.targetStatus + "." + alternative3.speakerCoords.gridX + "." + alternative3.listenerCoords.gridX
-          + "." + speakerName + "." + listenerName);
+          + "." + speakerName + "." + listenerName + "." + game.pathName);
 
         // game.socket.send(`clickedObj.${obj.item}.${obj.color}.${obj.material}.${obj.label}.${obj.targetStatus}.${obj.speakerCoords.gridX}.${obj.listenerCoords.gridX}.${alternative1.label}.${alternative1.targetStatus}.${alternative1.speakerCoords.gridX}.${alternative1.listenerCoords.gridX}.${alternative2.label}.${alternative2.targetStatus}.${alternative2.speakerCoords.gridX}.${alternative2.listenerCoords.gridX}`);
 
