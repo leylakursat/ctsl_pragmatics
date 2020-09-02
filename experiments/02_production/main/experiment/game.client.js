@@ -147,30 +147,49 @@ var client_onMessage = function (data) {
           var upperLeftX;
           var upperLeftY;
           var strokeColor;
-          if (my_role === game.playerRoleNames.role1) {
+          if (my_role === game.playerRoleNames.role1) { 
             var clickObjName = commanddata;
 
             objToHighlight = _.filter(game.objects, function (x) {
               return x.label == clickObjName;
             })[0];
-
             upperLeftX = objToHighlight.speakerCoords.gridPixelX;
             upperLeftY = objToHighlight.speakerCoords.gridPixelY;
-            strokeColor = "blue";
-          } else {
+            strokeColor = "blue"; // highlight clicked obj with blue in speaker
+          } else { 
             objToHighlight = _.filter(game.objects, function (x) {
               return x.targetStatus == "target";
             })[0];
             upperLeftX = objToHighlight.listenerCoords.gridPixelX;
             upperLeftY = objToHighlight.listenerCoords.gridPixelY;
-            strokeColor = "green";
+            strokeColor = "green"; // highlight target with green in listener
+            
+            ///
+            var clickObjName = commanddata;
+            var objClicked = _.filter(game.objects, function (x) {
+              return x.label == clickObjName;
+            })[0];
+            if (objClicked !== objToHighlight) {
+              var upperLeftX2 = objClicked.listenerCoords.gridPixelX
+              var upperLeftY2 = objClicked.listenerCoords.gridPixelY;
+              var strokeColor2 = "red"; // highlight clicked obj with red if not target in listener
+            }
+            ///
           }
           if (upperLeftX != null && upperLeftY != null) {
             game.ctx.beginPath();
             game.ctx.lineWidth = "10";
             game.ctx.strokeStyle = strokeColor;
             game.ctx.rect(upperLeftX + 5, upperLeftY + 5, 290, 290);
-            game.ctx.stroke();
+            game.ctx.stroke(); // green & blue
+            console.log("TEST -- green stroke: ", Date.now())
+
+            game.ctx.beginPath();
+            game.ctx.lineWidth = "10";
+            game.ctx.strokeStyle = strokeColor2;
+            game.ctx.rect(upperLeftX2 + 5, upperLeftY2 + 5, 290, 290);
+            game.ctx.stroke(); // red
+
           }
           break;
 
@@ -399,9 +418,10 @@ function mouseClickListener(evt) {
         if (upperLeftXListener != null && upperLeftYListener != null) {
           game.ctx.beginPath();
           game.ctx.lineWidth = "10";
-          game.ctx.strokeStyle = "red";
+          game.ctx.strokeStyle = "blue";
           game.ctx.rect(upperLeftXListener + 5, upperLeftYListener + 5, 290, 290);
           game.ctx.stroke();
+          console.log("TEST -- red stroke: ", Date.now())
         }
       }
     }
