@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-02-25T17:19:48-08:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR
+            MEDIA_URL="file:///Volumes/LaCie/temp/OI_P2.MP4" MIME_TYPE="video/mp4"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:fcae043d-d952-463a-a6b2-dce9fe06f0f8</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">17</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="80760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="93740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="115710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="123680"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="135010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="139780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="143200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="147810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="152510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="157350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="161520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="165560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="170450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="181740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="188100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="195090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="206645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="217245"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="402835"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="412575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="415705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="421725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="444465"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="458795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="470980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="479070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="527120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="553290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="574440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="581930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="620550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="630800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="676100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="682270"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1"
+                TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>picture, color no, long --&gt; no ordering?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8"
+                TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>button big blue, big (what's the order?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9"
+                TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>brush small red</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10"
+                TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>socks blue</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
+                TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>bag red big</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
+                TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>gloves small green</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2"
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>shorts red small, smooth --&gt; no ordering</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>umbrella rain umbrella green</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17"
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>peppers</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3"
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>pencil short black short, pencil short</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4"
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>dress blue dress big --&gt; is big in response to listener or part of first utterance</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5"
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>wine-bottle small, wine-bottle small ?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14"
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>old beard not beard not</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6"
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>nails</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
+                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>woman earring small/round (sign for small &amp; round?)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7"
+                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>box open four sides</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
+                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>frog green spotted</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

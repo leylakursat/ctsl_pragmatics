@@ -1,0 +1,59 @@
+---
+title: "CTSL production experiment"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r import, include=FALSE}
+this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(this.dir)
+
+library("tidyverse")
+library("xlsx")
+library("readxl")
+
+files<-list.files(pattern=".xlsx")
+
+for (f in files) {
+  print(f)
+  d = read_excel(f)
+  df = rbind(df,d)
+}
+```
+
+**Number of participants tested:**
+```{r number_tested, include=FALSE}
+length(unique(df$speakerName)) 
+```
+
+**Overinformativeness trials:**
+```{r overinformativeness, include=FALSE}
+df = df %>%
+  filter(trialType == "overinformativeness")
+
+nrow(df) # 210 overinformativeness trials
+table(df$condition) # 98 color_sufficient, 112 size_sufficient trials
+```
+
+**Was a color mentioned?**
+```{r colormention, include=FALSE}
+colors = "blue|green|red|brown|black|clear|purple|pink|silver|gray|grey|white|yellow|violet|gold|silver"
+df$colorMention = ifelse(grepl(colors, df$gloss, ignore.case = TRUE), 1,0)
+table(df$colorMention)
+```
+
+**Was any size mentioned?**
+```{r sizemention, include=FALSE}
+sizes = "big|small|biggest|smalles|tiny|huge|little"
+df$sizeMention = ifelse(grepl(sizes, df$gloss, ignore.case = TRUE), 1,0)
+table(df$sizeMention)
+```
+
+**Was both a color and size mentioned?**
+```{r sizemention, include=FALSE}
+df$colorsizeMention = ifelse(df$colorMention==1&df$sizeMention==1,1,0)
+table(df$colorsizeMention)
+```
+

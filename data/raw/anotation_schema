@@ -1,0 +1,44 @@
+
+different attempts are separated by commas in gloss, pos_sequence, order_interest
+
+gloss = lexical items/meaning of each unit, attempts separated by commas
+pos_sequence = pos sequence of gloss with repetitions (noun, color, size, num, mod, loc, verb, prep)
+    if the unit refers directly to the intended referent marked without numbers, if not marked with numbers
+    ? for not sure
+    mod for other
+    - for at the same time
+    mod is for modifiers that denote an adjective other than color, size and number
+    point(color) in gloss is coded as color, point(else) is coded as noun if else is a noun
+    "hat man" is coded as "mod noun" when it's used to refer to the man with the hat --> turkish "sapkali adam" == "hatted man"
+    if same noun --> noun noun verb noun, if different --> noun noun2 verb noun2
+
+mouthing = words that are mouthed 
+pointing = this is only for pointing to crayons, if pointing is used as a lexical strategy thats marked in notes
+notes = negation* (can also be extracted), check sign*, no crayons
+
+OBSERVATIONS---
+negation order very very stable -- neg marker = "degil"
+
+ZAFER
+gets crayons on 6th trial
+mouths almost everything - only marked ones i was sure about.. i'm good at catching his mouthing for 'small' but that's mostly because i'm used to it not because he signs it a lot
+
+ILKNUR
+negation!!
+mouths everything except phonologically very complex words
+
+MUSTAFA
+gets crayons on 9th trial
+negation!!
+
+
+FATMA TEYZE
+moves lips but not mouthing? but there are patterns..
+
+TODO:
+- make sure the order_interest of adjective ordering trials only have "mod" for all modifiers --> will dissect this further into categories later (size vs dimension)
+- make sure COLOR is coded as "clr"
+- change long-nose to elephant!!
+- different sign for dog, red, wood
+- pot very lexicalized (includes two signs --> hold-from-two-sides flames)
+- chicken, cow, apple lexicalized
