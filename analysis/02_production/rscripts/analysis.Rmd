@@ -285,7 +285,7 @@ for (i in 1:length(toplot$itemized)){
 
 toplot = toplot %>%
   mutate(uniquePos = as.character(uniquePos)) %>%
-  mutate(uniquePos = trimws(uniquePos,which=c("left"))) %>%
+  mutate(uniquePos = trimws(uniquePos,which=c("right"))) %>%
   group_by(uniquePos,language) %>%
   count()
 
@@ -320,7 +320,7 @@ for (i in 1:length(toplot$itemized)){
 
 toplot = toplot %>%
   mutate(uniquePos = as.character(uniquePos)) %>%
-  mutate(uniquePos = trimws(uniquePos,which=c("left"))) %>%
+  mutate(uniquePos = trimws(uniquePos,which=c("right"))) %>%
   group_by(uniquePos,language) %>%
   count()
 
