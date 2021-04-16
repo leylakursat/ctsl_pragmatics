@@ -248,7 +248,7 @@ var client_addnewround = function (game) {
   $('#roundnumber').append(game.roundNum);
 };
 
-var called = true; // global variable called checks whether a chatmessage was sent. initially set to false
+var called = false; // global variable called checks whether a chatmessage was sent. initially set to false
 // LEYLA: change this for written version
 
 // Associates callback functions corresponding to different socket messages
@@ -308,6 +308,7 @@ var client_connect_to_server = function (game) {
   // This means clear the chatboxes, update round number, and update score on screen
   game.socket.on('newRoundUpdate', function (data) {
     $('#messages').empty();
+    called=false; // testing
     if (game.roundNum + 2 > game.numRounds) {
       $('#roundnumber').empty();
       $('#instructs').empty().append("Round\n" + (game.roundNum + 1) + "/" + game.numRounds);
@@ -379,7 +380,7 @@ function mouseClickListener(evt) {
   var bRect = game.viewport.getBoundingClientRect();
   var mouseX = (evt.clientX - bRect.left) * (game.viewport.width / bRect.width);
   var mouseY = (evt.clientY - bRect.top) * (game.viewport.height / bRect.height);
-  //alert('called: ' + called);
+  // alert('called: ' + called);
   if (called) { // if message was not sent, don't do anything
     for (var i = 0; i < game.objects.length; i++) {
       var obj = game.objects[i];
@@ -395,7 +396,7 @@ function mouseClickListener(evt) {
           
         }
 
-        console.log("Path: ", game.pathName)
+        // console.log("Path: ", game.pathName)
         //console.log("NEW GAME ORDER: ", game.order_type);
         //console.log("NEW ROUND ORDER: ", game.lastRound);
 
@@ -421,7 +422,7 @@ function mouseClickListener(evt) {
           game.ctx.strokeStyle = "blue";
           game.ctx.rect(upperLeftXListener + 5, upperLeftYListener + 5, 290, 290);
           game.ctx.stroke();
-          console.log("TEST -- red stroke: ", Date.now())
+          // console.log("TEST -- red stroke: ", Date.now())
         }
       }
     }

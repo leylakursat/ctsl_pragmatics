@@ -67,17 +67,21 @@ var game_core = function (options) {
     this.id = options.id;
     this.expName = options.expName;
     this.player_count = options.player_count;
-    this.order_type = options.order_type
-    this.last_round = options.last_round
+    //this.order_type = options.order_type
+    //this.last_round = options.last_round
 
-    console.log('Order_type =>>>> ',this.order_type)
-    if(this.order_type == 'random_order')
-      this.trialList = this.makeTrialList(); // to create a new trial order
-    else if (this.order_type == 'last_order') {
-      this.trialList = this.restoreTrialList(); // if we want to restore the same order as last time
-      this.roundNum = (this.last_round)-3;
-      console.log("CHANGED ROUND NUM: ", this.roundNum)
-    }
+    // this was for ctsl (to start experiment from saved trial order)
+    // console.log('Order_type =>>>> ',this.order_type)
+    // if(this.order_type == 'random_order')
+    //   this.trialList = this.makeTrialList(); // to create a new trial order
+    // else if (this.order_type == 'last_order') {
+    //   this.trialList = this.restoreTrialList(); // if we want to restore the same order as last time
+    //   this.roundNum = (this.last_round)-3;
+    //   console.log("CHANGED ROUND NUM: ", this.roundNum)
+    // }
+
+    this.trialList = this.makeTrialList(); // to create a new trial order
+
     this.data = {
       id: this.id.slice(0, 6),
       trials: [],

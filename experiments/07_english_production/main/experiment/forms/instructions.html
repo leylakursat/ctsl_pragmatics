@@ -43,7 +43,7 @@
     <div class="well" style="width:800px; margin: 0 auto">
 
       <h2>
-        <center>A Really Fun HIT</center>
+        <center>A Really Fun Guessing Game</center>
       </h2>
 
       <p>
@@ -51,23 +51,22 @@
         another person! In each round both of you are going to be given a set of
         pictures which will look like this:
       </p>
-      <center><img src="images/objectBoard.png" alt="Example gameplay" style="width:800px"></center>
+      <center><img src="images/objectBoard.png" alt="Example gameplay" style="width:700px"></center>
+      <br>
       <p>
         You'll each see the same 4 images <b> but the order they are in will
           be different. </b>
       </p>
       <p>
-        One of you will be assigned the <b> Speaker </b> role and the other will be
-        the <b> Listener </b>. For each round, one of the four objects is the target, which
-        can be identified by a <b> green box</b> around it. Only the speaker can see which object is the target. The
-        task of the speaker
-        is to tell the listener which one of the objects is the target and the listener in turn needs to select the
-        right
-        object based on this information provided by the speaker. Remember that it doesn't make sense to describe the
-        location of the target object, since the order of the images is different for the listener and the speaker.
+        One of you will be assigned the <b> Speaker </b> role and the other will be the <b> Listener </b>. For each
+        round, one of the four objects is the target, which can be identified by a <b> green box</b> around it. Only the
+        speaker can see which object is the target. The task of the speaker is to tell the listener which one of the
+        objects is the target and the listener in turn needs to select the right object based on this information
+        provided by the speaker. Remember that it doesn't make sense to describe the location of the target object,
+        since the order of the images is different for the listener and the speaker.
       </p>
       <p>
-        <center><img src="images/speakerListenerBoard.png" alt="Example gameplay" style="width:800px"></center>
+        <center><img src="images/speakerListenerBoard.png" alt="Example gameplay" style="width:700px"></center>
       </p>
       <p>
         <i>
@@ -75,24 +74,18 @@
         </i>
       </p>
       <p>
-        So, the goal is for the
-        listener to identify the correct object based on what the speaker
-        said. To communicate, you'll have a chatbox
-        where you can send messages back and forth to each other. Here's
-        where the speaker can say which object is the target and the
-        listener can ask for clarifications if what the
-        speaker said is not clear.
+        So, the goal is for the listener to identify the correct object based on what the speaker said. To communicate,
+        you'll have a chatbox where you can send messages back and forth to each other. Here's where the speaker can say
+        which object is the target and the listener can ask for clarifications if what the speaker said is not clear.
       </p>
       <p>
-        <center><img src="images/chatBox.png" alt="Example gameplay" style="width:800px"></center>
+        <i>
+          <center><img src="images/chatBox.png" alt="Example gameplay" style="width:700px"></center>
+        </i>
       </p>
-
       <p>
-        Once the speaker sends a message and the listener clicks on the object they believe is the target, the speaker
-        is briefly shown which object the listener clicked on (the clicked object has a red square around it) and you
-        will both be automatically forwarded to the
-        next round of objects. There are a total of 32 rounds. After the 32nd round you will fill out a quick 15 second
-        survey and be on your way.
+        Once the speaker sends a message and the listener clicks on the object they believe is the target, both participants receive feedback: the speaker is briefly shown which object the listener clicked on (the clicked object has a blue square around it) and the listener sees a green border around the target object, and if they selected the wrong object, they see a red border around their selection. Then they get automatically forwarded to the next round of objects. There are a total of 60 rounds. After the
+        60 round you will fill out a quick 15 second survey and be on your way.
       </p>
 
       <p> Two final notes: Since you are playing with another person, you may see this screen before the game begins:
@@ -114,8 +107,6 @@
         Good luck and have fun!
       </h4>
 
-
-
     </div>
     <div class="page-header">
       <h3>Comprehension Quiz</h3>
@@ -131,7 +122,6 @@
       <input type="radio" name="dgoal" value="no"> True
       </br>
 
-
       </br>
       The listener wants to click on the object that the speaker is
       telling them about.
@@ -140,7 +130,6 @@
       </br>
       <input type="radio" name="mgoal" value="yes"> True
       </br>
-
 
       </br>
       The target is the object which has the red circle around it.
@@ -159,7 +148,7 @@
       </br>
 
       </br>
-      There are a total of 32 rounds.
+      There are a total of 60 rounds.
       </br>
       <input type="radio" name="comp" value="no"> False
       </br>
@@ -216,13 +205,14 @@
 
       if (ans1 == "yes" && ans2 == "yes" && ans3 == "yes" &&
         ans4 == "yes" && ans5 == "yes" && ans6 == "yes" && ans7 == "yes") {
-        var workerId = urlParams.workerId;
-        var assignmentId = urlParams.assignmentId;
-        var hitId = urlParams.hitId;
-        var turkSubmitTo = urlParams.turkSubmitTo;
-        location.replace("./pass.html?workerId=" + workerId
-          + "&assignmentId=" + assignmentId
-          + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
+        location.replace("./pass.html")
+        // var workerId = urlParams.workerId;
+        // var assignmentId = urlParams.assignmentId;
+        // var hitId = urlParams.hitId;
+        // var turkSubmitTo = urlParams.turkSubmitTo;
+        // location.replace("./pass.html?workerId=" + workerId
+        //   + "&assignmentId=" + assignmentId
+        //   + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
       } else if (counter == 3) {
         location.replace("./fail.html");
       } else {
