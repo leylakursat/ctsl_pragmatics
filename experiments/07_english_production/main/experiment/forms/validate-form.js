@@ -18,7 +18,9 @@ function validateForm() {
 	    }
 	}
 	if (count == qs.length) {
-	    location.replace("./pass.html");
+	    location.replace("./pass.html?workerId=" + workerId
+          + "&assignmentId=" + assignmentId
+          + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
 	} else {
 	    location.replace("./fail.html");
 	}

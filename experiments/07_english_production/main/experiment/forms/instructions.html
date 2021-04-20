@@ -47,8 +47,8 @@
       </h2>
 
       <p>
-        In this experiment you will play a fun communication game with
-        another person! In each round both of you are going to be given a set of
+        In this experiment, you will play a fun communication game with
+        another person! In each round, both of you are going to be given a set of
         pictures which will look like this:
       </p>
       <center><img src="images/objectBoard.png" alt="Example gameplay" style="width:700px"></center>
@@ -70,7 +70,7 @@
       </p>
       <p>
         <i>
-          <center> <small> Only the speaker can see which object is the target for this round. </small> </center>
+          <center> <small> Only the speaker can see which object is the target.</small> </center>
         </i>
       </p>
       <p>
@@ -205,14 +205,14 @@
 
       if (ans1 == "yes" && ans2 == "yes" && ans3 == "yes" &&
         ans4 == "yes" && ans5 == "yes" && ans6 == "yes" && ans7 == "yes") {
-        location.replace("./pass.html")
-        // var workerId = urlParams.workerId;
-        // var assignmentId = urlParams.assignmentId;
-        // var hitId = urlParams.hitId;
-        // var turkSubmitTo = urlParams.turkSubmitTo;
-        // location.replace("./pass.html?workerId=" + workerId
-        //   + "&assignmentId=" + assignmentId
-        //   + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
+        // location.replace("./pass.html")
+        var workerId = urlParams.workerId;
+        var assignmentId = urlParams.assignmentId;
+        var hitId = urlParams.hitId;
+        var turkSubmitTo = urlParams.turkSubmitTo;
+        location.replace("./pass.html?workerId=" + workerId
+          + "&assignmentId=" + assignmentId
+          + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
       } else if (counter == 3) {
         location.replace("./fail.html");
       } else {

@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">2560,1417</Object>
+        <Object class="java.awt.Dimension">1440,877</Object>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
         <Int>7</Int>
@@ -14,7 +14,7 @@
         <String>default</String>
     </pref>
     <pref key="LayoutManager.MediaAreaHeight">
-        <Int>857</Int>
+        <Int>624</Int>
     </pref>
     <pref key="SelectionEndTime">
         <Long>370020</Long>
@@ -70,7 +70,7 @@
         <String>AAM-LR Phone level audio segmentation</String>
     </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">1440,-843</Object>
+        <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
         <Long>369880</Long>
@@ -81,10 +81,10 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>421180</Long>
+        <Long>1078280</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>423250</Long>
+        <Long>1087830</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="default">
