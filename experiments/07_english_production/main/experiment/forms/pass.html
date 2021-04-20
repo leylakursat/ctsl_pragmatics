@@ -81,15 +81,16 @@
     console.log(urlParams)
 
     document.getElementById("agree").onclick = function () {
-      // window.open("https://stanford-cogsci.org:8882/main/experiment/index.html")
+        window.open("https://stanford-cogsci.org:8882/main/experiment/index.html")
         var workerId = urlParams.workerId;
         var assignmentId = urlParams.assignmentId;
         var hitId = urlParams.hitId;
         var turkSubmitTo = urlParams.turkSubmitTo;
 
-        window.open("https://stanford-cogsci.org:8882/main/experiment/index.html?workerId=" + workerId
-                         + "&assignmentId=" + assignmentId
-                         + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo, '_blank');
+        // revert back to mturk
+        // window.open("https://stanford-cogsci.org:8882/main/experiment/index.html?workerId=" + workerId
+        //                  + "&assignmentId=" + assignmentId
+        //                  + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo, '_blank');
 
         // window.open("https://stanford-cogsci.org:8882/main/experiment/index.html?workerId=" + workerId
         //                  + "&assignmentId=" + assignmentId
