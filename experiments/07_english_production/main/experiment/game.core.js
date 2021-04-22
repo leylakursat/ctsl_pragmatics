@@ -205,17 +205,17 @@ game_core.prototype.makeTrialList = function () {
   console.log("alltrialList Length ", allTrials.length);
 
   // save trial order as json object
-  const fs = require('fs');
-  // stringify JSON Object
-  var jsonContent = JSON.stringify(allTrials);
+  // const fs = require('fs');
+  // // stringify JSON Object
+  // var jsonContent = JSON.stringify(allTrials);
 
-  fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
-    if (err) {
-      console.log("An error occured while writing JSON Object to File.");
-      return console.log(err);
-    }
-    console.log("JSON file has been saved.");
-  });
+  // fs.writeFile("output.json", jsonContent, 'utf8', function (err) {
+  //   if (err) {
+  //     console.log("An error occured while writing JSON Object to File.");
+  //     return console.log(err);
+  //   }
+  //   console.log("JSON file has been saved.");
+  // });
 
   return (allTrials);
 };

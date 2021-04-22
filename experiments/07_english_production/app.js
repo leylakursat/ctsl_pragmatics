@@ -120,8 +120,8 @@ var initialize = function (query, client, id) {
   console.log('\t socket.io:: player ' + client.userid + ' connected');
 
   //Pass off to game.server".js code
-  console.log("TEST order type: ", query.order_type)
-  console.log("TEST last round: ", query.last_round)
+  // console.log("TEST order type: ", query.order_type)
+  // console.log("TEST last round: ", query.last_round)
 
   gameServer.findGame(query, client);
 

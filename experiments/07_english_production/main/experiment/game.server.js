@@ -108,16 +108,16 @@ var writeData = function (client, type, message_parts) {
       var alternat3SpeakerLocs = message_parts[23];
       var alternat3ListenerLocs = message_parts[24];
 
-      var speakerName = message_parts[25];
-      var listenerName = message_parts[26];
-      var pathName = message_parts[27];
+      // var speakerName = message_parts[25];
+      // var listenerName = message_parts[26];
+      // var pathName = message_parts[27];
 
       var line = (id + ',' + Date.now() + ',' + roundNum + ',' + trialType + ','
         + "," + clickedObjName + "," + clickedObjTrialType + "," + clickedObjCondition + ',' + clickedObjTargetStatus + "," + clickedObjSpeakerLocs + "," + clickedObjListenerLocs
         + "," + alternat1Name + "," + alternat1TrialType + "," + alternat1Condition + "," + alternat1TargetStatus + "," + alternat1SpeakerLocs + "," + alternat1ListenerLocs
         + "," + alternat2Name + "," + alternat2TrialType + "," + alternat2Condition + "," + alternat2TargetStatus + "," + alternat2SpeakerLocs + "," + alternat2ListenerLocs
         + "," + alternat3Name + "," + alternat3TrialType + "," + alternat3Condition + "," + alternat3TargetStatus + "," + alternat3SpeakerLocs + "," + alternat3ListenerLocs
-        + "," + speakerName + "," + listenerName + "," + pathName +'\n');
+        +'\n');
       console.log("clicked obj line: ", line);
       break;
 
@@ -143,7 +143,7 @@ var startGame = function (game, player) {
     "gameid,time,roundNum,sender,contents\n");
 
   utils.establishStream(game, "clickedObj", dataFileName,
-    "gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjTrialType ,clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1TrialType, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2TrialType, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3TrialType, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs, speakerName, listenerName, pathName\n");
+    "gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjTrialType ,clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1TrialType, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2TrialType, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3TrialType, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs\n");
 
   // utils.establishStream(game, "clickedObj", dataFileName,
   // 		"gameid, time, roundNum, trialType, context," +
