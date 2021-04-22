@@ -8,17 +8,18 @@ function make_slides(f) {
       $('.err2').hide();
       $('.disq').hide();
 
-      exp.answer = "beyaz";
+      exp.answer = "mumu";
+      exp.answer2 = "mum";
       exp.lives = 0;
 
-      var question = "Ayran ne renktir?";
+      var question = "Yalancının neyi yatsıya kadar yanar?";
       document.getElementById("q").innerHTML = question;
     },
     button: function () {
       exp.text_input = document.getElementById("text_box").value;
       var lower = exp.text_input.toLowerCase();
 
-      if ((exp.lives < 3) && (lower == exp.answer)) {
+      if ((exp.lives < 3) && ((lower == exp.answer) | (lower== exp.answer2))) {
         exp.data_trials.push({
           "trial_type": "bot_check",
           "response": exp.text_input
