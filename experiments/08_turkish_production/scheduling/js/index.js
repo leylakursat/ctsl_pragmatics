@@ -65,7 +65,7 @@ function make_slides(f) {
       console.log("date", exp.date)
       if (exp.date != null) {
         exp.data_trials.push({
-          "trial_type" : "age",
+          "trial_type" : "date",
           "response" : exp.date
         });
         exp.go();
@@ -80,10 +80,12 @@ function make_slides(f) {
       $(".err").hide();
     },
     button : function() {
-      email= $("#email").val();
+      // exp.email= document.getElementById("email").value;
+      exp.email= $(".email").val();
+      console.log(exp.email)
         exp.data_trials.push({
           "trial_type" : "email",
-          "response" : email
+          "response" : exp.email
         });
         exp.go(); //make sure this is at the *end*, after you log your data
     }
