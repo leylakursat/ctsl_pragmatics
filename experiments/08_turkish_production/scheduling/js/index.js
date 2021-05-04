@@ -104,7 +104,7 @@ function make_slides(f) {
         day = "5 Mayıs Çarşamba";
         time = "1pm-2pm EDT (10am-11pm PDT)";
       } 
-      var msg = "<br><br>Başarıyla seçim yaptınız. <b>" + day + " günü saat " + time + " arasında</b> size göndereceğimiz link üzerinden deneyimize katılabilirsiniz!<br><br>MTurk Worker IDnizi lütfen kaydedin, deneyde sizden bu bilgiyi isteyeceğiz.<br><br>Zaman ayırdığınız için teşekkürler." 
+      var msg = "<br><br>Başarıyla seçim yaptınız. <b>" + day + " günü saat " + time + " arasında</b> size göndereceğimiz link üzerinden deneyimize katılabilirsiniz!<br><br>Mechanical Turk Worker IDnizi lütfen kaydedin, deneyde sizden bu bilgiyi isteyeceğiz.<br><br>Zaman ayırdığınız için teşekkürler." 
 
       if (exp.date != "none") {
         document.getElementById("message").innerHTML = msg;
