@@ -94,15 +94,15 @@ function make_slides(f) {
     start : function() {
       var day = "";
       var time = "";
-      if (exp.date == "may3") {
-        day = "3 Mayıs Pazartesi";
-        time = "11am-12pm EDT (8am-9am PDT)";
-      } else if (exp.date == "may4") {
-        day = "4 Mayıs Salı";
-        time = "12pm-1pm EDT (9am-10am PDT)";
-      } else if (exp.date == "may5") {
-        day = "5 Mayıs Çarşamba";
-        time = "1pm-2pm EDT (10am-11pm PDT)";
+      if (exp.date == "may17") {
+        day = "17 Mayıs Pazartesi";
+        time = "11am-12pm ET (8am-9am PT)";
+      } else if (exp.date == "may18") {
+        day = "18 Mayıs Salı";
+        time = "12pm-1pm ET (9am-10am PT)";
+      } else if (exp.date == "may19") {
+        day = "19 Mayıs Çarşamba";
+        time = "1pm-2pm ET (10am-11pm PT)";
       } 
       var msg = "<br><br>Başarıyla seçim yaptınız. <b>" + day + " günü saat " + time + " arasında</b> size göndereceğimiz link üzerinden deneyimize katılabilirsiniz!<br><br>Mechanical Turk Worker IDnizi lütfen kaydedin, deneyde sizden bu bilgiyi isteyeceğiz.<br><br>Zaman ayırdığınız için teşekkürler." 
 
