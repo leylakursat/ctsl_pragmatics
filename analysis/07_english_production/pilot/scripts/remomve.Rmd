@@ -1,0 +1,480 @@
+---
+title: "Enlish Production Experiment"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r import, include=FALSE}
+library(tidyverse)
+library(lme4)
+library(languageR)
+library(brms)
+library(lmerTest)
+library("writexl")
+library("readxl")
+library(openxlsx)
+source("helpers.R")
+require(xlsx)
+this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(this.dir)
+theme_set(theme_bw())
+
+demo = read.csv(file="../data/example-subject_information.csv")
+df = read.csv(file="../data/merged_data.csv",sep="\t", header=T, quote="")
+```
+
+**Number of participants tested:**
+
+Posted for 1 extra person because realized one person got disconnected while in the waiting room
+```{r before_exclusions, echo=FALSE}
+length(demo$workerid)
+table(demo$role)
+```
+**Number of gameids in the server vs mturk data:**
+
+TODO: fix this using unique.R
+```{r df_comparison , echo=FALSE}
+serverGameids =  df %>% select(gameid) %>% unique()
+length(serverGameids$gameid)
+
+mturkGameids = demo %>%select(gameID) %>% group_by(gameID) %>% count()
+#length(mturkGameids$gameID)
+length(unique(mturkGameids$gameID))
+```
+
+**Exclusions**
+
+Remove games with non-native speakers: 
+```{r exclusions, echo=FALSE}
+notnative = demo %>% filter(demo$nativeEnglish != "yes")  %>% select(gameID) #7754-6
+notnative
+
+df = df[!(df$gameid %in% notnative$gameID),]
+```
+
+```{r data_clean, include=FALSE}
+df$trialType = ifelse(df$clickedObjCondition=="high_difficulty"|df$alt1Condition=="high_difficulty"|df$alt2Condition=="high_difficulty"|df$alt3Condition=="high_difficulty","high_difficulty",ifelse(df$clickedObjCondition=="low_difficulty"|df$alt1Condition=="low_difficulty"|df$alt2Condition=="low_difficulty"|df$alt3Condition=="low_difficulty","low_difficulty","filler"))
+
+df$clickedObjName = as.character(df$clickedObjName)
+df$alt1Name = as.character(df$alt1Name)
+df$alt2Name = as.character(df$alt2Name)
+df$alt3Name = as.character(df$alt3Name)
+
+df = df %>%
+  mutate(targetname = ifelse(clickedObjTargetStatus=="target",clickedObjName,ifelse(alt1TargetStatus=="target",alt1Name,ifelse(alt2TargetStatus=="target",alt2Name,ifelse(alt3TargetStatus=="target",alt3Name,NA))))) %>%
+  mutate(targetlabel = targetname) %>%
+  separate(targetlabel, c("targetobject","targetmaterial","targetcolor","targetoriginal"), sep="_") %>%
+  mutate(clickedObjlabel = clickedObjName) %>%
+  separate(clickedObjlabel, c("clickedobject","clickedmaterial","clickedcolor","clickedoriginal"), sep = "_")
+
+df$extra = NULL
+```
+
+**Number of rounds for each game**
+```{r roundno, echo=FALSE}
+round_no = df %>%
+  group_by(gameid) %>%
+  dplyr::summarize(total_round_number = n())
+table(round_no$total_round_number)
+```
+
+## Critical trials
+
+```{r criticalonly, echo=FALSE}
+#excluding fillers
+d = df %>%
+  filter(trialType != "filler")
+drows = nrow(d)
+#drows #758
+
+single = d %>% filter(gameid=="3232-f")
+table(single$trialType)
+```
+
+**Was a color mentioned?**
+```{r color_mention, echo=FALSE}
+colors = "blue|green|red|brown|black|clear|purple|pink|silver|gray|grey|white|yellow|violet"
+d$colorMention = ifelse(grepl(colors, d$speakerMessages, ignore.case = TRUE), 1,0)
+table(d$colorMention)
+```
+
+**Was a material mentioned?**
+```{r material_mention, echo=FALSE}
+materials = "wood|paper|metal|steel|plastic|rubber|leather|glass|cardboard|denim|jean";
+d$materialMention = ifelse(grepl(materials, d$speakerMessages, ignore.case = TRUE), 1, 0)
+table(d$materialMention)
+```
+
+**Was both a color and material mentioned?**
+```{r both_mention, echo=FALSE}
+d$colormaterialMention = ifelse(d$colorMention==1&d$materialMention==1,1,0)
+table(d$colormaterialMention)
+```
+
+**Was an object name mentioned?**
+```{r object_mention, echo=FALSE}
+names  = "bag|boot|bottle|bowl|box|chair|cup|jacket|pitcher|plate|spoon|table";
+d$objnameMention = ifelse(grepl(names, d$speakerMessages, ignore.case = TRUE), 1, 0)
+table(d$objnameMention)
+```
+
+**Was a bleached noun used?**
+```{r bleached_noun, echo=FALSE}
+bleached = "one|thing|item|object"
+d$oneMention = ifelse(grepl(bleached, d$speakerMessages, ignore.case = TRUE), 1, 0)
+table(d$oneMention)
+```
+
+**Was an article used?**
+```{r article, echo=FALSE}
+article = "the|a|an"
+d$theMention = ifelse(grepl(article, d$speakerMessages, ignore.case = TRUE), 1, 0)
+table(d$theMention)
+```
+
+**How often were articles omitted**
+```{r article_ommit, echo=FALSE}
+no_article_trials = drows - sum(d$objnameMention)
+print(paste("percentage trials where articles were omitted: ", no_article_trials*100/drows))
+```
+
+**How often were nouns omitted**
+```{r noun_ommit, echo=FALSE}
+d$article_Mention = ifelse(d$oneMention==1|d$theMention==1, 1, 0)
+no_noun_trials = drows - sum(d$article_Mention)
+print(paste("percentage of trials where nouns were omitted: ", no_noun_trials*100/drows))
+```
+
+**Reading corrected dataset for typos and mention of other modifiers**
+```{r manually_corrected, echo=FALSE}
+#tinfo = d %>% mutate(id = row_number()) %>% select(id,trialType)
+manual = read.xlsx("../data/manual_correction.xlsx",1)
+
+d = d %>% dplyr::mutate(id = row_number())
+
+tomerge = manual %>% select(id,needCorrection,otherModifier)
+
+d = merge(d, tomerge, by="id", all.x=TRUE, all.y=TRUE) 
+
+d$otherMod = ifelse(is.na(d$otherModifier),"0","1")
+
+shade  = "dark|light|shade|lite|sky|violet|bright|pale";
+d$shade = ifelse(grepl(shade, d$otherModifier, ignore.case = TRUE), "1", "0")
+size = "big|small|long|short|lengthy|tall|large";
+d$size = ifelse(grepl(size, d$otherModifier, ignore.case = TRUE), "1", "0")
+shape = "rectengular|rectengle|square";
+d$shape = ifelse(grepl(shape, d$otherModifier, ignore.case = TRUE), "1", "0")
+
+print(paste("percentage of trials where other modifiers were used: ", sum(as.numeric(d$otherMod))*100/drows)) #39.18
+
+```
+
+```{r other_modifiers, echo=FALSE}
+d$otherMod = as.numeric(d$otherMod)
+
+other_agg = d %>%
+  group_by(trialType) %>%
+  dplyr::summarize(Mean=mean(otherMod),CILow=ci.low(otherMod),CIHigh=ci.high(otherMod),count=n()) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CILow,Ymax=Mean+CIHigh) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty"="high_difficulty","low difficulty"="low_difficulty"))
+
+ggplot(other_agg, aes(x=trialType, y=Mean, fill=trialType)) +
+  geom_bar(stat="identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  scale_fill_manual(values = c("darkolivegreen2","steelblue")) +
+  theme(legend.position = "none", axis.title.x = element_blank())+
+  ylab("Proportion of 'other' modifier use")
+
+ggsave("../graphs/prop_other_mod.png", height=3, width=3)
+  
+```
+
+**Types of modifiers used**
+```{r other_modifiers2, echo=FALSE}
+only_other = d %>%
+  filter(otherMod=="1") %>%
+  mutate(other=ifelse(shade=="0" & size=="0" & shape=="0",1,0)) %>%
+  gather(modifier_type,value,shade:other) %>%
+  group_by(modifier_type,trialType) %>%
+  mutate(value=as.numeric(value)) %>%
+  dplyr::summarize(Mean=mean(value),CILow=ci.low(value),CIHigh=ci.high(value)) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CILow,Ymax=Mean+CIHigh) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty \n material redundant"="high_difficulty","low difficulty \n color redundant"="low_difficulty"))
+
+ggplot(only_other, aes(x=modifier_type, y=Mean, fill=trialType)) +
+  geom_bar(stat="identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  facet_grid(~trialType) +
+  theme(legend.position = "none", axis.title.x = element_blank()) +
+  #scale_fill_manual(values = c("darkolivegreen2","steelblue")) +
+  scale_fill_manual(values=c("orange","darkgreen")) +
+  ylab("Proportion of utterance")
+
+  #scale_fill_manual(values = c("lightblue1","skyblue","deepskyblue1","dodgerblue2"))
+
+ggsave("../graphs/prop_other_type.png", height=3, width=6)
+
+only_other = d %>%
+  filter(otherMod=="1") %>%
+  mutate(other=ifelse(shade=="0" & size=="0" & shape=="0",1,0)) %>%
+  gather(modifier_type,value,shade:other) %>%
+  group_by(modifier_type,trialType) %>%
+  mutate(value=as.numeric(value)) %>%
+  filter(value == "1") %>%
+  count(value) %>%
+  mutate(prop = n/301) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty \n material redundant"="high_difficulty","low difficulty \n color redundant"="low_difficulty"))
+
+ggplot(only_other, aes(x=modifier_type, y=prop, fill=trialType)) +
+  geom_bar(stat="identity") +
+  #geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  facet_grid(~trialType) +
+  theme(legend.position = "none", axis.title.x = element_blank()) +
+  #scale_fill_manual(values = c("darkolivegreen2","steelblue")) +
+  scale_fill_manual(values=c("orange","darkgreen")) +
+  ylab("Proportion of utterance")
+
+ggsave("../graphs/prop_other_type_acrossf.png", height=3, width=6)
+```
+
+**In how many trials did the listener choose the right object?**
+```{r fcorrect_selection, echo=FALSE}
+d$clickTarget = ifelse(d$clickedObjTargetStatus == "target",1,0)
+table(d$clickTarget)
+non_target_click = drows-sum(d$clickTarget)
+print(paste("percentage of trials where non-target was selected: ", non_target_click*100/drows)) #3.83
+
+table(d$trialType,d$clickTarget)
+```
+
+**Exclude trials where target wasn't selected**
+
+Number of rows:
+```{r clicktarget, echo=FALSE}
+correct = d %>%filter(clickedObjTargetStatus=="target")
+nrow(correct) #729 updated
+```
+
+```{r prep, echo=FALSE}
+targets = correct %>%
+  mutate(UtteranceType = ifelse(colorMention==1 & materialMention==1,"color and material",ifelse(colorMention==1,"only color",ifelse(materialMention==1,"only material","other")))) %>%
+  filter(UtteranceType!="other") %>%
+  mutate(rowNum = row_number()) %>%
+  mutate(onlyColorMention = ifelse(UtteranceType =="only color",1,0)) %>%
+  mutate(onlyMaterialMention = ifelse(UtteranceType =="only material",1,0)) %>%
+  mutate(RedundantProperty = ifelse(trialType=="high_difficulty","material redundant", ifelse(trialType=="low_difficulty","color redundant", NA))) %>%
+  mutate(SufficientProperty = ifelse(trialType=="high_difficulty","color", ifelse(trialType=="low_difficulty","material", NA))) %>%
+  mutate(RedExp3Cat = ifelse(UtteranceType=="color and material","redundant",ifelse((SufficientProperty=="color"&UtteranceType=="only color"),"minimal",ifelse((SufficientProperty=="material"&UtteranceType=="only material"),"minimal","underinformative")))) %>%
+  mutate(RedExp2Cat = ifelse(RedExp3Cat=="redundant","redundant","not_redundant")) %>%
+  mutate(redundant = ifelse(RedExp2Cat=="redundant",1,0)) %>%
+  mutate(targetName = ifelse(clickedObjTargetStatus=="target",clickedObjName,ifelse(alt1TargetStatus=="target",alt1Name,ifelse(alt2TargetStatus=="target",alt2Name,ifelse(alt3TargetStatus=="target",alt3Name,NA))))) %>%
+  mutate(notCompetitorName = ifelse(clickedObjName==alt1Name,clickedObjName,ifelse(clickedObjName==alt2Name, clickedObjName, ifelse(clickedObjName==alt3Name, clickedObjName, ifelse(alt1Name==alt2Name, alt1Name, ifelse(alt1Name==alt3Name, alt1Name, ifelse(alt2Name==alt3Name, alt2Name, NA ))))))) %>%
+  mutate(competitorName = ifelse(clickedObjName!=targetName & clickedObjName!=notCompetitorName, clickedObjName, ifelse(alt1Name!=targetName & alt1Name!=notCompetitorName,alt1Name, ifelse(alt2Name!=targetName & alt2Name!=notCompetitorName, alt2Name, ifelse(alt3Name !=targetName & alt3Name!=notCompetitorName, alt3Name, NA))))) %>%
+  select(rowNum,gameid,roundNum,trialType,targetName,competitorName,notCompetitorName,speakerMessages,UtteranceType,SufficientProperty,RedundantProperty,RedExp3Cat,RedExp2Cat,redundant,clickedobject,clickedcolor,clickedmaterial,clickedoriginal,onlyColorMention,onlyMaterialMention,colormaterialMention,objnameMention,oneMention,theMention,article_Mention)
+```
+
+**Proportion of utterance by utterance type and trial type**
+```{r mainplot, echo=FALSE}
+agr = targets %>%
+  select(rowNum,trialType,UtteranceType,RedundantProperty,RedExp3Cat,RedExp2Cat,redundant,onlyColorMention,onlyMaterialMention,colormaterialMention) %>%
+  gather(MentionType,mention,onlyColorMention:colormaterialMention) %>%
+  group_by(RedundantProperty,trialType,MentionType) %>%
+  summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention)) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CIlow, Ymax=Mean+CIhigh) %>%
+  mutate(MentionType=fct_recode(MentionType,"color and material"="colormaterialMention","only color"="onlyColorMention","only material"="onlyMaterialMention")) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty\nmaterial redundant"="high_difficulty","low difficulty\ncolor redundant"="low_difficulty"))
+
+ggplot(agr, aes(x=trialType,y=Mean,fill=RedundantProperty)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  xlab("Trial type") +
+  facet_grid(~MentionType) + 
+  scale_fill_manual(values=c("darkgreen","orange")) +
+  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7))
+
+ggsave("../graphs/exp2_proportion.pdf", width=6.5, height=3.5)
+```
+
+**Mixed effects logistic regression predicting redundant adjective use from fixed effects of redundant property, with random by-subject and by-item intercepts and slopes for redundant property**
+```{r model, echo=FALSE}
+m = glmer(redundant ~ trialType + (1|gameid) + (1|clickedobject), data=targets, family="binomial")
+summary(m)
+```
+
+**with other modifiers**
+```{r targets_other, echo=FALSE}
+correct$otherMod = as.numeric(correct$otherMod)
+
+targets_other = correct %>%
+  mutate(UtteranceType = ifelse(colorMention==0 & materialMention==0 & otherMod==0, "none", ifelse(colorMention==1 & materialMention==0 & otherMod==0, "only color", ifelse(colorMention==0 & materialMention==1 & otherMod==0, "only material", ifelse(colorMention==0 & materialMention==1 & otherMod==0, "only material", ifelse(colorMention==0 & materialMention==0 & otherMod==1, "only other", ifelse(colorMention==1 & materialMention==0 & otherMod==1, "color and other",ifelse(colorMention==0 & materialMention==1 & otherMod==1, "material and other", ifelse(colorMention==1 & materialMention==1 & otherMod==0, "color and material", ifelse(colorMention==1 & materialMention==1 & otherMod==1, "color,material,other", NA)))))))))) %>%
+  mutate(RedundantProperty = ifelse(trialType=="high_difficulty","material redundant", ifelse(trialType=="low_difficulty","color redundant", NA))) %>%
+  mutate(SufficientProperty = ifelse(trialType=="high_difficulty","color", ifelse(trialType=="low_difficulty","material", NA))) %>%
+  mutate(none=ifelse(UtteranceType=="none",1,0)) %>%
+  mutate(onlyColor=ifelse(UtteranceType=="only color",1,0)) %>%
+  mutate(onlyMaterial=ifelse(UtteranceType=="only material",1,0)) %>%
+  mutate(onlyOther=ifelse(UtteranceType=="only other",1,0)) %>%
+  mutate(colorOther=ifelse(UtteranceType=="color and other",1,0)) %>%
+  mutate(materialOther=ifelse(UtteranceType=="material and other",1,0)) %>%
+  mutate(colorMaterial=ifelse(UtteranceType=="color and material",1,0)) %>%
+  mutate(colorMaterialOther=ifelse(UtteranceType=="color,material,other",1,0))
+
+agr = targets_other %>%
+  select(id,trialType,speakerMessages,UtteranceType,none,onlyColor,onlyMaterial,onlyOther,colorOther,materialOther,colorMaterial,colorMaterialOther,RedundantProperty,SufficientProperty) %>%
+  gather(MentionType, mention, onlyColor:colorMaterialOther) %>%
+  filter(MentionType !="none") %>%
+  group_by(RedundantProperty,trialType,MentionType) %>%
+  summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention), count=n()) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CIlow, Ymax=Mean+CIhigh) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty\nmaterial redundant"="high_difficulty","low difficulty\ncolor redundant"="low_difficulty"))
+  
+agr$MentionType <- factor(agr$MentionType, levels = c("onlyColor", "onlyMaterial", "onlyOther", "colorOther", "materialOther", "colorMaterial", "colorMaterialOther"))
+
+ggplot(agr, aes(x=trialType,y=Mean,fill=RedundantProperty)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  xlab("Trial type") +
+  ylab("Proportion of utterance") +
+  facet_grid(~MentionType) +
+  scale_fill_manual(values=c("darkgreen","orange")) +
+  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=5)) 
+
+ggsave("../graphs/fulldata.pdf", width=11, height=4)
+
+agr = targets_other %>%
+  mutate(redundantOther = ifelse(SufficientProperty=="color",materialOther,ifelse(SufficientProperty=="material",colorOther,NA))) %>%
+  select(id,trialType,speakerMessages,RedundantProperty,SufficientProperty,UtteranceType,otherMod,onlyOther,redundantOther) %>%
+  filter(otherMod=="1") %>% # do we want to do this?
+  gather(MentionType, mention, onlyOther:redundantOther) %>%
+  group_by(trialType,MentionType) %>%
+  summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention), count=n()) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CIlow, Ymax=Mean+CIhigh) %>%
+  mutate(MentionType = case_when(MentionType == "onlyOther" ~ "only 'other' modifier", trialType == "high_difficulty" ~ "material + 'other' modifier", TRUE ~ "color + 'other' modifier")) %>%
+  mutate(trialType=fct_recode(trialType,"high difficulty\nmaterial redundant"="high_difficulty","low difficulty\ncolor redundant"="low_difficulty"))
+  
+agr$MentionType <- factor(agr$MentionType,levels = c("only 'other' modifier","material + 'other' modifier","color + 'other' modifier"))
+
+ggplot(agr, aes(x=MentionType,y=Mean,fill=trialType)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  xlab("Trial type") +
+  ylab("Proportion of utterance") +
+  facet_grid(~trialType, scales= "free_x") +
+  scale_fill_manual(values=c("orange","darkgreen")) +
+  theme(legend.position = "none",axis.title.x = element_blank()) #+
+  scale_x_discrete(labels=c("only 'other' modifier","material + 'other' modifier","only 'other' modifier","color + 'other' modifier"))
+
+ggsave("../graphs/other_other.pdf", width=6.5, height=3.5)
+
+```
+
+## Fillers
+
+**16 filler trials**
+
+4 filler_color: competitor shares the color with the target 
+
+4 filler_material: competitor shares the material with the target 
+
+4 filler_both: competitor shares both color and material with the target 
+
+4 filler_none: competitor doesn't share any feature with the target 
+```{r fillers, echo=FALSE}
+f = df %>%
+  filter(trialType == "filler")
+frows = nrow(f)
+frows #752
+```
+
+**Was a color mentioned?**
+```{r fcolor_mention, echo=FALSE}
+f$colorMention = ifelse(grepl(colors, f$speakerMessages, ignore.case = TRUE), 1,0)
+table(f$colorMention)
+```
+
+**Was a material mentioned?**
+```{r fmaterial_mention, echo=FALSE}
+f$materialMention = ifelse(grepl(materials, f$speakerMessages, ignore.case = TRUE), 1, 0)
+table(f$materialMention)
+```
+
+**Was both a color and material mentioned?**
+```{r fboth_mention, echo=FALSE}
+f$colormaterialMention = ifelse(f$colorMention==1&f$materialMention==1,1,0)
+table(f$colormaterialMention)
+```
+
+**Was an object name mentioned?**
+```{r fobject_mention, echo=FALSE}
+names  = "bag|boot|bottle|bowl|box|chair|cup|jacket|pitcher|plate|spoon|table|ball|door|ruler|vase|ball";
+f$objnameMention = ifelse(grepl(names, f$speakerMessages, ignore.case = TRUE), 1, 0)
+table(f$objnameMention)
+```
+
+**In how many trials did the listener choose the right object?**
+```{r correct_click, echo=FALSE}
+f$clickTarget = ifelse(f$clickedObjTargetStatus == "target",1,0)
+table(f$clickTarget)
+
+non_target_click = frows-sum(f$clickTarget)
+print(paste("percentage of trials where non-target was chosen: ", non_target_click*100/frows))
+
+table(d$trialType,d$clickTarget)
+```
+
+**Exclude filler trials where target wasn't selected**
+
+Number of rows:
+```{r fillerclicktarget, echo=FALSE}
+ftargets = f %>% filter(clickedObjTargetStatus=="target")
+nrow(ftargets) #738
+```
+
+```{r fillerplot, echo=FALSE}
+ftargets = ftargets %>%
+  mutate(UtteranceType = ifelse(colorMention==0 & materialMention==0 & objnameMention==1, "only object", ifelse(colorMention==1 & materialMention==0 & objnameMention==0, "only color", ifelse(colorMention==0 & materialMention==1 & objnameMention==0, "only material",ifelse(colorMention==1 & materialMention==0 & objnameMention ==1,"color and object", ifelse(colorMention==0 & materialMention==1 & objnameMention==1, "material and object", ifelse(colorMention==1 & materialMention==1 & objnameMention==0, "color and material", ifelse(colorMention==1 & materialMention==1 & objnameMention==1, "color,material,object", ifelse(colorMention==0 & materialMention==0 & objnameMention==0, "none",NA))))))))) %>%
+  mutate(onlyColor=ifelse(UtteranceType=="only color",1,0)) %>%
+  mutate(onlyMaterial=ifelse(UtteranceType=="only material",1,0)) %>%
+  mutate(onlyObject=ifelse(UtteranceType=="only object",1,0)) %>%
+  mutate(colorObject=ifelse(UtteranceType=="color and object",1,0)) %>%
+  mutate(materialObject=ifelse(UtteranceType=="material and object",1,0)) %>%
+  mutate(colorMaterial=ifelse(UtteranceType=="color and material",1,0)) %>%
+  mutate(colorMaterialObject=ifelse(UtteranceType=="color,material,object",1,0)) %>%
+  mutate(none=ifelse(UtteranceType=="none",1,0)) %>%
+  gather(utterance, value, onlyColor:none)
+                           
+agr = ftargets %>%
+  group_by(clickedObjCondition,utterance) %>%
+  summarize(Mean=mean(value))
+  
+agr$utterance <- factor(agr$utterance, levels = c("onlyObject", "colorObject", "onlyColor", "none", "materialObject", "colorMaterialObject", "onlyMaterial", "colorMaterial"))
+
+agr$clickedObjCondition <- factor(agr$clickedObjCondition, levels = c("filler_color", "filler_material", "filler_both", "filler_none"))  
+
+ggplot(agr, aes(x=reorder(utterance, -Mean), y=Mean, fill=utterance)) +
+  geom_bar(stat="identity", position=position_dodge())+
+  facet_grid(~clickedObjCondition) +
+  theme(axis.text.x = element_blank(), axis.title.x = element_blank())
+
+ggsave("../graphs/fillers.pdf", width=9, height=4)
+```
+
+
+
+
+
+
+
+
+
+
