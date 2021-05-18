@@ -198,16 +198,15 @@
 
       if (ans1 == "yes" && ans2 == "yes" && ans3 == "yes" &&
         ans4 == "yes" && ans5 == "yes" && ans6 == "yes" && ans7 == "yes") {
-        // location.replace("./pass.html")
         var workerId = urlParams.workerId;
         var assignmentId = urlParams.assignmentId;
         var hitId = urlParams.hitId;
         var turkSubmitTo = urlParams.turkSubmitTo;
-        location.replace("./pass.html")
-        // revert mack to mturk
-        // location.replace("./pass.html?workerId=" + workerId
-        //   + "&assignmentId=" + assignmentId
-        //   + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
+        // location.replace("./pass.html")
+        //revert mack to mturk
+        location.replace("./pass.html?workerId=" + workerId
+          + "&assignmentId=" + assignmentId
+          + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
       } else if (counter == 3) {
         location.replace("./fail.html");
       } else {

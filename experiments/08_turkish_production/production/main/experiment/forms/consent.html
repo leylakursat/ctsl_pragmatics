@@ -143,7 +143,7 @@
       }
 
       document.getElementById("agree").onclick = function () {
-        location.replace("./instructions.html");
+        // location.replace("./instructions.html");
         // TODO: Revert for Mturk
 
         // var workerId = urlParams.workerId;
@@ -151,9 +151,9 @@
         // var hitId = urlParams.hitId;
         // var turkSubmitTo = urlParams.turkSubmitTo;
 
-        // location.replace("./instructions.html?workerId=" + workerId
-        //                  + "&assignmentId=" + assignmentId
-        //                  + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
+        location.replace("./instructions.html?workerId=" + workerId
+                         + "&assignmentId=" + assignmentId
+                         + "&hitId=" + hitId + "&turkSubmitTo=" + turkSubmitTo);
       };
 
       // document.getElementById("agree").onclick = function () {
