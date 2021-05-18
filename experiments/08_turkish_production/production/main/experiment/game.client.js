@@ -294,12 +294,12 @@ var client_connect_to_server = function (game) {
     var otherRole = (my_role === game.playerRoleNames.role1 ?
       game.playerRoleNames.role2 :
       game.playerRoleNames.role1);
-    // if (otherRole == 'speaker')
-    //   otherName = 'Anlatan'
-    // else
-    //   otherName = 'Bilen'
+    if (otherRole == 'speaker')
+      otherName = 'Anlatan'
+    else
+      otherName = 'Bilen'
 
-    var source = data.user === my_id ? "You" : otherName;
+    var source = data.user === my_id ? "Siz" : otherName;
     var col = source === "You" ? "#363636" : "#707070";
     $('.typing-msg').remove();
     $('#messages').append($('<li style="padding: 5px 10px; background: ' + col + '">')
