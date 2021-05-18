@@ -300,7 +300,7 @@ var client_connect_to_server = function (game) {
       otherName = 'Bilen'
 
     var source = data.user === my_id ? "Siz" : otherName;
-    var col = source === "You" ? "#363636" : "#707070";
+    var col = source === "Siz" ? "#363636" : "#707070";
     $('.typing-msg').remove();
     $('#messages').append($('<li style="padding: 5px 10px; background: ' + col + '">')
       .text(source + ": " + data.msg));
