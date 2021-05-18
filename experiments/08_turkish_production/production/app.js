@@ -61,7 +61,7 @@ app.get('/*', function (req, res) {
   if (req.query.workerId && !valid_id(req.query.workerId)) {
     console.log("invalid id: blocking request");
     // res.redirect('https://rxdhawkins.me:8889/sharedUtils/invalid.html');
-    res.redirect('https://stanford-cogsci.org:8882/high_low_difficulty/experiment/forms/invalid.html');
+    res.redirect('https://stanford-cogsci.org:8882/main/experiment/forms/invalid.html');
   } else if (req.query.wo0rkerId && req.query.workerId in global_player_set) {
     console.log("duplicate id: will not block during testing");
     // delete what's below when not testing
@@ -73,7 +73,7 @@ app.get('/*', function (req, res) {
     console.log("file: ", file);
 
     console.log("duplicate id: blocking request");
-    res.redirect('https://stanford-cogsci.org:8882/high_low_difficulty/experiment/forms/duplicate.html');
+    res.redirect('https://stanford-cogsci.org:8882/main/experiment/forms/duplicate.html');
     // res.redirect('https://rxdhawkins.me:8889/sharedUtils/duplicate.html');
   } else {
     console.log('\t :: Express :: file requested: ' + file);
@@ -120,8 +120,8 @@ var initialize = function (query, client, id) {
   console.log('\t socket.io:: player ' + client.userid + ' connected');
 
   //Pass off to game.server".js code
-  console.log("TEST order type: ", query.order_type)
-  console.log("TEST last round: ", query.last_round)
+  // console.log("TEST order type: ", query.order_type)
+  // console.log("TEST last round: ", query.last_round)
 
   gameServer.findGame(query, client);
 

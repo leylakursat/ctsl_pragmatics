@@ -282,7 +282,7 @@ var client_connect_to_server = function (game) {
 
   game.socket.on('playerTyping', function (data) {
     if (data.typing == "true") {
-      $('#messages').append('<span class="typing-msg">Other player is typing...</span>');
+      $('#messages').append('<span class="typing-msg">Diğer oyuncu mesaj yazıyor...</span>');
     } else {
       $('.typing-msg').remove();
     }
@@ -294,7 +294,12 @@ var client_connect_to_server = function (game) {
     var otherRole = (my_role === game.playerRoleNames.role1 ?
       game.playerRoleNames.role2 :
       game.playerRoleNames.role1);
-    var source = data.user === my_id ? "You" : otherRole;
+    // if (otherRole == 'speaker')
+    //   otherName = 'Anlatan'
+    // else
+    //   otherName = 'Bilen'
+
+    var source = data.user === my_id ? "You" : otherName;
     var col = source === "You" ? "#363636" : "#707070";
     $('.typing-msg').remove();
     $('#messages').append($('<li style="padding: 5px 10px; background: ' + col + '">')
@@ -350,19 +355,31 @@ var client_onjoingame = function (num_players, role) {
   });
 
   // Update w/ role (can only move stuff if agent)
-  $('#roleLabel').append(role + '.');
+  if (role == 'speaker')
+    roleName = 'anlatan'
+  else
+    roleName = 'tahmin eden'
+
+  $('#roleLabel').append(roleName + '.');
+
   if (role === game.playerRoleNames.role1) {
     console.log("first statistifed");
-    $('#instructs').append("Send messages to tell the listener which object " +
-      "is the target.");
+      $('#instructs').append("Diğer oyuncuya seçmesi gereken resmi anlatmak için " +
+      "mesaj gönderin.");
+    // $('#instructs').append("Send messages to tell the guesser which object " +
+    //   "is the target.");
   } else if (role === game.playerRoleNames.role2) {
-    $('#instructs').append("Click on the target object which the speaker " +
-      "is telling you about.");
+     $('#instructs').append("Diğer oyuncunun size anlattığı resmin " +
+      "üzerine tıklayın.");
+    // $('#instructs').append("Click on the target object which the director " +
+    //   "is telling you about.");
   }
 
-  if (num_players == 1) {
-    game.get_player(my_id).message = ('Waiting for another player to connect... '
-      + 'Please do not refresh the page!');
+  if (num_players == 1) {    
+    game.get_player(my_id).message = ('Diğer oyuncunun bağlanması bekleniyor... '
+    + 'Lütfen sayfayı yenilemeyin!');
+    // game.get_player(my_id).message = ('Waiting for another player to connect... '
+    //   + 'Please do not refresh the page!');
   }
 
   // set mouse-tracking event handler
@@ -390,11 +407,11 @@ function mouseClickListener(evt) {
         var alternative1 = _.sample(_.without(game.objects, obj));
         var alternative2 = _.sample(_.without(game.objects, obj, alternative1));
         var alternative3 = _.sample(_.without(game.objects, obj, alternative1, alternative2));
-        if (typeof (Storage) !== "undefined") {
-          var speakerName = localStorage.getItem("speakerName");
-          var listenerName = localStorage.getItem("listenerName");
+        // if (typeof (Storage) !== "undefined") {
+        //   var speakerName = localStorage.getItem("speakerName");
+        //   var listenerName = localStorage.getItem("listenerName");
           
-        }
+        // }
 
         // console.log("Path: ", game.pathName)
         //console.log("NEW GAME ORDER: ", game.order_type);
@@ -408,7 +425,7 @@ function mouseClickListener(evt) {
           + "." + alternative1.label + "." + alternative1.trial_type + "." + alternative1.condition + "." + alternative1.targetStatus + "." + alternative1.speakerCoords.gridX + "." + alternative1.listenerCoords.gridX
           + "." + alternative2.label + "." + alternative2.trial_type + "." + alternative2.condition + "." + alternative2.targetStatus + "." + alternative2.speakerCoords.gridX + "." + alternative2.listenerCoords.gridX
           + "." + alternative3.label + "." + alternative3.trial_type + "." + alternative3.condition + "." + alternative3.targetStatus + "." + alternative3.speakerCoords.gridX + "." + alternative3.listenerCoords.gridX
-          + "." + speakerName + "." + listenerName + "." + game.pathName);
+          );
 
         // game.socket.send(`clickedObj.${obj.item}.${obj.color}.${obj.material}.${obj.label}.${obj.targetStatus}.${obj.speakerCoords.gridX}.${obj.listenerCoords.gridX}.${alternative1.label}.${alternative1.targetStatus}.${alternative1.speakerCoords.gridX}.${alternative1.listenerCoords.gridX}.${alternative2.label}.${alternative2.targetStatus}.${alternative2.speakerCoords.gridX}.${alternative2.listenerCoords.gridX}`);
 

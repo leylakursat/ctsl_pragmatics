@@ -69,8 +69,8 @@ module.exports = function (expName) {
       id: utils.UUID(),
       player_instances: [{ id: player.userid, player: player }],
       player_count: 1,
-      order_type: query.order_type || 'random',
-      last_round: query.last_round || 0, // TODO!
+      // order_type: query.order_type || 'random',
+      // last_round: query.last_round || 0, // TODO!
     };
 
     var game = new game_core(options);

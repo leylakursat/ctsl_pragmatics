@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Collective Behavior</title>
+    <title>Tahmin Etme Oyunu</title>
     <!-- Load style sheet -->
     <link href="index.css" media="screen" rel="stylesheet" type="text/css">
 
@@ -36,10 +36,10 @@
     <div id='header'>
       <button id='submitbutton' style="display: none;">Submit board</button>
       <div id='textInfo'>
-	<h1 id='roleLabel'> You are the </h1> 
+	<h1 id='roleLabel'> Oyundaki rolünüz: </h1> 
 	<p id='instructs'> </p>
       </div>
-      <p style="color:red" id='roundnumber'>Round 1/60</p>
+      <p style="color:red" id='roundnumber'>Tur 1/60</p>
       <p style="color:green" id='score'> </p>
     </div>
 
@@ -52,46 +52,48 @@
                 <div id="chatarea">
                     <form action="">
                         <input id="chatbox" autocomplete="off" />
-                        <button id="chatbutton">Send</button>
+                        <button id="chatbutton">Gönder</button>
                     </form>
                 </div>
             </div>
             <canvas id="viewport"> </canvas>
 	    	    <div id="exit_survey" style="display:none">
 	      <br><br><br><br><br>
-	      <h3> Thanks for participating in our experiment! </h3>
-	      <h3> Before you submit your HIT, we'd like to ask you a few questions. </h3>
+	      <h3> Deneyimize katılığınız için çok teşekkür ederiz! </h3>
+	      <h3> Bu HITi tamamlamadan önce, size birkaç soru sormak istiyoruz. </h3>
 	      <br><br><br>
-	      <p> Did you believe you were playing against another human player? </p>
+        <!-- <p> Did you believe you were playing against another human player? </p> -->
+        <p> Karşınızdaki oyuncunun gerçek bir insan olduğunu mu bilgisayar olduğunu mu düşündünüz? </p>
 	      <select onChange="dropdownTip('human::' + this.value)">
 		<option value=""></option>
-		<option value="yes">Yes, I thought they were a human</option>
-		<option value="no">No, I thought it was a computer program</option>
+		<option value="yes">İnsan olduğunu düşündüm</option>
+		<option value="no">Bilgisayar ile oynadığımı düşündüm</option>
 	      </select>
-	      <p id='humanResult' style="display:none;color:red"> Thank you for your response -- in fact, all players were paired with other human turkers! <p>
+	      <p id='humanResult' style="display:none;color:red"> Cevabınız için teşekkürler -- bütün oyuncular başka oyuncularla eşleşti! <p>
 
 		<br> <br>
-	      <p> Are you a native English speaker? </p>
+	      <p> Anadiliniz Türkçe mi? </p>
 	      <select onChange="dropdownTip('language::' + this.value)">
 		<option value = ""></option>
-		<option value="yes">Yes</option>
-		<option value="no">No</option>
+		<option value="yes">Evet</option>
+		<option value="no">Hayır</option>
 	      </select>
 	   <br><br>
-          <p> How much did you like working with your partner? </p>
+          <!-- <p> How much did you like working with your partner? </p> -->
+          <p> Oyundaki partnerinizi sevdiniz mi? </p>
             <select onChange="dropdownTip('partner::' + this.value)">
         <option value = ""></option>
-        <option value="not much">Not that much</option>
-        <option value="okay">My partner was fine</option>
-        <option value="liked">I liked working with my partner</option>
-        <option value="loved">I really enjoyed working with my partner</option>
+        <option value="not much">Çok değil</option>
+        <option value="okay">Partnerim çok kötü değildi</option>
+        <option value="liked">Partnerimle çalışmayı sevdim</option>
+        <option value="loved">Partnerimle çalışmayı çok sevdim</option>
           </select>
         <br><br>
 
-	      <p> Do you have any comments on the experiment? </p>
+	      <p> Deneyle ilgili yorumlarınız var mı? </p>
 	      <textarea id='comments' rows="4" cols="50"></textarea>
 	      <br>
-	      <div><button id="surveySubmit" onclick="dropdownTip('submit')" type="button">Submit HIT</button></div>
+	      <div><button id="surveySubmit" onclick="dropdownTip('submit')" type="button">Deneyi bitir (Submit HIT)</button></div>
 	    </div>
             </span>
         </div>
