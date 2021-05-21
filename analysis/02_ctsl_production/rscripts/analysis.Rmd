@@ -29,19 +29,20 @@ for (f in files) {
   dd = rbind(dd,d)
 }
 
-dd = dd %>% drop_na(speakerName)
+dd = dd %>% 
+  drop_na(speakerName)
 
 unique(dd$speakerName)
 ```
 
 **Number of participants, number of trials each participant completed:**
 ```{r number_tested, echo=FALSE}
-length(unique(dd$speakerName)) # 15 people
+length(unique(dd$speakerName)) # 16 people
 
 # this shouldn't be done manually -- extract this from original files or create new file with demographic data and load it here
 dd = dd %>% mutate(language = ifelse(speakerName=="aysetas","Turkish",ifelse(speakerName=="hatice","Turkish",ifelse(speakerName=="aliamca","Turkish",ifelse(speakerName=="durdukılıç(türkçe)","Turkish",ifelse(speakerName=="Bülent(türkçe)", "Turkish","CTSL"))))))
 
-table(dd$speakerName,dd$language) # 5 Turkish, 6 CTSL (all completed 60 trials)
+table(dd$speakerName,dd$language) # 5 Turkish, 11 CTSL (all completed 60 trials)
 ```
 
 **Overall accuracy:**
@@ -64,6 +65,26 @@ ggplot(toplot, aes(x=reorder(speakerName,Mean), y=Mean, fill=language)) +
   scale_fill_manual(values=c("darkgreen","darkgoldenrod1"))
 
 ggsave(file="../graphs/accuracy.pdf",width=6,height=4.5)
+
+turkish = dd %>%
+  filter(language=="Turkish") %>%
+  filter(trialType=="overinformativeness") %>%
+  group_by(speakerName,language) %>%
+  dplyr::summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
+  mutate(lowacc=ifelse(Mean<0.70,"1","0"))
+
+ggplot(turkish, aes(x=reorder(speakerName,Mean), y=Mean)) +
+  geom_bar(stat="identity", fill="lightblue") +
+  geom_hline(yintercept=h) +
+  geom_text(aes(0, h, label=h, vjust=-1, hjust=-0.3)) +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25) +
+  theme(axis.text.x=element_blank()) +
+  ylab("Accuracy") +
+  xlab("Turkish speakers in the village")
+
+ggsave(file="../graphs/accuracy_ctsl_redundant.pdf",width=4,height=2.5)
 
 # to exclude the participants with low(?) accuracy
 #exclude = toplot %>%
@@ -90,7 +111,6 @@ ggplot(toplot, aes(x=reorder(trialType,Mean), y=Mean, fill=language)) +
   scale_fill_manual(values=c("darkgreen","darkgoldenrod1"))
 
 ggsave(file="../graphs/accuracy_trialType.pdf",width=6,height=4.5)
-
 ```
 
 **Overinformativeness trials:**
@@ -103,10 +123,10 @@ drows = nrow(df)
 #table(df$condition)
 
 df = df %>%
-  mutate(targetFull=targetName) %>%
-  separate(targetFull,c("targetobj","targetsize","targetcolor"))
+  mutate(targetFull=targetName) #%>%  #FIX
+  #separate(targetFull,c("targetobj","targetsize","targetcolor"))
 
-table(df$targetobj,df$correct)
+#table(df$targetobj,df$correct)
 ```
 
 **Was a color mentioned?**
@@ -122,7 +142,7 @@ table(df$colorMention)
 
 **Was size mentioned?**
 ```{r sizemention, echo=FALSE}
-sizes = "big|small|biggest|smalles|tiny|huge|little"
+sizes = "big|small|biggest|smalles|tiny|huge|little|large"
 df$sizeMention = ifelse(grepl(sizes, df$gloss, ignore.case = TRUE), 1,0)
 table(df$sizeMention)
 
@@ -139,9 +159,9 @@ table(df$colorsizeMention)
 
 **Was an object name mentioned?**
 ```{r objectmention, echo=FALSE}
-names  = "dress|apple|hair|pepper|glasses|ball|lighter|pot|button|clock|knife|tie|umbrella|spoon|shorts|tshirt|brush|box|skirt|socks|scissors|glove|lock|shoe|flower|bag|lipstick|toothbrush|car|baloon|balloon|chair|key|pants|";
-#df$objectMention = ifelse(grepl(names, df$gloss, ignore.case = TRUE), 1, 0)
-#table(df$objectMention)
+names  = "dress|apple|hair|pepper|glasses|ball|lighter|pot|button|clock|knife|tie|umbrella|spoon|shorts|tshirt|brush|box|skirt|socks|scissors|glove|lock|shoe|flower|bag|lipstick|toothbrush|car|baloon|balloon|chair|key|pants|cat|peper|bell pepper";
+df$objectMention = ifelse(grepl(names, df$gloss, ignore.case = TRUE), 1, 0)
+table(df$objectMention)
 
 # checking manual coding for noun
 df$objectManual = ifelse(grepl("noun", df$pos_sequence, ignore.case = TRUE), 1,0)
@@ -175,13 +195,14 @@ targets = targets %>%
   mutate(RedExp3Cat = ifelse(UtteranceType=="color and size","redundant",ifelse((SufficientProperty=="color"&UtteranceType=="only color"),"minimal",ifelse((SufficientProperty=="size"&UtteranceType=="only size"),"minimal","underinformative")))) %>%
   mutate(RedExp2Cat = ifelse(RedExp3Cat=="redundant","redundant","not_redundant")) %>%
   mutate(redundant = ifelse(RedExp2Cat=="redundant",1,0)) %>%
-  mutate(condition=ifelse(condition=="size_sufficient","size sufficient",ifelse(condition=="color_sufficient","color sufficient",NA))) %>%
-  select(gameid,speakerName,language,roundNum,condition,targetName,correct,gloss,colorMention,sizeMention,UtteranceType,onlyColorMention,onlySizeMention,colorsizeMention,RedundantProperty,SufficientProperty,RedExp3Cat,RedExp2Cat,redundant)
+  mutate(condition=ifelse(condition=="size_sufficient","size \n sufficient",ifelse(condition=="color_sufficient","color \n sufficient",NA))) %>%
+  select(gameid,speakerName,language,roundNum,condition,targetName,correct,gloss,colorMention,sizeMention,UtteranceType,onlyColorMention,onlySizeMention,colorsizeMention,RedundantProperty,SufficientProperty,RedExp3Cat,RedExp2Cat,redundant) #CHANGE
 ```
 
 **Proportion of utterance by utterance type and trial type**
 ```{r mainplot, echo=FALSE}
 agr = targets %>%
+  #filter(language=="Turkish") %>%
   gather(MentionType,mention,onlyColorMention:colorsizeMention) %>%
   group_by(RedundantProperty,condition,MentionType) %>%
   summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention)) %>%
@@ -198,7 +219,7 @@ ggplot(agr, aes(x=condition,y=Mean,fill=RedundantProperty)) +
   theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7)) +
   ylab("Proportion of utterance")
 
-ggsave(file="../graphs/proportion_overall.pdf",width=6,height=3)
+ggsave(file="../graphs/proportion_overall.pdf",width=4,height=2)
 ```
 
 **Proportion of utterance by language, utterance type and trial type**
@@ -234,6 +255,7 @@ tomodel = targets %>%
 m = glmer(redundant ~ ccondition + (1+ccondition|speakerName) + (1|targetName), data=tomodel, family="binomial")
 summary(m)
 ```
+
 **Proportion of utterance type**
 ```{r utterancetype, echo=FALSE}
 agr = targets %>%
@@ -263,6 +285,7 @@ ggsave(file="../graphs/proportion_threetype.png",width=6,height=4)
 see graphs/by_participant.pdf
 ```{r mainplot_participant, include=FALSE}
 agr = targets %>%
+  filter(speakerName=="hamza_ctsl") %>%
   gather(MentionType,mention,onlyColorMention:colorsizeMention) %>%
   group_by(RedundantProperty,condition,MentionType,speakerName) %>%
   summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention)) %>%
@@ -274,12 +297,15 @@ ggplot(agr, aes(x=condition,y=Mean,fill=condition)) +
   geom_bar(stat = "identity") +
   geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
   xlab("Trial type") +
-  facet_wrap(speakerName ~ MentionType, nrow=16) + 
   #scale_fill_discrete(guide = FALSE) +
-  scale_fill_manual(values=c(palette[1],palette[3])) +
+  facet_wrap(~ MentionType) + 
+  #facet_wrap(speakerName ~ MentionType, nrow=16) + 
+  scale_fill_manual(values=c(palette[1],palette[3]), guide=FALSE) +
   theme(axis.title.x = element_blank(),axis.text.x = element_text(size=7))+
   ylab("Proportion of utterance") +
   scale_alpha_manual(values=c(0.5,1))
+
+ggsave(file="../graphs/hamza.png",width=4,height=2)
 
 ggsave(file="../graphs/by_participant.png",width=6,height=30)
 ```
@@ -360,25 +386,150 @@ for (i in 1:length(toplot$itemized)){
   toplot$uniquePos[i] = map(toplot$uniqueItemized[i], ~ paste(.x,collapse=" "))
 }
 
-toplot = toplot %>%
-  mutate(uniquePos = as.character(uniquePos)) %>%
-  mutate(uniquePos = trimws(uniquePos,which=c("right"))) %>%
+order = toplot %>%
   group_by(uniquePos,language) %>%
-  count()
+  mutate(grp = ifelse(uniquePos=="size","no noun",ifelse(uniquePos=="noun","no noun",ifelse(uniquePos=="color","no noun",ifelse(uniquePos=="color size","no noun",ifelse(uniquePos=="size color", "no noun", ifelse(uniquePos=="color noun","pre-nominal",ifelse(uniquePos=="size noun","pre-nominal",ifelse(uniquePos=="color size noun","pre-nominal",ifelse(uniquePos=="size color noun","pre-nominal",ifelse(uniquePos=="noun color","post-nominal",ifelse(uniquePos=="noun size","post-nominal",ifelse(uniquePos=="noun size color","post-nominal",ifelse(uniquePos=="noun color size","post-nominal",ifelse(uniquePos=="color noun size","split",ifelse(uniquePos=="size noun color","split","NA")))))))))))))))) %>%
+  filter(grp != "NA") %>%
+  mutate(only_color = ifelse(uniquePos =="color",1,ifelse(uniquePos =="color noun",1,ifelse(uniquePos =="noun color",1,0)))) %>%
+  mutate(only_size = ifelse(uniquePos =="size",1,ifelse(uniquePos =="size noun",1,ifelse(uniquePos =="noun size",1,0)))) %>%
+  mutate(only_noun = ifelse(uniquePos =="noun",1,0)) %>%
+  mutate(color_size = ifelse(uniquePos =="color size",1,ifelse(uniquePos =="size color",1,ifelse(uniquePos =="color size noun",1,ifelse(uniquePos =="color noun size",1,ifelse(uniquePos =="size color noun",1,ifelse(uniquePos =="size noun color",1,ifelse(uniquePos =="noun color size",1,ifelse(uniquePos =="noun size color",1,0))))))))) %>%
+  mutate(preNominal = ifelse(grp=="pre-nominal",1,0)) %>%
+  mutate(postNominal = ifelse(grp=="post-nominal",1,0)) %>%
+  mutate(split = ifelse(grp=="split",1,0)) %>%
+  mutate(noOrder = ifelse(grp=="no noun",1,0))
 
-toplot <- toplot[-which(toplot$uniquePos == ""), ]
+order_1 = order %>%
+  filter(language=="Turkish") %>%
+  gather(modType,value,preNominal:noOrder) %>%
+  group_by(modType) %>%
+  summarize(Mean=mean(value)) %>%
+  mutate(modType = fct_recode(modType,"pre-nominal"="preNominal","post-nominal"="postNominal","no noun"="noOrder"))
 
-ctsl = toplot %>%
-  filter(language=="CTSL")
+order_1$modType_f = factor(as.factor(order_1$modType),levels=c("pre-nominal","post-nominal","split","no noun"))
 
-ggplot(toplot, aes(x=reorder(uniquePos,n),y=n,fill=language)) +
+ggplot(order_1, aes(x=modType_f,y=Mean, fill=modType)) +
+  geom_bar(position="dodge", stat = "identity") +
+  theme(axis.title.y=element_blank()) +
+  scale_fill_manual(values= wes_palette("Darjeeling2")) +
+  xlab("modification type") +
+  ylab("proportion")+
+  theme(legend.position = "none")
+
+ggsave(file="../graphs/modification_type_turkish.pdf",width=4,height=3)
+
+###########
+order_2 = order %>%
+  filter(language=="CTSL") %>%
+  filter(split==0) %>%
+  gather(orderType,value,only_color:color_size) %>%
+  group_by(grp,orderType) %>%
+  summarize(Mean=mean(value)) %>%
+  filter(Mean>0)
+
+order_2$grp_f = factor(as.factor(order_2$grp),levels=c("pre-nominal","post-nominal","no noun"))
+
+plt = wes_palette("Darjeeling2")
+
+ggplot(order_2, aes(x=orderType,y=Mean,fill=grp_f)) +
   geom_bar(position="dodge", stat = "identity") +
   coord_flip() +
-  scale_fill_manual(values=c("darkgreen","darkgoldenrod1")) +
+  scale_fill_manual(values= c(plt[3],plt[2],plt[1],plt[2])) +
+  facet_wrap(~grp_f, scales = "free_y", ncol=1) +
   theme(axis.title.y=element_blank()) +
-  ylab("count")
+  ylab("proportion of utterance") +
+  theme(legend.position = "none")
 
-ggsave(file="../graphs/unique_only_constituents.pdf",width=8,height=5)
+ggsave(file="../graphs/all_orders_ctsl.pdf",width=5,height=4)
+
+```
+
+**Order of unique color, noun, size (remove all other constituents)**
+```{r order_f, echo=FALSE}
+df_long = df %>%
+  mutate(messages=gloss) %>%
+  separate(messages,c("attempt1","attempt2","attempt3","attempt4","attempt5"), sep=", ") %>%
+  gather(attempt,gloss2,attempt1:attempt5) %>%
+  drop_na(gloss2) %>%
+  select(gameid,gloss,pos_sequence,attempt,gloss2)
+
+df_long$replacedGloss = tolower(df_long$gloss)
+
+pattern_rm = "blank|unique|different|load|unique|and|odd|nothing|empty|with|of"
+df_long$remove=ifelse(str_detect(df_long$replacedGloss, pattern_rm),1,0)
+df_long = df_long %>% filter(remove==0)
+  
+df_long$replacedGloss = gsub(colors,"color", df_long$replacedGloss)
+df_long$replacedGloss = gsub(sizes,"size", df_long$replacedGloss)
+df_long$replacedGloss = gsub(names,"noun", df_long$replacedGloss)
+
+# should one, item and object be counted as noun
+noun_like = "item|one|object"
+df_long$replacedGloss = gsub(noun_like,"noun", df_long$replacedGloss)
+
+toremove = "the|target|is|it's|very|it|!"
+df_long$replacedGloss = gsub(toremove,"", df_long$replacedGloss)
+
+df_long = df_long[!(df_long$replacedGloss==""), ]
+df_long$replacedGloss = gsub("  "," ", df_long$replacedGloss)
+df_long$replacedGloss = gsub("  "," ", df_long$replacedGloss)
+
+order = df_long %>%
+  mutate(replacedGloss = trimws(replacedGloss,which=c("left"))) %>%
+  mutate(replacedGloss = trimws(replacedGloss,which=c("right"))) %>%
+  group_by(replacedGloss) %>%
+  mutate(grp = ifelse(replacedGloss=="size","noOrder",ifelse(replacedGloss=="noun","noOrder",ifelse(replacedGloss=="color","noOrder",ifelse(replacedGloss=="color size","noOrder",ifelse(replacedGloss=="size color", "noOrder", ifelse(replacedGloss=="color noun","preNominal",ifelse(replacedGloss=="size noun","preNominal",ifelse(replacedGloss=="color size noun","preNominal",ifelse(replacedGloss=="size color noun","preNominal",ifelse(replacedGloss=="noun color","postNominal",ifelse(replacedGloss=="noun size","postNominal",ifelse(replacedGloss=="noun size color","postNominal",ifelse(replacedGloss=="noun color size","postNominal",ifelse(replacedGloss=="color noun size","split",ifelse(replacedGloss=="size noun color","split","NA")))))))))))))))) %>%
+  filter(grp != "NA") %>%
+  mutate(color = ifelse(replacedGloss =="color",1,0)) %>%
+  mutate(size = ifelse(replacedGloss =="size",1,0)) %>%
+  mutate(noun = ifelse(replacedGloss =="noun",1,0)) %>%
+  mutate(color_size = ifelse(replacedGloss =="color size",1,0)) %>%
+  mutate(color_noun = ifelse(replacedGloss =="color noun",1,0)) %>%
+  mutate(color_size_noun = ifelse(replacedGloss =="color size noun",1,0)) %>%
+  mutate(color_noun_size = ifelse(replacedGloss =="color noun size",1,0)) %>%
+  mutate(size_color = ifelse(replacedGloss =="size color",1,0)) %>%
+  mutate(size_noun = ifelse(replacedGloss =="size noun",1,0)) %>%
+  mutate(size_color_noun = ifelse(replacedGloss =="size color noun",1,0)) %>%
+  mutate(size_noun_color = ifelse(replacedGloss =="size noun color",1,0)) %>%
+  mutate(noun_color = ifelse(replacedGloss =="noun color",1,0)) %>%
+  mutate(noun_size = ifelse(replacedGloss =="noun size",1,0)) %>%
+  mutate(noun_color_size = ifelse(replacedGloss =="noun color size",1,0)) %>%
+  mutate(noun_size_color = ifelse(replacedGloss =="noun size color",1,0)) %>%
+  mutate(preNominal = ifelse(grp=="preNominal",1,0)) %>%
+  mutate(postNominal = ifelse(grp=="postNominal",1,0)) %>%
+  mutate(split = ifelse(grp=="split",1,0)) %>%
+  mutate(noOrder = ifelse(grp=="noOrder",1,0))
+  
+order_1 = order %>%
+  gather(modType,value,preNominal:noOrder) %>%
+  group_by(modType) %>%
+  summarize(Mean=mean(value))
+
+ggplot(order_1, aes(x=reorder(modType,Mean),y=Mean)) +
+  geom_bar(position="dodge", stat = "identity", fill="darkgoldenrod1") +
+  theme(axis.title.y=element_blank()) +
+  ylab("proportion of utterance") +
+  xlab("modification type")
+
+ggsave(file="../graphs/modification_type.pdf",width=4,height=3)
+
+###########
+order_2 = order %>%
+  gather(orderType,value,color:noun_size_color) %>%
+  group_by(grp,orderType) %>%
+  summarize(Mean=mean(value)) %>%
+  filter(Mean>0)
+  
+order_2$grp_f = factor(as.factor(order_2$grp),levels=c("preNominal","postNominal","split","noOrder"))
+
+ggplot(order_2, aes(x=reorder(orderType,Mean),y=Mean)) +
+  geom_bar(position="dodge", stat = "identity", fill="darkgoldenrod1") +
+  coord_flip() +
+  facet_wrap(~grp_f, scales = "free_y", ncol=2) +
+  theme(axis.title.y=element_blank()) +
+  ylab("proportion of utterance")
+  
+ggsave(file="../graphs/all_orders.pdf",width=6,height=4)
 ```
 
 **Was negation used**   

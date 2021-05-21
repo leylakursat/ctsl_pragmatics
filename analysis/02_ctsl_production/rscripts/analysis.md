@@ -31,6 +31,338 @@ CTSL production experiment
 
 ![](analysis_files/figure-gfm/ovv_accuracy-1.png)<!-- -->
 
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <c4>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'durdukılıç(türkçe)' in 'mbcsToSbcs': dot substituted for
+    ## <b1>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <c5>
+
+    ## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Şengülctsl' in 'mbcsToSbcs': dot substituted for <9e>
+
+    ## `summarise()` regrouping output by 'speakerName' (override with `.groups` argument)
+
 **Accuracy by trial
     type:**
 
@@ -132,6 +464,54 @@ CTSL production experiment
 
 ![](analysis_files/figure-gfm/mainplot_language-1.png)<!-- -->
 
+    ## Loading required package: Matrix
+
+    ## 
+    ## Attaching package: 'Matrix'
+
+    ## The following objects are masked from 'package:tidyr':
+    ## 
+    ##     expand, pack, unpack
+
+    ## Generalized linear mixed model fit by maximum likelihood (Laplace
+    ##   Approximation) [glmerMod]
+    ##  Family: binomial  ( logit )
+    ## Formula: redundant ~ ccondition + (1 + ccondition | speakerName) + (1 |  
+    ##     targetName)
+    ##    Data: tomodel
+    ## 
+    ##      AIC      BIC   logLik deviance df.resid 
+    ##    408.3    432.7   -198.1    396.3      424 
+    ## 
+    ## Scaled residuals: 
+    ##     Min      1Q  Median      3Q     Max 
+    ## -3.2699 -0.4507 -0.2340  0.4392  3.0810 
+    ## 
+    ## Random effects:
+    ##  Groups      Name        Variance Std.Dev. Corr
+    ##  targetName  (Intercept) 0.1359   0.3687       
+    ##  speakerName (Intercept) 1.1327   1.0643       
+    ##              ccondition  0.9628   0.9812   0.79
+    ## Number of obs: 430, groups:  targetName, 119; speakerName, 16
+    ## 
+    ## Fixed effects:
+    ##             Estimate Std. Error z value Pr(>|z|)    
+    ## (Intercept)  -0.2101     0.3137  -0.670    0.503    
+    ## ccondition    3.2365     0.4491   7.207 5.71e-13 ***
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Correlation of Fixed Effects:
+    ##            (Intr)
+    ## ccondition 0.294
+
+**Proportion of utterance
+    type**
+
+    ## `summarise()` regrouping output by 'RedundantProperty', 'ThreeType', 'condition' (override with `.groups` argument)
+
+![](analysis_files/figure-gfm/utterancetype-1.png)<!-- -->
+
 **Proportion of utterance by utterance type and trial type - for each
 participant**  
 see graphs/by\_participant.pdf
@@ -161,6 +541,8 @@ Per attempt (not per trial)
 **Word before negation & word after negation**  
 ![](analysis_files/figure-gfm/negation2-1.png)<!-- -->
 
+    ## Saving 7 x 5 in image
+
 **Adjective ordering trials:**
 
     ##          
@@ -180,6 +562,10 @@ Per attempt (not per trial)
     ##   table    4 12
     ##   woman    4 12
     ##   woman2   8  8
+
+    ## `summarise()` ungrouping output (override with `.groups` argument)
+
+![](analysis_files/figure-gfm/adjordering-1.png)<!-- -->
 
 **Best objects: frog, hair**  
 man2 not included (need to fix
@@ -283,39 +669,35 @@ man2 not included (need to fix
 \[1\]
 “NAILS”
 
-| language | targetName            | gloss                                                   |
-| :------- | :-------------------- | :------------------------------------------------------ |
-| Turkish  | woman2\_happy\_fat    | fattest woman ?                                         |
-| Turkish  | woman2\_sad\_skinny   | very angry worried one woman                            |
-| CTSL     | woman2\_happy\_fat    | double-chin fat double-chin waman old old               |
-| Turkish  | woman2\_happy\_skinny | smiling woman                                           |
-| CTSL     | woman2\_sad\_fat      | double-chin double-chin woman double-chin fat chin chin |
-| Turkish  | woman2\_happy\_skinny | woman small smiling                                     |
-| CTSL     | woman2\_sad\_fat      | old fat fat-sad                                         |
-| CTSL     | woman2\_happy\_skinny | woman happy happy fat                                   |
-| Turkish  | woman2\_sad\_skinny   | standing angry                                          |
-| CTSL     | woman2\_happy\_skinny | woman smile chin no pretty ?                            |
-| CTSL     | woman2\_sad\_skinny   | woman-sad sad point(screen)                             |
-| CTSL     | woman2\_sad\_fat      | woman fat happy not sad                                 |
-| CTSL     | woman2\_sad\_skinny   | old sad old                                             |
-| CTSL     | woman2\_sad\_fat      | old fat old fat                                         |
-| CTSL     | woman2\_sad\_skinny   | woman-sad skinny-sad woman six five                     |
-| CTSL     | woman2\_happy\_fat    | old woman fat happy                                     |
-| Turkish  | woman2\_happy\_fat    | fattest one smaller woman                               |
-| Turkish  | woman2\_sad\_skinny   | very mm fat not                                         |
-| Turkish  | woman2\_sad\_skinny   | younger one                                             |
-| CTSL     | woman2\_sad\_fat      | fat                                                     |
-| CTSL     | woman2\_sad\_skinny   | old-sad old                                             |
-| CTSL     | woman2\_sad\_fat      | fat                                                     |
-| CTSL     | woman2\_happy\_fat    | fat left fat happy                                      |
-| Turkish  | woman2\_happy\_fat    | smiling woman                                           |
-| Turkish  | woman2\_sad\_skinny   | yes                                                     |
-| Turkish  | woman2\_sad\_skinny   | woman                                                   |
-| CTSL     | woman2\_sad\_fat      | sad                                                     |
-| CTSL     | woman2\_happy\_fat    | neg                                                     |
-| Turkish  | woman2\_happy\_fat    | fattest smiling woman                                   |
-| Turkish  | woman2\_sad\_skinny   | not smiling                                             |
-| CTSL     | woman2\_happy\_fat    | fat                                                     |
+| language | targetName           | gloss                                              |
+| :------- | :------------------- | :------------------------------------------------- |
+| Turkish  | nails\_red\_matte    | red nail-polish ?                                  |
+| Turkish  | nails\_black\_matte  | black shiny not black one                          |
+| CTSL     | nails\_red\_glossy   | point(red) nails hold                              |
+| Turkish  | nails\_red\_matte    | red nails                                          |
+| CTSL     | nails\_red\_matte    | hold point(red) hold                               |
+| Turkish  | nails\_red\_matte    | nail-polished fingers red                          |
+| CTSL     | nails\_black\_matte  | nails point(black)                                 |
+| CTSL     | nails\_black\_glossy | nails nails                                        |
+| Turkish  | nails\_black\_matte  | green nail-polished                                |
+| CTSL     | nails\_black\_glossy | woman nails black                                  |
+| CTSL     | nails\_black\_glossy | nails point(black)                                 |
+| CTSL     | nails\_black\_matte  | black nail color point(black)                      |
+| CTSL     | nails\_red\_matte    | nails point(red) nails                             |
+| CTSL     | nails\_red\_matte    | color nails red hold red nails hold                |
+| CTSL     | nails\_red\_matte    | nails point(red)                                   |
+| CTSL     | nails\_red\_glossy   | nails woman nails red woman nail polish woman hold |
+| Turkish  | nails\_red\_matte    | red fingers                                        |
+| Turkish  | nails\_black\_matte  | shiny one not but other other black                |
+| Turkish  | nails\_red\_matte    | small                                              |
+| CTSL     | nails\_red\_matte    | hold                                               |
+| Turkish  | nails\_black\_matte  | green is it not                                    |
+| CTSL     | nails\_black\_glossy | shiny                                              |
+| CTSL     | nails\_red\_glossy   | red                                                |
+| Turkish  | nails\_black\_matte  | black                                              |
+| CTSL     | nails\_black\_glossy | ? ? nails black ?                                  |
+| CTSL     | nails\_black\_glossy | black                                              |
+| CTSL     | nails\_black\_glossy | ? ? black                                          |
 
 **Next**  
 \- Get cohort information from Rabia (facet all plots by cohort/age)  

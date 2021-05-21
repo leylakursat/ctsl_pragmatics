@@ -46,6 +46,22 @@ df = df %>%
 sum = df %>% select(label,object,adj1,adj2) %>% unique()
 ```
 
+```{r colorsize, eval=FALSE, include=FALSE}
+dd = df %>%
+  filter(object=="pencil") %>%
+  group_by(first_pos,second_pos) %>%
+  summarise(Mean_first=mean(response_first_pos), Mean_second=mean(response_second_pos)) #%>%
+  #merge(sum, by="label") %>%
+  #mutate(adj1_m=ifelse(adj1==first_pos,Mean_first,Mean_second)) %>%
+  #mutate(adj2_m=ifelse(adj2==first_pos,Mean_first,Mean_second)) %>%
+  #group_by(label) %>%
+  #mutate(adj1_total_mean=mean(adj1_m),adj2_total_mean=mean(adj2_m)) %>%
+  #select(label,object,adj1,adj2,adj1_total_mean,adj2_total_mean) %>%
+  #unique()
+
+View(dd)
+```
+
 ```{r preferenece, echo=FALSE}
 # every row gives two datapoints (how much each ordering is preferred)
 d = df %>%

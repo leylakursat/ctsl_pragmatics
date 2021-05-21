@@ -81,6 +81,7 @@ dd = dd[!(dd$gameid %in% notnative$gameID),]
 **Overall accuracy:**
 ```{r ovv_accuracy, echo=FALSE}
 toplot =  dd %>%
+  filter(trialType=="redundantModification") %>%
   group_by(gameid) %>%
   dplyr::summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
   ungroup() %>%
@@ -93,12 +94,11 @@ ggplot(toplot, aes(x=reorder(gameid,Mean), y=Mean)) +
   geom_hline(yintercept=h) +
   geom_text(aes(0, h, label=h, vjust=-1, hjust=-0.3)) +
   geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25) +
-  theme(axis.text.x=element_text(angle=45, hjust=1),axis.title.x=element_blank()) +
-  ylab("Accuracy")
+  theme(axis.text.x=element_blank()) +
+  ylab("Accuracy") +
+  xlab("English speakers")
 
-  #scale_color_manual(values=c("darkgreen","darkgoldenrod1"))
-
-ggsave(file="../graphs/accuracy.pdf",width=6,height=4.5)
+ggsave(file="../graphs/accuracy_redundant.pdf",width=4,height=2.5)
 ```
 
 **Exclusion: Remove games with accuracy<70%: **
@@ -165,14 +165,14 @@ ggsave(file="../graphs/accuracy_redmodifer.pdf",width=8,height=4)
 
 **Was a color mentioned?**
 ```{r colormention, echo=FALSE}
-colors = "blue|green|red|brown|black|clear|purple|pink|silver|gray|grey|white|yellow|violet|gold|silver|orange"
+colors = "blue|green|red|brown|black|clear|purple|pink|silver|gray|grey|white|yellow|violet|gold|silver|orange|rose|blu|purp|sky blu|greebn|yellwo|yello|silve|greeb|gren|yeelow"
 df$colorMention = ifelse(grepl(colors, df$speakerMessages, ignore.case = TRUE), 1,0)
 table(df$colorMention)
 ```
 
 **Was size mentioned?**
 ```{r sizemention, echo=FALSE}
-sizes = "big|small|biggest|smallest|tiny|huge|little"
+sizes = "big|small|biggest|smallest|tiny|huge|little|large|largest|tiniest|siz|biggesst|smallesst|smaller|bigger|smal"
 df$sizeMention = ifelse(grepl(sizes, df$speakerMessages, ignore.case = TRUE), 1,0)
 table(df$sizeMention)
 ```
@@ -184,9 +184,8 @@ table(df$colorsizeMention)
 ```
 
 **Was an object name mentioned?**
-TODO: Fix this (this is not true!)
 ```{r objectmention, echo=FALSE}
-names  = "dress|apple|hair|pepper|glasses|ball|lighter|pot|button|clock|knife|tie|umbrella|spoon|shorts|tshirt|brush|box|skirt|socks|scissors|glove|lock|shoe|flower|bag|lipstick|toothbrush|car|baloon|balloon|chair|key|pants|";
+names  = "dress|apple|hair|pepper|glasses|ball|lighter|pot|button|clock|knife|tie|umbrella|spoon|shorts|tshirt|brush|box|skirt|socks|scissors|glove|lock|shoe|flower|bag|lipstick|toothbrush|car|baloon|balloon|chair|key|pants|cat|peper|paint brush|bell pepper|shirt|scissor|pan|shoes|backpack|necktie|sneaker|alarm clock|hand|sunglasses|paint brush|auto|paintbrush|knif";
 df$objectMention = ifelse(grepl(names, df$speakerMessages, ignore.case = TRUE), 1, 0)
 table(df$objectMention)
 ```
@@ -218,7 +217,7 @@ targets = targets %>%
   mutate(RedExp3Cat = ifelse(UtteranceType=="color and size","redundant",ifelse((SufficientProperty=="color"&UtteranceType=="only color"),"minimal",ifelse((SufficientProperty=="size"&UtteranceType=="only size"),"minimal","underinformative")))) %>%
   mutate(RedExp2Cat = ifelse(RedExp3Cat=="redundant","redundant","not_redundant")) %>%
   mutate(redundant = ifelse(RedExp2Cat=="redundant",1,0)) %>%
-  mutate(condition=ifelse(condition=="size_sufficient","size sufficient",ifelse(condition=="color_sufficient","color sufficient",NA))) %>%
+  mutate(condition=ifelse(condition=="size_sufficient","size \n sufficient",ifelse(condition=="color_sufficient","color \n sufficient",NA))) %>%
   select(gameid,gameid,roundNum,condition,targetName,correct,speakerMessages,colorMention,sizeMention,UtteranceType,onlyColorMention,onlySizeMention,colorsizeMention,RedundantProperty,SufficientProperty,RedExp3Cat,RedExp2Cat,redundant)
 ```
 
@@ -261,7 +260,7 @@ ggplot(agr, aes(x=condition,y=Mean,fill=RedundantProperty)) +
   theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7)) +
   ylab("Proportion of utterance")
 
-ggsave(file="../graphs/proportion_overall.pdf",width=6,height=3)
+ggsave(file="../graphs/proportion_overall.pdf",width=4,height=2)
 ```
 
 ```{r simple_model, echo=FALSE}
@@ -295,10 +294,10 @@ ggplot(agr, aes(x=condition,y=Mean,fill=RedundantProperty)) +
   xlab("Trial type") +
   facet_grid(~ThreeType) + 
   scale_fill_manual(values=c(palette[1],palette[3])) +
-  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7))+
+  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7)) +
   ylab("Proportion of utterance")
 
-ggsave(file="../graphs/proportion_threetype.png",width=6,height=4)
+ggsave(file="../graphs/proportion_threetype.png",width=4,height=2)
 ``` 
 
 **Was negation used**   
@@ -315,7 +314,95 @@ table(df$negation)
 negation = df %>%
   filter(negation==1)
 
-negation$speakerMessages
+#negation$speakerMessages
+```
+
+**Order of unique color, noun, size (remove all other constituents)**
+```{r order_3, echo=FALSE}
+df_long = df %>%
+  mutate(messages=speakerMessages) %>%
+  separate(messages,c("attempt1","attempt2","attempt3","attempt4","attempt5"), sep="___") %>%
+  gather(attempt,gloss,attempt1:attempt5) %>%
+  drop_na(gloss) %>%
+  select(gameid,speakerMessages,attempt,gloss)
+
+df_long$replacedGloss = tolower(df_long$gloss)
+
+pattern_rm = "blank|unique|different|load|unique|and|odd|nothing|empty|with|of"
+df_long$remove=ifelse(str_detect(df_long$replacedGloss, pattern_rm),1,0)
+df_long = df_long %>% filter(remove==0)
+  
+df_long$replacedGloss = gsub(colors,"color", df_long$replacedGloss)
+df_long$replacedGloss = gsub(sizes,"size", df_long$replacedGloss)
+df_long$replacedGloss = gsub(names,"noun", df_long$replacedGloss)
+
+# should one, item and object be counted as noun
+noun_like = "item|one|object"
+df_long$replacedGloss = gsub(noun_like,"noun", df_long$replacedGloss)
+
+toremove = "the|target|is|it's|very|it|!"
+df_long$replacedGloss = gsub(toremove,"", df_long$replacedGloss)
+
+df_long = df_long[!(df_long$replacedGloss==""), ]
+df_long$replacedGloss = gsub("  "," ", df_long$replacedGloss)
+df_long$replacedGloss = gsub("  "," ", df_long$replacedGloss)
+
+# plot proportion not count
+order = df_long %>%
+  mutate(replacedGloss = trimws(replacedGloss,which=c("left"))) %>%
+  mutate(replacedGloss = trimws(replacedGloss,which=c("right"))) %>%
+  group_by(replacedGloss) %>%
+  mutate(grp = ifelse(replacedGloss=="size","no noun",ifelse(replacedGloss=="noun","no noun",ifelse(replacedGloss=="color","no noun",ifelse(replacedGloss=="color size","no noun",ifelse(replacedGloss=="size color", "no noun", ifelse(replacedGloss=="color noun","pre-nominal",ifelse(replacedGloss=="size noun","pre-nominal",ifelse(replacedGloss=="color size noun","pre-nominal",ifelse(replacedGloss=="size color noun","pre-nominal",ifelse(replacedGloss=="noun color","post-nominal",ifelse(replacedGloss=="noun size","post-nominal",ifelse(replacedGloss=="noun size color","post-nominal",ifelse(replacedGloss=="noun color size","post-nominal",ifelse(replacedGloss=="color noun size","split",ifelse(replacedGloss=="size noun color","split","NA")))))))))))))))) %>%
+  filter(grp != "NA") %>%
+  mutate(only_color = ifelse(replacedGloss =="color",1,ifelse(replacedGloss =="color noun",1,ifelse(replacedGloss =="noun color",1,0)))) %>%
+  mutate(only_size = ifelse(replacedGloss =="size",1,ifelse(replacedGloss =="size noun",1,ifelse(replacedGloss =="noun size",1,0)))) %>%
+  mutate(only_noun = ifelse(replacedGloss =="noun",1,0)) %>%
+  mutate(color_size = ifelse(replacedGloss =="color size",1,ifelse(replacedGloss =="size color",1,ifelse(replacedGloss =="color size noun",1,ifelse(replacedGloss =="color noun size",1,ifelse(replacedGloss =="size color noun",1,ifelse(replacedGloss =="size noun color",1,ifelse(replacedGloss =="noun color size",1,ifelse(replacedGloss =="noun size color",1,0))))))))) %>%
+  mutate(preNominal = ifelse(grp=="pre-nominal",1,0)) %>%
+  mutate(postNominal = ifelse(grp=="post-nominal",1,0)) %>%
+  mutate(split = ifelse(grp=="split",1,0)) %>%
+  mutate(noOrder = ifelse(grp=="no noun",1,0))
+  
+order_1 = order %>%
+  gather(modType,value,preNominal:noOrder) %>%
+  group_by(modType) %>%
+  summarize(Mean=mean(value)) %>%
+  mutate(modType = fct_recode(modType,"pre-nominal"="preNominal","post-nominal"="postNominal","no noun"="noOrder"))
+
+order_1$modType_f = factor(as.factor(order_1$modType),levels=c("pre-nominal","post-nominal","split","no noun"))
+
+ggplot(order_1, aes(x=modType_f,y=Mean, fill=modType)) +
+  geom_bar(position="dodge", stat = "identity") +
+  theme(axis.title.y=element_blank()) +
+  scale_fill_manual(values= wes_palette("Darjeeling2")) +
+  ylab("proportion") +
+  xlab("modification type")+
+  theme(legend.position = "none")
+
+ggsave(file="../graphs/modification_type_english.pdf",width=4,height=3)
+
+###########
+order_2= order %>%
+  filter(split==0) %>%
+  gather(orderType,value,only_color:color_size) %>%
+  group_by(grp,orderType) %>%
+  summarize(Mean=mean(value)) %>%
+  filter(Mean>0)
+  
+order_2$grp_f = factor(as.factor(order_2$grp),levels=c("pre-nominal","post-nominal","no noun"))
+
+plt = wes_palette("Darjeeling2")
+
+ggplot(order_2, aes(x=orderType,y=Mean,fill=grp_f)) +
+  geom_bar(position="dodge", stat = "identity") +
+  coord_flip() +
+  scale_fill_manual(values= c(plt[3],plt[2],plt[1],plt[2])) +
+  facet_wrap(~grp_f, scales = "free_y", ncol=1) +
+  theme(axis.title.y=element_blank()) +
+  ylab("proportion of utterance") +
+  theme(legend.position = "none")
+  
+ggsave(file="../graphs/all_orders_english.pdf",width=5,height=4)
 ```
 
 # Modifier ordering trials:
