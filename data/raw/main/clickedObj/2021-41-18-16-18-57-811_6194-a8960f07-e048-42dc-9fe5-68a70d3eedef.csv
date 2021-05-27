@@ -1,0 +1,6 @@
+gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjTrialType ,clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1TrialType, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2TrialType, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3TrialType, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs
+6194-a,1621379960209,1,clickedObj,,tomato,filler,none,target,2,2,fish,filler,none,distractor,3,1,pig,filler,none,distractor,1,4,horse,filler,none,distractor,4,3
+6194-a,1621379971977,2,clickedObj,,elephant,filler,none,target,4,1,guitar,filler,none,distractor,3,3,banana,filler,none,distractor,2,4,bowl,filler,none,distractor,1,2
+6194-a,1621379981486,3,clickedObj,,butterfly,filler,none,target,3,3,dog,filler,none,distractor,2,1,strawberry,filler,none,distractor,4,4,chick,filler,none,distractor,1,2
+6194-a,1621379990189,4,clickedObj,,horse,filler,none,target,2,3,pig,filler,none,distractor,4,1,fish,filler,none,distractor,3,2,tomato,filler,none,distractor,1,4
+6194-a,1621379999947,5,clickedObj,,strawberry,filler,none,target,3,4,chick,filler,none,distractor,4,2,butterfly,filler,none,distractor,1,1,dog,filler,none,distractor,2,3
