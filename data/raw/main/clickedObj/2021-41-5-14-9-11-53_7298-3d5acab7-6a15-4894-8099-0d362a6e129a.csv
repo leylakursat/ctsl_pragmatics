@@ -1,3 +1,0 @@
-gameid, time, roundNum, trialType, extra, clickedObjName, clickedObjTrialType ,clickedObjCondition, clickedObjTargetStatus, clickedObjSpeakerLocs, clickedObjListenerLocs, alt1Name, alt1TrialType, alt1Condition, alt1TargetStatus, alt1SpeakerLocs, alt1ListenerLocs, alt2Name, alt2TrialType, alt2Condition, alt2TargetStatus, alt2SpeakerLocs, alt2ListenerLocs, alt3Name, alt3TrialType, alt3Condition, alt3TargetStatus, alt3SpeakerLocs, alt3ListenerLocs
-7298-3,1620249444252,1,clickedObj,,horse,filler,none,distractor,3,3,tomato,filler,none,target,4,2,pig,filler,none,distractor,2,1,fish,filler,none,distractor,1,4
-7298-3,1620249489099,2,clickedObj,,guitar,filler,none,distractor,2,3,elephant,filler,none,target,3,2,banana,filler,none,distractor,4,4,bowl,filler,none,distractor,1,1
